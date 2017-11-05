@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>GeneticEngineering</defName>
+    <label>genetic engineering</label>
+    <tab>GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research the basics of genetic engineering.</description>
+    <baseCost>1200</baseCost>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>InsectoidGenome</defName>
+    <label>insectoid genome</label>
+    <tab>GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research ways to extract genetic material from alien insectoid species.</description>
+    <baseCost>1500</baseCost>
+    <prerequisites>
+      <li>GeneticEngineering</li>
+    </prerequisites>
+    
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>ReptilianGenome</defName>
+    <label>reptilian genome</label>
+    <tab>GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research ways to extract genetic material from reptiles.</description>
+    <baseCost>1500</baseCost>
+    <prerequisites>
+      <li>GeneticEngineering</li>
+    </prerequisites>
+    
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>HumanoidGeneticEngineering</defName>
+    <label>humanoid genetic engineering</label>
+    <tab>GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Allows humanoid gene extraction, and allows mixing of human and animal DNA to create animal implants.</description>
+    <baseCost>1250</baseCost>
+    <prerequisites>
+        <li>GeneticEngineering</li>
+    </prerequisites>
+   
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>AdvancedGeneticEngineering</defName>
+    <label>advanced genetic engineering</label>
+    <tab>GeneticReseach</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Unlocks the Advanced Gene Pod, and allows mixing of advanced creature genes.</description>
+    <baseCost>2500</baseCost>
+    <prerequisites>
+        <li>GeneticEngineering</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AnimalEnrichment</defName>
+    <label>animal enrichment</label>
+    <tab>GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research ways to improve existing animals and create better adapted versions of them.</description>
+    <baseCost>1500</baseCost>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    
+		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>AgeDrugs</defName>
+    <label>age drugs</label>
+    <tab>GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Research ways to accelerate the growth of your animals.</description>
+    <baseCost>500</baseCost>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    
+		<researchViewX>3</researchViewX>
+		<researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

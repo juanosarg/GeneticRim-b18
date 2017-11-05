@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>WearingThrumboHorn</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>HumanThrumboHorn</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      
+      <li>
+        <label>wearing thrumbo horn</label>
+        <description>I'm so horny.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+     
+    </stages>
+  </ThoughtDef>
+  
+
+  
+   <ThoughtDef>
+    <defName>HeWearsAntennae</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>InsectoidAntennae</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      
+      <li>
+        <label>wearing insectoid antennae</label>
+        <description>So much information! Make it stop!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+     
+    </stages>
+  </ThoughtDef>
+
+</Defs>

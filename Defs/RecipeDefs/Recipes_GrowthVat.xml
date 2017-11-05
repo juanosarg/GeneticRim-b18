@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+	<RecipeDef>
+		<defName>CraftImplantPlasteelWireMesh</defName>
+		<label>craft hybrid implant plasteel wire mesh</label>
+		<description>Craft hybrid implant plasteel wire mesh.</description>
+		<jobString>Building Implant Mesh</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Component</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<ImplantPlasteelWireMesh>1</ImplantPlasteelWireMesh>
+		</products>
+	</RecipeDef>
+		
+	<RecipeDef>
+		<defName>CraftBearClaws</defName>
+		<label>craft bear claws</label>
+		<description>Craft bear claws, a hybrid implant containing humanoid and bear DNA that adds a powerful melee attack.</description>
+		<jobString>Crafting Bear Claws</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BearGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ImplantPlasteelWireMesh</li>
+				<li>HumanoidGenetic</li>
+				<li>BearGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<BearClaws>1</BearClaws>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>CraftOvipositor</defName>
+		<label>craft ovipositor</label>
+		<description>Craft an ovipositor, a hybrid implant containing humanoid and chicken DNA that... are you sure this is a good idea? Really? Free range human eggs? Ugh...</description>
+		<jobString>Crafting Ovipositor</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChickenGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ImplantPlasteelWireMesh</li>
+				<li>HumanoidGenetic</li>
+				<li>ChickenGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<Ovipositor>1</Ovipositor>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>CraftMuffaloMuscles</defName>
+		<label>craft muffalo muscles</label>
+		<description>Craft muffalo muscles, a hybrid implant containing humanoid and muffalo DNA that strengthens the subject's muscular system.</description>
+		<jobString>Crafting muffalo muscles</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MuffaloGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ImplantPlasteelWireMesh</li>
+				<li>HumanoidGenetic</li>
+				<li>MuffaloGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<MuffaloMuscles>1</MuffaloMuscles>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>CraftBoomalopeNodules</defName>
+		<label>craft boomalope nodules</label>
+		<description>Craft boomalope nodules, a hybrid implant containing humanoid and boomalope DNA that causes a huge explosion if the subject dies violently.</description>
+		<jobString>Crafting boomalope nodules</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BoomalopeGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ImplantPlasteelWireMesh</li>
+				<li>HumanoidGenetic</li>
+				<li>BoomalopeGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<BoomalopeNodules>1</BoomalopeNodules>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>CraftWolfMuscularFibers</defName>
+		<label>craft wolf muscular fibers</label>
+		<description>Craft wolf muscular fibers, which can modify the subject's legs by weaving hybrid human/wolf muscle fibers within the base tissue, giving her a significant strength and speed boost.</description>
+		<jobString>Crafting wolf muscular fibers</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WolfGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ImplantPlasteelWireMesh</li>
+				<li>HumanoidGenetic</li>
+				<li>WolfGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<WolfMuscularFibers>1</WolfMuscularFibers>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>CraftInsectoidAntennae</defName>
+		<label>craft insectoid antennae</label>
+		<description>Craft hybrid humanoid / insectoid feeling appendages that can be implanted in a subject's head, completely modifying the way the subject "sees" and feels the surrounding world. The experience may be slightly overwhelming due to sensorial overload.</description>
+		<jobString>Crafting insectoid antennae</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>InsectoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ImplantPlasteelWireMesh</li>
+				<li>HumanoidGenetic</li>
+				<li>InsectoidGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>InsectoidGenome</researchPrerequisite>
+		<products>
+			<InsectoidAntennae>1</InsectoidAntennae>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>CraftHumanThrumboHorn</defName>
+		<label>craft thrumbo horn</label>
+		<description>A genetically modified thrumbo horn that can be implanted in a subject's forehead. Nasty.</description>
+		<jobString>Crafting thrumbo horn</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ThrumboGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ImplantPlasteelWireMesh</li>
+				<li>HumanoidGenetic</li>
+				<li>ThrumboGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>AdvancedGeneticEngineering</researchPrerequisite>
+		<products>
+			<HumanThrumboHorn>1</HumanThrumboHorn>
+		</products>
+	</RecipeDef>
+	
+ 	<RecipeDef>
+		<defName>CraftVenomousFangs</defName>
+		<label>craft venomous fangs</label>
+		<description>This hybrid implant substitutes the subject's jaw with a set of venomous fangs. Useful in combat, but not very comfortable.</description>
+		<jobString>Crafting venomous fangs</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ReptilianGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ImplantPlasteelWireMesh</li>
+				<li>HumanoidGenetic</li>
+				<li>ReptilianGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>ReptilianGenome</researchPrerequisite>
+		<products>
+			<VenomousFangs>1</VenomousFangs>
+		</products>
+	</RecipeDef> 
+</Defs>

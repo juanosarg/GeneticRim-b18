@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallBearClaws</defName>
+		<label>install bear claws</label>
+		<description>Installs bear claws.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing bear claws.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+         <li>Human</li>
+        </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BearClaws</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>BearClaws</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>LeftHand</li> 
+			<li>RightHand</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>BearClaws</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallOvipositor</defName>
+		<label>install ovipositor</label>
+		<description>Installs ovipositor.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing ovipositor.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+         <li>Human</li>
+        </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Ovipositor</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>Ovipositor</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Waist</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>Ovipositor</addsHediff>
+	</RecipeDef>
+  
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallMuffaloMuscles</defName>
+		<label>install muffalo strengthened muscles</label>
+		<description>Installs muffalo strengthened muscles.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing muffalo strengthened muscles.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+         <li>Human</li>
+        </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MuffaloMuscles</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>MuffaloMuscles</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>MuffaloMuscles</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallBoomalopeNodules</defName>
+		<label>install boomalope nodules</label>
+		<description>Installs boomalope nodules.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing boomalope nodules.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+         <li>Human</li>
+        </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BoomalopeNodules</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>BoomalopeNodules</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Sternum</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>BoomalopeNodules</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallWolfMuscularFibers</defName>
+		<label>install wolf muscular fibers</label>
+		<description>Installs wolf muscular fibers.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing wolf muscular fibers.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+         <li>Human</li>
+        </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WolfMuscularFibers</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>WolfMuscularFibers</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>LeftTibia</li> 
+			<li>RightTibia</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>WolfMuscularFibers</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallInsectoidAntennae</defName>
+		<label>install insectoid antennae</label>
+		<description>Installs insectoid antennae.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing insectoid antennae.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+         <li>Human</li>
+        </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>InsectoidAntennae</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>InsectoidAntennae</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Nose</li> 
+			
+		</appliedOnFixedBodyParts>
+		<addsHediff>InsectoidAntennae</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallHumanThrumboHorn</defName>
+		<label>install thrumbo horn</label>
+		<description>Installs thrumbo horn.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing thrumbo horn.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+         <li>Human</li>
+        </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HumanThrumboHorn</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>HumanThrumboHorn</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Skull</li> 
+			
+		</appliedOnFixedBodyParts>
+		<addsHediff>HumanThrumboHorn</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallVenomousFangs</defName>
+		<label>install venomous fangs</label>
+		<description>Installs venomous fangs.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing venomous fangs.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+         <li>Human</li>
+        </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VenomousFangs</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>VenomousFangs</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Jaw</li> 
+			
+		</appliedOnFixedBodyParts>
+		<addsHediff>VenomousFangs</addsHediff>
+	</RecipeDef>
+  
+</Defs>

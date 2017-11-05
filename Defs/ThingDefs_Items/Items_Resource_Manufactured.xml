@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============== Genetic Material ====================-->
+
+  <ThingDef Name="GeneticsBase" ParentName="ResourceBase" Abstract="True">
+    
+    
+    <graphicData>
+      <texPath>Things/Item/geneticmaterials</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <MarketValue>10</MarketValue>
+      <Mass>0.10</Mass>
+      <Flammability>1.0</Flammability>
+      
+      <DeteriorationRate>6</DeteriorationRate>
+    </statBases>
+	<tradeability>Never</tradeability>
+    <thingCategories>
+      <li>GeneticMaterial</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>2</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+    </comps>
+  </ThingDef>
+
+   <ThingDef ParentName="GeneticsBase">
+    <defName>BearGenetic</defName>
+    <label>bear genetic material</label>
+    <description>A vial of genetic material extracted from a bear's corpse.</description>
+    
+  </ThingDef>
+  <ThingDef ParentName="GeneticsBase">
+    <defName>ChickenGenetic</defName>
+    <label>chicken genetic material</label>
+    <description>A vial of genetic material extracted from a chicken's corpse.</description>
+    
+    <graphicData>
+      <color>(100,219,108)</color>
+    </graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GeneticsBase">
+    <defName>BoomalopeGenetic</defName>
+    <label>boomalope genetic material</label>
+    <description>A vial of genetic material extracted from a boomalope's corpse.</description>
+    
+    <graphicData>
+      <color>(220,100,108)</color>
+    </graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GeneticsBase">
+    <defName>MuffaloGenetic</defName>
+    <label>muffalo genetic material</label>
+    <description>A vial of genetic material extracted from a muffalo's corpse.</description>
+    
+    <graphicData>
+      <color>(250,219,108)</color>
+    </graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GeneticsBase">
+    <defName>WolfGenetic</defName>
+    <label>wolf genetic material</label>
+    <description>A vial of genetic material extracted from a wolf's corpse.</description>
+    
+    <graphicData>
+      <color>(100,219,250)</color>
+    </graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GeneticsBase">
+    <defName>InsectoidGenetic</defName>
+    <label>insectoid genetic material</label>
+    <description>A vial of genetic material extracted from an insectoid's corpse.</description>
+    <statBases>
+       <MarketValue>45</MarketValue>
+    </statBases>
+    <graphicData>
+      <color>(56,124,189)</color>
+    </graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GeneticsBase">
+    <defName>ReptilianGenetic</defName>
+    <label>reptilian genetic material</label>
+    <description>A vial of genetic material extracted from a reptilian corpse.</description>
+    <statBases>
+       <MarketValue>45</MarketValue>
+    </statBases>
+    <graphicData>
+      <color>(47,52,36)</color>
+    </graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GeneticsBase">
+    <defName>HumanoidGenetic</defName>
+    <label>humanoid genetic material</label>
+    <description>A vial of genetic material extracted from a humanoid corpse.</description>
+    
+    <graphicData>
+            <texPath>Things/Item/geneticmaterialsred</texPath>
+
+    </graphicData>
+	<statBases>
+       <MarketValue>45</MarketValue>
+    </statBases>
+    
+  </ThingDef>
+  <ThingDef ParentName="GeneticsBase">
+    <defName>ThrumboGenetic</defName>
+    <label>thrumbo genetic material</label>
+    <description>A vial of genetic material extracted from a thrumbo's corpse.</description>
+    <statBases>
+       <MarketValue>100</MarketValue>
+    </statBases>
+    <graphicData>
+      <color>(228,204,0)</color>
+    </graphicData>
+    
+  </ThingDef>
+  
+   <!--=============== Alpha Serums ====================-->
+
+  <ThingDef Name="SerumsBase" ParentName="ResourceBase" Abstract="True">
+    
+    
+    <graphicData>
+      <texPath>Things/Item/AlphaSerum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <MarketValue>10</MarketValue>
+      <Mass>0.10</Mass>
+      <Flammability>1.0</Flammability>
+      
+      <DeteriorationRate>6</DeteriorationRate>
+    </statBases>
+		<tradeability>Never</tradeability>
+
+    <thingCategories>
+      <li>AlphaSerums</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>2</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="SerumsBase">
+    <defName>BearSerum</defName>
+    <label>bear alpha serum</label>
+    <description>A vial of alpha genes extracted from a bear's corpse.</description>
+	<graphicData>
+      <color>(158,100,0)</color>
+    </graphicData>   
+  </ThingDef>
+  
+  <ThingDef ParentName="SerumsBase">
+    <defName>BoarSerum</defName>
+    <label>boar alpha serum</label>
+	<description>A vial of alpha genes extracted from a wild boar's corpse.</description>    
+	<graphicData>
+      <color>(112,103,90)</color>
+    </graphicData>   
+  </ThingDef>
+  
+  <ThingDef ParentName="SerumsBase">
+    <defName>BoomalopeSerum</defName>
+    <label>boomalope alpha serum</label>
+	<description>A vial of alpha genes extracted from a wild boomalope's corpse.</description>    
+	<graphicData>
+      <color>(165,139,112)</color>
+    </graphicData>   
+  </ThingDef>
+  
+  <ThingDef ParentName="SerumsBase">
+    <defName>ChickenSerum</defName>
+    <label>chicken alpha serum</label>
+	<description>A vial of alpha genes extracted from a chicken's corpse.</description>    
+	<graphicData>
+      <color>(247,247,247)</color>
+    </graphicData>   
+  </ThingDef>  
+  
+  <ThingDef ParentName="SerumsBase">
+    <defName>EmuSerum</defName>
+    <label>emu alpha serum</label>
+	<description>A vial of alpha genes extracted from an emu's corpse.</description>    
+	<graphicData>
+      <color>(123,109,99)</color>
+    </graphicData>   
+  </ThingDef>   
+
+  <ThingDef ParentName="SerumsBase">
+    <defName>MuffaloSerum</defName>
+    <label>muffalo alpha serum</label>
+	<description>A vial of alpha genes extracted from a muffalo's corpse.</description>    
+	<graphicData>
+      <color>(175,195,200)</color>
+    </graphicData>   
+  </ThingDef>   
+
+  <ThingDef ParentName="SerumsBase">
+    <defName>OstrichSerum</defName>
+    <label>ostrich alpha serum</label>
+	<description>A vial of alpha genes extracted from an ostrich's corpse.</description>    
+	<graphicData>
+      <color>(234,174,164)</color>
+    </graphicData>   
+  </ThingDef>   
+
+  <ThingDef ParentName="SerumsBase">
+    <defName>RhinoSerum</defName>
+    <label>rhino alpha serum</label>
+	<description>A vial of alpha genes extracted from a rhino's corpse.</description>    
+	<graphicData>
+      <color>(148,148,148)</color>
+    </graphicData>   
+  </ThingDef>   
+
+  <ThingDef ParentName="SerumsBase">
+    <defName>WolfSerum</defName>
+    <label>wolf alpha serum</label>
+	<description>A vial of alpha genes extracted from a wolf's corpse.</description>    
+	<graphicData>
+      <color>(106,106,106)</color>
+    </graphicData>   
+  </ThingDef>     
+
+  <ThingDef ParentName="SerumsBase">
+    <defName>GR_HareSerum</defName>
+    <label>hare alpha serum</label>
+	<description>A vial of alpha genes extracted from a hare's corpse.</description>    
+	<graphicData>
+      <color>(115,115,115)</color>
+    </graphicData>   
+  </ThingDef> 
+  
+  <ThingDef ParentName="SerumsBase">
+    <defName>GR_IguanaSerum</defName>
+    <label>iguana alpha serum</label>
+	<description>A vial of alpha genes extracted from an iguana's corpse.</description>    
+	<graphicData>
+      <color>(109,124,63)</color>
+    </graphicData>   
+  </ThingDef>   
+  
+  <ThingDef ParentName="SerumsBase">
+    <defName>GR_PigSerum</defName>
+    <label>pig alpha serum</label>
+	<description>A vial of alpha genes extracted from a pig's corpse.</description>    
+	<graphicData>
+      <color>(250,202,202)</color>
+    </graphicData>   
+  </ThingDef>   
+  
+  <ThingDef ParentName="SerumsBase">
+    <defName>GR_RatSerum</defName>
+    <label>rat alpha serum</label>
+	<description>A vial of alpha genes extracted from a rat's corpse.</description>    
+	<graphicData>
+      <color>(114,95,80)</color>
+    </graphicData>   
+  </ThingDef>   
+  
+  <ThingDef ParentName="SerumsBase">
+    <defName>GR_TortoiseSerum</defName>
+    <label>tortoise alpha serum</label>
+	<description>A vial of alpha genes extracted from a tortoise's corpse.</description>    
+	<graphicData>
+      <color>(109,90,54)</color>
+    </graphicData>   
+  </ThingDef>     
+  
+   <!--=============== Organic Pulp ====================-->
+   
+<ThingDef ParentName="ResourceBase">
+    <defName>OrganicPulp</defName>
+    <label>organic pulp</label>
+    <description>This organic pulp can be used as an organic growth compound to accelerate some of the genetic processes. Needed to upgrade the Gene Pod.</description>
+    <graphicData>
+      <texPath>Things/Item/OrganicPulp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>2</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>1.0</Flammability>
+	  <DeteriorationRate>10.0</DeteriorationRate>
+	</statBases>
+    
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+</ThingDef>
+
+   <!--=============== Hybrid Implants Base ====================-->
+
+<ThingDef ParentName="ResourceBase">
+    <defName>ImplantPlasteelWireMesh</defName>
+    <label>hybrid implant plasteel wire mesh</label>
+    <description>This plasteel wire mesh acts as a sterile scaffold for tissue growth. It is used as the base for any vat grown hybrid implants.</description>
+    <graphicData>
+      <texPath>Things/Item/ImplantPlasteelWireMesh</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    
+  </ThingDef>
+
+  
+</Defs>

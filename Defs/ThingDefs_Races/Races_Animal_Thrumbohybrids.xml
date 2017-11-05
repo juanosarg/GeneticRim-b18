@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+  <!-- Bear - Thrumbo -->
+    <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+    <defName>Thrumbear</defName>
+    <label>thrumbear</label>
+    <description>This gargantuan beast is the result of splicing bear genes in a standard thrumbo. As strong and resilient as it is easy to anger, a thrumbear attack is something to be VERY scared of.\n\nUseful abilities: Produces very high quality wool.</description>
+    <statBases>
+      <MoveSpeed>5.25</MoveSpeed>
+      <ComfyTemperatureMin>-65</ComfyTemperatureMin>
+      <MarketValue>3000</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.85</defaultCooldownTime>
+        <meleeDamageBaseAmount>28</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <commonality>0.01</commonality>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+	<comps>
+      
+      <li Class="CompProperties_Shearable">
+        <woolDef>ThrumbearWool</woolDef>
+        <shearIntervalDays>25</shearIntervalDays>
+        <woolAmount>150</woolAmount>
+      </li>
+    </comps>
+    <race>
+      <body>QuadrupedAnimalWithHoovesAndHorn</body>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>4</baseBodySize>
+      <baseHungerRate>4.5</baseHungerRate>
+      <baseHealthScale>15.0</baseHealthScale>
+      <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+      <useLeatherFrom>Thrumbo</useLeatherFrom>
+      <useMeatFrom>Thrumbo</useMeatFrom>
+      <trainableIntelligence>Advanced</trainableIntelligence>
+      <gestationPeriodDays>80</gestationPeriodDays>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+      <wildness>0.8</wildness>
+      <lifeExpectancy>220</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.4</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+          <soundWounded>Pawn_Thrumbo_Pain</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+    <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Thrumbear</defName>
+    <label>thrumbear</label>
+    <race>Thrumbear</race>
+    <combatPower>700</combatPower>
+	<canArriveManhunter>false</canArriveManhunter>
+    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+    <lifeStages>
+      <li>
+        <label>thrumbear calf</label>
+        <labelPlural>thrumbear calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbear/Thrumbear</texPath>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbear/Thrumbear</texPath>
+          <drawSize>4.0</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.6, 0.4)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.75</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbear/Thrumbear</texPath>
+          <drawSize>4.8</drawSize>
+          <shadowData>
+            <volume>(1, 0.8, 0.5)</volume>
+            <offset>(0,0,-0.5)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+        <butcherBodyPart>
+          <bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>ThrumboHorn</thing>
+        </butcherBodyPart>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  <!-- Boomalope - Thrumbo -->  
+    <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+    <defName>Thrumbalope</defName>
+    <label>thrumbalope</label>
+    <description>The thrumbalope is a thrumbo that has been spliced with boomalope genes. Their huge sacs of unstable chemicals explode with unbelievable force, which has caused the colonists to nickname them "nukalopes".\n\nUseful abilities: Huge, dangerous explosion on death.</description>
+    <statBases>
+      <MoveSpeed>4</MoveSpeed>
+      <ComfyTemperatureMin>-45</ComfyTemperatureMin>
+      <MarketValue>3000</MarketValue>
+      <MeatAmount>20</MeatAmount>
+     
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.85</defaultCooldownTime>
+        <meleeDamageBaseAmount>18</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <commonality>0.01</commonality>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <body>QuadrupedAnimalWithHoovesAndHorn</body>
+	  <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_GargantuanExplosion</deathActionWorkerClass>
+      <executionRange>16</executionRange>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>4</baseBodySize>
+      <baseHungerRate>2</baseHungerRate>
+      <baseHealthScale>10.0</baseHealthScale>
+      <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+      <useLeatherFrom>Thrumbo</useLeatherFrom>
+      <useMeatFrom>Thrumbo</useMeatFrom>
+      <trainableIntelligence>Intermediate</trainableIntelligence>
+      <gestationPeriodDays>80</gestationPeriodDays>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+      <wildness>0.8</wildness>
+      <lifeExpectancy>220</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.4</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+          <soundWounded>Pawn_Thrumbo_Pain</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+    <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Thrumbalope</defName>
+    <label>thrumbalope</label>
+    <race>Thrumbalope</race>
+    <combatPower>400</combatPower>
+	<canArriveManhunter>false</canArriveManhunter>
+    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+    <lifeStages>
+      <li>
+        <label>thrumbalope calf</label>
+        <labelPlural>thrumbalope calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbalope/Thrumbalope</texPath>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbalope/Thrumbalope</texPath>
+          <drawSize>4.0</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.6, 0.4)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.75</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbalope/Thrumbalope</texPath>
+          <drawSize>4.8</drawSize>
+          <shadowData>
+            <volume>(1, 0.8, 0.5)</volume>
+            <offset>(0,0,-0.5)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+        <butcherBodyPart>
+          <bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>ThrumboHorn</thing>
+        </butcherBodyPart>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Chicken - Thrumbo -->  
+    <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+    <defName>Thrumbochicken</defName>
+    <label>thrumbochicken</label>
+    <description>The thrumbochicken is a thrumbo that has been spliced with avian genes. Although not very ravenous, these are lightning fast predators that could hunt any other creature with ease. These animals lay enormous eggs!\n\nUseful abilities: Biggest eggs of any animal.</description>
+    <statBases>
+      <MoveSpeed>8</MoveSpeed>
+      <ComfyTemperatureMin>-45</ComfyTemperatureMin>
+      <MarketValue>3000</MarketValue>
+      <MeatAmount>20</MeatAmount>
+      
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>18</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <commonality>0.01</commonality>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+	<comps>
+      <li Class="CompProperties_EggLayer">
+        <eggUnfertilizedDef>ThrumbochickenEggUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>ThrumbochickenEggFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>5</eggLayIntervalDays>
+        <eggCountRange>1</eggCountRange>
+      </li>
+    </comps>
+    <race>
+      <body>HornedBird</body>
+	        <predator>true</predator>
+
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>3</baseBodySize>
+	  <foodType>CarnivoreAnimal</foodType>
+      <baseHungerRate>1.5</baseHungerRate>
+      <baseHealthScale>10.0</baseHealthScale>
+      <useLeatherFrom>Thrumbo</useLeatherFrom>
+      <useMeatFrom>Thrumbo</useMeatFrom>
+      <packAnimal>true</packAnimal>
+      <trainableIntelligence>Advanced</trainableIntelligence>
+      <gestationPeriodDays>80</gestationPeriodDays>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+      <wildness>0.8</wildness>
+      <lifeExpectancy>220</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.4</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+          <soundWounded>Pawn_Thrumbo_Pain</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+    <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Thrumbochicken</defName>
+    <label>thrumbochicken</label>
+    <race>Thrumbochicken</race>
+    <combatPower>400</combatPower>
+	<canArriveManhunter>false</canArriveManhunter>
+    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+    <lifeStages>
+      <li>
+        <label>thrumbochicken chick</label>
+        <labelPlural>thrumbochicken chicks</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbochicken/Thrumbochicken</texPath>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbochicken/Thrumbochicken</texPath>
+          <drawSize>4.0</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.6, 0.4)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.75</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumbochicken/Thrumbochicken</texPath>
+          <drawSize>4.8</drawSize>
+          <shadowData>
+            <volume>(1, 0.8, 0.5)</volume>
+            <offset>(0,0,-0.5)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+        <butcherBodyPart>
+          <bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>ThrumboHorn</thing>
+        </butcherBodyPart>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Muffalo - Thrumbo -->  
+    <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+    <defName>Thrumffalo</defName>
+    <label>thrumffalo</label>
+    <description>This massive ungulate is the result of splicing a thrumbo with muffalo genes. Capable of carrying a huge amount of materials, there is no better possible pack animal in all the Rim (yet! Science never rests).\n\nUseful abilities: Produces high quality milk and wool.</description>
+    <statBases>
+      <MoveSpeed>5.0</MoveSpeed>
+      <ComfyTemperatureMin>-85</ComfyTemperatureMin>
+      <MarketValue>3500</MarketValue>
+      <MeatAmount>60</MeatAmount>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.85</defaultCooldownTime>
+        <meleeDamageBaseAmount>18</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <commonality>0.01</commonality>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+	<comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>ThrumffaloMilk</milkDef>
+        <milkIntervalDays>2</milkIntervalDays>
+        <milkAmount>20</milkAmount>
+      </li>
+      <li Class="CompProperties_Shearable">
+        <woolDef>ThrumffaloWool</woolDef>
+        <shearIntervalDays>25</shearIntervalDays>
+        <woolAmount>150</woolAmount>
+      </li>
+    </comps>
+    <race>
+      <body>QuadrupedAnimalWithHoovesAndHorn</body>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>8.4</baseBodySize>
+      <baseHungerRate>3.5</baseHungerRate>
+      <baseHealthScale>10.0</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+	  <useLeatherFrom>Thrumbo</useLeatherFrom>
+      <useMeatFrom>Thrumbo</useMeatFrom>
+	  <packAnimal>true</packAnimal>
+      <trainableIntelligence>Intermediate</trainableIntelligence>
+      <gestationPeriodDays>80</gestationPeriodDays>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.01</manhunterOnTameFailChance>
+      <wildness>0.6</wildness>
+      <lifeExpectancy>220</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.4</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+          <soundWounded>Pawn_Thrumbo_Pain</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+    <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Thrumffalo</defName>
+    <label>thrumffalo</label>
+    <race>Thrumffalo</race>
+    <combatPower>500</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+    <lifeStages>
+      <li>
+        <label>thrumffalo calf</label>
+        <labelPlural>thrumffalo calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumffalo/Thrumffalo</texPath>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumffalo/Thrumffalo</texPath>
+          <drawSize>4.0</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.6, 0.4)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.75</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumffalo/Thrumffalo</texPath>
+          <drawSize>4.8</drawSize>
+          <shadowData>
+            <volume>(1, 0.8, 0.5)</volume>
+            <offset>(0,0,-0.5)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+        <butcherBodyPart>
+          <bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>ThrumboHorn</thing>
+        </butcherBodyPart>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  <!-- Wolf - Thrumbo -->  
+    <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+    <defName>Thrumwolf</defName>
+    <label>thrumwolf</label>
+    <description>This colossal predator is the result of splicing a thrumbo with wolf genes. Fast and really hungry, all the time. Entire ecosystems can be decimated by the insane apetite of a Thrumbowolf.\n\nUseful abilities: fast attacking predator which will tear through your enemies if properly trained. Needs a LOT of food, though.</description>
+    <statBases>
+      <MoveSpeed>6.0</MoveSpeed>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <MarketValue>2500</MarketValue>
+      <MeatAmount>40</MeatAmount>
+      <!-- more than implied by body size -->
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.0</defaultCooldownTime>
+        <meleeDamageBaseAmount>18</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <commonality>0.01</commonality>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+
+    <race>
+      <body>QuadrupedAnimalWithHoovesAndHorn</body>
+	        <predator>true</predator>
+
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>2.2</baseBodySize>
+      <baseHungerRate>4.5</baseHungerRate>
+      <baseHealthScale>15.0</baseHealthScale>
+	  <foodType>CarnivoreAnimal</foodType>
+	  <useLeatherFrom>Thrumbo</useLeatherFrom>
+      <useMeatFrom>Thrumbo</useMeatFrom>
+      <trainableIntelligence>Advanced</trainableIntelligence>
+      <gestationPeriodDays>80</gestationPeriodDays>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.09</manhunterOnTameFailChance>
+      <wildness>0.8</wildness>
+      <lifeExpectancy>120</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.4</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+          <soundWounded>Pawn_Thrumbo_Pain</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+    <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Thrumwolf</defName>
+    <label>thrumwolf</label>
+    <race>Thrumwolf</race>
+    <combatPower>700</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+    <lifeStages>
+      <li>
+        <label>thrumwolf pup</label>
+        <labelPlural>thrumwolf puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumwolf/Thrumwolf</texPath>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumwolf/Thrumwolf</texPath>
+          <drawSize>3.5</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.6, 0.4)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.75</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Thrumbos/Thrumwolf/Thrumwolf</texPath>
+          <drawSize>4.3</drawSize>
+          <shadowData>
+            <volume>(1, 0.8, 0.5)</volume>
+            <offset>(0,0,-0.5)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+        <butcherBodyPart>
+          <bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>ThrumboHorn</thing>
+        </butcherBodyPart>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  </Defs>

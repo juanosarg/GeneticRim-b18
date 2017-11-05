@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+
+  <ToolCapacityDef>
+    <defName>VeryToxicBite</defName>
+    <label>virulent toxic bite</label>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>LightToxicBite</defName>
+    <label>light toxic bite</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>ToxicExplosion</defName>
+    <label>toxic explosion</label>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>PlagueBite</defName>
+    <label>plagued bite</label>
+  </ToolCapacityDef>
+
+</Defs>

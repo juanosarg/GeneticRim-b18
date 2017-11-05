@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="WoolBase">
+		<defName>BearffaloWool</defName>
+		<label>bearffalo wool</label>
+		<description>Coarse, strong wool. Bearffalo wool provides excellent heat protection, and decent defense.</description>
+		<graphicData>
+			<color>(138,191,196)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(138,191,196)</color>
+			<statOffsets>
+				<ArmorRating_Heat>0.12</ArmorRating_Heat>
+				<ArmorRating_Electric>0.02</ArmorRating_Electric>
+			</statOffsets>
+			<statFactors>
+				<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+				<ArmorRating_Heat>2.4</ArmorRating_Heat>
+				<Insulation_Cold>3.0</Insulation_Cold>
+				<Insulation_Heat>3.0</Insulation_Heat>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+    <ThingDef ParentName="WoolBase">
+		<defName>BearffaloWool</defName>
+		<label>bearffalo wool</label>
+		<description>Coarse, strong wool. Bearffalo wool provides excellent heat protection, and decent defense.</description>
+		<graphicData>
+			<color>(138,191,196)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(138,191,196)</color>
+			<statOffsets>
+				<ArmorRating_Heat>0.12</ArmorRating_Heat>
+				<ArmorRating_Electric>0.02</ArmorRating_Electric>
+			</statOffsets>
+			<statFactors>
+				<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+				<ArmorRating_Heat>2.4</ArmorRating_Heat>
+				<Insulation_Cold>3.0</Insulation_Cold>
+				<Insulation_Heat>3.0</Insulation_Heat>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoolBase">
+		<defName>BoomffaloWool</defName>
+		<label>boomffalo wool</label>
+		<description>Brittle, strange smelling wool. Not the best wool to craft apparel with, though it's better than nothing. Provides good electricity insulation.</description>
+		<graphicData>
+			<color>(235,227,93)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(235,227,93)</color>
+			<statOffsets>
+				<ArmorRating_Heat>0.05</ArmorRating_Heat>
+				<ArmorRating_Electric>0.05</ArmorRating_Electric>
+			</statOffsets>
+			<statFactors>
+				<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+				<ArmorRating_Heat>1.7</ArmorRating_Heat>
+				<Insulation_Cold>2.5</Insulation_Cold>
+				<Insulation_Heat>2.5</Insulation_Heat>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoolBase">
+		<defName>MuffalopeWool</defName>
+		<label>muffalope wool</label>
+		<description>This wool seems to be constantly dripping unstable chemical compounds. Not the best wool to craft apparel with, though it's better than nothing. Provides good electricity insulation.</description>
+		<graphicData>
+			<color>(173,235,93)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(173,235,93)</color>
+			<statOffsets>
+				<ArmorRating_Heat>0.03</ArmorRating_Heat>
+				<ArmorRating_Electric>0.06</ArmorRating_Electric>
+			</statOffsets>
+			<statFactors>
+				<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+				<ArmorRating_Heat>1.7</ArmorRating_Heat>
+				<Insulation_Cold>2.5</Insulation_Cold>
+				<Insulation_Heat>2.5</Insulation_Heat>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoolBase">
+		<defName>ChickenffaloWool</defName>
+		<label>chickenffalo wool</label>
+		<description>The strands of this pure white wool are incredibly small and complex. Gives excellent defense against sharp attacks.</description>
+		<graphicData>
+			<color>(240,240,240)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(240,240,240)</color>
+			<statOffsets>
+				<ArmorRating_Heat>0.02</ArmorRating_Heat>
+				<ArmorRating_Electric>0.02</ArmorRating_Electric>
+			</statOffsets>
+			<statFactors>
+				<ArmorRating_Sharp>1.7</ArmorRating_Sharp>
+				<ArmorRating_Heat>1.5</ArmorRating_Heat>
+				<Insulation_Cold>2.0</Insulation_Cold>
+				<Insulation_Heat>2.0</Insulation_Heat>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoolBase">
+		<defName>MuffalochickenWool</defName>
+		<label>muffalochicken wool</label>
+		<description>This seems to be an amalgamation of feathers and wool, perfectly interweaved. Gives excellent defense against blunt attacks.</description>
+		<graphicData>
+			<texPath>Things/Item/FeatherWool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>		
+		</graphicData>
+		<stuffProps>
+			<color>(250,250,250)</color>
+			<statOffsets>
+				<ArmorRating_Heat>0.02</ArmorRating_Heat>
+				<ArmorRating_Electric>0.02</ArmorRating_Electric>
+			</statOffsets>
+			<statFactors>
+				<ArmorRating_Blunt>1.7</ArmorRating_Blunt>
+				<ArmorRating_Heat>1.5</ArmorRating_Heat>
+				<Insulation_Cold>2.0</Insulation_Cold>
+				<Insulation_Heat>2.0</Insulation_Heat>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoolBase">
+		<defName>MuffalowolfWool</defName>
+		<label>muffalowolf wool</label>
+		<description>This dark grey wool is stylish and very warm.</description>
+		<graphicData>
+		  <color>(52,52,52)</color>
+		</graphicData>
+		<stuffProps>
+		  <color>(52,52,52)</color>
+		  <statOffsets>
+			<ArmorRating_Heat>0.07</ArmorRating_Heat>
+			<ArmorRating_Electric>0.02</ArmorRating_Electric>
+		  </statOffsets>
+		  <statFactors>
+			<ArmorRating_Sharp>1.3</ArmorRating_Sharp>
+			<ArmorRating_Heat>2.1</ArmorRating_Heat>
+			<Insulation_Cold>3.0</Insulation_Cold>
+			<Insulation_Heat>3.0</Insulation_Heat>
+		  </statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoolBase">
+		<defName>WolffaloWool</defName>
+		<label>wolffalo wool</label>
+		<description>This dark grey wool is stylish and very warm.</description>
+		<graphicData>
+		  <color>(40,40,40)</color>
+		</graphicData>
+		<stuffProps>
+		  <color>(40,40,40)</color>
+		  <statOffsets>
+			<ArmorRating_Heat>0.09</ArmorRating_Heat>
+			<ArmorRating_Electric>0.02</ArmorRating_Electric>
+		  </statOffsets>
+		  <statFactors>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Heat>2.0</ArmorRating_Heat>
+			<Insulation_Cold>3.0</Insulation_Cold>
+			<Insulation_Heat>3.0</Insulation_Heat>
+		  </statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	 <ThingDef ParentName="WoolBase">
+    <defName>ChickenspiderSilk</defName>
+    <label>chickenspider silk</label>
+    <description>Fabric spun from fibers extracted from chickenspiders. Resists blunt and sharp damage easily, but provides almost no protection against extreme heat.</description>
+    <graphicData>
+      <texPath>Things/Item/SpunSilk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	        <color>(218,201,168)</color>
+
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>10</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.20</commonality>
+      <color>(218,201,168)</color>
+      <statOffsets>
+        <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+        <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Electric>0</ArmorRating_Electric>
+      </statOffsets>
+      <statFactors>
+        <WorkToMake>1.5</WorkToMake>
+        <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+        <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+        <ArmorRating_Heat>1</ArmorRating_Heat>
+        <ArmorRating_Electric>1</ArmorRating_Electric>
+      </statFactors>
+    </stuffProps>
+   
+   
+  </ThingDef>
+  
+  	 <ThingDef ParentName="WoolBase">
+    <defName>SpidersnakeSilk</defName>
+    <label>spidersnake silk</label>
+    <description>Fabric spun from fibers extracted from spidersnakes. A balanced fabric to make apparel from.</description>
+    <graphicData>
+      <texPath>Things/Item/SpunSilk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>8</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.20</commonality>
+      <color>(210,255,254)</color>
+      <statOffsets>
+        <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+        <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+        <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        <ArmorRating_Electric>0.1</ArmorRating_Electric>
+      </statOffsets>
+      <statFactors>
+        <WorkToMake>1.5</WorkToMake>
+        <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+        <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+        <ArmorRating_Heat>1.5</ArmorRating_Heat>
+        <ArmorRating_Electric>1.5</ArmorRating_Electric>
+      </statFactors>
+    </stuffProps>
+   
+   
+  </ThingDef>
+  
+    <ThingDef ParentName="WoolBase">
+    <defName>MuffalopedeChitin</defName>
+    <label>muffalopede chitin</label>
+    <description>Insectoid chitin can be used as a material to craft apparel. It provides excellent protection against blunt attacks.</description>
+    <graphicData>
+		<texPath>Things/Item/MuffalopedeChitin</texPath>
+    </graphicData>
+    <stuffProps>
+      <color>(88,88,88)</color>
+      <statOffsets>
+        <ArmorRating_Heat>0.17</ArmorRating_Heat>
+        <ArmorRating_Electric>0.02</ArmorRating_Electric>
+      </statOffsets>
+      <statFactors>
+        <ArmorRating_Blunt>1.6</ArmorRating_Blunt>
+        <ArmorRating_Heat>2.5</ArmorRating_Heat>
+        <Insulation_Cold>2.8</Insulation_Cold>
+        <Insulation_Heat>3.6</Insulation_Heat>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+    <ThingDef ParentName="ResourceBase">
+    <defName>WolfsnakeSkin</defName>
+    <label>wolfsnake skin</label>
+    <description>Shed skin from a wolfsnake. Light, strong, and insulates well.</description>
+    <graphicData>
+      <texPath>Things/Item/ScalySkin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>5</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.15</commonality>
+      <color>(0,116,6)</color>
+      <statOffsets>
+        <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+        <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+        <ArmorRating_Heat>0.03</ArmorRating_Heat>
+        <ArmorRating_Electric>0.03</ArmorRating_Electric>
+      </statOffsets>
+      <statFactors>
+        <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
+        <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+        <ArmorRating_Heat>2.5</ArmorRating_Heat>
+        <ArmorRating_Electric>2.5</ArmorRating_Electric>
+        <Insulation_Cold>1.15</Insulation_Cold>
+        <Insulation_Heat>1.15</Insulation_Heat>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef ParentName="WoolBase">
+    <defName>ThrumbearWool</defName>
+    <label>thrumbear wool</label>
+    <description>Thrumbear wool is thick, strong and warm. Probably the best wool in the animal kingdom.</description>
+    <graphicData>
+      <color>(233,233,233)</color>      
+    </graphicData>
+    <stuffProps>
+      <color>(233,233,233)</color>
+      <statOffsets>
+        <ArmorRating_Heat>0.20</ArmorRating_Heat>
+        <ArmorRating_Electric>0.07</ArmorRating_Electric>
+      </statOffsets>
+      <commonality>0.08</commonality>
+      <statFactors>
+        <ArmorRating_Sharp>1.75</ArmorRating_Sharp>
+        <ArmorRating_Heat>2.5</ArmorRating_Heat>
+        <ArmorRating_Electric>1.3</ArmorRating_Electric>
+        <Insulation_Cold>4</Insulation_Cold>
+        <Insulation_Heat>4</Insulation_Heat>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="WoolBase">
+    <defName>ThrumffaloWool</defName>
+    <label>thrumffalo wool</label>
+    <description>Thrumffalo wool is the best protection against extreme climates there is.</description>
+    <graphicData>
+      <color>(233,233,233)</color>      
+    </graphicData>
+    <stuffProps>
+      <color>(233,233,233)</color>
+      <statOffsets>
+        <ArmorRating_Heat>0.25</ArmorRating_Heat>
+        <ArmorRating_Electric>0.05</ArmorRating_Electric>
+      </statOffsets>
+      <commonality>0.08</commonality>
+      <statFactors>
+        <ArmorRating_Sharp>1.3</ArmorRating_Sharp>
+        <ArmorRating_Heat>2.75</ArmorRating_Heat>
+        <ArmorRating_Electric>1.3</ArmorRating_Electric>
+        <Insulation_Cold>4.5</Insulation_Cold>
+        <Insulation_Heat>4.5</Insulation_Heat>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+
+</Defs>

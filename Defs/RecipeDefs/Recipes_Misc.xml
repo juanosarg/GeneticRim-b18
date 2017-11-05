@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+	<RecipeDef>
+		<defName>NeutroamineFromSkin</defName>
+		<label>extract neutroamine from Spidersnake shed skin</label>
+		<description>Spidersnake shed skin can be ground and processed at a drug lab to extract minute amounts of neutroamine.</description>
+		<jobString>Extracting neutroamine</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>DrugLab</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>SpidersnakeSkin</li>
+					
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>SpidersnakeSkin</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Neutroamine>1</Neutroamine>
+		</products>
+		
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>CraftBoarTuskSculpture</defName>
+		<label>craft a boar tusk statuette</label>
+		<description>Alpha boar tusks can be carefully carved and crafted into a small statuette. Cozy!</description>
+		<jobString>Crafting boar tusk statuette</jobString>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+				<li>TableStonecutter</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>AlphaBoarTusks</li>
+					
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>AlphaBoarTusks</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BoarTuskStatuette>1</BoarTuskStatuette>
+		</products>
+		
+	</RecipeDef>
+	
+	
+ 
+
+
+  
+</Defs>

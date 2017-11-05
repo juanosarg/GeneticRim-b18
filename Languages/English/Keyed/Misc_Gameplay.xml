@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Various -->
+
+  <IncubatorProgress>Incubator progress</IncubatorProgress>
+  <ResourceGrowth>Resource growth</ResourceGrowth>
+  <FeatherGrowth>Feather growth</FeatherGrowth>
+  <JellyGrowth>Royal jelly fullness</JellyGrowth>
+  <SacGrowth>Explosive sac growth</SacGrowth>
+  <SilkGrowth>Silk growth</SilkGrowth>
+  <PoisonGrowth>Poison fullness</PoisonGrowth>
+  <SkinShed>Skin shedding time</SkinShed>
+  <TentacleGrowth>Trimmable tentacle growth</TentacleGrowth>
+  <JellyGrowth2>Eldritch jelly fullness</JellyGrowth2>
+  <ChocolateEgg>Chocolate egg growth</ChocolateEgg>
+
+  <AccAgeProg>Accelerated aging progress</AccAgeProg>
+  <CannotCarryToAccelerationPod>Cannot carry to age acceleration pod</CannotCarryToAccelerationPod>
+  <NoAccelerationPod>No valid age acceleration pod found</NoAccelerationPod>
+ 
+
+</LanguageData>

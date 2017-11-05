@@ -1,0 +1,8 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneRim\Assemblies\NewHatcher.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneRim\Source\NewHatcher\NewHatcher\obj\Debug\NewHatcher.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneRim\Source\NewHatcher\NewHatcher\obj\Debug\NewHatcher.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneRim\Assemblies\NewHatcher.dll.config
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Assemblies\NewHatcher.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Source\NewHatcher\NewHatcher\obj\Debug\NewHatcher.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim\Source\NewHatcher\NewHatcher\obj\Debug\NewHatcher.dll
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\GeneticRim\Source\NewHatcher\NewHatcher\obj\Debug\NewHatcher.csproj.CoreCompileInputs.cache
