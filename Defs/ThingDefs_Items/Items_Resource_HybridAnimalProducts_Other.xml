@@ -427,7 +427,6 @@
 				<WorkToBuild>5.0</WorkToBuild>
 				<Beauty>3</Beauty>
         <Flammability>0.2</Flammability>
-        <MeleeWeapon_Cooldown>1.1</MeleeWeapon_Cooldown>
       </statFactors>
       <smeltable>false</smeltable>
     </stuffProps>

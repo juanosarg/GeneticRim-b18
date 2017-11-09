@@ -80,11 +80,11 @@ namespace NewHatcher
             {
                 if (rand.NextDouble() < 0.9)
                 {
-                    request = new PawnGenerationRequest(this.Props.hatcherPawn, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false, null, null, null, null, null, null);
+                    request = new PawnGenerationRequest(this.Props.hatcherPawn, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false);
                 }
                 else
                 {
-                    request = new PawnGenerationRequest(PawnKindDef.Named("AberrantFleshbeast"), null, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false, null, null, null, null, null, null);
+                    request = new PawnGenerationRequest(PawnKindDef.Named("AberrantFleshbeast"), null, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false);
                 }
                 Pawn pawn = PawnGenerator.GeneratePawn(request);
                 if (PawnUtility.TrySpawnHatchedOrBornPawn(pawn, this.parent))

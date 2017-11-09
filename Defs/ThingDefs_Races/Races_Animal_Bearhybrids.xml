@@ -230,7 +230,7 @@
         </capacities>
         <power>7</power>
         <cooldownTime>1.65</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
