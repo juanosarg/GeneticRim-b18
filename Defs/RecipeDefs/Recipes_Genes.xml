@@ -4,7 +4,7 @@
 	
 	
 	<RecipeDef>
-		<defName>BaseIncubator</defName>
+		<defName>GR_BaseIncubator</defName>
 		<label>manufacture empty incubator</label>
 		<description>Manufacture an empty incubator using Steel and an organic growth compound.</description>
 		<jobString>Manufacturing empty incubator</jobString>
@@ -12,7 +12,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>800</workAmount>
 		<recipeUsers>
-				<li>GeneticExtractionTable</li>	  
+				<li>GR_GeneticExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -29,7 +29,7 @@
 				<filter>
 				
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 						
 					</thingDefs>
 				</filter>
@@ -40,17 +40,17 @@
 		
 			<thingDefs>
 				<li>Steel</li>
-				<li>OrganicPulp</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<EmptyIncubator>1</EmptyIncubator>
+			<GR_EmptyIncubator>1</GR_EmptyIncubator>
 		</products>
 		
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>ExtractGenesBear</defName>
+		<defName>GR_ExtractGenesBear</defName>
 		<label>extract genes from a bear</label>
 		<description>Extract genetic material from a bear corpse.</description>
 		<jobString>Extracting Genetic Material</jobString>
@@ -59,7 +59,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>GeneticExtractionTable</li>	  
+				<li>GR_GeneticExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -81,7 +81,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BearGenetic>1</BearGenetic>
+			<GR_BearGenetic>1</GR_BearGenetic>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -89,7 +89,7 @@
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>ExtractGenesChicken</defName>
+		<defName>GR_ExtractGenesChicken</defName>
 		<label>extract genes from a bird</label>
 		<description>Extract genetic material from any bird corpse.</description>
 		<jobString>Extracting Genetic Material</jobString>
@@ -98,7 +98,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>GeneticExtractionTable</li>	  
+				<li>GR_GeneticExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -126,7 +126,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ChickenGenetic>1</ChickenGenetic>
+			<GR_ChickenGenetic>1</GR_ChickenGenetic>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -134,7 +134,7 @@
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>ExtractGenesBoomalope</defName>
+		<defName>GR_ExtractGenesBoomalope</defName>
 		<label>extract genes from a boomalope</label>
 		<description>Extract genetic material from a boomalope corpse.</description>
 		<jobString>Extracting Genetic Material</jobString>
@@ -143,7 +143,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>GeneticExtractionTable</li>	  
+				<li>GR_GeneticExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -163,7 +163,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BoomalopeGenetic>1</BoomalopeGenetic>
+			<GR_BoomalopeGenetic>1</GR_BoomalopeGenetic>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -171,7 +171,7 @@
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>ExtractGenesMuffalo</defName>
+		<defName>GR_ExtractGenesMuffalo</defName>
 		<label>extract genes from a muffalo</label>
 		<description>Extract genetic material from a muffalo corpse.</description>
 		<jobString>Extracting Genetic Material</jobString>
@@ -180,7 +180,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>GeneticExtractionTable</li>	  
+				<li>GR_GeneticExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -200,7 +200,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<MuffaloGenetic>1</MuffaloGenetic>
+			<GR_MuffaloGenetic>1</GR_MuffaloGenetic>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -208,7 +208,7 @@
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>ExtractGenesWolf</defName>
+		<defName>GR_ExtractGenesWolf</defName>
 		<label>extract genes from a canid</label>
 		<description>Extract genetic material from a wolf, warg or dog corpse.</description>
 		<jobString>Extracting Genetic Material</jobString>
@@ -217,7 +217,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>GeneticExtractionTable</li>	  
+				<li>GR_GeneticExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -247,7 +247,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<WolfGenetic>1</WolfGenetic>
+			<GR_WolfGenetic>1</GR_WolfGenetic>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -255,7 +255,7 @@
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>ExtractGenesInsectoid</defName>
+		<defName>GR_ExtractGenesInsectoid</defName>
 		<label>extract genes from an insectoid</label>
 		<description>Extract genetic material from an alien insectoid.</description>
 		<jobString>Extracting Genetic Material</jobString>
@@ -264,7 +264,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>GeneticExtractionTable</li>	  
+				<li>GR_GeneticExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -292,16 +292,16 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<InsectoidGenetic>1</InsectoidGenetic>
+			<GR_InsectoidGenetic>1</GR_InsectoidGenetic>
 		</products>
-		<researchPrerequisite>InsectoidGenome</researchPrerequisite>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>ExtractGenesReptilian</defName>
+		<defName>GR_ExtractGenesReptilian</defName>
 		<label>extract genes from a reptile</label>
 		<description>Extract genetic material from a reptile.</description>
 		<jobString>Extracting Genetic Material</jobString>
@@ -310,7 +310,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>GeneticExtractionTable</li>	  
+				<li>GR_GeneticExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -338,16 +338,16 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ReptilianGenetic>1</ReptilianGenetic>
+			<GR_ReptilianGenetic>1</GR_ReptilianGenetic>
 		</products>
-		<researchPrerequisite>ReptilianGenome</researchPrerequisite>
+		<researchPrerequisite>GR_ReptilianGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>ExtractGenesHuman</defName>
+		<defName>GR_ExtractGenesHuman</defName>
 		<label>extract genes from a humanoid</label>
 		<description>Extract genetic material from a humanoid.</description>
 		<jobString>Extracting Genetic Material</jobString>
@@ -356,7 +356,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>GeneticExtractionTable</li>	  
+				<li>GR_GeneticExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -374,16 +374,16 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<HumanoidGenetic>1</HumanoidGenetic>
+			<GR_HumanoidGenetic>1</GR_HumanoidGenetic>
 		</products>
-		<researchPrerequisite>HumanoidGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_HumanoidGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>ExtractGenesThrumbo</defName>
+		<defName>GR_ExtractGenesThrumbo</defName>
 		<label>extract genes from a thrumbo</label>
 		<description>Extract genetic material from a thrumbo corpse.</description>
 		<jobString>Extracting Genetic Material</jobString>
@@ -392,7 +392,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>GeneticExtractionTable</li>	  
+				<li>GR_GeneticExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -414,9 +414,9 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ThrumboGenetic>1</ThrumboGenetic>
+			<GR_ThrumboGenetic>1</GR_ThrumboGenetic>
 		</products>
-		<researchPrerequisite>AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>

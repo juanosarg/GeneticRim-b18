@@ -10,7 +10,7 @@
 <Defs>
 
 	<BodyDef>
-		<defName>QuadrupedAnimalWithBeakandHump</defName>
+		<defName>GR_QuadrupedAnimalWithBeakandHump</defName>
 		<label>quadruped animal with beak and Hump</label>
 		<corePart>
 			<def>Body</def>

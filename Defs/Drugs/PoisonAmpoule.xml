@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="AmpouleBase" Abstract="True">
+  <ThingDef Name="GR_AmpouleBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <useHitPoints>true</useHitPoints>
@@ -41,8 +41,8 @@
  	
   </ThingDef>
 
-  <ThingDef ParentName="AmpouleBase">
-    <defName>PoisonAmpoule</defName>
+  <ThingDef ParentName="GR_AmpouleBase">
+    <defName>GR_PoisonAmpoule</defName>
     <label>poison ampoule</label>
     <description>This tiny vial is filled with a concentrated solution of Muffalokomodo saliva, which acts as a powerful neuromuscular-blocking drug. This effectively paralyses anyone foolish enough to drink it, though it is not lethal. Useful for prisoner control.</description>
     <graphicData>
@@ -59,7 +59,7 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>PoisonAmpouleDrank</hediffDef>
+          <hediffDef>GR_PoisonAmpouleDrank</hediffDef>
           <severity>1.00</severity>
           
         </li>
@@ -77,7 +77,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>PoisonAmpouleDrank</defName>
+    <defName>GR_PoisonAmpouleDrank</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>poison ampoule</label>
     <defaultLabelColor>(1,1,0.5)</defaultLabelColor>

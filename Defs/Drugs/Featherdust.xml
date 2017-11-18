@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="MakeableDrugBase">
-    <defName>FeatherdustJoint</defName>
+    <defName>GR_FeatherdustJoint</defName>
     <label>featherdust joint</label>
     <description>Bearchicken feathers can be gathered and processed into a fine powder, which produces a mild euphoric sensation when burned and inhaled. Featherdust use can produce a dependency.</description>
     <graphicData>
@@ -48,16 +48,16 @@
       <useEatingSpeedStat>false</useEatingSpeedStat>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>FeatherdustHigh</hediffDef>
+          <hediffDef>GR_FeatherdustHigh</hediffDef>
           <severity>0.5</severity>
-          <toleranceChemical>Featherdust</toleranceChemical>
+          <toleranceChemical>GR_Featherdust</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
           <need>Rest</need>
           <offset>-0.1</offset>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>FeatherdustTolerance</hediffDef>
+          <hediffDef>GR_FeatherdustTolerance</hediffDef>
           <severity>0.030</severity>
 		  <divideByBodySize>true</divideByBodySize>
 		</li>
@@ -71,11 +71,11 @@
 			<workSkill></workSkill>
     </recipeMaker>
     <costList>
-      <Owlbearfeathers>5</Owlbearfeathers>
+      <GR_Owlbearfeathers>5</GR_Owlbearfeathers>
     </costList>
     <comps>
       <li Class="CompProperties_Drug">
-        <chemical>Featherdust</chemical>
+        <chemical>GR_Featherdust</chemical>
         <addictiveness>0.035</addictiveness>
         <minToleranceToAddict>0.15</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.06</existingAddictionSeverityOffset>
@@ -86,7 +86,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>FeatherdustHigh</defName>
+    <defName>GR_FeatherdustHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>stoned on featherdust</label>
     <defaultLabelColor>(1,0.3,0.3)</defaultLabelColor>
@@ -113,9 +113,9 @@
   </HediffDef>
   
   <ThoughtDef>
-    <defName>FeatherdustHigh</defName>
+    <defName>GR_FeatherdustHigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>FeatherdustHigh</hediff>
+    <hediff>GR_FeatherdustHigh</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
@@ -129,15 +129,15 @@
   <!-- Smokeleaf addiction -->
 
   <ChemicalDef>
-    <defName>Featherdust</defName>
+    <defName>GR_Featherdust</defName>
     <label>Featherdust</label>
-    <addictionHediff>FeatherdustAddiction</addictionHediff>
-    <toleranceHediff>FeatherdustTolerance</toleranceHediff>
+    <addictionHediff>GR_FeatherdustAddiction</addictionHediff>
+    <toleranceHediff>GR_FeatherdustTolerance</toleranceHediff>
 		<onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
 	</ChemicalDef>
 
   <NeedDef ParentName="DrugAddictionNeedBase">
-    <defName>Chemical_Featherdust</defName>
+    <defName>GR_Chemical_Featherdust</defName>
     <needClass>Need_Chemical</needClass>
     <label>featherdust</label>
     <description>Because of a developed Featherdust dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
@@ -145,14 +145,14 @@
   </NeedDef>
   
   <HediffDef ParentName="DrugToleranceBase">
-    <defName>FeatherdustTolerance</defName>
+    <defName>GR_FeatherdustTolerance</defName>
     <label>featherdust tolerance</label>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.015</severityPerDay>
       </li>
       <li Class="HediffCompProperties_DrugEffectFactor">
-        <chemical>Featherdust</chemical>
+        <chemical>GR_Featherdust</chemical>
       </li>
     </comps>
 		<hediffGivers>
@@ -171,10 +171,10 @@
 	</HediffDef>
 
   <HediffDef ParentName="AddictionBase">
-    <defName>FeatherdustAddiction</defName>
+    <defName>GR_FeatherdustAddiction</defName>
     <hediffClass>Hediff_Addiction</hediffClass>
     <label>featherdust dependence</label>
-    <causesNeed>Chemical_Featherdust</causesNeed>
+    <causesNeed>GR_Chemical_Featherdust</causesNeed>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.0333</severityPerDay>
@@ -210,9 +210,9 @@
   </HediffDef>
 
   <ThoughtDef>
-    <defName>FeatherdustWithdrawal</defName>
+    <defName>GR_FeatherdustWithdrawal</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>FeatherdustAddiction</hediff>
+    <hediff>GR_FeatherdustAddiction</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>

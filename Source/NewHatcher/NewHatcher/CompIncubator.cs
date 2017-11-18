@@ -71,7 +71,7 @@ namespace NewHatcher
         public void Hatch()
         {
 
-        if (this.parent.Map.IsPlayerHome) { 
+        if (this.parent.Map.IsPlayerHome && (this.parent.Faction == Faction.OfPlayer)) { 
 
         FilthMaker.MakeFilth(this.parent.Position, this.parent.Map, ThingDefOf.FilthAmnioticFluid, 1);
            
@@ -84,7 +84,7 @@ namespace NewHatcher
                 }
                 else
                 {
-                    request = new PawnGenerationRequest(PawnKindDef.Named("AberrantFleshbeast"), null, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false);
+                    request = new PawnGenerationRequest(PawnKindDef.Named("GR_AberrantFleshbeast"), null, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false);
                 }
                 Pawn pawn = PawnGenerator.GeneratePawn(request);
                 if (PawnUtility.TrySpawnHatchedOrBornPawn(pawn, this.parent))

@@ -3,7 +3,7 @@
     
   <!-- Bear - Thrumbo -->
     <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Thrumbear</defName>
+    <defName>GR_Thrumbear</defName>
     <label>thrumbear</label>
     <description>This gargantuan beast is the result of splicing bear genes in a standard thrumbo. As strong and resilient as it is easy to anger, a thrumbear attack is something to be VERY scared of.\n\nUseful abilities: Produces very high quality wool.</description>
     <statBases>
@@ -63,7 +63,7 @@
 	<comps>
       
       <li Class="CompProperties_Shearable">
-        <woolDef>ThrumbearWool</woolDef>
+        <woolDef>GR_ThrumbearWool</woolDef>
         <shearIntervalDays>25</shearIntervalDays>
         <woolAmount>150</woolAmount>
       </li>
@@ -107,9 +107,9 @@
     </race>
   </ThingDef>
     <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Thrumbear</defName>
+    <defName>GR_Thrumbear</defName>
     <label>thrumbear</label>
-    <race>Thrumbear</race>
+    <race>GR_Thrumbear</race>
     <combatPower>700</combatPower>
 	<canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -167,7 +167,7 @@
   
   <!-- Boomalope - Thrumbo -->  
     <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Thrumbalope</defName>
+    <defName>GR_Thrumbalope</defName>
     <label>thrumbalope</label>
     <description>The thrumbalope is a thrumbo that has been spliced with boomalope genes. Their huge sacs of unstable chemicals explode with unbelievable force, which has caused the colonists to nickname them "nukalopes".\n\nUseful abilities: Huge, dangerous explosion on death.</description>
     <statBases>
@@ -267,9 +267,9 @@
     </race>
   </ThingDef>
     <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Thrumbalope</defName>
+    <defName>GR_Thrumbalope</defName>
     <label>thrumbalope</label>
-    <race>Thrumbalope</race>
+    <race>GR_Thrumbalope</race>
     <combatPower>400</combatPower>
 	<canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -327,7 +327,7 @@
 
   <!-- Chicken - Thrumbo -->  
     <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Thrumbochicken</defName>
+    <defName>GR_Thrumbochicken</defName>
     <label>thrumbochicken</label>
     <description>The thrumbochicken is a thrumbo that has been spliced with avian genes. Although not very ravenous, these are lightning fast predators that could hunt any other creature with ease. These animals lay enormous eggs!\n\nUseful abilities: Biggest eggs of any animal.</description>
     <statBases>
@@ -371,15 +371,15 @@
    
 	<comps>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>ThrumbochickenEggUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>ThrumbochickenEggFertilized</eggFertilizedDef>
+        <eggUnfertilizedDef>GR_ThrumbochickenEggUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>GR_ThrumbochickenEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>5</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
     </comps>
     <race>
-      <body>HornedBird</body>
+      <body>GR_HornedBird</body>
 	        <predator>true</predator>
 
       <herdAnimal>true</herdAnimal>
@@ -420,9 +420,9 @@
     </race>
   </ThingDef>
     <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Thrumbochicken</defName>
+    <defName>GR_Thrumbochicken</defName>
     <label>thrumbochicken</label>
-    <race>Thrumbochicken</race>
+    <race>GR_Thrumbochicken</race>
     <combatPower>400</combatPower>
 	<canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -480,7 +480,7 @@
 
   <!-- Muffalo - Thrumbo -->  
     <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Thrumffalo</defName>
+    <defName>GR_Thrumffalo</defName>
     <label>thrumffalo</label>
     <description>This massive ungulate is the result of splicing a thrumbo with muffalo genes. Capable of carrying a huge amount of materials, there is no better possible pack animal in all the Rim (yet! Science never rests).\n\nUseful abilities: Produces high quality milk and wool.</description>
     <statBases>
@@ -540,12 +540,12 @@
 
 	<comps>
       <li Class="CompProperties_Milkable">
-        <milkDef>ThrumffaloMilk</milkDef>
+        <milkDef>GR_ThrumffaloMilk</milkDef>
         <milkIntervalDays>2</milkIntervalDays>
         <milkAmount>20</milkAmount>
       </li>
       <li Class="CompProperties_Shearable">
-        <woolDef>ThrumffaloWool</woolDef>
+        <woolDef>GR_ThrumffaloWool</woolDef>
         <shearIntervalDays>25</shearIntervalDays>
         <woolAmount>150</woolAmount>
       </li>
@@ -590,9 +590,9 @@
     </race>
   </ThingDef>
     <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Thrumffalo</defName>
+    <defName>GR_Thrumffalo</defName>
     <label>thrumffalo</label>
-    <race>Thrumffalo</race>
+    <race>GR_Thrumffalo</race>
     <combatPower>500</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -650,7 +650,7 @@
   
   <!-- Wolf - Thrumbo -->  
     <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Thrumwolf</defName>
+    <defName>GR_Thrumwolf</defName>
     <label>thrumwolf</label>
     <description>This colossal predator is the result of splicing a thrumbo with wolf genes. Fast and really hungry, all the time. Entire ecosystems can be decimated by the insane apetite of a Thrumbowolf.\n\nUseful abilities: fast attacking predator which will tear through your enemies if properly trained. Needs a LOT of food, though.</description>
     <statBases>
@@ -751,9 +751,9 @@
     </race>
   </ThingDef>
     <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Thrumwolf</defName>
+    <defName>GR_Thrumwolf</defName>
     <label>thrumwolf</label>
-    <race>Thrumwolf</race>
+    <race>GR_Thrumwolf</race>
     <combatPower>700</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>

@@ -4,7 +4,7 @@
    
 
   <ThingDef ParentName="BodyPartArtificialBase">
-    <defName>BearClaws</defName>
+    <defName>GR_BearClaws</defName>
     <label>bear claws</label>
     <description>An improvement over the bionic Power Claw, these claws have been vat-grown with a mixture of human and bear DNA, and replace the subject's hand with versatile, non-retractable claws.</description>
     <graphicData>
@@ -21,7 +21,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BodyPartArtificialBase">
-    <defName>Ovipositor</defName>
+    <defName>GR_Ovipositor</defName>
     <label>ovipositor</label>
     <description>You know you have gone too far in your scientific experiments when you are implanting a human being with an ovipositor. This will enable the colonist to lay chicken eggs twice a day. It hurts as hell, though. Also, yuck.</description>
     <graphicData>
@@ -36,7 +36,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BodyPartArtificialBase">
-    <defName>MuffaloMuscles</defName>
+    <defName>GR_MuffaloMuscles</defName>
     <label>muffalo strengthened muscles</label>
     <description>By weaving muffalo muscle strands with the subjects muscular system, strength, resilience and carrying capacity are greatly increased.</description>
     <graphicData>
@@ -50,7 +50,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BodyPartArtificialBase">
-    <defName>BoomalopeNodules</defName>
+    <defName>GR_BoomalopeNodules</defName>
     <label>boomalope nodules</label>
     <description>These skin nodules can be integrated in a human's torso, causing a huge explosion if the subjects dies violently.</description>
     <graphicData>
@@ -64,7 +64,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BodyPartArtificialBase">
-    <defName>WolfMuscularFibers</defName>
+    <defName>GR_WolfMuscularFibers</defName>
     <label>wolf muscular fibers</label>
     <description>The subjects legs can be modified by weaving hybrid human/wolf muscle fibers within the base tissue, giving her a significant strength and speed boost.</description>
     <graphicData>
@@ -78,7 +78,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BodyPartArtificialBase">
-    <defName>InsectoidAntennae</defName>
+    <defName>GR_InsectoidAntennae</defName>
     <label>insectoid antennae</label>
     <description>These hybrid humanoid / insectoid feeling appendages can be implanted in a subject's head, completely modifying the way the subject "sees" and feels the surrounding world. The experience may be slightly overwhelming due to sensorial overload.</description>
     <graphicData>
@@ -92,7 +92,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BodyPartArtificialBase">
-    <defName>HumanThrumboHorn</defName>
+    <defName>GR_HumanThrumboHorn</defName>
     <label>thrumbo horn</label>
     <description>A genetically modified thrumbo horn that can be implanted in a subject's forehead. Nasty.</description>
     <graphicData>
@@ -106,7 +106,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BodyPartArtificialBase">
-    <defName>VenomousFangs</defName>
+    <defName>GR_VenomousFangs</defName>
     <label>venomous fangs</label>
     <description>This hybrid implant substitutes the subject's jaw with a set of venomous fangs. Useful in combat, but not very comfortable.</description>
     <graphicData>

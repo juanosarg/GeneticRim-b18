@@ -10,7 +10,7 @@ namespace NewAnimalSubproducts
         {
             get
             {
-                return LocalJobDefOf.AnimalResource;
+                return LocalJobDefOf.GR_AnimalResource;
             }
         }
 

@@ -3,7 +3,7 @@
 
   <!-- Reptile - Bear -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Bearodile</defName>
+    <defName>GR_Bearodile</defName>
     <label>bearodile</label>
     <description>A reptile / bear hybrid. The reptilian genes used to generate this hybrid have given it some ancient reptilian characteristics, with an appearance similar to reptiles in the Permian Period on Earth. It has also developed a venomous bite.\n\nUseful abilities: Highly intelligent and venomous. Excellent base defender if properly trained.</description>
     <statBases>
@@ -15,7 +15,7 @@
       <li>
         <label>left claw</label>
         <capacities>
-          <li>VeryToxicBite</li>
+          <li>GR_VeryToxicBite</li>
         </capacities>
         <power>17</power>
         <cooldownTime>2.0</cooldownTime>
@@ -32,7 +32,7 @@
       <li>
         <label>right claw</label>
         <capacities>
-          <li>VeryToxicBite</li>
+          <li>GR_VeryToxicBite</li>
         </capacities>
         <power>17</power>
         <cooldownTime>2.0</cooldownTime>
@@ -48,7 +48,7 @@
       </li>
       <li>
         <capacities>
-          <li>VeryToxicBite</li>
+          <li>GR_VeryToxicBite</li>
         </capacities>
         <power>15</power>
         <cooldownTime>1.65</cooldownTime>
@@ -119,9 +119,9 @@
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
-    <defName>Bearodile</defName>
+    <defName>GR_Bearodile</defName>
     <label>bearodile</label>
-    <race>Bearodile</race>
+    <race>GR_Bearodile</race>
     <combatPower>250</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -173,7 +173,7 @@
   
   <!-- Reptile - Boomalope -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Tail">
-    <defName>Boomsnake</defName>
+    <defName>GR_Boomsnake</defName>
     <label>boomsnake</label>
     <description>A reptile / boomalope hybrid. The boomsnake is not a very strong or agile combatant. However, when it dies it explodes in a noxious cloud of venomous vapors, which can be strong enough to dissolve flesh.\n\nUseful abilities: Its toxic explosion can easily decimate an enemy raid if properly timed.</description>
     <statBases>
@@ -184,7 +184,7 @@
 	<tools>
       <li>
         <capacities>
-          <li>VeryToxicBite</li>
+          <li>GR_VeryToxicBite</li>
         </capacities>
         <power>10</power>
         <cooldownTime>1.65</cooldownTime>
@@ -256,9 +256,9 @@
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
-    <defName>Boomsnake</defName>
+    <defName>GR_Boomsnake</defName>
     <label>boomsnake</label>
-    <race>Boomsnake</race>
+    <race>GR_Boomsnake</race>
     <combatPower>150</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -310,7 +310,7 @@
 
   <!-- Reptile - Chicken -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
-    <defName>Chickenlizard</defName>
+    <defName>GR_Chickenlizard</defName>
     <label>chickenlizard</label>
     <description>A reptile / chicken hybrid. This reptilian chicken has a slightly venomous bite. Not very powerful, but considering how fast chickens breed, a horde of chickenlizards might be enough to overpower a much bigger creature with their venom.\n\nUseful abilities: Small, fast breeding, venomous chickens.</description>
     <statBases>
@@ -330,7 +330,7 @@
       </li>
       <li>
         <capacities>
-          <li>LightToxicBite</li>
+          <li>GR_LightToxicBite</li>
         </capacities>
         <power>4</power>
         <cooldownTime>1.65</cooldownTime>
@@ -339,7 +339,7 @@
       <li>
         <label>head</label>
         <capacities>
-          <li>LightToxicBite</li>
+          <li>GR_LightToxicBite</li>
         </capacities>
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
@@ -350,8 +350,8 @@
     
 	<comps>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>ChickenlizardEggUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>ChickenlizardEggFertilized</eggFertilizedDef>
+        <eggUnfertilizedDef>GR_ChickenlizardEggUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>GR_ChickenlizardEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>1.2</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
@@ -401,9 +401,9 @@
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
-    <defName>Chickenlizard</defName>
+    <defName>GR_Chickenlizard</defName>
     <label>chickenlizard</label>
-    <race>Chickenlizard</race>
+    <race>GR_Chickenlizard</race>
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -455,7 +455,7 @@
  
   <!-- Reptile - Muffalo -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Muffalokomodo</defName>
+    <defName>GR_Muffalokomodo</defName>
     <label>muffalokomodo</label>
     <description>A reptile / muffalo hybrid. This resilient beast can carry more weight than a regular muffalo, and has a powerful venomous bite.\n\nUseful abilities: Regularly produces enough venomous saliva to fill an ampoule with a powerful poison, which acts as a potent muscle paralysing agent.</description>
     <statBases>
@@ -466,7 +466,7 @@
 	    <tools>
       <li>
         <capacities>
-          <li>VeryToxicBite</li>
+          <li>GR_VeryToxicBite</li>
         </capacities>
         <power>13</power>
         <cooldownTime>1.65</cooldownTime>
@@ -478,7 +478,7 @@
 	<comps>
 		
 		<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
-			<resourceDef>PoisonAmpoule</resourceDef>
+			<resourceDef>GR_PoisonAmpoule</resourceDef>
 			<gatheringIntervalDays>5</gatheringIntervalDays>
 			<resourceAmount>1</resourceAmount>
         </li>
@@ -528,9 +528,9 @@
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
-    <defName>Muffalokomodo</defName>
+    <defName>GR_Muffalokomodo</defName>
     <label>muffalokomodo</label>
-    <race>Muffalokomodo</race>
+    <race>GR_Muffalokomodo</race>
     <combatPower>100</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -582,7 +582,7 @@
  
   <!-- Reptile - Insectoid -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Tail">
-    <defName>Spidersnake</defName>
+    <defName>GR_Spidersnake</defName>
     <label>spidersnake</label>
     <description>A reptile / insectoid hybrid. This venomous, armoured snake, can be very dangerous in high enough numbers.\n\nUseful abilities: Regularly produces Spidersnake shed skin, which can be processed in a drug lab into small amounts of neutroamine, as well as Spidersnake silk.</description>
     <statBases>
@@ -597,7 +597,7 @@
 	<tools>
       <li>
         <capacities>
-          <li>VeryToxicBite</li>
+          <li>GR_VeryToxicBite</li>
         </capacities>
         <power>13</power>
         <cooldownTime>1.9</cooldownTime>
@@ -607,7 +607,7 @@
       <li>
         <label>head</label>
         <capacities>
-          <li>VeryToxicBite</li>
+          <li>GR_VeryToxicBite</li>
         </capacities>
         <power>4</power>
         <cooldownTime>1.65</cooldownTime>
@@ -618,8 +618,8 @@
    
 	<comps>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>SpidersnakeEggUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>SpidersnakeEggFertilized</eggFertilizedDef>
+        <eggUnfertilizedDef>GR_SpidersnakeEggUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>GR_SpidersnakeEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>14.0</eggLayIntervalDays>
         <eggCountRange>
@@ -628,12 +628,12 @@
         </eggCountRange>
       </li>
 	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
-			<resourceDef>SpidersnakeSkin</resourceDef>
+			<resourceDef>GR_SpidersnakeSkin</resourceDef>
 			<gatheringIntervalDays>5</gatheringIntervalDays>
 			<resourceAmount>1</resourceAmount>
       </li>
 	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
-			<resourceDef>SpidersnakeSilk</resourceDef>
+			<resourceDef>GR_SpidersnakeSilk</resourceDef>
 			<gatheringIntervalDays>12</gatheringIntervalDays>
 			<resourceAmount>40</resourceAmount>
       </li>
@@ -694,9 +694,9 @@
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
-    <defName>Spidersnake</defName>
+    <defName>GR_Spidersnake</defName>
     <label>spidersnake</label>
-    <race>Spidersnake</race>
+    <race>GR_Spidersnake</race>
     <combatPower>75</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -748,7 +748,7 @@
 
   <!-- Reptile - Thrumbo -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Thrumbolizard</defName>
+    <defName>GR_Thrumbolizard</defName>
     <label>thrumbolizard</label>
     <description>A reptile / thrumbo hybrid. A massive, crocodilian creature with incredibly powerful jaws and a rabid venom. \n\nUseful abilities: Regularly produces enough venom to fill small ampoules. Thrumbolizard poison is 100% lethal, and there is no antidote that could act fast enough.</description>
     <statBases>
@@ -761,7 +761,7 @@
       <li>
         <label>horn</label>
         <capacities>
-          <li>VeryToxicBite</li>
+          <li>GR_VeryToxicBite</li>
           <li>Stab</li>
         </capacities>
         <power>25</power>
@@ -770,7 +770,7 @@
       </li>
       <li>
         <capacities>
-          <li>VeryToxicBite</li>
+          <li>GR_VeryToxicBite</li>
         </capacities>
         <power>20</power>
         <cooldownTime>2.0</cooldownTime>
@@ -809,7 +809,7 @@
 	<comps>
       
 	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
-			<resourceDef>VirulentPoison</resourceDef>
+			<resourceDef>GR_VirulentPoison</resourceDef>
 			<gatheringIntervalDays>10</gatheringIntervalDays>
 			<resourceAmount>1</resourceAmount>
       </li>
@@ -857,9 +857,9 @@
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
-    <defName>Thrumbolizard</defName>
+    <defName>GR_Thrumbolizard</defName>
     <label>thrumbolizard</label>
-    <race>Thrumbolizard</race>
+    <race>GR_Thrumbolizard</race>
     <combatPower>650</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -917,7 +917,7 @@
 
   <!-- Reptile - Wolf -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Wolfsnake</defName>
+    <defName>GR_Wolfsnake</defName>
     <label>wolfsnake</label>
     <description>A reptile / wolf hybrid. These serpentine predators are fast as lightning, and armed with a powerful, venomous bite. \n\nSpeed and poison make for a very effective base defender. Sheds wolfsnake skin from time to time.</description>
     <statBases>
@@ -930,7 +930,7 @@
       <li>
         <label>left claw</label>
         <capacities>
-          <li>VeryToxicBite</li>
+          <li>GR_VeryToxicBite</li>
         </capacities>
         <power>10</power>
         <cooldownTime>1.5</cooldownTime>
@@ -947,7 +947,7 @@
       <li>
         <label>right claw</label>
         <capacities>
-          <li>VeryToxicBite</li>
+          <li>GR_VeryToxicBite</li>
         </capacities>
         <power>10</power>
         <cooldownTime>1.5</cooldownTime>
@@ -963,7 +963,7 @@
       </li>
       <li>
         <capacities>
-          <li>VeryToxicBite</li>
+          <li>GR_VeryToxicBite</li>
         </capacities>
         <power>12</power>
         <cooldownTime>2.0</cooldownTime>
@@ -992,7 +992,7 @@
 	<comps>
       
 	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
-			<resourceDef>WolfsnakeSkin</resourceDef>
+			<resourceDef>GR_WolfsnakeSkin</resourceDef>
 			<gatheringIntervalDays>25</gatheringIntervalDays>
 			<resourceAmount>90</resourceAmount>
       </li>
@@ -1053,9 +1053,9 @@
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
-    <defName>Wolfsnake</defName>
+    <defName>GR_Wolfsnake</defName>
     <label>wolfsnake</label>
-    <race>Wolfsnake</race>
+    <race>GR_Wolfsnake</race>
     <combatPower>100</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>

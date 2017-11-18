@@ -9,7 +9,7 @@
 	
   <!-- Bear - Boomalope -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
-    <defName>Bearalope</defName>
+    <defName>GR_Bearalope</defName>
     <label>bearalope</label>
     <description>A bear / boomalope hybrid. Not as strong in melee as a pure bear, but its unstable chemical reservoirs explode with great force when it dies. Unfortunately, the extreme virulence of these chemicals is harmful to the creature, and they have very short, miserable lifespans.\n\nUseful abilities: Big explosion produced on hybrid's death.</description>
     <statBases>
@@ -127,9 +127,9 @@
   
   <PawnKindDef ParentName="BearBase">
   
-    <defName>Bearalope</defName>
+    <defName>GR_Bearalope</defName>
     <label>bearalope</label>
-    <race>Bearalope</race>
+    <race>GR_Bearalope</race>
     <combatPower>200</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -180,8 +180,8 @@
   </PawnKindDef>
   <!-- Bear - Chicken --> 
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
-    <defName>Bearchicken</defName>
-    <label>Bearchicken</label>
+    <defName>GR_Bearchicken</defName>
+    <label>bearchicken</label>
     <description>A bear / chicken hybrid. Nicknamed "owlbear" by the colonists. Much weaker in melee than a bear, but it lays eggs, and can obviously defend itself in combat much better than a chicken.\n\nUseful abilities: Lays eggs and regularly produces feathers, which can be converted into Featherdust joints.</description>
     <statBases>
       <MoveSpeed>3.0</MoveSpeed>
@@ -255,8 +255,8 @@
 	
 	<comps>
 		<li Class="CompProperties_EggLayer">
-			<eggUnfertilizedDef>BearChickenEggUnfertilized</eggUnfertilizedDef>
-			<eggFertilizedDef>BearChickenEggFertilized</eggFertilizedDef>
+			<eggUnfertilizedDef>GR_BearChickenEggUnfertilized</eggUnfertilizedDef>
+			<eggFertilizedDef>GR_BearChickenEggFertilized</eggFertilizedDef>
 			<eggFertilizationCountMax>1</eggFertilizationCountMax>
 			<eggLayIntervalDays>2.3</eggLayIntervalDays>
 			<eggCountRange>
@@ -265,7 +265,7 @@
 			</eggCountRange>
 		</li>
 		<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
-			<resourceDef>Owlbearfeathers</resourceDef>
+			<resourceDef>GR_Owlbearfeathers</resourceDef>
 			<gatheringIntervalDays>1</gatheringIntervalDays>
 			<resourceAmount>17</resourceAmount>
         </li>
@@ -274,7 +274,7 @@
     <race>
 	  <herdAnimal>false</herdAnimal>
       <predator>false</predator>
-	  <body>QuadrupedAnimalWithBeak</body>
+	  <body>GR_QuadrupedAnimalWithBeak</body>
 	  <baseHungerRate>0.35</baseHungerRate>
 	  <wildness>0.70</wildness>
       <baseBodySize>0.5</baseBodySize>
@@ -320,9 +320,9 @@
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
-    <defName>BearchickenKind</defName>
-    <label>Bearchicken</label>
-    <race>Bearchicken</race>
+    <defName>GR_BearchickenKind</defName>
+    <label>bearchicken</label>
+    <race>GR_Bearchicken</race>
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -375,7 +375,7 @@
   </PawnKindDef>
   <!-- Bear - Muffalo -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
-    <defName>Bearffalo</defName>
+    <defName>GR_Bearffalo</defName>
     <label>bearffalo</label>
     <description>A bear / muffalo hybrid. This hulking, wooly bear is a very temperamental pack animal, valued for its hardiness.\n\nUseful abilities: Produces specific high-quality milk and wool. Acts as a pack beast.</description>
     <statBases>
@@ -449,12 +449,12 @@
 
 	<comps>
       <li Class="CompProperties_Milkable">
-        <milkDef>BearffaloMilk</milkDef>
+        <milkDef>GR_BearffaloMilk</milkDef>
         <milkIntervalDays>2</milkIntervalDays>
         <milkAmount>6</milkAmount>
       </li>
       <li Class="CompProperties_Shearable">
-        <woolDef>BearffaloWool</woolDef>
+        <woolDef>GR_BearffaloWool</woolDef>
         <shearIntervalDays>15</shearIntervalDays>
         <woolAmount>100</woolAmount>
       </li>
@@ -505,9 +505,9 @@
   </ThingDef>
   <PawnKindDef ParentName="BearBase">
   
-    <defName>Bearffalo</defName>
+    <defName>GR_Bearffalo</defName>
     <label>bearffalo</label>
-    <race>Bearffalo</race>
+    <race>GR_Bearffalo</race>
     <combatPower>110</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -558,7 +558,7 @@
   </PawnKindDef>
   <!-- Bear - Wolf -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Bearwolf</defName>
+    <defName>GR_Bearwolf</defName>
     <label>bearwolf</label>
     <description>A bear / wolf hybrid. Strong like a bear, and fast like a wolf. Excellent as a rapid strike force, but their fast metabolism means they need a lot of food.\n\nUseful abilities: Good guard animal. Butchering gives Bearwolf Fangs, which can be sold.</description>
     <statBases>
@@ -674,9 +674,9 @@
   </ThingDef>
   <PawnKindDef ParentName="BearBase">
   
-    <defName>Bearwolf</defName>
+    <defName>GR_Bearwolf</defName>
     <label>bearwolf</label>
-    <race>Bearwolf</race>
+    <race>GR_Bearwolf</race>
     <combatPower>90</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -724,7 +724,7 @@
         </dessicatedBodyGraphicData>
 		<butcherBodyPart>
           <bodyPartGroup>Teeth</bodyPartGroup>
-          <thing>BearwolfFangs</thing>
+          <thing>GR_BearwolfFangs</thing>
           <allowFemale>true</allowFemale>
         </butcherBodyPart>
       </li>

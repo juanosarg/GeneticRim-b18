@@ -2,9 +2,9 @@
 <Defs>
 
   <ResearchProjectDef>
-    <defName>GeneticEngineering</defName>
+    <defName>GR_GeneticEngineering</defName>
     <label>genetic engineering</label>
-    <tab>GeneticReseach</tab>
+    <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
     <description>Research the basics of genetic engineering.</description>
     <baseCost>1200</baseCost>
@@ -17,14 +17,14 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>InsectoidGenome</defName>
+    <defName>GR_InsectoidGenome</defName>
     <label>insectoid genome</label>
-    <tab>GeneticReseach</tab>
+    <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
     <description>Research ways to extract genetic material from alien insectoid species.</description>
     <baseCost>1500</baseCost>
     <prerequisites>
-      <li>GeneticEngineering</li>
+      <li>GR_GeneticEngineering</li>
     </prerequisites>
     
 		<researchViewX>1</researchViewX>
@@ -32,14 +32,14 @@
   </ResearchProjectDef>
   
   <ResearchProjectDef>
-    <defName>ReptilianGenome</defName>
+    <defName>GR_ReptilianGenome</defName>
     <label>reptilian genome</label>
-    <tab>GeneticReseach</tab>
+    <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
     <description>Research ways to extract genetic material from reptiles.</description>
     <baseCost>1500</baseCost>
     <prerequisites>
-      <li>GeneticEngineering</li>
+      <li>GR_GeneticEngineering</li>
     </prerequisites>
     
 		<researchViewX>2</researchViewX>
@@ -47,14 +47,14 @@
   </ResearchProjectDef>
   
   <ResearchProjectDef>
-    <defName>HumanoidGeneticEngineering</defName>
+    <defName>GR_HumanoidGeneticEngineering</defName>
     <label>humanoid genetic engineering</label>
-    <tab>GeneticReseach</tab>
+    <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
     <description>Allows humanoid gene extraction, and allows mixing of human and animal DNA to create animal implants.</description>
     <baseCost>1250</baseCost>
     <prerequisites>
-        <li>GeneticEngineering</li>
+        <li>GR_GeneticEngineering</li>
     </prerequisites>
    
     <researchViewX>0</researchViewX>
@@ -62,14 +62,14 @@
   </ResearchProjectDef>
   
    <ResearchProjectDef>
-    <defName>AdvancedGeneticEngineering</defName>
+    <defName>GR_AdvancedGeneticEngineering</defName>
     <label>advanced genetic engineering</label>
-    <tab>GeneticReseach</tab>
+    <tab>GR_GeneticReseach</tab>
     <techLevel>Spacer</techLevel>
     <description>Unlocks the Advanced Gene Pod, and allows mixing of advanced creature genes.</description>
     <baseCost>2500</baseCost>
     <prerequisites>
-        <li>GeneticEngineering</li>
+        <li>GR_GeneticEngineering</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
@@ -80,9 +80,9 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>AnimalEnrichment</defName>
+    <defName>GR_AnimalEnrichment</defName>
     <label>animal enrichment</label>
-    <tab>GeneticReseach</tab>
+    <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
     <description>Research ways to improve existing animals and create better adapted versions of them.</description>
     <baseCost>1500</baseCost>
@@ -95,9 +95,9 @@
   </ResearchProjectDef>
   
   <ResearchProjectDef>
-    <defName>AgeDrugs</defName>
+    <defName>GR_AgeDrugs</defName>
     <label>age drugs</label>
-    <tab>GeneticReseach</tab>
+    <tab>GR_GeneticReseach</tab>
     <techLevel>Industrial</techLevel>
     <description>Research ways to accelerate the growth of your animals.</description>
     <baseCost>500</baseCost>

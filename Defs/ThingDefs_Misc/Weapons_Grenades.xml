@@ -6,7 +6,7 @@
 
 
 	<ThingDef ParentName="BaseWeapon">
-		<defName>Weapon_ThrownSac</defName>
+		<defName>GR_Weapon_ThrownSac</defName>
 		<label>explosive sac</label>
 		<description>This organic sac is filled with an unstable chemical that will explode on contact.</description>
 		<graphicData>
@@ -41,7 +41,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<defaultProjectile>Proj_ThrownSac</defaultProjectile>
+				<defaultProjectile>GR_Proj_ThrownSac</defaultProjectile>
 			</li>
 		</verbs>
 		

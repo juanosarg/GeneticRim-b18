@@ -6,7 +6,7 @@
   <!--=================== Fluids etc =================-->
 
   <ThingDef ParentName="BaseFilth">
-    <defName>FilthMucus</defName>
+    <defName>GR_FilthMucus</defName>
     <label>mucus</label>
     <statBases>
       <Beauty>-30</Beauty>

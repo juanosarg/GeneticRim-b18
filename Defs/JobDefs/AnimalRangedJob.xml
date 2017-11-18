@@ -4,7 +4,7 @@
   <!--========= General ============-->
 
   <JobDef>
-		<defName>AnimalRangedAttack</defName>
+		<defName>GR_AnimalRangedAttack</defName>
 		<driverClass>AnimalRangedVerbsUnlocker.JobDriver_AnimalRangedAttack</driverClass>
 		<reportString>Attacking.</reportString>
 	</JobDef>

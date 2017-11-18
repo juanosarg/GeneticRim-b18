@@ -4,7 +4,7 @@
 
 
   <ThingDef ParentName="BaseGas">
-    <defName>Gas_Ice</defName>
+    <defName>GR_Gas_Ice</defName>
     <label>ice crystals</label>
     <graphicData>
       <texPath>Things/Gas/IceCrystals</texPath>
@@ -23,7 +23,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseGas">
-    <defName>Poison_Gas</defName>
+    <defName>GR_Poison_Gas</defName>
     <label>poison gas</label>
     <graphicData>
       <texPath>Things/Gas/Puff</texPath>

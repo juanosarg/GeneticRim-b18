@@ -3,8 +3,8 @@
 
 
 
-  <ThingDef ParentName="AmpouleBase">
-    <defName>VirulentPoison</defName>
+  <ThingDef ParentName="GR_AmpouleBase">
+    <defName>GR_VirulentPoison</defName>
     <label>virulent poison</label>
     <description>This tiny vial is filled with a small amount of Thrumbolizard venom. When ingested, the whole system of the victim shuts down, akin to an anaphylactic reaction. There is no antidote, and no way to survive the poison.</description>
     <graphicData>
@@ -21,7 +21,7 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>VirulentPoisonDrank</hediffDef>
+          <hediffDef>GR_VirulentPoisonDrank</hediffDef>
           <severity>1.00</severity>
           
         </li>
@@ -39,7 +39,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>VirulentPoisonDrank</defName>
+    <defName>GR_VirulentPoisonDrank</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>virulent poison</label>
     <defaultLabelColor>(1,1,0.5)</defaultLabelColor>

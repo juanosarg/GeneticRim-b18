@@ -4,7 +4,7 @@
 <!-- Tier 1 Incubators -->
 
 	<RecipeDef>
-		<defName>CreateBearBoomalopeIncubator</defName>
+		<defName>GR_CreateBearBoomalopeIncubator</defName>
 		<label>bear / boomalope incubator</label>
 		<description>Fill an incubator with genes from a bear and a boomalope</description>
 		<jobString>Filling Incubator</jobString>
@@ -12,15 +12,15 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>	
-			<li>AdvancedGenePod</li>	  
+			<li>GR_GenePod</li>	
+			<li>GR_AdvancedGenePod</li>	  
 
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -28,7 +28,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BearGenetic</li>
+						<li>GR_BearGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -36,7 +36,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BoomalopeGenetic</li>
+						<li>GR_BoomalopeGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -45,13 +45,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BearGenetic</li>
-				<li>BoomalopeGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BearGenetic</li>
+				<li>GR_BoomalopeGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BearBoomalopePre>1</BearBoomalopePre>
+			<GR_BearBoomalopePre>1</GR_BearBoomalopePre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -59,7 +59,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateBearChickenIncubator</defName>
+		<defName>GR_CreateBearChickenIncubator</defName>
 		<label>bear / chicken incubator</label>
 		<description>Fill an incubator with genes from a bear and a chicken</description>
 		<jobString>Filling Incubator</jobString>
@@ -67,14 +67,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>	
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>	
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -82,7 +82,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BearGenetic</li>
+						<li>GR_BearGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -90,7 +90,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ChickenGenetic</li>
+						<li>GR_ChickenGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -99,13 +99,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BearGenetic</li>
-				<li>ChickenGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BearGenetic</li>
+				<li>GR_ChickenGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BearChickenPre>1</BearChickenPre>
+			<GR_BearChickenPre>1</GR_BearChickenPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -113,7 +113,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateBearMuffaloIncubator</defName>
+		<defName>GR_CreateBearMuffaloIncubator</defName>
 		<label>bear / muffalo incubator</label>
 		<description>Fill an incubator with genes from a bear and a muffalo</description>
 		<jobString>Filling Incubator</jobString>
@@ -121,14 +121,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>	
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>	
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -136,7 +136,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BearGenetic</li>
+						<li>GR_BearGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -144,7 +144,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MuffaloGenetic</li>
+						<li>GR_MuffaloGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -153,13 +153,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BearGenetic</li>
-				<li>MuffaloGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BearGenetic</li>
+				<li>GR_MuffaloGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BearMuffaloPre>1</BearMuffaloPre>
+			<GR_BearMuffaloPre>1</GR_BearMuffaloPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -167,7 +167,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateBearWolfIncubator</defName>
+		<defName>GR_CreateBearWolfIncubator</defName>
 		<label>bear / wolf incubator</label>
 		<description>Fill an incubator with genes from a bear and a wolf</description>
 		<jobString>Filling Incubator</jobString>
@@ -175,14 +175,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -190,7 +190,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BearGenetic</li>
+						<li>GR_BearGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -198,7 +198,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WolfGenetic</li>
+						<li>GR_WolfGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -207,13 +207,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BearGenetic</li>
-				<li>WolfGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BearGenetic</li>
+				<li>GR_WolfGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BearWolfPre>1</BearWolfPre>
+			<GR_BearWolfPre>1</GR_BearWolfPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -221,7 +221,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateBoomalopeChickenIncubator</defName>
+		<defName>GR_CreateBoomalopeChickenIncubator</defName>
 		<label>boomalope / chicken incubator</label>
 		<description>Fill an incubator with genes from a boomalope and a chicken</description>
 		<jobString>Filling Incubator</jobString>
@@ -229,14 +229,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>	
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>	
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -244,7 +244,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ChickenGenetic</li>
+						<li>GR_ChickenGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -252,7 +252,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BoomalopeGenetic</li>
+						<li>GR_BoomalopeGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -261,13 +261,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BoomalopeGenetic</li>
-				<li>ChickenGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BoomalopeGenetic</li>
+				<li>GR_ChickenGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BoomalopeChickenPre>1</BoomalopeChickenPre>
+			<GR_BoomalopeChickenPre>1</GR_BoomalopeChickenPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -275,7 +275,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateBoomalopeMuffaloIncubator</defName>
+		<defName>GR_CreateBoomalopeMuffaloIncubator</defName>
 		<label>boomalope / muffalo incubator</label>
 		<description>Fill an incubator with genes from a boomalope and a muffalo</description>
 		<jobString>Filling Incubator</jobString>
@@ -283,14 +283,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>	
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>	
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -298,7 +298,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MuffaloGenetic</li>
+						<li>GR_MuffaloGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -306,7 +306,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BoomalopeGenetic</li>
+						<li>GR_BoomalopeGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -315,13 +315,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BoomalopeGenetic</li>
-				<li>MuffaloGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BoomalopeGenetic</li>
+				<li>GR_MuffaloGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BoomalopeMuffaloPre>1</BoomalopeMuffaloPre>
+			<GR_BoomalopeMuffaloPre>1</GR_BoomalopeMuffaloPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -329,7 +329,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateBoomalopeWolfIncubator</defName>
+		<defName>GR_CreateBoomalopeWolfIncubator</defName>
 		<label>boomalope / wolf incubator</label>
 		<description>Fill an incubator with genes from a boomalope and a wolf</description>
 		<jobString>Filling Incubator</jobString>
@@ -337,14 +337,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>	
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>	
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -352,7 +352,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WolfGenetic</li>
+						<li>GR_WolfGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -360,7 +360,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BoomalopeGenetic</li>
+						<li>GR_BoomalopeGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -369,13 +369,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BoomalopeGenetic</li>
-				<li>WolfGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BoomalopeGenetic</li>
+				<li>GR_WolfGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BoomalopeWolfPre>1</BoomalopeWolfPre>
+			<GR_BoomalopeWolfPre>1</GR_BoomalopeWolfPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -383,7 +383,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateChickenMuffaloIncubator</defName>
+		<defName>GR_CreateChickenMuffaloIncubator</defName>
 		<label>chicken / muffalo incubator</label>
 		<description>Fill an incubator with genes from a chicken and a muffalo</description>
 		<jobString>Filling Incubator</jobString>
@@ -391,14 +391,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -406,7 +406,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ChickenGenetic</li>
+						<li>GR_ChickenGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -414,7 +414,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MuffaloGenetic</li>
+						<li>GR_MuffaloGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -423,13 +423,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ChickenGenetic</li>
-				<li>MuffaloGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ChickenGenetic</li>
+				<li>GR_MuffaloGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ChickenMuffaloPre>1</ChickenMuffaloPre>
+			<GR_ChickenMuffaloPre>1</GR_ChickenMuffaloPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -437,7 +437,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateChickenWolfIncubator</defName>
+		<defName>GR_CreateChickenWolfIncubator</defName>
 		<label>chicken / wolf incubator</label>
 		<description>Fill an incubator with genes from a chicken and a wolf</description>
 		<jobString>Filling Incubator</jobString>
@@ -445,14 +445,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>	
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>	
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -460,7 +460,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ChickenGenetic</li>
+						<li>GR_ChickenGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -468,7 +468,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WolfGenetic</li>
+						<li>GR_WolfGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -477,13 +477,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ChickenGenetic</li>
-				<li>WolfGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ChickenGenetic</li>
+				<li>GR_WolfGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ChickenWolfPre>1</ChickenWolfPre>
+			<GR_ChickenWolfPre>1</GR_ChickenWolfPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -491,7 +491,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateMuffaloWolfIncubator</defName>
+		<defName>GR_CreateMuffaloWolfIncubator</defName>
 		<label>muffalo / wolf incubator</label>
 		<description>Fill an incubator with genes from a muffalo and a wolf</description>
 		<jobString>Filling Incubator</jobString>
@@ -499,14 +499,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -514,7 +514,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MuffaloGenetic</li>
+						<li>GR_MuffaloGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -522,7 +522,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WolfGenetic</li>
+						<li>GR_WolfGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -531,13 +531,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>MuffaloGenetic</li>
-				<li>WolfGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_MuffaloGenetic</li>
+				<li>GR_WolfGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<MuffaloWolfPre>1</MuffaloWolfPre>
+			<GR_MuffaloWolfPre>1</GR_MuffaloWolfPre>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -547,7 +547,7 @@
 <!-- Insectoid Tier Incubators -->
 	
 	<RecipeDef>
-		<defName>CreateBearscarabIncubator</defName>
+		<defName>GR_CreateBearscarabIncubator</defName>
 		<label>insectoid / bear incubator</label>
 		<description>Fill an incubator with genes from an insectoid and a bear</description>
 		<jobString>Filling Incubator</jobString>
@@ -555,14 +555,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -570,7 +570,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BearGenetic</li>
+						<li>GR_BearGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -578,7 +578,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>InsectoidGenetic</li>
+						<li>GR_InsectoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -587,21 +587,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BearGenetic</li>
-				<li>InsectoidGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BearGenetic</li>
+				<li>GR_InsectoidGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BearscarabIncubator>1</BearscarabIncubator>
+			<GR_BearscarabIncubator>1</GR_BearscarabIncubator>
 		</products>
-		<researchPrerequisite>InsectoidGenome</researchPrerequisite>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateBoomBeetleIncubator</defName>
+		<defName>GR_CreateBoomBeetleIncubator</defName>
 		<label>insectoid / boomalope incubator</label>
 		<description>Fill an incubator with genes from an insectoid and a boomalope</description>
 		<jobString>Filling Incubator</jobString>
@@ -609,15 +609,15 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-						<li>GenePod</li>
+						<li>GR_GenePod</li>
 
-			<li>AdvancedGenePod</li>				
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -625,7 +625,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BoomalopeGenetic</li>
+						<li>GR_BoomalopeGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -633,7 +633,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>InsectoidGenetic</li>
+						<li>GR_InsectoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -642,15 +642,15 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BoomalopeGenetic</li>
-				<li>InsectoidGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BoomalopeGenetic</li>
+				<li>GR_InsectoidGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BoombeetleIncubator>1</BoombeetleIncubator>
+			<GR_BoombeetleIncubator>1</GR_BoombeetleIncubator>
 		</products>
-		<researchPrerequisite>InsectoidGenome</researchPrerequisite>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
@@ -664,15 +664,15 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-						<li>GenePod</li>
+						<li>GR_GenePod</li>
 
-			<li>AdvancedGenePod</li>				
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -680,7 +680,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>InsectoidGenetic</li>
+						<li>GR_InsectoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -688,7 +688,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ChickenGenetic</li>
+						<li>GR_ChickenGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -697,21 +697,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>InsectoidGenetic</li>
-				<li>ChickenGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_InsectoidGenetic</li>
+				<li>GR_ChickenGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ChickenspiderIncubator>1</ChickenspiderIncubator>
+			<GR_ChickenspiderIncubator>1</GR_ChickenspiderIncubator>
 		</products>
-		<researchPrerequisite>InsectoidGenome</researchPrerequisite>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateMuffalopedeIncubator</defName>
+		<defName>GR_CreateMuffalopedeIncubator</defName>
 		<label>insectoid / muffalo incubator</label>
 		<description>Fill an incubator with genes from an insectoid and a muffalo</description>
 		<jobString>Filling Incubator</jobString>
@@ -719,15 +719,15 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-									<li>GenePod</li>
+									<li>GR_GenePod</li>
 
-			<li>AdvancedGenePod</li>				
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -735,7 +735,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>InsectoidGenetic</li>
+						<li>GR_InsectoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -743,7 +743,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MuffaloGenetic</li>
+						<li>GR_MuffaloGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -752,21 +752,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>InsectoidGenetic</li>
-				<li>MuffaloGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_InsectoidGenetic</li>
+				<li>GR_MuffaloGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<MuffalopedeIncubator>1</MuffalopedeIncubator>
+			<GR_MuffalopedeIncubator>1</GR_MuffalopedeIncubator>
 		</products>
-		<researchPrerequisite>InsectoidGenome</researchPrerequisite>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateWolfscarabIncubator</defName>
+		<defName>GR_CreateWolfscarabIncubator</defName>
 		<label>insectoid / wolf incubator</label>
 		<description>Fill an incubator with genes from an insectoid and a wolf</description>
 		<jobString>Filling Incubator</jobString>
@@ -774,15 +774,15 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-												<li>GenePod</li>
+												<li>GR_GenePod</li>
 
-			<li>AdvancedGenePod</li>				
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -790,7 +790,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>InsectoidGenetic</li>
+						<li>GR_InsectoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -798,7 +798,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WolfGenetic</li>
+						<li>GR_WolfGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -807,21 +807,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>InsectoidGenetic</li>
-				<li>WolfGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_InsectoidGenetic</li>
+				<li>GR_WolfGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<WolfscarabIncubator>1</WolfscarabIncubator>
+			<GR_WolfscarabIncubator>1</GR_WolfscarabIncubator>
 		</products>
-		<researchPrerequisite>InsectoidGenome</researchPrerequisite>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateThrumbospiderIncubator</defName>
+		<defName>GR_CreateThrumbospiderIncubator</defName>
 		<label>insectoid / thrumbo incubator</label>
 		<description>Fill an incubator with genes from an insectoid and a thrumbo</description>
 		<jobString>Filling Incubator</jobString>
@@ -830,13 +830,13 @@
 		<workAmount>500</workAmount>
 		<recipeUsers>
 
-			<li>AdvancedGenePod</li>				
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -844,7 +844,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>InsectoidGenetic</li>
+						<li>GR_InsectoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -852,7 +852,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ThrumboGenetic</li>
+						<li>GR_ThrumboGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -861,15 +861,15 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>InsectoidGenetic</li>
-				<li>ThrumboGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_InsectoidGenetic</li>
+				<li>GR_ThrumboGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ThrumbospiderIncubator>1</ThrumbospiderIncubator>
+			<GR_ThrumbospiderIncubator>1</GR_ThrumbospiderIncubator>
 		</products>
-				<researchPrerequisite>AdvancedGeneticEngineering</researchPrerequisite>
+				<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
@@ -879,7 +879,7 @@
 <!-- Reptilian Tier Incubators -->
 	
 	<RecipeDef>
-		<defName>CreateBearodileIncubator</defName>
+		<defName>GR_CreateBearodileIncubator</defName>
 		<label>reptile / bear incubator</label>
 		<description>Fill an incubator with genes from a reptile and a bear</description>
 		<jobString>Filling Incubator</jobString>
@@ -887,14 +887,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -902,7 +902,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BearGenetic</li>
+						<li>GR_BearGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -910,7 +910,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ReptilianGenetic</li>
+						<li>GR_ReptilianGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -919,21 +919,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BearGenetic</li>
-				<li>ReptilianGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BearGenetic</li>
+				<li>GR_ReptilianGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BearodileIncubator>1</BearodileIncubator>
+			<GR_BearodileIncubator>1</GR_BearodileIncubator>
 		</products>
-		<researchPrerequisite>ReptilianGenome</researchPrerequisite>
+		<researchPrerequisite>GR_ReptilianGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateBoomsnakeIncubator</defName>
+		<defName>GR_CreateBoomsnakeIncubator</defName>
 		<label>reptile / boomalope incubator</label>
 		<description>Fill an incubator with genes from a reptile and a boomalope</description>
 		<jobString>Filling Incubator</jobString>
@@ -941,14 +941,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -956,7 +956,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BoomalopeGenetic</li>
+						<li>GR_BoomalopeGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -964,7 +964,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ReptilianGenetic</li>
+						<li>GR_ReptilianGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -973,21 +973,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BoomalopeGenetic</li>
-				<li>ReptilianGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BoomalopeGenetic</li>
+				<li>GR_ReptilianGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BoomsnakeIncubator>1</BoomsnakeIncubator>
+			<GR_BoomsnakeIncubator>1</GR_BoomsnakeIncubator>
 		</products>
-		<researchPrerequisite>ReptilianGenome</researchPrerequisite>
+		<researchPrerequisite>GR_ReptilianGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateChickenlizardIncubator</defName>
+		<defName>GR_CreateChickenlizardIncubator</defName>
 		<label>reptile / chicken incubator</label>
 		<description>Fill an incubator with genes from a reptile and a chicken</description>
 		<jobString>Filling Incubator</jobString>
@@ -995,14 +995,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1010,7 +1010,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ChickenGenetic</li>
+						<li>GR_ChickenGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1018,7 +1018,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ReptilianGenetic</li>
+						<li>GR_ReptilianGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1027,21 +1027,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ChickenGenetic</li>
-				<li>ReptilianGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ChickenGenetic</li>
+				<li>GR_ReptilianGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ChickenlizardIncubator>1</ChickenlizardIncubator>
+			<GR_ChickenlizardIncubator>1</GR_ChickenlizardIncubator>
 		</products>
-		<researchPrerequisite>ReptilianGenome</researchPrerequisite>
+		<researchPrerequisite>GR_ReptilianGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateMuffalokomodoIncubator</defName>
+		<defName>GR_CreateMuffalokomodoIncubator</defName>
 		<label>reptile / muffalo incubator</label>
 		<description>Fill an incubator with genes from a reptile and a muffalo</description>
 		<jobString>Filling Incubator</jobString>
@@ -1049,14 +1049,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1064,7 +1064,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MuffaloGenetic</li>
+						<li>GR_MuffaloGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1072,7 +1072,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ReptilianGenetic</li>
+						<li>GR_ReptilianGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1081,21 +1081,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>MuffaloGenetic</li>
-				<li>ReptilianGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_MuffaloGenetic</li>
+				<li>GR_ReptilianGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<MuffalokomodoIncubator>1</MuffalokomodoIncubator>
+			<GR_MuffalokomodoIncubator>1</GR_MuffalokomodoIncubator>
 		</products>
-		<researchPrerequisite>ReptilianGenome</researchPrerequisite>
+		<researchPrerequisite>GR_ReptilianGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateSpidersnakeIncubator</defName>
+		<defName>GR_CreateSpidersnakeIncubator</defName>
 		<label>reptile / insectoid incubator</label>
 		<description>Fill an incubator with genes from a reptile and an insectoid</description>
 		<jobString>Filling Incubator</jobString>
@@ -1103,14 +1103,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1118,7 +1118,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>InsectoidGenetic</li>
+						<li>GR_InsectoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1126,7 +1126,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ReptilianGenetic</li>
+						<li>GR_ReptilianGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1135,21 +1135,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>InsectoidGenetic</li>
-				<li>ReptilianGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_InsectoidGenetic</li>
+				<li>GR_ReptilianGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SpidersnakeIncubator>1</SpidersnakeIncubator>
+			<GR_SpidersnakeIncubator>1</GR_SpidersnakeIncubator>
 		</products>
-		<researchPrerequisite>ReptilianGenome</researchPrerequisite>
+		<researchPrerequisite>GR_ReptilianGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateThrumbolizardIncubator</defName>
+		<defName>GR_CreateThrumbolizardIncubator</defName>
 		<label>reptile / thrumbo incubator</label>
 		<description>Fill an incubator with genes from a reptile and a thrumbo</description>
 		<jobString>Filling Incubator</jobString>
@@ -1157,13 +1157,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AdvancedGenePod</li>				
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1171,7 +1171,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ThrumboGenetic</li>
+						<li>GR_ThrumboGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1179,7 +1179,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ReptilianGenetic</li>
+						<li>GR_ReptilianGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1188,21 +1188,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ThrumboGenetic</li>
-				<li>ReptilianGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ThrumboGenetic</li>
+				<li>GR_ReptilianGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ThrumbolizardIncubator>1</ThrumbolizardIncubator>
+			<GR_ThrumbolizardIncubator>1</GR_ThrumbolizardIncubator>
 		</products>
-		<researchPrerequisite>AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateWolfsnakeIncubator</defName>
+		<defName>GR_CreateWolfsnakeIncubator</defName>
 		<label>reptile / wolf incubator</label>
 		<description>Fill an incubator with genes from a reptile and a wolf</description>
 		<jobString>Filling Incubator</jobString>
@@ -1210,14 +1210,14 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>GenePod</li>
-			<li>AdvancedGenePod</li>				
+			<li>GR_GenePod</li>
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1225,7 +1225,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WolfGenetic</li>
+						<li>GR_WolfGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1233,7 +1233,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ReptilianGenetic</li>
+						<li>GR_ReptilianGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1242,15 +1242,15 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>WolfGenetic</li>
-				<li>ReptilianGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_WolfGenetic</li>
+				<li>GR_ReptilianGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<WolfsnakeIncubator>1</WolfsnakeIncubator>
+			<GR_WolfsnakeIncubator>1</GR_WolfsnakeIncubator>
 		</products>
-		<researchPrerequisite>ReptilianGenome</researchPrerequisite>
+		<researchPrerequisite>GR_ReptilianGenome</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>7</Intellectual>
 		</skillRequirements>
@@ -1259,7 +1259,7 @@
 <!-- Thrumbo Tier Incubators -->
 	
 	<RecipeDef>
-		<defName>CreateThrumboWolfIncubator</defName>
+		<defName>GR_CreateThrumboWolfIncubator</defName>
 		<label>thrumbo / wolf incubator</label>
 		<description>Fill an incubator with genes from a thrumbo and a wolf</description>
 		<jobString>Filling Incubator</jobString>
@@ -1268,13 +1268,13 @@
 		<workAmount>500</workAmount>
 		<recipeUsers>
 			
-			<li>AdvancedGenePod</li>				
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1282,7 +1282,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ThrumboGenetic</li>
+						<li>GR_ThrumboGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1290,7 +1290,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WolfGenetic</li>
+						<li>GR_WolfGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1299,21 +1299,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ThrumboGenetic</li>
-				<li>WolfGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ThrumboGenetic</li>
+				<li>GR_WolfGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ThrumwolfIncubator>1</ThrumwolfIncubator>
+			<GR_ThrumwolfIncubator>1</GR_ThrumwolfIncubator>
 		</products>
-		<researchPrerequisite>AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateThrumboBearIncubator</defName>
+		<defName>GR_CreateThrumboBearIncubator</defName>
 		<label>thrumbo / bear incubator</label>
 		<description>Fill an incubator with genes from a thrumbo and a bear</description>
 		<jobString>Filling Incubator</jobString>
@@ -1322,13 +1322,13 @@
 		<workAmount>500</workAmount>
 		<recipeUsers>
 			
-			<li>AdvancedGenePod</li>				
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1336,7 +1336,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ThrumboGenetic</li>
+						<li>GR_ThrumboGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1344,7 +1344,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BearGenetic</li>
+						<li>GR_BearGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1353,21 +1353,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ThrumboGenetic</li>
-				<li>BearGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ThrumboGenetic</li>
+				<li>GR_BearGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ThrumbearIncubator>1</ThrumbearIncubator>
+			<GR_ThrumbearIncubator>1</GR_ThrumbearIncubator>
 		</products>
-		<researchPrerequisite>AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateThrumbochickenIncubator</defName>
+		<defName>GR_CreateThrumbochickenIncubator</defName>
 		<label>thrumbo / chicken incubator</label>
 		<description>Fill an incubator with genes from a thrumbo and a chicken</description>
 		<jobString>Filling Incubator</jobString>
@@ -1376,13 +1376,13 @@
 		<workAmount>500</workAmount>
 		<recipeUsers>
 			
-			<li>AdvancedGenePod</li>				
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1390,7 +1390,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ThrumboGenetic</li>
+						<li>GR_ThrumboGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1398,7 +1398,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ChickenGenetic</li>
+						<li>GR_ChickenGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1407,21 +1407,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ThrumboGenetic</li>
-				<li>ChickenGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ThrumboGenetic</li>
+				<li>GR_ChickenGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ThrumbochickenIncubator>1</ThrumbochickenIncubator>
+			<GR_ThrumbochickenIncubator>1</GR_ThrumbochickenIncubator>
 		</products>
-		<researchPrerequisite>AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateThrumbalopeIncubator</defName>
+		<defName>GR_CreateThrumbalopeIncubator</defName>
 		<label>thrumbo / boomalope incubator</label>
 		<description>Fill an incubator with genes from a thrumbo and a boomalope</description>
 		<jobString>Filling Incubator</jobString>
@@ -1430,13 +1430,13 @@
 		<workAmount>500</workAmount>
 		<recipeUsers>
 			
-			<li>AdvancedGenePod</li>				
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1444,7 +1444,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ThrumboGenetic</li>
+						<li>GR_ThrumboGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1452,7 +1452,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BoomalopeGenetic</li>
+						<li>GR_BoomalopeGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1461,21 +1461,21 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ThrumboGenetic</li>
-				<li>BoomalopeGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ThrumboGenetic</li>
+				<li>GR_BoomalopeGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ThrumbalopeIncubator>1</ThrumbalopeIncubator>
+			<GR_ThrumbalopeIncubator>1</GR_ThrumbalopeIncubator>
 		</products>
-		<researchPrerequisite>AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>CreateThrumffaloIncubator</defName>
+		<defName>GR_CreateThrumffaloIncubator</defName>
 		<label>thrumbo / muffalo incubator</label>
 		<description>Fill an incubator with genes from a thrumbo and a muffalo</description>
 		<jobString>Filling Incubator</jobString>
@@ -1484,13 +1484,13 @@
 		<workAmount>500</workAmount>
 		<recipeUsers>
 			
-			<li>AdvancedGenePod</li>				
+			<li>GR_AdvancedGenePod</li>				
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1498,7 +1498,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ThrumboGenetic</li>
+						<li>GR_ThrumboGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1506,7 +1506,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MuffaloGenetic</li>
+						<li>GR_MuffaloGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1515,15 +1515,15 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ThrumboGenetic</li>
-				<li>MuffaloGenetic</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ThrumboGenetic</li>
+				<li>GR_MuffaloGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ThrumffaloIncubator>1</ThrumffaloIncubator>
+			<GR_ThrumffaloIncubator>1</GR_ThrumffaloIncubator>
 		</products>
-		<researchPrerequisite>AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
 		<skillRequirements>
 			<Intellectual>10</Intellectual>
 		</skillRequirements>

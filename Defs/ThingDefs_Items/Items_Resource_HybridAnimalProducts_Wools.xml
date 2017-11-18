@@ -4,7 +4,7 @@
 
 
 	<ThingDef ParentName="WoolBase">
-		<defName>BearffaloWool</defName>
+		<defName>GR_BearffaloWool</defName>
 		<label>bearffalo wool</label>
 		<description>Coarse, strong wool. Bearffalo wool provides excellent heat protection, and decent defense.</description>
 		<graphicData>
@@ -26,7 +26,7 @@
 	</ThingDef>
 	
     <ThingDef ParentName="WoolBase">
-		<defName>BearffaloWool</defName>
+		<defName>GR_BearffaloWool</defName>
 		<label>bearffalo wool</label>
 		<description>Coarse, strong wool. Bearffalo wool provides excellent heat protection, and decent defense.</description>
 		<graphicData>
@@ -48,7 +48,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="WoolBase">
-		<defName>BoomffaloWool</defName>
+		<defName>GR_BoomffaloWool</defName>
 		<label>boomffalo wool</label>
 		<description>Brittle, strange smelling wool. Not the best wool to craft apparel with, though it's better than nothing. Provides good electricity insulation.</description>
 		<graphicData>
@@ -70,7 +70,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="WoolBase">
-		<defName>MuffalopeWool</defName>
+		<defName>GR_MuffalopeWool</defName>
 		<label>muffalope wool</label>
 		<description>This wool seems to be constantly dripping unstable chemical compounds. Not the best wool to craft apparel with, though it's better than nothing. Provides good electricity insulation.</description>
 		<graphicData>
@@ -92,7 +92,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="WoolBase">
-		<defName>ChickenffaloWool</defName>
+		<defName>GR_ChickenffaloWool</defName>
 		<label>chickenffalo wool</label>
 		<description>The strands of this pure white wool are incredibly small and complex. Gives excellent defense against sharp attacks.</description>
 		<graphicData>
@@ -114,7 +114,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="WoolBase">
-		<defName>MuffalochickenWool</defName>
+		<defName>GR_MuffalochickenWool</defName>
 		<label>muffalochicken wool</label>
 		<description>This seems to be an amalgamation of feathers and wool, perfectly interweaved. Gives excellent defense against blunt attacks.</description>
 		<graphicData>
@@ -137,7 +137,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="WoolBase">
-		<defName>MuffalowolfWool</defName>
+		<defName>GR_MuffalowolfWool</defName>
 		<label>muffalowolf wool</label>
 		<description>This dark grey wool is stylish and very warm.</description>
 		<graphicData>
@@ -159,7 +159,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="WoolBase">
-		<defName>WolffaloWool</defName>
+		<defName>GR_WolffaloWool</defName>
 		<label>wolffalo wool</label>
 		<description>This dark grey wool is stylish and very warm.</description>
 		<graphicData>
@@ -181,7 +181,7 @@
 	</ThingDef>
 	
 	 <ThingDef ParentName="WoolBase">
-    <defName>ChickenspiderSilk</defName>
+    <defName>GR_ChickenspiderSilk</defName>
     <label>chickenspider silk</label>
     <description>Fabric spun from fibers extracted from chickenspiders. Resists blunt and sharp damage easily, but provides almost no protection against extreme heat.</description>
     <graphicData>
@@ -222,7 +222,7 @@
   </ThingDef>
   
   	 <ThingDef ParentName="WoolBase">
-    <defName>SpidersnakeSilk</defName>
+    <defName>GR_SpidersnakeSilk</defName>
     <label>spidersnake silk</label>
     <description>Fabric spun from fibers extracted from spidersnakes. A balanced fabric to make apparel from.</description>
     <graphicData>
@@ -261,7 +261,7 @@
   </ThingDef>
   
     <ThingDef ParentName="WoolBase">
-    <defName>MuffalopedeChitin</defName>
+    <defName>GR_MuffalopedeChitin</defName>
     <label>muffalopede chitin</label>
     <description>Insectoid chitin can be used as a material to craft apparel. It provides excellent protection against blunt attacks.</description>
     <graphicData>
@@ -283,7 +283,7 @@
   </ThingDef>
   
     <ThingDef ParentName="ResourceBase">
-    <defName>WolfsnakeSkin</defName>
+    <defName>GR_WolfsnakeSkin</defName>
     <label>wolfsnake skin</label>
     <description>Shed skin from a wolfsnake. Light, strong, and insulates well.</description>
     <graphicData>
@@ -324,7 +324,7 @@
   </ThingDef>
   
   <ThingDef ParentName="WoolBase">
-    <defName>ThrumbearWool</defName>
+    <defName>GR_ThrumbearWool</defName>
     <label>thrumbear wool</label>
     <description>Thrumbear wool is thick, strong and warm. Probably the best wool in the animal kingdom.</description>
     <graphicData>
@@ -348,7 +348,7 @@
   </ThingDef>
   
   <ThingDef ParentName="WoolBase">
-    <defName>ThrumffaloWool</defName>
+    <defName>GR_ThrumffaloWool</defName>
     <label>thrumffalo wool</label>
     <description>Thrumffalo wool is the best protection against extreme climates there is.</description>
     <graphicData>

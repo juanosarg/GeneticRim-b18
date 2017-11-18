@@ -4,7 +4,7 @@
 
   
   <DamageDef ParentName="Bite">
-    <defName>VeryToxicBite</defName>
+    <defName>GR_VeryToxicBite</defName>
     <label>virulent toxic bite</label>
     <additionalHediffs>
       <li>
@@ -15,7 +15,7 @@
   </DamageDef>
   
   <DamageDef ParentName="Bite">
-    <defName>LightToxicBite</defName>
+    <defName>GR_LightToxicBite</defName>
     <label>light toxic bite</label>
     <additionalHediffs>
       <li>
@@ -26,13 +26,13 @@
   </DamageDef>
   
   <DamageDef ParentName="LocalInjuryBase">
-    <defName>ToxicExplosion</defName>
+    <defName>GR_ToxicExplosion</defName>
     <label>toxic explosion</label>
 	<hediff>Shredded</hediff>
 
     <additionalHediffs>
       <li>
-        <hediff>ToxicDamage</hediff>
+        <hediff>GR_ToxicDamage</hediff>
                 <severityPerDamageDealt>0.035</severityPerDamageDealt>
 
       </li>
@@ -40,7 +40,7 @@
   </DamageDef>
   
   <DamageDef ParentName="Bite">
-    <defName>PlagueBite</defName>
+    <defName>GR_PlagueBite</defName>
     <label>plagued bite</label>
     <additionalHediffs>
       <li>

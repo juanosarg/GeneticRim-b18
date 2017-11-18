@@ -22,7 +22,7 @@ namespace NewHatcher
             this.mucusProgress += 1;
             if (this.mucusProgress > 60)
             {
-                FilthMaker.MakeFilth(this.parent.PositionHeld, this.parent.MapHeld, ThingDef.Named("FilthMucus"), 1);
+                FilthMaker.MakeFilth(this.parent.PositionHeld, this.parent.MapHeld, ThingDef.Named("GR_FilthMucus"), 1);
                 this.mucusProgress = 0;
             }
         }

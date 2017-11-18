@@ -4,7 +4,7 @@
 
 
 	<ThingDef ParentName="OrganicProductBase">
-		<defName>WeirdMilk</defName>
+		<defName>GR_WeirdMilk</defName>
 		<label>weird milk</label>
 		<description>This strange milk has a sour, chemical taste.</description>
 		<graphicData>
@@ -37,7 +37,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="OrganicProductBase">
-		<defName>MuffalopeMilk</defName>
+		<defName>GR_MuffalopeMilk</defName>
 		<label>muffalope milk</label>
 		<description>This yellow, thick milk is definitely not edible. It is highly unstable, so it might be used as an improvised explosive if you have the proper knowledge.</description>
 		<graphicData>
@@ -64,7 +64,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="OrganicProductBase">
-		<defName>BearffaloMilk</defName>
+		<defName>GR_BearffaloMilk</defName>
 		<label>bearfallo milk</label>
 		<description>Milk from a bearffalo. Quite high in fat content, and very nutritive.</description>
 		<graphicData>
@@ -97,7 +97,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="OrganicProductBase">
-		<defName>ThrumffaloMilk</defName>
+		<defName>GR_ThrumffaloMilk</defName>
 		<label>thrumffalo milk</label>
 		<description>Milk from a thrumffalo. Very nutritive. Also with a sky-high cholesterol content, but in the Rim nobody judges you.</description>
 		<graphicData>
@@ -129,7 +129,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="OrganicProductBase">
-		<defName>MuffalochickenMilk</defName>
+		<defName>GR_MuffalochickenMilk</defName>
 		<label>muffalochicken milk</label>
 		<description>This lumpy milk seems to have concentrated protein chunks, tasting like chicken nuggets. Disgusting, but colonists seem to like it.</description>
 		<graphicData>
@@ -163,7 +163,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="OrganicProductBase">
-		<defName>ChickenffaloMilk</defName>
+		<defName>GR_ChickenffaloMilk</defName>
 		<label>chickenffalo milk</label>
 		<description>Milk from a chickenffalo. Looks like watered down milk. Probably not much better than water.</description>
 		<graphicData>
@@ -195,7 +195,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
-    <defName>MuffalobearMilk</defName>
+    <defName>GR_MuffalobearMilk</defName>
     <label>muffalobear milk</label>
     <description>A delicious milk with roasted overtones. Very pleasurable to eat, but not very nutritious.</description>
     <graphicData>
@@ -227,7 +227,7 @@
   </ThingDef>
   
   	<ThingDef ParentName="ResourceBase">
-    <defName>WolffaloMilk</defName>
+    <defName>GR_WolffaloMilk</defName>
     <label>wolffalo milk</label>
     <description>This milk seems to be filled with strands of grey wool. Disgusting, and quite hard to drink...</description>
     <graphicData>

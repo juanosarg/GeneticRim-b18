@@ -4,20 +4,20 @@
 
 
   <ToolCapacityDef>
-    <defName>VeryToxicBite</defName>
+    <defName>GR_VeryToxicBite</defName>
     <label>virulent toxic bite</label>
   </ToolCapacityDef>
   <ToolCapacityDef>
-    <defName>LightToxicBite</defName>
+    <defName>GR_LightToxicBite</defName>
     <label>light toxic bite</label>
   </ToolCapacityDef>
 
   <ToolCapacityDef>
-    <defName>ToxicExplosion</defName>
+    <defName>GR_ToxicExplosion</defName>
     <label>toxic explosion</label>
   </ToolCapacityDef>
   <ToolCapacityDef>
-    <defName>PlagueBite</defName>
+    <defName>GR_PlagueBite</defName>
     <label>plagued bite</label>
   </ToolCapacityDef>
 

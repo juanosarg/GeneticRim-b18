@@ -2,7 +2,7 @@
 <Defs>
   <!-- Wolf - Bear -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Wolfbear</defName>
+    <defName>GR_Wolfbear</defName>
     <label>wolfbear</label>
     <description>A Wolf / Bear hybrid. Very similar to the standard timber wolf, but with better stamina.\n\nUseful abilities: Good guard animal. Butchering gives Wolfbear paws, which can be sold.</description>
     <statBases>
@@ -127,9 +127,9 @@
   
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Wolfbear</defName>
+    <defName>GR_Wolfbear</defName>
     <label>wolfbear</label>
-    <race>Wolfbear</race>
+    <race>GR_Wolfbear</race>
     <combatPower>75</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -175,7 +175,7 @@
         </dessicatedBodyGraphicData>
 		<butcherBodyPart>
           <bodyPartGroup>FrontRightPaw</bodyPartGroup>
-          <thing>WolfbearPaws</thing>
+          <thing>GR_WolfbearPaws</thing>
           <allowFemale>true</allowFemale>
         </butcherBodyPart>
       </li>
@@ -185,7 +185,7 @@
 
   <!-- Wolf - Boomalope -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Wolfalope</defName>
+    <defName>GR_Wolfalope</defName>
     <label>wolfalope</label>
     <description>A Wolf / Boomalope hybrid. A very dangerous predator that tends to explode when confronted with prey too large for them. Friction between the creature's pelt and the boomalope nodules constantly creates static electricity, which is suddenly liberated when the creature dies and the nodules explode.\n\nUseful abilities: Explodes on death in a dangerous electromagnetic pulse (EMP damage).</description>
     <statBases>
@@ -311,9 +311,9 @@
   
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Wolfalope</defName>
+    <defName>GR_Wolfalope</defName>
     <label>wolfalope</label>
-    <race>Wolfalope</race>
+    <race>GR_Wolfalope</race>
     <combatPower>75</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -363,7 +363,7 @@
 
   <!-- Wolf - Chicken -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Wolfchicken</defName>
+    <defName>GR_Wolfchicken</defName>
     <label>wolfchicken</label>
     <description>A Wolf / Chicken hybrid. You know the saying: when you let the wolves guard the hen house, there's bound to be a few chicken dinners. Well, not anymore.\n\nUseful abilities: Egg layer. Regularly produces feathers that can be sold for a profit.</description>
     <statBases>
@@ -436,20 +436,20 @@
 
 	<comps>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>WolfchickenEggUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>WolfchickenEggFertilized</eggFertilizedDef>
+        <eggUnfertilizedDef>GR_WolfchickenEggUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>GR_WolfchickenEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>5</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
 	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
-			<resourceDef>WolfchickenFeathers</resourceDef>
+			<resourceDef>GR_WolfchickenFeathers</resourceDef>
 			<gatheringIntervalDays>4</gatheringIntervalDays>
 			<resourceAmount>1</resourceAmount>
       </li>
     </comps>
     <race>
-      <body>QuadrupedAnimalWithBeak</body>
+      <body>GR_QuadrupedAnimalWithBeak</body>
 	  
       <predator>false</predator>
       
@@ -502,9 +502,9 @@
   
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Wolfchicken</defName>
+    <defName>GR_Wolfchicken</defName>
     <label>wolfchicken</label>
-    <race>Wolfchicken</race>
+    <race>GR_Wolfchicken</race>
     <combatPower>75</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -554,7 +554,7 @@
 
   <!-- Wolf - Muffalo -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Wolffalo</defName>
+    <defName>GR_Wolffalo</defName>
     <label>wolffalo</label>
     <description>A Wolf / Muffalo hybrid. Not incredibly good as a pack beast, but a very fast wool producer.\n\nActs as a pack beast. Produces small amounts of milk and wool at a quite fast rate.</description>
     <statBases>
@@ -611,12 +611,12 @@
   
 	<comps>
       <li Class="CompProperties_Milkable">
-        <milkDef>WolffaloMilk</milkDef>
+        <milkDef>GR_WolffaloMilk</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
         <milkAmount>5</milkAmount>
       </li>
       <li Class="CompProperties_Shearable">
-        <woolDef>WolffaloWool</woolDef>
+        <woolDef>GR_WolffaloWool</woolDef>
         <shearIntervalDays>3</shearIntervalDays>
         <woolAmount>20</woolAmount>
       </li>
@@ -678,9 +678,9 @@
   
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Wolffalo</defName>
+    <defName>GR_Wolffalo</defName>
     <label>wolffalo</label>
-    <race>Wolffalo</race>
+    <race>GR_Wolffalo</race>
     <combatPower>75</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>

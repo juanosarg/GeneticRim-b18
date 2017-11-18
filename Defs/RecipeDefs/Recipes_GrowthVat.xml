@@ -4,7 +4,7 @@
 	
 	
 	<RecipeDef>
-		<defName>CraftImplantPlasteelWireMesh</defName>
+		<defName>GR_CraftImplantPlasteelWireMesh</defName>
 		<label>craft hybrid implant plasteel wire mesh</label>
 		<description>Craft hybrid implant plasteel wire mesh.</description>
 		<jobString>Building Implant Mesh</jobString>
@@ -12,7 +12,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-				<li>TissueGrowingVat</li>	  
+				<li>GR_TissueGrowingVat</li>	  
 		</recipeUsers>	
 		<ingredients>
 			
@@ -51,12 +51,12 @@
 		</fixedIngredientFilter>
 		
 		<products>
-			<ImplantPlasteelWireMesh>1</ImplantPlasteelWireMesh>
+			<GR_ImplantPlasteelWireMesh>1</GR_ImplantPlasteelWireMesh>
 		</products>
 	</RecipeDef>
 		
 	<RecipeDef>
-		<defName>CraftBearClaws</defName>
+		<defName>GR_CraftBearClaws</defName>
 		<label>craft bear claws</label>
 		<description>Craft bear claws, a hybrid implant containing humanoid and bear DNA that adds a powerful melee attack.</description>
 		<jobString>Crafting Bear Claws</jobString>
@@ -64,14 +64,14 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-				<li>TissueGrowingVat</li>	  
+				<li>GR_TissueGrowingVat</li>	  
 		</recipeUsers>	
 		<ingredients>
 			
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ImplantPlasteelWireMesh</li>
+						<li>GR_ImplantPlasteelWireMesh</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -79,7 +79,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>HumanoidGenetic</li>
+						<li>GR_HumanoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -87,7 +87,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BearGenetic</li>
+						<li>GR_BearGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -96,19 +96,19 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ImplantPlasteelWireMesh</li>
-				<li>HumanoidGenetic</li>
-				<li>BearGenetic</li>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_BearGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		
 		<products>
-			<BearClaws>1</BearClaws>
+			<GR_BearClaws>1</GR_BearClaws>
 		</products>
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>CraftOvipositor</defName>
+		<defName>GR_CraftOvipositor</defName>
 		<label>craft ovipositor</label>
 		<description>Craft an ovipositor, a hybrid implant containing humanoid and chicken DNA that... are you sure this is a good idea? Really? Free range human eggs? Ugh...</description>
 		<jobString>Crafting Ovipositor</jobString>
@@ -116,14 +116,14 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-				<li>TissueGrowingVat</li>	  
+				<li>GR_TissueGrowingVat</li>	  
 		</recipeUsers>	
 		<ingredients>
 			
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ImplantPlasteelWireMesh</li>
+						<li>GR_ImplantPlasteelWireMesh</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -131,7 +131,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>HumanoidGenetic</li>
+						<li>GR_HumanoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -139,7 +139,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ChickenGenetic</li>
+						<li>GR_ChickenGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -148,19 +148,19 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ImplantPlasteelWireMesh</li>
-				<li>HumanoidGenetic</li>
-				<li>ChickenGenetic</li>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_ChickenGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		
 		<products>
-			<Ovipositor>1</Ovipositor>
+			<GR_Ovipositor>1</GR_Ovipositor>
 		</products>
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>CraftMuffaloMuscles</defName>
+		<defName>GR_CraftMuffaloMuscles</defName>
 		<label>craft muffalo muscles</label>
 		<description>Craft muffalo muscles, a hybrid implant containing humanoid and muffalo DNA that strengthens the subject's muscular system.</description>
 		<jobString>Crafting muffalo muscles</jobString>
@@ -168,14 +168,14 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-				<li>TissueGrowingVat</li>	  
+				<li>GR_TissueGrowingVat</li>	  
 		</recipeUsers>	
 		<ingredients>
 			
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ImplantPlasteelWireMesh</li>
+						<li>GR_ImplantPlasteelWireMesh</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -183,7 +183,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>HumanoidGenetic</li>
+						<li>GR_HumanoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -191,7 +191,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MuffaloGenetic</li>
+						<li>GR_MuffaloGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -200,19 +200,19 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ImplantPlasteelWireMesh</li>
-				<li>HumanoidGenetic</li>
-				<li>MuffaloGenetic</li>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_MuffaloGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		
 		<products>
-			<MuffaloMuscles>1</MuffaloMuscles>
+			<GR_MuffaloMuscles>1</GR_MuffaloMuscles>
 		</products>
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>CraftBoomalopeNodules</defName>
+		<defName>GR_CraftBoomalopeNodules</defName>
 		<label>craft boomalope nodules</label>
 		<description>Craft boomalope nodules, a hybrid implant containing humanoid and boomalope DNA that causes a huge explosion if the subject dies violently.</description>
 		<jobString>Crafting boomalope nodules</jobString>
@@ -220,14 +220,14 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-				<li>TissueGrowingVat</li>	  
+				<li>GR_TissueGrowingVat</li>	  
 		</recipeUsers>	
 		<ingredients>
 			
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ImplantPlasteelWireMesh</li>
+						<li>GR_ImplantPlasteelWireMesh</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -235,7 +235,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>HumanoidGenetic</li>
+						<li>GR_HumanoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -243,7 +243,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BoomalopeGenetic</li>
+						<li>GR_BoomalopeGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -252,19 +252,19 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ImplantPlasteelWireMesh</li>
-				<li>HumanoidGenetic</li>
-				<li>BoomalopeGenetic</li>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_BoomalopeGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		
 		<products>
-			<BoomalopeNodules>1</BoomalopeNodules>
+			<GR_BoomalopeNodules>1</GR_BoomalopeNodules>
 		</products>
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CraftWolfMuscularFibers</defName>
+		<defName>GR_CraftWolfMuscularFibers</defName>
 		<label>craft wolf muscular fibers</label>
 		<description>Craft wolf muscular fibers, which can modify the subject's legs by weaving hybrid human/wolf muscle fibers within the base tissue, giving her a significant strength and speed boost.</description>
 		<jobString>Crafting wolf muscular fibers</jobString>
@@ -272,14 +272,14 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-				<li>TissueGrowingVat</li>	  
+				<li>GR_TissueGrowingVat</li>	  
 		</recipeUsers>	
 		<ingredients>
 			
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ImplantPlasteelWireMesh</li>
+						<li>GR_ImplantPlasteelWireMesh</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -287,7 +287,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>HumanoidGenetic</li>
+						<li>GR_HumanoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -295,7 +295,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WolfGenetic</li>
+						<li>GR_WolfGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -304,19 +304,19 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ImplantPlasteelWireMesh</li>
-				<li>HumanoidGenetic</li>
-				<li>WolfGenetic</li>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_WolfGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		
 		<products>
-			<WolfMuscularFibers>1</WolfMuscularFibers>
+			<GR_WolfMuscularFibers>1</GR_WolfMuscularFibers>
 		</products>
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>CraftInsectoidAntennae</defName>
+		<defName>GR_CraftInsectoidAntennae</defName>
 		<label>craft insectoid antennae</label>
 		<description>Craft hybrid humanoid / insectoid feeling appendages that can be implanted in a subject's head, completely modifying the way the subject "sees" and feels the surrounding world. The experience may be slightly overwhelming due to sensorial overload.</description>
 		<jobString>Crafting insectoid antennae</jobString>
@@ -324,14 +324,14 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-				<li>TissueGrowingVat</li>	  
+				<li>GR_TissueGrowingVat</li>	  
 		</recipeUsers>	
 		<ingredients>
 			
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ImplantPlasteelWireMesh</li>
+						<li>GR_ImplantPlasteelWireMesh</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -339,7 +339,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>HumanoidGenetic</li>
+						<li>GR_HumanoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -347,7 +347,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>InsectoidGenetic</li>
+						<li>GR_InsectoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -356,19 +356,19 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ImplantPlasteelWireMesh</li>
-				<li>HumanoidGenetic</li>
-				<li>InsectoidGenetic</li>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_InsectoidGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<researchPrerequisite>InsectoidGenome</researchPrerequisite>
+		<researchPrerequisite>GR_InsectoidGenome</researchPrerequisite>
 		<products>
-			<InsectoidAntennae>1</InsectoidAntennae>
+			<GR_InsectoidAntennae>1</GR_InsectoidAntennae>
 		</products>
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>CraftHumanThrumboHorn</defName>
+		<defName>GR_CraftHumanThrumboHorn</defName>
 		<label>craft thrumbo horn</label>
 		<description>A genetically modified thrumbo horn that can be implanted in a subject's forehead. Nasty.</description>
 		<jobString>Crafting thrumbo horn</jobString>
@@ -376,14 +376,14 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-				<li>TissueGrowingVat</li>	  
+				<li>GR_TissueGrowingVat</li>	  
 		</recipeUsers>	
 		<ingredients>
 			
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ImplantPlasteelWireMesh</li>
+						<li>GR_ImplantPlasteelWireMesh</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -391,7 +391,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>HumanoidGenetic</li>
+						<li>GR_HumanoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -399,7 +399,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ThrumboGenetic</li>
+						<li>GR_ThrumboGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -408,19 +408,19 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ImplantPlasteelWireMesh</li>
-				<li>HumanoidGenetic</li>
-				<li>ThrumboGenetic</li>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_ThrumboGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<researchPrerequisite>AdvancedGeneticEngineering</researchPrerequisite>
+		<researchPrerequisite>GR_AdvancedGeneticEngineering</researchPrerequisite>
 		<products>
-			<HumanThrumboHorn>1</HumanThrumboHorn>
+			<GR_HumanThrumboHorn>1</GR_HumanThrumboHorn>
 		</products>
 	</RecipeDef>
 	
  	<RecipeDef>
-		<defName>CraftVenomousFangs</defName>
+		<defName>GR_CraftVenomousFangs</defName>
 		<label>craft venomous fangs</label>
 		<description>This hybrid implant substitutes the subject's jaw with a set of venomous fangs. Useful in combat, but not very comfortable.</description>
 		<jobString>Crafting venomous fangs</jobString>
@@ -428,14 +428,14 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-				<li>TissueGrowingVat</li>	  
+				<li>GR_TissueGrowingVat</li>	  
 		</recipeUsers>	
 		<ingredients>
 			
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ImplantPlasteelWireMesh</li>
+						<li>GR_ImplantPlasteelWireMesh</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -443,7 +443,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>HumanoidGenetic</li>
+						<li>GR_HumanoidGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -451,7 +451,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ReptilianGenetic</li>
+						<li>GR_ReptilianGenetic</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -460,14 +460,14 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ImplantPlasteelWireMesh</li>
-				<li>HumanoidGenetic</li>
-				<li>ReptilianGenetic</li>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_ReptilianGenetic</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<researchPrerequisite>ReptilianGenome</researchPrerequisite>
+		<researchPrerequisite>GR_ReptilianGenome</researchPrerequisite>
 		<products>
-			<VenomousFangs>1</VenomousFangs>
+			<GR_VenomousFangs>1</GR_VenomousFangs>
 		</products>
 	</RecipeDef> 
 </Defs>

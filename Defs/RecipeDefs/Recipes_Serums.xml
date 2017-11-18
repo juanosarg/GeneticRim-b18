@@ -6,7 +6,7 @@
 
 	
 	<RecipeDef>
-		<defName>ExtractSerumBear</defName>
+		<defName>GR_ExtractSerumBear</defName>
 		<label>extract alpha serum from a bear</label>
 		<description>Extract alpha serum from a bear corpse.</description>
 		<jobString>Extracting alpha serum</jobString>
@@ -15,7 +15,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -35,7 +35,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BearSerum>1</BearSerum>
+			<GR_BearSerum>1</GR_BearSerum>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -43,7 +43,7 @@
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>ExtractSerumBoar</defName>
+		<defName>GR_ExtractSerumBoar</defName>
 		<label>extract alpha serum from a wild boar</label>
 		<description>Extract alpha serum from a boar corpse.</description>
 		<jobString>Extracting alpha serum</jobString>
@@ -52,7 +52,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -72,7 +72,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BoarSerum>1</BoarSerum>
+			<GR_BoarSerum>1</GR_BoarSerum>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -80,7 +80,7 @@
 	</RecipeDef>
   
 	<RecipeDef>
-		<defName>ExtractSerumBoomalope</defName>
+		<defName>GR_ExtractSerumBoomalope</defName>
 		<label>extract alpha serum from a boomalope</label>
 		<description>Extract alpha serum from a boomalope corpse.</description>
 		<jobString>Extracting alpha serum</jobString>
@@ -89,7 +89,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -109,7 +109,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BoomalopeSerum>1</BoomalopeSerum>
+			<GR_BoomalopeSerum>1</GR_BoomalopeSerum>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -117,7 +117,7 @@
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>ExtractSerumChicken</defName>
+		<defName>GR_ExtractSerumChicken</defName>
 		<label>extract alpha serum from a chicken</label>
 		<description>Extract alpha serum from a chicken corpse.</description>
 		<jobString>Extracting alpha serum</jobString>
@@ -126,7 +126,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -146,7 +146,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ChickenSerum>1</ChickenSerum>
+			<GR_ChickenSerum>1</GR_ChickenSerum>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -154,7 +154,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>ExtractSerumEmu</defName>
+		<defName>GR_ExtractSerumEmu</defName>
 		<label>extract alpha serum from an emu</label>
 		<description>Extract alpha serum from an emu corpse.</description>
 		<jobString>Extracting alpha serum</jobString>
@@ -163,7 +163,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -183,7 +183,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<EmuSerum>1</EmuSerum>
+			<GR_EmuSerum>1</GR_EmuSerum>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -191,7 +191,7 @@
 	</RecipeDef>
  
 	<RecipeDef>
-		<defName>ExtractSerumMuffalo</defName>
+		<defName>GR_ExtractSerumMuffalo</defName>
 		<label>extract alpha serum from a muffalo</label>
 		<description>Extract alpha serum from a muffalo corpse.</description>
 		<jobString>Extracting alpha serum</jobString>
@@ -200,7 +200,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -220,7 +220,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<MuffaloSerum>1</MuffaloSerum>
+			<GR_MuffaloSerum>1</GR_MuffaloSerum>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -228,7 +228,7 @@
 	</RecipeDef> 
 	
 	<RecipeDef>
-		<defName>ExtractSerumOstrich</defName>
+		<defName>GR_ExtractSerumOstrich</defName>
 		<label>extract alpha serum from an ostrich</label>
 		<description>Extract alpha serum from an ostrich corpse.</description>
 		<jobString>Extracting alpha serum</jobString>
@@ -237,7 +237,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -257,7 +257,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<OstrichSerum>1</OstrichSerum>
+			<GR_OstrichSerum>1</GR_OstrichSerum>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -265,7 +265,7 @@
 	</RecipeDef> 	
 	
 	<RecipeDef>
-		<defName>ExtractSerumRhino</defName>
+		<defName>GR_ExtractSerumRhino</defName>
 		<label>extract alpha serum from a rhino</label>
 		<description>Extract alpha serum from a rhino corpse.</description>
 		<jobString>Extracting alpha serum</jobString>
@@ -274,7 +274,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -294,7 +294,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<RhinoSerum>1</RhinoSerum>
+			<GR_RhinoSerum>1</GR_RhinoSerum>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -302,7 +302,7 @@
 	</RecipeDef> 	
 
 	<RecipeDef>
-		<defName>ExtractSerumWolf</defName>
+		<defName>GR_ExtractSerumWolf</defName>
 		<label>extract alpha serum from a wolf</label>
 		<description>Extract alpha serum from a wolf corpse.</description>
 		<jobString>Extracting alpha serum</jobString>
@@ -311,7 +311,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -331,7 +331,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<WolfSerum>1</WolfSerum>
+			<GR_WolfSerum>1</GR_WolfSerum>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -348,7 +348,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -385,7 +385,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -422,7 +422,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -459,7 +459,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>
@@ -496,7 +496,7 @@
 		<workAmount>500</workAmount>
 		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
-				<li>AlphaSerumExtractionTable</li>	  
+				<li>GR_AlphaSerumExtractionTable</li>	  
 		</recipeUsers>	
 		<ingredients>
 			<li>

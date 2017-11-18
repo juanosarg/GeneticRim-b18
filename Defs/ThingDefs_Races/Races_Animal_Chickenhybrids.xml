@@ -2,7 +2,7 @@
 <Defs>
   <!-- Chicken - Bear -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArmsTail">
-    <defName>Chickenbear</defName>
+    <defName>GR_Chickenbear</defName>
     <label>chickenbear</label>
     <description>A chicken / bear hybrid. Lays eggs, and can defend itself in combat slightly better than a chicken. \n\nUseful abilities: Their sharp, small teeth can be harvested when butchering them, and they are slightly valuable and lightweight.</description>
     <statBases>
@@ -43,15 +43,15 @@
    
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>ChickenbearEggUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>ChickenbearEggFertilized</eggFertilizedDef>
+        <eggUnfertilizedDef>GR_ChickenbearEggUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>GR_ChickenbearEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>1.9</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
     </comps>
     <race>
-      <body>BirdWithTeeth</body>
+      <body>GR_BirdWithTeeth</body>
       <baseHungerRate>0.45</baseHungerRate>
       <baseBodySize>0.25</baseBodySize>
       <baseHealthScale>0.5</baseHealthScale>
@@ -100,9 +100,9 @@
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
-    <defName>Chickenbear</defName>
+    <defName>GR_Chickenbear</defName>
     <label>chickenbear</label>
-    <race>Chickenbear</race>
+    <race>GR_Chickenbear</race>
     <combatPower>28</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -157,7 +157,7 @@
         </dessicatedBodyGraphicData>
 		<butcherBodyPart>
           <bodyPartGroup>Teeth</bodyPartGroup>
-          <thing>VerySmallTeeth</thing>
+          <thing>GR_VerySmallTeeth</thing>
           <allowFemale>true</allowFemale>
         </butcherBodyPart>
       </li>
@@ -166,7 +166,7 @@
   
   <!-- Chicken - Boomalope -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArmsTail">
-    <defName>Chickenlope</defName>
+    <defName>GR_Chickenlope</defName>
     <label>chickenlope</label>
     <description>A chicken / boomalope hybrid. This sickly looking creature is basically useless. Now, if you gather a lot of them, and kill them in a chain reaction... \n\nUseful abilities: Explodes on death.</description>
     <statBases>
@@ -207,8 +207,8 @@
 
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>ChickenlopeEggUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>ChickenlopeEggFertilized</eggFertilizedDef>
+        <eggUnfertilizedDef>GR_ChickenlopeEggUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>GR_ChickenlopeEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>2</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
@@ -265,9 +265,9 @@
     
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Chickenlope</defName>
+    <defName>GR_Chickenlope</defName>
     <label>chickenlope</label>
-    <race>Chickenlope</race>
+    <race>GR_Chickenlope</race>
     <combatPower>24</combatPower>
 	<canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -326,7 +326,7 @@
   
   <!-- Chicken - Muffalo -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArmsTail">
-    <defName>Chickenffalo</defName>
+    <defName>GR_Chickenffalo</defName>
     <label>chickenffalo</label>
     <description>A chicken / muffalo hybrid. Lays eggs, produces milk, wool and can be used as a pack beast. Of course, it doesn't excel at ANY of those things, but it's the price you pay for convenience. They are so cute, though, wearing their tiny bags...</description>
     <statBases>
@@ -360,19 +360,19 @@
     
     <comps>
 	  <li Class="CompProperties_Milkable">
-        <milkDef>ChickenffaloMilk</milkDef>
+        <milkDef>GR_ChickenffaloMilk</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
         <milkAmount>10</milkAmount>
       </li>
       <li Class="CompProperties_Shearable">
 	  
-        <woolDef>ChickenffaloWool</woolDef>
+        <woolDef>GR_ChickenffaloWool</woolDef>
         <shearIntervalDays>1</shearIntervalDays>
         <woolAmount>4</woolAmount>
       </li>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>ChickenffaloEggUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>ChickenffaloEggFertilized</eggFertilizedDef>
+        <eggUnfertilizedDef>GR_ChickenffaloEggUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>GR_ChickenffaloEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>1.8</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
@@ -382,7 +382,7 @@
     <race>
 	  <herdAnimal>true</herdAnimal>
 	  <packAnimal>true</packAnimal>
-      <body>BirdWithTeeth</body>
+      <body>GR_BirdWithTeeth</body>
       <baseHungerRate>0.55</baseHungerRate>
       <baseBodySize>0.2</baseBodySize>
       <baseHealthScale>0.45</baseHealthScale>
@@ -430,9 +430,9 @@
     
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Chickenffalo</defName>
+    <defName>GR_Chickenffalo</defName>
     <label>chickenffalo</label>
-    <race>Chickenffalo</race>
+    <race>GR_Chickenffalo</race>
     <combatPower>24</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -491,7 +491,7 @@
   
   <!-- Chicken - Wolf -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArmsTail">
-    <defName>Chickenwolf</defName>
+    <defName>GR_Chickenwolf</defName>
     <label>chickenwolf</label>
     <description>A chicken / wolf hybrid. Fast moving, and with a nasty bite! \n\nUseful abilities: Their sharp, small teeth can be harvested when butchering them, and they are slightly valuable and lightweight.</description>
     <statBases>
@@ -532,15 +532,15 @@
    
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>ChickenwolfEggUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>ChickenwolfEggFertilized</eggFertilizedDef>
+        <eggUnfertilizedDef>GR_ChickenwolfEggUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>GR_ChickenwolfEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>3</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
     </comps>
     <race>
-      <body>BirdWithTeeth</body>
+      <body>GR_BirdWithTeeth</body>
       <baseHungerRate>0.8</baseHungerRate>
       <baseBodySize>0.2</baseBodySize>
       <baseHealthScale>0.45</baseHealthScale>
@@ -588,9 +588,9 @@
    
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Chickenwolf</defName>
+    <defName>GR_Chickenwolf</defName>
     <label>chickenwolf</label>
-    <race>Chickenwolf</race>
+    <race>GR_Chickenwolf</race>
     <combatPower>30</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
@@ -645,7 +645,7 @@
         </dessicatedBodyGraphicData>
 		<butcherBodyPart>
           <bodyPartGroup>Teeth</bodyPartGroup>
-          <thing>VerySmallTeeth</thing>
+          <thing>GR_VerySmallTeeth</thing>
           <allowFemale>true</allowFemale>
         </butcherBodyPart>
       </li>

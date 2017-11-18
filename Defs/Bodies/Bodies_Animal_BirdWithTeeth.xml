@@ -2,7 +2,7 @@
 
 <Defs>
   <BodyDef>
-    <defName>BirdWithTeeth</defName>
+    <defName>GR_BirdWithTeeth</defName>
     <label>bird with teeth</label>
     <corePart>
       <def>Body</def>

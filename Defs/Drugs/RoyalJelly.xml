@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="DrugBase">
-    <defName>RoyalJelly</defName>
+    <defName>GR_RoyalJelly</defName>
     <label>royal jelly</label>
     <description>This pungent, viscuous liquid is produced by some types of insects, and produces a soft chemical high. It can cause addiction if abused.</description>
     <tradeability>Sellable</tradeability>
@@ -31,12 +31,12 @@
       <drugCategory>Social</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RoyalJellyHigh</hediffDef>
+          <hediffDef>GR_RoyalJellyHigh</hediffDef>
           <severity>0.50</severity>
-          <toleranceChemical>RoyalJelly</toleranceChemical>
+          <toleranceChemical>GR_RoyalJelly</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RoyalJellyTolerance</hediffDef>
+          <hediffDef>GR_RoyalJellyTolerance</hediffDef>
           <severity>0.032</severity>
           <divideByBodySize>true</divideByBodySize>
         </li>
@@ -48,7 +48,7 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 			<li Class="CompProperties_Drug">
-				<chemical>RoyalJelly</chemical>
+				<chemical>GR_RoyalJelly</chemical>
 				<addictiveness>0.005</addictiveness>
 				<minToleranceToAddict>0.25</minToleranceToAddict>
 				<existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
@@ -59,7 +59,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>RoyalJellyHigh</defName>
+    <defName>GR_RoyalJellyHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>royal jelly warmth</label>
     <defaultLabelColor>(1,0.5,0.5)</defaultLabelColor>
@@ -76,9 +76,9 @@
   </HediffDef>
 
   <ThoughtDef>
-    <defName>RoyalJellyHigh</defName>
+    <defName>GR_RoyalJellyHigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>RoyalJellyHigh</hediff>
+    <hediff>GR_RoyalJellyHigh</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
@@ -92,15 +92,15 @@
   <!-- Ambrosia addiction -->
   
   <ChemicalDef>
-    <defName>RoyalJelly</defName>
+    <defName>GR_RoyalJelly</defName>
     <label>royal jelly</label>
-    <addictionHediff>RoyalJellyAddiction</addictionHediff>
-    <toleranceHediff>RoyalJellyTolerance</toleranceHediff>
+    <addictionHediff>GR_RoyalJellyAddiction</addictionHediff>
+    <toleranceHediff>GR_RoyalJellyTolerance</toleranceHediff>
     <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
   </ChemicalDef>
   
   <NeedDef ParentName="DrugAddictionNeedBase">
-    <defName>Chemical_RoyalJelly</defName>
+    <defName>GR_Chemical_RoyalJelly</defName>
     <needClass>Need_Chemical</needClass>
     <label>royal jelly</label>
     <description>Because of a royal jelly addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
@@ -108,23 +108,23 @@
   </NeedDef>
 
   <HediffDef ParentName="DrugToleranceBase">
-    <defName>RoyalJellyTolerance</defName>
+    <defName>GR_RoyalJellyTolerance</defName>
     <label>royal jelly tolerance</label>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.020</severityPerDay>
       </li>
       <li Class="HediffCompProperties_DrugEffectFactor">
-        <chemical>RoyalJelly</chemical>
+        <chemical>GR_RoyalJelly</chemical>
       </li>
     </comps>
   </HediffDef>
   
   <HediffDef ParentName="AddictionBase">
-    <defName>RoyalJellyAddiction</defName>
+    <defName>GR_RoyalJellyAddiction</defName>
     <hediffClass>Hediff_Addiction</hediffClass>
     <label>royal jelly addiction</label>
-    <causesNeed>Chemical_RoyalJelly</causesNeed>
+    <causesNeed>GR_Chemical_RoyalJelly</causesNeed>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.1</severityPerDay>
@@ -140,9 +140,9 @@
   </HediffDef>
 
   <ThoughtDef>
-    <defName>RoyalJellyWithdrawal</defName>
+    <defName>GR_RoyalJellyWithdrawal</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>RoyalJellyAddiction</hediff>
+    <hediff>GR_RoyalJellyAddiction</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>

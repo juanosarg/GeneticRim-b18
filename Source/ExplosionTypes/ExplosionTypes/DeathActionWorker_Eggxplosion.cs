@@ -40,21 +40,21 @@ namespace ExplosionTypes
                   
             if (randomNumber == 3)
             { 
-                GenSpawn.Spawn(ThingDef.Named("EggBomb"), (corpse.Position + IntVec3.FromString("0,0,1")), corpse.Map);
+                GenSpawn.Spawn(ThingDef.Named("GR_EggBomb"), (corpse.Position + IntVec3.FromString("0,0,1")), corpse.Map);
                 Thread.Sleep(30);
-                GenSpawn.Spawn(ThingDef.Named("EggBomb"), (corpse.Position + IntVec3.FromString("1,0,0")), corpse.Map);
+                GenSpawn.Spawn(ThingDef.Named("GR_EggBomb"), (corpse.Position + IntVec3.FromString("1,0,0")), corpse.Map);
                 Thread.Sleep(30);
-                GenSpawn.Spawn(ThingDef.Named("EggBomb"), (corpse.Position + IntVec3.FromString("2,0,2")), corpse.Map);
+                GenSpawn.Spawn(ThingDef.Named("GR_EggBomb"), (corpse.Position + IntVec3.FromString("2,0,2")), corpse.Map);
             }
             else if (randomNumber == 2)
             {
-                GenSpawn.Spawn(ThingDef.Named("EggBomb"), (corpse.Position + IntVec3.FromString("0,0,1")), corpse.Map);
+                GenSpawn.Spawn(ThingDef.Named("GR_EggBomb"), (corpse.Position + IntVec3.FromString("0,0,1")), corpse.Map);
                 Thread.Sleep(30);
-                GenSpawn.Spawn(ThingDef.Named("EggBomb"), (corpse.Position + IntVec3.FromString("1,0,0")), corpse.Map);
+                GenSpawn.Spawn(ThingDef.Named("GR_EggBomb"), (corpse.Position + IntVec3.FromString("1,0,0")), corpse.Map);
             }
             else
             {
-                GenSpawn.Spawn(ThingDef.Named("EggBomb"), (corpse.Position + IntVec3.FromString("0,0,1")), corpse.Map);
+                GenSpawn.Spawn(ThingDef.Named("GR_EggBomb"), (corpse.Position + IntVec3.FromString("0,0,1")), corpse.Map);
             }
 
         }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef Name="BaseAnimalProjectile" Abstract="True">
+<ThingDef Name="GR_BaseAnimalProjectile" Abstract="True">
     <category>Projectile</category>
     <altitudeLayer>Projectile</altitudeLayer>
     <thingClass>Projectile_Explosive</thingClass>
@@ -18,8 +18,8 @@
     </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseAnimalProjectile">
-		<defName>Proj_ThrownSac</defName>
+<ThingDef ParentName="GR_BaseAnimalProjectile">
+		<defName>GR_Proj_ThrownSac</defName>
 		<label>thrown sac</label>
 		<thingClass>Projectile_Explosive</thingClass>
 		<graphicData>

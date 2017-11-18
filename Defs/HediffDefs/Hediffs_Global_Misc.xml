@@ -3,7 +3,7 @@
 
  
   <HediffDef>
-    <defName>ToxicDamage</defName>
+    <defName>GR_ToxicDamage</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
     <label>toxic damage</label>

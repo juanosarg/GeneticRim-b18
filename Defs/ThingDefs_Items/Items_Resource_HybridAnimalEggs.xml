@@ -4,7 +4,7 @@
  
   <!-- AlphaChicken Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>AlphaChickenEggUnfertilized</defName>
+    <defName>GR_AlphaChickenEggUnfertilized</defName>
     <label>alpha chicken egg (unfert.)</label>
     <description>Unfertilized alpha chicken egg. It can be eaten raw, but it's much, much better cooked. These eggs are pure, pristine, perfect examples of chicken eggs. Inmaculate eggness.</description>
    
@@ -17,7 +17,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>AlphaChickenEggFertilized</defName>
+    <defName>GR_AlphaChickenEggFertilized</defName>
     <label>alpha chicken egg (fert.)</label>
     <description>Fertilized alpha chicken egg. It can be eaten raw, but it's much, much better cooked. These eggs are pure, pristine, perfect examples of chicken eggs. Inmaculate eggness. If all goes well, it should hatch into an alpha chicken.</description>
 
@@ -30,14 +30,14 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>3.5</hatcherDaystoHatch>
-        <hatcherPawn>AlphaChicken</hatcherPawn>
+        <hatcherPawn>GR_AlphaChicken</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
   
     <!-- AlphaEmu Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>AlphaEmuEggUnfertilized</defName>
+    <defName>GR_AlphaEmuEggUnfertilized</defName>
     <label>alpha emu egg (unfert.)</label>
     <description>Unfertilized alpha emu egg. It can be eaten raw, but it's much, much better cooked. This thing is huge.</description>
     <graphicData>
@@ -53,7 +53,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>AlphaEmuEggFertilized</defName>
+    <defName>GR_AlphaEmuEggFertilized</defName>
     <label>alpha emu egg (fert.)</label>
     <description>Fertilized alpha emu egg. It can be eaten raw, but it's much, much better cooked. This thing is huge. If all goes well, it should hatch into an alpha emu.</description>
     <graphicData>
@@ -69,14 +69,14 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>6</hatcherDaystoHatch>
-        <hatcherPawn>AlphaEmu</hatcherPawn>
+        <hatcherPawn>GR_AlphaEmu</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
   
       <!-- AlphaOstrich Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>AlphaOstrichEggUnfertilized</defName>
+    <defName>GR_AlphaOstrichEggUnfertilized</defName>
     <label>alpha ostrich egg (unfert.)</label>
     <description>Unfertilized alpha ostrich egg. It can be eaten raw, but it's much, much better cooked. This thing is huge.</description>
     <graphicData>
@@ -93,7 +93,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>AlphaOstrichEggFertilized</defName>
+    <defName>GR_AlphaOstrichEggFertilized</defName>
     <label>alpha ostrich egg (fert.)</label>
     <description>Fertilized alpha ostrich egg. It can be eaten raw, but it's much, much better cooked. This thing is huge. If all goes well, it should hatch into an alpha ostrich.</description>
     <graphicData>
@@ -110,7 +110,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>8</hatcherDaystoHatch>
-        <hatcherPawn>AlphaOstrich</hatcherPawn>
+        <hatcherPawn>GR_AlphaOstrich</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
@@ -200,7 +200,7 @@
   
   <!-- Bear / Chicken Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>BearChickenEggUnfertilized</defName>
+    <defName>GR_BearChickenEggUnfertilized</defName>
     <label>bearchicken egg (unfert.)</label>
     <description>Unfertilized bearchicken egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
@@ -212,7 +212,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>BearChickenEggFertilized</defName>
+    <defName>GR_BearChickenEggFertilized</defName>
     <label>bearchicken egg (fert.)</label>
     <description>Fertilized bearchicken egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -224,14 +224,14 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>7</hatcherDaystoHatch>
-        <hatcherPawn>BearchickenKind</hatcherPawn>
+        <hatcherPawn>GR_BearchickenKind</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
 
    <!-- Chicken / Bear Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>ChickenbearEggUnfertilized</defName>
+    <defName>GR_ChickenbearEggUnfertilized</defName>
     <label>chickenbear egg (unfert.)</label>
     <description>Unfertilized Chickenbear egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
@@ -243,7 +243,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>ChickenbearEggFertilized</defName>
+    <defName>GR_ChickenbearEggFertilized</defName>
     <label>chickenbear egg (fert.)</label>
     <description>Fertilized Chickenbear egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -255,13 +255,13 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>8</hatcherDaystoHatch>
-        <hatcherPawn>Chickenbear</hatcherPawn>
+        <hatcherPawn>GR_Chickenbear</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
      <!-- Chicken / Boomalope Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>ChickenlopeEggUnfertilized</defName>
+    <defName>GR_ChickenlopeEggUnfertilized</defName>
     <label>chickenlope egg (unfert.)</label>
     <description>Unfertilized Chickenlope egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
@@ -273,7 +273,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>ChickenlopeEggFertilized</defName>
+    <defName>GR_ChickenlopeEggFertilized</defName>
     <label>chickenlope egg (fert.)</label>
     <description>Fertilized Chickenlope egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -285,13 +285,13 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>9</hatcherDaystoHatch>
-        <hatcherPawn>Chickenlope</hatcherPawn>
+        <hatcherPawn>GR_Chickenlope</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
   <!-- Chicken / Muffalo Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>ChickenffaloEggUnfertilized</defName>
+    <defName>GR_ChickenffaloEggUnfertilized</defName>
     <label>chickenffalo egg (unfert.)</label>
     <description>Unfertilized Chickenffalo egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
@@ -303,7 +303,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>ChickenffaloEggFertilized</defName>
+    <defName>GR_ChickenffaloEggFertilized</defName>
     <label>chickenffalo egg (fert.)</label>
     <description>Fertilized Chickenffalo egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -315,13 +315,13 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>20</hatcherDaystoHatch>
-        <hatcherPawn>Chickenffalo</hatcherPawn>
+        <hatcherPawn>GR_Chickenffalo</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
    <!-- Chicken / Wolf Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>ChickenwolfEggUnfertilized</defName>
+    <defName>GR_ChickenwolfEggUnfertilized</defName>
     <label>chickenwolf egg (unfert.)</label>
     <description>Unfertilized Chickenwolf egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
@@ -333,7 +333,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>ChickenwolfEggFertilized</defName>
+    <defName>GR_ChickenwolfEggFertilized</defName>
     <label>chickenwolf egg (fert.)</label>
     <description>Fertilized Chickenwolf egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -345,13 +345,13 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>15</hatcherDaystoHatch>
-        <hatcherPawn>Chickenwolf</hatcherPawn>
+        <hatcherPawn>GR_Chickenwolf</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
     <!-- Muffalo / Chicken Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>MuffalochickenEggUnfertilized</defName>
+    <defName>GR_MuffalochickenEggUnfertilized</defName>
     <label>muffalochicken egg (unfert.)</label>
     <description>Unfertilized Muffalochicken egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
@@ -363,7 +363,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>MuffalochickenEggFertilized</defName>
+    <defName>GR_MuffalochickenEggFertilized</defName>
     <label>muffalochicken egg (fert.)</label>
     <description>Fertilized Muffalochicken egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -375,13 +375,13 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>17</hatcherDaystoHatch>
-        <hatcherPawn>Muffalochicken</hatcherPawn>
+        <hatcherPawn>GR_Muffalochicken</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
       <!-- Boomalope / Chicken Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>BoomachickenEggUnfertilized</defName>
+    <defName>GR_BoomachickenEggUnfertilized</defName>
     <label>boomachicken egg (unfert.)</label>
     <description>Unfertilized Boomachicken egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
@@ -393,7 +393,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>BoomachickenEggFertilized</defName>
+    <defName>GR_BoomachickenEggFertilized</defName>
     <label>boomachicken egg (fert.)</label>
     <description>Fertilized Boomachicken egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -405,13 +405,13 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>15</hatcherDaystoHatch>
-        <hatcherPawn>Boomachicken</hatcherPawn>
+        <hatcherPawn>GR_Boomachicken</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
     <!-- Wolf / Chicken Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>WolfchickenEggUnfertilized</defName>
+    <defName>GR_WolfchickenEggUnfertilized</defName>
     <label>wolfchicken egg (unfert.)</label>
     <description>Unfertilized Wolfchicken egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
@@ -423,7 +423,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>WolfchickenEggFertilized</defName>
+    <defName>GR_WolfchickenEggFertilized</defName>
     <label>wolfchicken egg (fert.)</label>
     <description>Fertilized Wolfchicken egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -435,13 +435,13 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>15</hatcherDaystoHatch>
-        <hatcherPawn>Wolfchicken</hatcherPawn>
+        <hatcherPawn>GR_Wolfchicken</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
      <!-- Thrumbochicken Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>ThrumbochickenEggUnfertilized</defName>
+    <defName>GR_ThrumbochickenEggUnfertilized</defName>
     <label>thrumbochicken egg (unfert.)</label>
     <description>Unfertilized Thrumbochicken egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
@@ -457,7 +457,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>ThrumbochickenEggFertilized</defName>
+    <defName>GR_ThrumbochickenEggFertilized</defName>
     <label>thrumbochicken egg (fert.)</label>
     <description>Fertilized Thrumbochicken egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -473,13 +473,13 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>35</hatcherDaystoHatch>
-        <hatcherPawn>Thrumbochicken</hatcherPawn>
+        <hatcherPawn>GR_Thrumbochicken</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
        <!-- Chickenspider Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>ChickenspiderEggUnfertilized</defName>
+    <defName>GR_ChickenspiderEggUnfertilized</defName>
     <label>chickenspider egg (unfert.)</label>
     <description>Unfertilized Chickenspider egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
@@ -494,7 +494,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>ChickenspiderEggFertilized</defName>
+    <defName>GR_ChickenspiderEggFertilized</defName>
     <label>chickenspider egg (fert.)</label>
     <description>Fertilized Chickenspider egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -509,13 +509,13 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
-        <hatcherPawn>Chickenspider</hatcherPawn>
+        <hatcherPawn>GR_Chickenspider</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
          <!-- Chickenlizard Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>ChickenlizardEggUnfertilized</defName>
+    <defName>GR_ChickenlizardEggUnfertilized</defName>
     <label>chickenlizard egg (unfert.)</label>
     <description>Unfertilized chickenlizard egg. It can be eaten raw, but it's much, much better cooked.</description>
 	    <graphicData>
@@ -528,7 +528,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>ChickenlizardEggFertilized</defName>
+    <defName>GR_ChickenlizardEggFertilized</defName>
     <label>chickenlizard egg (fert.)</label>
     <description>Fertilized chickenlizard egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
 	    <graphicData>
@@ -541,14 +541,14 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>7</hatcherDaystoHatch>
-        <hatcherPawn>Chickenlizard</hatcherPawn>
+        <hatcherPawn>GR_Chickenlizard</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
   
          <!-- Spidersnake Egg -->
   <ThingDef ParentName="EggUnfertBase">
-    <defName>SpidersnakeEggUnfertilized</defName>
+    <defName>GR_SpidersnakeEggUnfertilized</defName>
     <label>spidersnake egg (unfert.)</label>
     <description>Unfertilized Spidersnake egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
@@ -562,7 +562,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>SpidersnakeEggFertilized</defName>
+    <defName>GR_SpidersnakeEggFertilized</defName>
     <label>spidersnake egg (fert.)</label>
     <description>Fertilized Spidersnake egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -576,7 +576,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
-        <hatcherPawn>Spidersnake</hatcherPawn>
+        <hatcherPawn>GR_Spidersnake</hatcherPawn>
       </li>
     </comps>
   </ThingDef>

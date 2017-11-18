@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThinkTreeDef>
-		<defName>RangedAnimal</defName>
+		<defName>GR_RangedAnimal</defName>
 		<thinkRoot Class="ThinkNode_Priority">
       <subNodes>
         <!-- Keep lying down if we have to -->

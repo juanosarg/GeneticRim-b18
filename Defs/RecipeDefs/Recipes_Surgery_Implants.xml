@@ -2,7 +2,7 @@
 <Defs>
 
 	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>InstallBearClaws</defName>
+		<defName>GR_InstallBearClaws</defName>
 		<label>install bear claws</label>
 		<description>Installs bear claws.</description>
 		<workerClass>Recipe_InstallImplant</workerClass>
@@ -23,7 +23,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BearClaws</li>
+						<li>GR_BearClaws</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -34,18 +34,18 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-				<li>BearClaws</li>
+				<li>GR_BearClaws</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
 			<li>LeftHand</li> 
 			<li>RightHand</li> 
 		</appliedOnFixedBodyParts>
-		<addsHediff>BearClaws</addsHediff>
+		<addsHediff>GR_BearClaws</addsHediff>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>InstallOvipositor</defName>
+		<defName>GR_InstallOvipositor</defName>
 		<label>install ovipositor</label>
 		<description>Installs ovipositor.</description>
 		<workerClass>Recipe_InstallImplant</workerClass>
@@ -66,7 +66,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Ovipositor</li>
+						<li>GR_Ovipositor</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -77,17 +77,17 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-				<li>Ovipositor</li>
+				<li>GR_Ovipositor</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
 			<li>Waist</li> 
 		</appliedOnFixedBodyParts>
-		<addsHediff>Ovipositor</addsHediff>
+		<addsHediff>GR_Ovipositor</addsHediff>
 	</RecipeDef>
   
 	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>InstallMuffaloMuscles</defName>
+		<defName>GR_InstallMuffaloMuscles</defName>
 		<label>install muffalo strengthened muscles</label>
 		<description>Installs muffalo strengthened muscles.</description>
 		<workerClass>Recipe_InstallImplant</workerClass>
@@ -108,7 +108,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MuffaloMuscles</li>
+						<li>GR_MuffaloMuscles</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -119,17 +119,17 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-				<li>MuffaloMuscles</li>
+				<li>GR_MuffaloMuscles</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
 			<li>Spine</li> 
 		</appliedOnFixedBodyParts>
-		<addsHediff>MuffaloMuscles</addsHediff>
+		<addsHediff>GR_MuffaloMuscles</addsHediff>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>InstallBoomalopeNodules</defName>
+		<defName>GR_InstallBoomalopeNodules</defName>
 		<label>install boomalope nodules</label>
 		<description>Installs boomalope nodules.</description>
 		<workerClass>Recipe_InstallImplant</workerClass>
@@ -150,7 +150,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BoomalopeNodules</li>
+						<li>GR_BoomalopeNodules</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -161,17 +161,17 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-				<li>BoomalopeNodules</li>
+				<li>GR_BoomalopeNodules</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
 			<li>Sternum</li> 
 		</appliedOnFixedBodyParts>
-		<addsHediff>BoomalopeNodules</addsHediff>
+		<addsHediff>GR_BoomalopeNodules</addsHediff>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>InstallWolfMuscularFibers</defName>
+		<defName>GR_InstallWolfMuscularFibers</defName>
 		<label>install wolf muscular fibers</label>
 		<description>Installs wolf muscular fibers.</description>
 		<workerClass>Recipe_InstallImplant</workerClass>
@@ -192,7 +192,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WolfMuscularFibers</li>
+						<li>GR_WolfMuscularFibers</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -203,18 +203,18 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-				<li>WolfMuscularFibers</li>
+				<li>GR_WolfMuscularFibers</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
 			<li>LeftTibia</li> 
 			<li>RightTibia</li> 
 		</appliedOnFixedBodyParts>
-		<addsHediff>WolfMuscularFibers</addsHediff>
+		<addsHediff>GR_WolfMuscularFibers</addsHediff>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>InstallInsectoidAntennae</defName>
+		<defName>GR_InstallInsectoidAntennae</defName>
 		<label>install insectoid antennae</label>
 		<description>Installs insectoid antennae.</description>
 		<workerClass>Recipe_InstallImplant</workerClass>
@@ -235,7 +235,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>InsectoidAntennae</li>
+						<li>GR_InsectoidAntennae</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -246,18 +246,18 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-				<li>InsectoidAntennae</li>
+				<li>GR_InsectoidAntennae</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
 			<li>Nose</li> 
 			
 		</appliedOnFixedBodyParts>
-		<addsHediff>InsectoidAntennae</addsHediff>
+		<addsHediff>GR_InsectoidAntennae</addsHediff>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>InstallHumanThrumboHorn</defName>
+		<defName>GR_InstallHumanThrumboHorn</defName>
 		<label>install thrumbo horn</label>
 		<description>Installs thrumbo horn.</description>
 		<workerClass>Recipe_InstallImplant</workerClass>
@@ -278,7 +278,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>HumanThrumboHorn</li>
+						<li>GR_HumanThrumboHorn</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -289,18 +289,18 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-				<li>HumanThrumboHorn</li>
+				<li>GR_HumanThrumboHorn</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
 			<li>Skull</li> 
 			
 		</appliedOnFixedBodyParts>
-		<addsHediff>HumanThrumboHorn</addsHediff>
+		<addsHediff>GR_HumanThrumboHorn</addsHediff>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>InstallVenomousFangs</defName>
+		<defName>GR_InstallVenomousFangs</defName>
 		<label>install venomous fangs</label>
 		<description>Installs venomous fangs.</description>
 		<workerClass>Recipe_InstallImplant</workerClass>
@@ -321,7 +321,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>VenomousFangs</li>
+						<li>GR_VenomousFangs</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -332,14 +332,14 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-				<li>VenomousFangs</li>
+				<li>GR_VenomousFangs</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
 			<li>Jaw</li> 
 			
 		</appliedOnFixedBodyParts>
-		<addsHediff>VenomousFangs</addsHediff>
+		<addsHediff>GR_VenomousFangs</addsHediff>
 	</RecipeDef>
   
 </Defs>

@@ -3,23 +3,23 @@
 
  
     <ThingCategoryDef>
-      <defName>GeneticMaterial</defName>
+      <defName>GR_GeneticMaterial</defName>
       <label>genetic materials</label>
       <parent>Manufactured</parent>
 	  <iconPath>Things/Item/geneticmaterials</iconPath>
       
     </ThingCategoryDef>
 	<ThingCategoryDef>
-      <defName>Incubators</defName>
+      <defName>GR_Incubators</defName>
       <label>incubators</label>
-      <parent>GeneticMaterial</parent>
+      <parent>GR_GeneticMaterial</parent>
 	  <iconPath>Things/Item/IncubatorCanister</iconPath>
       
     </ThingCategoryDef>
 	<ThingCategoryDef>
-      <defName>AlphaSerums</defName>
+      <defName>GR_AlphaSerums</defName>
       <label>alpha serums</label>
-      <parent>GeneticMaterial</parent>
+      <parent>GR_GeneticMaterial</parent>
 	  <iconPath>Things/Item/AlphaSerum</iconPath>
       
     </ThingCategoryDef>

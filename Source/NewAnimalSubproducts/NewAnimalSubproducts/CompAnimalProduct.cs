@@ -69,43 +69,43 @@ namespace NewAnimalSubproducts
                 return null;
             }
 
-            if (ResourceDef.ToString() == "Owlbearfeathers")
+            if (ResourceDef.ToString() == "GR_Owlbearfeathers")
             {
                 return Translator.Translate("FeatherGrowth") + ": " + base.Fullness.ToStringPercent();
             }
-            else if (ResourceDef.ToString() == "WolfchickenFeathers")
+            else if (ResourceDef.ToString() == "GR_WolfchickenFeathers")
             {
                 return Translator.Translate("FeatherGrowth") + ": " + base.Fullness.ToStringPercent();
             }
-            else if (ResourceDef.ToString() == "RoyalJelly")
+            else if (ResourceDef.ToString() == "GR_RoyalJelly")
             {
                 return Translator.Translate("JellyGrowth") + ": " + base.Fullness.ToStringPercent();
             }
-            else if (ResourceDef.ToString() == "Weapon_ThrownSac")
+            else if (ResourceDef.ToString() == "GR_Weapon_ThrownSac")
             {
                 return Translator.Translate("SacGrowth") + ": " + base.Fullness.ToStringPercent();
             }
-            else if (ResourceDef.ToString() == "ChickenspiderSilk")
+            else if (ResourceDef.ToString() == "GR_ChickenspiderSilk")
             {
                 return Translator.Translate("SilkGrowth") + ": " + base.Fullness.ToStringPercent();
             }
-            else if (ResourceDef.ToString() == "PoisonAmpoule")
+            else if (ResourceDef.ToString() == "GR_PoisonAmpoule")
             {
                 return Translator.Translate("PoisonGrowth") + ": " + base.Fullness.ToStringPercent();
             }
-            else if (ResourceDef.ToString() == "VirulentPoison")
+            else if (ResourceDef.ToString() == "GR_VirulentPoison")
             {
                 return Translator.Translate("PoisonGrowth") + ": " + base.Fullness.ToStringPercent();
             }
-            else if (ResourceDef.ToString() == "SpidersnakeSkin")
+            else if (ResourceDef.ToString() == "GR_SpidersnakeSkin")
             {
                 return Translator.Translate("SkinShed") + ": " + base.Fullness.ToStringPercent();
             }
-            else if (ResourceDef.ToString() == "WolfsnakeSkin")
+            else if (ResourceDef.ToString() == "GR_WolfsnakeSkin")
             {
                 return Translator.Translate("SkinShed") + ": " + base.Fullness.ToStringPercent();
             }
-            else if (ResourceDef.ToString() == "SpidersnakeSilk")
+            else if (ResourceDef.ToString() == "GR_SpidersnakeSilk")
             {
                 return Translator.Translate("SilkGrowth") + ": " + base.Fullness.ToStringPercent();
             }

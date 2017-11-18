@@ -5,7 +5,7 @@
 
   
   
-  <HediffDef Name="HybridPartsBase" Abstract="True" ParentName="AddedBodyPartBase">
+  <HediffDef Name="GR_HybridPartsBase" Abstract="True" ParentName="AddedBodyPartBase">
     <hediffClass>Hediff_AddedPart</hediffClass>
     <defaultLabelColor>(232, 157, 27)</defaultLabelColor>
     <isBad>false</isBad>
@@ -15,8 +15,8 @@
      </addedPartProps>
   </HediffDef>
 
-  <HediffDef ParentName="HybridPartsBase">
-    <defName>BearClaws</defName>
+  <HediffDef ParentName="GR_HybridPartsBase">
+    <defName>GR_BearClaws</defName>
     <label>bear claws</label>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -34,7 +34,7 @@
       </li>
 	
     </comps>
-    <spawnThingOnRemoved>BearClaws</spawnThingOnRemoved>
+    <spawnThingOnRemoved>GR_BearClaws</spawnThingOnRemoved>
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
       <partEfficiency>1.1</partEfficiency>
@@ -42,8 +42,8 @@
 	
   </HediffDef>
   
-  <HediffDef ParentName="HybridPartsBase">
-    <defName>Ovipositor</defName>
+  <HediffDef ParentName="GR_HybridPartsBase">
+    <defName>GR_Ovipositor</defName>
     <label>ovipositor</label>
 	<stages>
       <li>
@@ -57,13 +57,13 @@
            <hatcherDaystoHatch>.5</hatcherDaystoHatch>
       </li>
     </comps>
-    <spawnThingOnRemoved>Ovipositor</spawnThingOnRemoved>
+    <spawnThingOnRemoved>GR_Ovipositor</spawnThingOnRemoved>
     
 	
   </HediffDef>
   
-  <HediffDef ParentName="HybridPartsBase">
-    <defName>MuffaloMuscles</defName>
+  <HediffDef ParentName="GR_HybridPartsBase">
+    <defName>GR_MuffaloMuscles</defName>
     <label>muffalo strengthened muscles</label>
 	<stages>
 		<li>
@@ -77,13 +77,13 @@
 		</li>	 
       </stages>
    
-    <spawnThingOnRemoved>MuffaloMuscles</spawnThingOnRemoved>
+    <spawnThingOnRemoved>GR_MuffaloMuscles</spawnThingOnRemoved>
     
 	
   </HediffDef>
   
-  <HediffDef ParentName="HybridPartsBase">
-    <defName>BoomalopeNodules</defName>
+  <HediffDef ParentName="GR_HybridPartsBase">
+    <defName>GR_BoomalopeNodules</defName>
     <label>boomalope nodules</label>
 
     <comps>
@@ -92,13 +92,13 @@
            <explosionForce>6</explosionForce>
       </li>
     </comps>
-    <spawnThingOnRemoved>BoomalopeNodules</spawnThingOnRemoved>
+    <spawnThingOnRemoved>GR_BoomalopeNodules</spawnThingOnRemoved>
     
 	
   </HediffDef>
   
-  <HediffDef ParentName="HybridPartsBase">
-    <defName>WolfMuscularFibers</defName>
+  <HediffDef ParentName="GR_HybridPartsBase">
+    <defName>GR_WolfMuscularFibers</defName>
     <label>wolf muscular fibers</label>
 	<stages>
 		<li>
@@ -111,13 +111,13 @@
 		</li>	 
      </stages>
    
-    <spawnThingOnRemoved>WolfMuscularFibers</spawnThingOnRemoved>
+    <spawnThingOnRemoved>GR_WolfMuscularFibers</spawnThingOnRemoved>
     
 	
   </HediffDef>
 
-  <HediffDef ParentName="HybridPartsBase">
-    <defName>InsectoidAntennae</defName>
+  <HediffDef ParentName="GR_HybridPartsBase">
+    <defName>GR_InsectoidAntennae</defName>
     <label>insectoid antennae</label>
 	<stages>
 		<li>
@@ -135,13 +135,13 @@
 	    	
      </stages>
    
-    <spawnThingOnRemoved>InsectoidAntennae</spawnThingOnRemoved>
+    <spawnThingOnRemoved>GR_InsectoidAntennae</spawnThingOnRemoved>
     
 	
   </HediffDef>
   
-  <HediffDef ParentName="HybridPartsBase">
-    <defName>HumanThrumboHorn</defName>
+  <HediffDef ParentName="GR_HybridPartsBase">
+    <defName>GR_HumanThrumboHorn</defName>
     <label>thrumbo horn</label>
 	<stages>
 		<li>
@@ -171,13 +171,13 @@
       </li>
 	  </comps>
    
-    <spawnThingOnRemoved>HumanThrumboHorn</spawnThingOnRemoved>
+    <spawnThingOnRemoved>GR_HumanThrumboHorn</spawnThingOnRemoved>
     
 	
   </HediffDef>
 
-  <HediffDef ParentName="HybridPartsBase">
-    <defName>VenomousFangs</defName>
+  <HediffDef ParentName="GR_HybridPartsBase">
+    <defName>GR_VenomousFangs</defName>
     <label>venomous fangs</label>
 	<stages>
 		<li>
@@ -197,7 +197,7 @@
           <li>
             <label>venomous fangs</label>
             <capacities>
-              <li>VeryToxicBite</li>
+              <li>GR_VeryToxicBite</li>
             </capacities>
             <power>25</power>
             <cooldownTime>1</cooldownTime>
@@ -207,7 +207,7 @@
       </li>
 	  </comps>
    
-    <spawnThingOnRemoved>VenomousFangs</spawnThingOnRemoved>
+    <spawnThingOnRemoved>GR_VenomousFangs</spawnThingOnRemoved>
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
     </addedPartProps>

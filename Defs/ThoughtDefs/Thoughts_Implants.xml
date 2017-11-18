@@ -2,9 +2,9 @@
 <Defs>
 
   <ThoughtDef>
-    <defName>WearingThrumboHorn</defName>
+    <defName>GR_WearingThrumboHorn</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>HumanThrumboHorn</hediff>
+    <hediff>GR_HumanThrumboHorn</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       
@@ -20,9 +20,9 @@
 
   
    <ThoughtDef>
-    <defName>HeWearsAntennae</defName>
+    <defName>GR_HeWearsAntennae</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>InsectoidAntennae</hediff>
+    <hediff>GR_InsectoidAntennae</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       

@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="OrganicProductBase">
-		<defName>Owlbearfeathers</defName>
+		<defName>GR_Owlbearfeathers</defName>
 		<label>owlbear feathers</label>
 		<description>Bearchicken feathers can be gathered and processed into a fine powder, which produces a mild euphoric sensation when burned and inhaled.</description>
 		<graphicData>
@@ -19,7 +19,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ResourceBase">
-		<defName>BearwolfFangs</defName>
+		<defName>GR_BearwolfFangs</defName>
 		<label>bearwolf fangs</label>
 		<description>The sharpened teeth of a bearwolf. These teeth are essentially useless, but some primitive tribes in the Rimworlds tend to use animal teeth as currency, since they are durable. Someone might pay for these.</description>
 		<graphicData>
@@ -45,7 +45,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
-		<defName>WolfchickenFeathers</defName>
+		<defName>GR_WolfchickenFeathers</defName>
 		<label>wolfchicken feathers</label>
 		<description>Wolfchicken feathers are colourful and pretty. Quite useless, but someone might pay for them as a decorative object.</description>
 		<graphicData>
@@ -70,7 +70,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
-		<defName>WolfbearPaws</defName>
+		<defName>GR_WolfbearPaws</defName>
 		<label>wolfbear paws</label>
 		<description>The huge, severed paws of a wolfbear. Such trophies are usually considered by primitive peoples to be a token of good luck. Someone might pay for these.</description>
 		<graphicData>
@@ -96,7 +96,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
-		<defName>VerySmallTeeth</defName>
+		<defName>GR_VerySmallTeeth</defName>
 		<label>very small teeth</label>
 		<description>These minuscule teeth are very durable. Some tribes in the Rimworlds tend to use animal teeth as currency, so they might be slightly valuable.</description>
 		<graphicData>
@@ -121,7 +121,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
-		<defName>AlphaBoarTusks</defName>
+		<defName>GR_AlphaBoarTusks</defName>
 		<label>alpha boar tusks</label>
 		<description>These boar tusks are hard and could probably be carved into a sculpture by someone artistically inclined in a stonecutter's table.</description>
 		<graphicData>
@@ -146,7 +146,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
-		<defName>HugeRhinoHorn</defName>
+		<defName>GR_HugeRhinoHorn</defName>
 		<label>huge rhino horn</label>
 		<description>This immense rhino horn has no intrinsic value or usefulness, but it is often used in non-effectual alternative medicine treatments. Oh well, this is the Rim, it's better than selling slaves (or not, those who could judge didn't survive winter).</description>
 		<graphicData>
@@ -170,7 +170,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
-		<defName>SpidersnakeSkin</defName>
+		<defName>GR_SpidersnakeSkin</defName>
 		<label>spidersnake shed skin</label>
 		<description>This shed skin can be ground and processed at a drug lab to extract minute amounts of neutroamine.</description>
 		<graphicData>
@@ -191,7 +191,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
-		<defName>HugeBearPelt</defName>
+		<defName>GR_HugeBearPelt</defName>
 		<label>huge bear pelt</label>
 		<description>This enormous bear pelt is probably valuable as a trade good. Or it can also be repurposed as a huge rug.</description>
 		<graphicData>
@@ -212,7 +212,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
-		<defName>WolfPelt</defName>
+		<defName>GR_WolfPelt</defName>
 		<label>wolf pelt</label>
 		<description>This wolf pelt can be used as a trade good. It can also be crafted into a decorative wolf rug.</description>
 		<graphicData>
@@ -233,7 +233,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
-		<defName>MuffaloPelt</defName>
+		<defName>GR_MuffaloPelt</defName>
 		<label>muffalo pelt</label>
 		<description>Cool! You can now make your own Game of Thrones / Rimworld cosplay! Or it can also be repurposed as a comfy rug.</description>
 		<graphicData>
@@ -254,7 +254,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
-    <defName>EmuFatOintment</defName>
+    <defName>GR_EmuFatOintment</defName>
     <label>emu fat ointment</label>
     <description>This clump of emu fat can be used as a medicinal ointment.</description>
     <thingClass>Medicine</thingClass>

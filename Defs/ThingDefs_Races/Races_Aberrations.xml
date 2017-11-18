@@ -3,7 +3,7 @@
     
   <!-- Aberrant Fleshbeast -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Limbless">
-    <defName>AberrantFleshbeast</defName>
+    <defName>GR_AberrantFleshbeast</defName>
     <label>aberrant fleshbeast</label>
     <description>Something went terribly wrong. This wretched creature is struggling to keep breathing.</description>
     <statBases>
@@ -70,9 +70,9 @@
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
   
-    <defName>AberrantFleshbeast</defName>
+    <defName>GR_AberrantFleshbeast</defName>
     <label>aberrant fleshbeast</label>
-    <race>AberrantFleshbeast</race>
+    <race>GR_AberrantFleshbeast</race>
     <combatPower>50</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>

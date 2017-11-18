@@ -3,7 +3,7 @@
 
 
 	<RecipeDef>
-		<defName>CreateAlphaBearIncubator</defName>
+		<defName>GR_CreateAlphaBearIncubator</defName>
 		<label>alpha bear incubator</label>
 		<description>Fill an incubator with alpha genes from a bear</description>
 		<jobString>Filling Incubator</jobString>
@@ -11,13 +11,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -25,7 +25,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BearSerum</li>
+						<li>GR_BearSerum</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -33,7 +33,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -42,13 +42,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BearSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BearSerum</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AlphaBearIncubator>1</AlphaBearIncubator>
+			<GR_AlphaBearIncubator>1</GR_AlphaBearIncubator>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -56,7 +56,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateAlphaBoarIncubator</defName>
+		<defName>GR_CreateAlphaBoarIncubator</defName>
 		<label>alpha boar incubator</label>
 		<description>Fill an incubator with alpha genes from a wild boar</description>
 		<jobString>Filling Incubator</jobString>
@@ -64,13 +64,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -78,7 +78,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BoarSerum</li>
+						<li>GR_BoarSerum</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -86,7 +86,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -95,13 +95,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BoarSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BoarSerum</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AlphaBoarIncubator>1</AlphaBoarIncubator>
+			<GR_AlphaBoarIncubator>1</GR_AlphaBoarIncubator>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -109,7 +109,7 @@
 	</RecipeDef>	
 	
 	<RecipeDef>
-		<defName>CreateAlphaBoomalopeIncubator</defName>
+		<defName>GR_CreateAlphaBoomalopeIncubator</defName>
 		<label>alpha boomalope incubator</label>
 		<description>Fill an incubator with alpha genes from a boomalope</description>
 		<jobString>Filling Incubator</jobString>
@@ -117,13 +117,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -131,7 +131,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BoomalopeSerum</li>
+						<li>GR_BoomalopeSerum</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -139,7 +139,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -148,13 +148,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>BoomalopeSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_BoomalopeSerum</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AlphaBoomalopeIncubator>1</AlphaBoomalopeIncubator>
+			<GR_AlphaBoomalopeIncubator>1</GR_AlphaBoomalopeIncubator>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -162,7 +162,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateAlphaChickenIncubator</defName>
+		<defName>GR_CreateAlphaChickenIncubator</defName>
 		<label>alpha chicken incubator</label>
 		<description>Fill an incubator with alpha genes from a chicken</description>
 		<jobString>Filling Incubator</jobString>
@@ -170,13 +170,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -184,7 +184,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ChickenSerum</li>
+						<li>GR_ChickenSerum</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -192,7 +192,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -201,13 +201,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>ChickenSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_ChickenSerum</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AlphaChickenIncubator>1</AlphaChickenIncubator>
+			<GR_AlphaChickenIncubator>1</GR_AlphaChickenIncubator>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -215,7 +215,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateAlphaEmuIncubator</defName>
+		<defName>GR_CreateAlphaEmuIncubator</defName>
 		<label>alpha emu incubator</label>
 		<description>Fill an incubator with alpha genes from an emu</description>
 		<jobString>Filling Incubator</jobString>
@@ -223,13 +223,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -237,7 +237,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmuSerum</li>
+						<li>GR_EmuSerum</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -245,7 +245,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -254,13 +254,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>EmuSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_EmuSerum</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AlphaEmuIncubator>1</AlphaEmuIncubator>
+			<GR_AlphaEmuIncubator>1</GR_AlphaEmuIncubator>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -268,7 +268,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateAlphaMuffaloIncubator</defName>
+		<defName>GR_CreateAlphaMuffaloIncubator</defName>
 		<label>alpha muffalo incubator</label>
 		<description>Fill an incubator with alpha genes from a muffalo</description>
 		<jobString>Filling Incubator</jobString>
@@ -276,13 +276,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -290,7 +290,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MuffaloSerum</li>
+						<li>GR_MuffaloSerum</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -298,7 +298,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -307,13 +307,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>MuffaloSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_MuffaloSerum</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AlphaMuffaloIncubator>1</AlphaMuffaloIncubator>
+			<GR_AlphaMuffaloIncubator>1</GR_AlphaMuffaloIncubator>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -321,7 +321,7 @@
 	</RecipeDef>	
 
 	<RecipeDef>
-		<defName>CreateAlphaOstrichIncubator</defName>
+		<defName>GR_CreateAlphaOstrichIncubator</defName>
 		<label>alpha ostrich incubator</label>
 		<description>Fill an incubator with alpha genes from an ostrich</description>
 		<jobString>Filling Incubator</jobString>
@@ -329,13 +329,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -343,7 +343,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OstrichSerum</li>
+						<li>GR_OstrichSerum</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -351,7 +351,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -360,13 +360,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>OstrichSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_OstrichSerum</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AlphaOstrichIncubator>1</AlphaOstrichIncubator>
+			<GR_AlphaOstrichIncubator>1</GR_AlphaOstrichIncubator>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -374,7 +374,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateAlphaRhinoIncubator</defName>
+		<defName>GR_CreateAlphaRhinoIncubator</defName>
 		<label>alpha rhino incubator</label>
 		<description>Fill an incubator with alpha genes from a rhino</description>
 		<jobString>Filling Incubator</jobString>
@@ -382,13 +382,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -396,7 +396,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>RhinoSerum</li>
+						<li>GR_RhinoSerum</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -404,7 +404,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -413,13 +413,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>RhinoSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_RhinoSerum</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AlphaRhinoIncubator>1</AlphaRhinoIncubator>
+			<GR_AlphaRhinoIncubator>1</GR_AlphaRhinoIncubator>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -427,7 +427,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>CreateAlphaWolfIncubator</defName>
+		<defName>GR_CreateAlphaWolfIncubator</defName>
 		<label>alpha wolf incubator</label>
 		<description>Fill an incubator with alpha genes from a wolf</description>
 		<jobString>Filling Incubator</jobString>
@@ -435,13 +435,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -449,7 +449,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WolfSerum</li>
+						<li>GR_WolfSerum</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -457,7 +457,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -466,13 +466,13 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
-				<li>WolfSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_EmptyIncubator</li>
+				<li>GR_WolfSerum</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AlphaWolfIncubator>1</AlphaWolfIncubator>
+			<GR_AlphaWolfIncubator>1</GR_AlphaWolfIncubator>
 		</products>
 		<skillRequirements>
 			<Intellectual>5</Intellectual>
@@ -488,13 +488,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -510,7 +510,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -519,9 +519,9 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
+				<li>GR_EmptyIncubator</li>
 				<li>GR_HareSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -541,13 +541,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -563,7 +563,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -572,9 +572,9 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
+				<li>GR_EmptyIncubator</li>
 				<li>GR_IguanaSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -594,13 +594,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -616,7 +616,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -625,9 +625,9 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
+				<li>GR_EmptyIncubator</li>
 				<li>GR_PigSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -647,13 +647,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -669,7 +669,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -678,9 +678,9 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
+				<li>GR_EmptyIncubator</li>
 				<li>GR_RatSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -700,13 +700,13 @@
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>500</workAmount>
 		<recipeUsers>
-			<li>AnimalEnrichmentCenter</li>	
+			<li>GR_AnimalEnrichmentCenter</li>	
 		</recipeUsers>	
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EmptyIncubator</li>
+						<li>GR_EmptyIncubator</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -722,7 +722,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>OrganicPulp</li>
+						<li>GR_OrganicPulp</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -731,9 +731,9 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>EmptyIncubator</li>
+				<li>GR_EmptyIncubator</li>
 				<li>GR_TortoiseSerum</li>
-				<li>OrganicPulp</li>
+				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>

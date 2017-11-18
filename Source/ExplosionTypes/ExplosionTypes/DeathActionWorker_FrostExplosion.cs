@@ -28,7 +28,7 @@ namespace ExplosionTypes
 
                 
                
-            GenExplosion.DoExplosion(corpse.Position, corpse.Map, radius, DamageDefOf.Frostbite, corpse.InnerPawn, -1,SoundDef.Named("Explosion_Bomb"), null, null, ThingDef.Named("Gas_Ice"), 1f, 1, false, null, 0f, 1);
+            GenExplosion.DoExplosion(corpse.Position, corpse.Map, radius, DamageDefOf.Frostbite, corpse.InnerPawn, -1,SoundDef.Named("Explosion_Bomb"), null, null, ThingDef.Named("GR_Gas_Ice"), 1f, 1, false, null, 0f, 1);
             }
         
     

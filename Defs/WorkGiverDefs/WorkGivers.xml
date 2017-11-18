@@ -4,13 +4,13 @@
  
 
 	<WorkGiverDef>
-		<defName>DoBillsGenetics</defName>
+		<defName>GR_DoBillsGenetics</defName>
 		<label>works at genetics table</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Crafting</workType>
 		<priorityInType>100</priorityInType>
 		<fixedBillGiverDefs>
-			<li>GeneticExtractionTable</li>
+			<li>GR_GeneticExtractionTable</li>
 		</fixedBillGiverDefs>
 		<verb>extract genetic materials</verb>
 		<gerund>extracting genetic material at</gerund>
@@ -21,13 +21,13 @@
 	</WorkGiverDef>
 	
 	<WorkGiverDef>
-		<defName>DoBillsGenePod</defName>
+		<defName>GR_DoBillsGenePod</defName>
 		<label>works at genepod</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Crafting</workType>
 		<priorityInType>100</priorityInType>
 		<fixedBillGiverDefs>
-			<li>GenePod</li>
+			<li>GR_GenePod</li>
 		</fixedBillGiverDefs>
 		<verb>combining genetic materials</verb>
 		<gerund>combining genetic material at</gerund>
@@ -38,13 +38,13 @@
 	</WorkGiverDef>
 	
 	<WorkGiverDef>
-		<defName>DoBillsAdvancedGenePod</defName>
+		<defName>GR_DoBillsAdvancedGenePod</defName>
 		<label>works at advanced genepod</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Crafting</workType>
 		<priorityInType>100</priorityInType>
 		<fixedBillGiverDefs>
-			<li>AdvancedGenePod</li>
+			<li>GR_AdvancedGenePod</li>
 		</fixedBillGiverDefs>
 		<verb>combining genetic materials</verb>
 		<gerund>combining genetic material at</gerund>
@@ -55,13 +55,13 @@
 	</WorkGiverDef>
 	
 	<WorkGiverDef>
-		<defName>DoBillsPulper</defName>
+		<defName>GR_DoBillsPulper</defName>
 		<label>works at wood pulper</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Crafting</workType>
 		<priorityInType>100</priorityInType>
 		<fixedBillGiverDefs>
-			<li>Pulper</li>
+			<li>GR_Pulper</li>
 		</fixedBillGiverDefs>
 		<verb>pulping wood</verb>
 		<gerund>pulping wood at</gerund>
@@ -72,13 +72,13 @@
 	</WorkGiverDef>
 	
 	<WorkGiverDef>
-		<defName>DoBillsRecycler</defName>
+		<defName>GR_DoBillsRecycler</defName>
 		<label>works at recycler</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Crafting</workType>
 		<priorityInType>100</priorityInType>
 		<fixedBillGiverDefs>
-			<li>PulpRecycler</li>
+			<li>GR_PulpRecycler</li>
 		</fixedBillGiverDefs>
 		<verb>pulping corpse</verb>
 		<gerund>pulping corpse at</gerund>
@@ -89,13 +89,13 @@
 	</WorkGiverDef>
 	
 	<WorkGiverDef>
-		<defName>DoBillsVat</defName>
+		<defName>GR_DoBillsVat</defName>
 		<label>works at tissue growing vat</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Crafting</workType>
 		<priorityInType>100</priorityInType>
 		<fixedBillGiverDefs>
-			<li>TissueGrowingVat</li>
+			<li>GR_TissueGrowingVat</li>
 		</fixedBillGiverDefs>
 		<verb>growing tissues</verb>
 		<gerund>growing tissues at</gerund>
@@ -106,13 +106,13 @@
 	</WorkGiverDef>
 	
 	<WorkGiverDef>
-		<defName>DoBillsSerumTable</defName>
+		<defName>GR_DoBillsSerumTable</defName>
 		<label>works at alpha serum extraction table</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Crafting</workType>
 		<priorityInType>100</priorityInType>
 		<fixedBillGiverDefs>
-			<li>AlphaSerumExtractionTable</li>
+			<li>GR_AlphaSerumExtractionTable</li>
 		</fixedBillGiverDefs>
 		<verb>extracting serum</verb>
 		<gerund>extracting serum at</gerund>
@@ -123,13 +123,13 @@
 	</WorkGiverDef>
 	
 	<WorkGiverDef>
-		<defName>DoBillsAnimalEnrichment</defName>
+		<defName>GR_DoBillsAnimalEnrichment</defName>
 		<label>works at animal enrichment center</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Crafting</workType>
 		<priorityInType>100</priorityInType>
 		<fixedBillGiverDefs>
-			<li>AnimalEnrichmentCenter</li>
+			<li>GR_AnimalEnrichmentCenter</li>
 		</fixedBillGiverDefs>
 		<verb>mixing alpha serum</verb>
 		<gerund>mixing alpha serum at</gerund>
@@ -140,7 +140,7 @@
 	</WorkGiverDef>
 	
 	<WorkGiverDef>
-		<defName>AnimalResource</defName>
+		<defName>GR_AnimalResource</defName>
 		<label>gather animal resource</label>
 		<giverClass>NewAnimalSubproducts.WorkGiver_AnimalResource</giverClass>
 		<workType>Handling</workType>

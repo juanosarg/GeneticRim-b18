@@ -4,7 +4,7 @@
 
 
 <ThingDef ParentName="ResourceBase">
-    <defName>EmptyIncubator</defName>
+    <defName>GR_EmptyIncubator</defName>
     <label>empty incubator</label>
     <description>This animal incubator is empty. Use the Gene Pod and different genetic material vials to fill it.</description>
     <graphicData>
@@ -23,12 +23,12 @@
 	</statBases>
     
     <thingCategories>
-      <li>Incubators</li>
+      <li>GR_Incubators</li>
     </thingCategories>
 </ThingDef>
 
 
-<ThingDef Abstract="True" Name="IncubatorsBase" ParentName="ResourceBase">
+<ThingDef Abstract="True" Name="GR_IncubatorsBase" ParentName="ResourceBase">
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
 	  <texPath>Things/Item/IncubatorCanister</texPath>
@@ -42,7 +42,7 @@
     </statBases>
     <tickerType>Normal</tickerType>
 	<thingCategories>
-      <li>Incubators</li>
+      <li>GR_Incubators</li>
     </thingCategories>
 	<stackLimit>1</stackLimit>
 	<comps>
@@ -55,400 +55,400 @@
 	</comps>
 </ThingDef>
 
-<ThingDef Abstract="True" Name="IncubatorsBaseTier2" ParentName="IncubatorsBase">
+<ThingDef Abstract="True" Name="GR_IncubatorsBaseTier2" ParentName="GR_IncubatorsBase">
     <graphicData>
 	  <texPath>Things/Item/IncubatorCanisterTier2</texPath>
     </graphicData>
 </ThingDef>
 
-<ThingDef Abstract="True" Name="IncubatorsBaseTierInsectoids" ParentName="IncubatorsBase">
+<ThingDef Abstract="True" Name="GR_IncubatorsBaseTierInsectoids" ParentName="GR_IncubatorsBase">
     <graphicData>
 	  <texPath>Things/Item/IncubatorCanisterTierInsectoids</texPath>
     </graphicData>
 </ThingDef>
 
-<ThingDef Abstract="True" Name="IncubatorsBaseTierReptilians" ParentName="IncubatorsBase">
+<ThingDef Abstract="True" Name="GR_IncubatorsBaseTierReptilians" ParentName="GR_IncubatorsBase">
     <graphicData>
 	  <texPath>Things/Item/IncubatorCanisterTierReptilians</texPath>
     </graphicData>
 </ThingDef>
 
 <!-- Items handling Bear / Boomalope hybrids -->
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BearBoomalopePre</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BearBoomalopePre</defName>
     <label>boomalope / bear incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
       <li Class="NewHatcher.CompProperties_HatcherRandomizer">
         
-        <hatcherItem>BearalopeIncubator</hatcherItem>
-		<hatcherItemTwo>BoomabearIncubator</hatcherItemTwo>
+        <hatcherItem>GR_BearalopeIncubator</hatcherItem>
+		<hatcherItemTwo>GR_BoomabearIncubator</hatcherItemTwo>
       </li>
     </comps>
 </ThingDef>
  
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BearalopeIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BearalopeIncubator</defName>
     <label>boomalope / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Boomalope / Bear or Bear / Boomalope hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Bearalope</hatcherPawn>
+        <hatcherPawn>GR_Bearalope</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BoomabearIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BoomabearIncubator</defName>
     <label>boomalope / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Boomalope / Bear or Bear / Boomalope hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Boomabear</hatcherPawn>
+        <hatcherPawn>GR_Boomabear</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
 <!-- Items handling Bear / Chicken hybrids -->
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BearChickenPre</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BearChickenPre</defName>
     <label>chicken / bear incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
       <li Class="NewHatcher.CompProperties_HatcherRandomizer">
         
-        <hatcherItem>ChickenBearIncubator</hatcherItem>
-		<hatcherItemTwo>BearChickenIncubator</hatcherItemTwo>
+        <hatcherItem>GR_ChickenBearIncubator</hatcherItem>
+		<hatcherItemTwo>GR_BearChickenIncubator</hatcherItemTwo>
       </li>
     </comps>
 </ThingDef>
  
-<ThingDef ParentName="IncubatorsBase">
-    <defName>ChickenBearIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_ChickenBearIncubator</defName>
     <label>chicken / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Bear or Bear / Chicken hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Chickenbear</hatcherPawn>
+        <hatcherPawn>GR_Chickenbear</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BearChickenIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BearChickenIncubator</defName>
     <label>chicken / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Bear or Bear / Chicken hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>BearchickenKind</hatcherPawn>
+        <hatcherPawn>GR_BearchickenKind</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
 <!-- Items handling Bear / Muffalo hybrids -->
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BearMuffaloPre</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BearMuffaloPre</defName>
     <label>muffalo / bear incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
       <li Class="NewHatcher.CompProperties_HatcherRandomizer">
         
-        <hatcherItem>BearMuffaloIncubator</hatcherItem>
-		<hatcherItemTwo>MuffaloBearIncubator</hatcherItemTwo>
+        <hatcherItem>GR_BearMuffaloIncubator</hatcherItem>
+		<hatcherItemTwo>GR_MuffaloBearIncubator</hatcherItemTwo>
       </li>
     </comps>
 </ThingDef>
  
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BearMuffaloIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BearMuffaloIncubator</defName>
     <label>muffalo / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Bear or Bear / Muffalo hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Bearffalo</hatcherPawn>
+        <hatcherPawn>GR_Bearffalo</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBase">
-    <defName>MuffaloBearIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_MuffaloBearIncubator</defName>
     <label>muffalo / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Bear or Bear / Muffalo hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Muffalobear</hatcherPawn>
+        <hatcherPawn>GR_Muffalobear</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
 <!-- Items handling Bear / Wolf hybrids -->
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BearWolfPre</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BearWolfPre</defName>
     <label>wolf / bear incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
       <li Class="NewHatcher.CompProperties_HatcherRandomizer">
         
-        <hatcherItem>BearWolfIncubator</hatcherItem>
-		<hatcherItemTwo>WolfBearIncubator</hatcherItemTwo>
+        <hatcherItem>GR_BearWolfIncubator</hatcherItem>
+		<hatcherItemTwo>GR_WolfBearIncubator</hatcherItemTwo>
       </li>
     </comps>
 </ThingDef>
  
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BearWolfIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BearWolfIncubator</defName>
     <label>wolf / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Wolf / Bear or Bear / Wolf hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Bearwolf</hatcherPawn>
+        <hatcherPawn>GR_Bearwolf</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBase">
-    <defName>WolfBearIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_WolfBearIncubator</defName>
     <label>wolf / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Wolf / Bear or Bear / Wolf hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Wolfbear</hatcherPawn>
+        <hatcherPawn>GR_Wolfbear</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
 <!-- Items handling Boomalope / Chicken hybrids -->
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BoomalopeChickenPre</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BoomalopeChickenPre</defName>
     <label>boomalope / chicken incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
       <li Class="NewHatcher.CompProperties_HatcherRandomizer">
         
-        <hatcherItem>BoomalopeChickenIncubator</hatcherItem>
-		<hatcherItemTwo>ChickenBoomalopeIncubator</hatcherItemTwo>
+        <hatcherItem>GR_BoomalopeChickenIncubator</hatcherItem>
+		<hatcherItemTwo>GR_ChickenBoomalopeIncubator</hatcherItemTwo>
       </li>
     </comps>
 </ThingDef>
  
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BoomalopeChickenIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BoomalopeChickenIncubator</defName>
     <label>boomalope / chicken incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Boomalope or Boomalope / Chicken hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Boomachicken</hatcherPawn>
+        <hatcherPawn>GR_Boomachicken</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBase">
-    <defName>ChickenBoomalopeIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_ChickenBoomalopeIncubator</defName>
     <label>boomalope / chicken incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Boomalope or Boomalope / Chicken hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Chickenlope</hatcherPawn>
+        <hatcherPawn>GR_Chickenlope</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
 <!-- Items handling Boomalope / Muffalo hybrids -->
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BoomalopeMuffaloPre</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BoomalopeMuffaloPre</defName>
     <label>boomalope / muffalo incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
       <li Class="NewHatcher.CompProperties_HatcherRandomizer">
         
-        <hatcherItem>BoomalopeMuffaloIncubator</hatcherItem>
-		<hatcherItemTwo>MuffaloBoomalopeIncubator</hatcherItemTwo>
+        <hatcherItem>GR_BoomalopeMuffaloIncubator</hatcherItem>
+		<hatcherItemTwo>GR_MuffaloBoomalopeIncubator</hatcherItemTwo>
       </li>
     </comps>
 </ThingDef>
  
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BoomalopeMuffaloIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BoomalopeMuffaloIncubator</defName>
     <label>boomalope / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Boomalope or Boomalope / Muffalo hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Boomffalo</hatcherPawn>
+        <hatcherPawn>GR_Boomffalo</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBase">
-    <defName>MuffaloBoomalopeIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_MuffaloBoomalopeIncubator</defName>
     <label>boomalope / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Boomalope or Boomalope / Muffalo hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Muffalope</hatcherPawn>
+        <hatcherPawn>GR_Muffalope</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
 <!-- Items handling Boomalope / Wolf hybrids -->
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BoomalopeWolfPre</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BoomalopeWolfPre</defName>
     <label>boomalope / wolf incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
       <li Class="NewHatcher.CompProperties_HatcherRandomizer">
         
-        <hatcherItem>BoomalopeWolfIncubator</hatcherItem>
-		<hatcherItemTwo>WolfBoomalopeIncubator</hatcherItemTwo>
+        <hatcherItem>GR_BoomalopeWolfIncubator</hatcherItem>
+		<hatcherItemTwo>GR_WolfBoomalopeIncubator</hatcherItemTwo>
       </li>
     </comps>
 </ThingDef>
  
-<ThingDef ParentName="IncubatorsBase">
-    <defName>BoomalopeWolfIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BoomalopeWolfIncubator</defName>
     <label>boomalope / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Wolf / Boomalope or Boomalope / Wolf hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Boomwolf</hatcherPawn>
+        <hatcherPawn>GR_Boomwolf</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBase">
-    <defName>WolfBoomalopeIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_WolfBoomalopeIncubator</defName>
     <label>boomalope / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Wolf / Boomalope or Boomalope / Wolf hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Wolfalope</hatcherPawn>
+        <hatcherPawn>GR_Wolfalope</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
 <!-- Items handling Chicken / Muffalo hybrids -->
-<ThingDef ParentName="IncubatorsBase">
-    <defName>ChickenMuffaloPre</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_ChickenMuffaloPre</defName>
     <label>chicken / muffalo incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
       <li Class="NewHatcher.CompProperties_HatcherRandomizer">
         
-        <hatcherItem>ChickenMuffaloIncubator</hatcherItem>
-		<hatcherItemTwo>MuffaloChickenIncubator</hatcherItemTwo>
+        <hatcherItem>GR_ChickenMuffaloIncubator</hatcherItem>
+		<hatcherItemTwo>GR_MuffaloChickenIncubator</hatcherItemTwo>
       </li>
     </comps>
 </ThingDef>
  
-<ThingDef ParentName="IncubatorsBase">
-    <defName>ChickenMuffaloIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_ChickenMuffaloIncubator</defName>
     <label>chicken / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Muffalo or Muffalo / Chicken hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Chickenffalo</hatcherPawn>
+        <hatcherPawn>GR_Chickenffalo</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBase">
-    <defName>MuffaloChickenIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_MuffaloChickenIncubator</defName>
     <label>chicken / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Muffalo or Muffalo / Chicken hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Muffalochicken</hatcherPawn>
+        <hatcherPawn>GR_Muffalochicken</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
 <!-- Items handling Chicken / Wolf hybrids -->
-<ThingDef ParentName="IncubatorsBase">
-    <defName>ChickenWolfPre</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_ChickenWolfPre</defName>
     <label>chicken / wolf incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
       <li Class="NewHatcher.CompProperties_HatcherRandomizer">
         
-        <hatcherItem>ChickenWolfIncubator</hatcherItem>
-		<hatcherItemTwo>WolfChickenIncubator</hatcherItemTwo>
+        <hatcherItem>GR_ChickenWolfIncubator</hatcherItem>
+		<hatcherItemTwo>GR_WolfChickenIncubator</hatcherItemTwo>
       </li>
     </comps>
 </ThingDef>
  
-<ThingDef ParentName="IncubatorsBase">
-    <defName>ChickenWolfIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_ChickenWolfIncubator</defName>
     <label>chicken / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Wolf or Wolf / Chicken hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Chickenwolf</hatcherPawn>
+        <hatcherPawn>GR_Chickenwolf</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBase">
-    <defName>WolfChickenIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_WolfChickenIncubator</defName>
     <label>chicken / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Chicken / Wolf or Wolf / Chicken hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Wolfchicken</hatcherPawn>
+        <hatcherPawn>GR_Wolfchicken</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
 <!-- Items handling Muffalo / Wolf hybrids -->
-<ThingDef ParentName="IncubatorsBase">
-    <defName>MuffaloWolfPre</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_MuffaloWolfPre</defName>
     <label>muffalo / wolf incubator</label>
     <description>An incubator filled with a mixture of animal genetic material</description>
     <comps>
       <li Class="NewHatcher.CompProperties_HatcherRandomizer">
         
-        <hatcherItem>MuffaloWolfIncubator</hatcherItem>
-		<hatcherItemTwo>WolfMuffaloIncubator</hatcherItemTwo>
+        <hatcherItem>GR_MuffaloWolfIncubator</hatcherItem>
+		<hatcherItemTwo>GR_WolfMuffaloIncubator</hatcherItemTwo>
       </li>
     </comps>
 </ThingDef>
  
-<ThingDef ParentName="IncubatorsBase">
-    <defName>MuffaloWolfIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_MuffaloWolfIncubator</defName>
     <label>muffalo / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Wolf or Wolf / Muffalo hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Muffalowolf</hatcherPawn>
+        <hatcherPawn>GR_Muffalowolf</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBase">
-    <defName>WolfMuffaloIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_WolfMuffaloIncubator</defName>
     <label>muffalo / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo may develop into a Muffalo / Wolf or Wolf / Muffalo hybrid</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Wolffalo</hatcherPawn>
+        <hatcherPawn>GR_Wolffalo</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
@@ -456,62 +456,62 @@
 <!-- Items handling Thrumbo hybrids -->
 
  
-<ThingDef ParentName="IncubatorsBaseTier2">
-    <defName>ThrumbearIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_ThrumbearIncubator</defName>
     <label>thrumbo / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Thrumbear</hatcherPawn>
+        <hatcherPawn>GR_Thrumbear</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBaseTier2">
-    <defName>ThrumffaloIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_ThrumffaloIncubator</defName>
     <label>thrumbo / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Thrumffalo</hatcherPawn>
+        <hatcherPawn>GR_Thrumffalo</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
-<ThingDef ParentName="IncubatorsBaseTier2">
-    <defName>ThrumbalopeIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_ThrumbalopeIncubator</defName>
     <label>thrumbo / boomalope incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Thrumbalope</hatcherPawn>
+        <hatcherPawn>GR_Thrumbalope</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBaseTier2">
-    <defName>ThrumbochickenIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_ThrumbochickenIncubator</defName>
     <label>thrumbo / chicken incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Thrumbochicken</hatcherPawn>
+        <hatcherPawn>GR_Thrumbochicken</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
-<ThingDef ParentName="IncubatorsBaseTier2">
-    <defName>ThrumwolfIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_ThrumwolfIncubator</defName>
     <label>thrumbo / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Thrumwolf</hatcherPawn>
+        <hatcherPawn>GR_Thrumwolf</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
@@ -519,74 +519,74 @@
 <!-- Items handling Insectoid hybrids -->
 
  
-<ThingDef ParentName="IncubatorsBaseTierInsectoids">
-    <defName>BearscarabIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierInsectoids">
+    <defName>GR_BearscarabIncubator</defName>
     <label>insectoid / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Bearscarab</hatcherPawn>
+        <hatcherPawn>GR_Bearscarab</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBaseTierInsectoids">
-    <defName>MuffalopedeIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierInsectoids">
+    <defName>GR_MuffalopedeIncubator</defName>
     <label>insectoid / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Muffalopede</hatcherPawn>
+        <hatcherPawn>GR_Muffalopede</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
-<ThingDef ParentName="IncubatorsBaseTierInsectoids">
-    <defName>BoombeetleIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierInsectoids">
+    <defName>GR_BoombeetleIncubator</defName>
     <label>insectoid / boomalope incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Boombeetle</hatcherPawn>
+        <hatcherPawn>GR_Boombeetle</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
   
-<ThingDef ParentName="IncubatorsBaseTierInsectoids">
-    <defName>ChickenspiderIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierInsectoids">
+    <defName>GR_ChickenspiderIncubator</defName>
     <label>insectoid / chicken incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Chickenspider</hatcherPawn>
+        <hatcherPawn>GR_Chickenspider</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
-<ThingDef ParentName="IncubatorsBaseTierInsectoids">
-    <defName>WolfscarabIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierInsectoids">
+    <defName>GR_WolfscarabIncubator</defName>
     <label>insectoid / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Wolfscarab</hatcherPawn>
+        <hatcherPawn>GR_Wolfscarab</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
 
-<ThingDef ParentName="IncubatorsBaseTierInsectoids">
-    <defName>ThrumbospiderIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierInsectoids">
+    <defName>GR_ThrumbospiderIncubator</defName>
     <label>insectoid / thrumbo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Thrumbospider</hatcherPawn>
+        <hatcherPawn>GR_Thrumbospider</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
@@ -594,80 +594,80 @@
 <!-- Items handling Reptilian hybrids -->
 
  
-<ThingDef ParentName="IncubatorsBaseTierReptilians">
-    <defName>BearodileIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierReptilians">
+    <defName>GR_BearodileIncubator</defName>
     <label>reptile / bear incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Bearodile</hatcherPawn>
+        <hatcherPawn>GR_Bearodile</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
-<ThingDef ParentName="IncubatorsBaseTierReptilians">
-    <defName>BoomsnakeIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierReptilians">
+    <defName>GR_BoomsnakeIncubator</defName>
     <label>reptile / boomalope incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Boomsnake</hatcherPawn>
+        <hatcherPawn>GR_Boomsnake</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
-<ThingDef ParentName="IncubatorsBaseTierReptilians">
-    <defName>ChickenlizardIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierReptilians">
+    <defName>GR_ChickenlizardIncubator</defName>
     <label>reptile / chicken incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Chickenlizard</hatcherPawn>
+        <hatcherPawn>GR_Chickenlizard</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
-<ThingDef ParentName="IncubatorsBaseTierReptilians">
-    <defName>MuffalokomodoIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierReptilians">
+    <defName>GR_MuffalokomodoIncubator</defName>
     <label>reptile / muffalo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Muffalokomodo</hatcherPawn>
+        <hatcherPawn>GR_Muffalokomodo</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
-<ThingDef ParentName="IncubatorsBaseTierReptilians">
-    <defName>SpidersnakeIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierReptilians">
+    <defName>GR_SpidersnakeIncubator</defName>
     <label>reptile / insectoid incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Spidersnake</hatcherPawn>
+        <hatcherPawn>GR_Spidersnake</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
-<ThingDef ParentName="IncubatorsBaseTierReptilians">
-    <defName>ThrumbolizardIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierReptilians">
+    <defName>GR_ThrumbolizardIncubator</defName>
     <label>reptile / thrumbo incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Thrumbolizard</hatcherPawn>
+        <hatcherPawn>GR_Thrumbolizard</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
-<ThingDef ParentName="IncubatorsBaseTierReptilians">
-    <defName>WolfsnakeIncubator</defName>
+<ThingDef ParentName="GR_IncubatorsBaseTierReptilians">
+    <defName>GR_WolfsnakeIncubator</defName>
     <label>reptile / wolf incubator</label>
     <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
 	<comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>Wolfsnake</hatcherPawn>
+        <hatcherPawn>GR_Wolfsnake</hatcherPawn>
       </li>
     </comps>
 </ThingDef>

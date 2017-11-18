@@ -4,7 +4,7 @@
 <!--============================== More Furniture ==============================-->
 
   <DesignationCategoryDef>
-    <defName>GeneticsTab</defName>
+    <defName>GR_GeneticsTab</defName>
     <label>Genetics</label>
     <description>Items added by Genetic Rim.</description>
     <order>450</order>
