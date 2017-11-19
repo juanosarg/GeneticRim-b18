@@ -334,6 +334,47 @@
     </thingCategories>
     
   </ThingDef>
+  
+     <!--=============== Boomfuels ====================-->
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>GR_Cryofuel</defName>
+    <label>cryofuel</label>
+    <description>Volatile liquid chemical compound stored in cryogenic containers. Can be used to power a cryo-stabilized generator.</description>
+		<tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Item/Cryofuel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>400</stackLimit>
+		<deepCommonality>2</deepCommonality>
+		<deepCountPerCell>300</deepCountPerCell>
+		<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>3</MarketValue>
+      <Mass>0.05</Mass>
+      <Flammability>1.0</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.1</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+				<startWickOnDamageTaken>Flame</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>
+					<min>70</min>
+					<max>150</max>
+				</wickTicks>
+			</li>
+		</comps>
+  </ThingDef>
 
   
 </Defs>

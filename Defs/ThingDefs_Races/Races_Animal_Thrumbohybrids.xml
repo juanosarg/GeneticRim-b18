@@ -169,7 +169,7 @@
     <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
     <defName>GR_Thrumbalope</defName>
     <label>thrumbalope</label>
-    <description>The thrumbalope is a thrumbo that has been spliced with boomalope genes. Their huge sacs of unstable chemicals explode with unbelievable force, which has caused the colonists to nickname them "nukalopes".\n\nUseful abilities: Huge, dangerous explosion on death.</description>
+    <description>The thrumbalope is a thrumbo that has been spliced with boomalope genes. Their huge sacs of unstable chemicals explode with unbelievable force, which has caused the colonists to nickname them "nukalopes".\n\nUseful abilities: Huge, dangerous explosion on death. Produces massive amounts of chemfuel.</description>
     <statBases>
       <MoveSpeed>4</MoveSpeed>
       <ComfyTemperatureMin>-45</ComfyTemperatureMin>
@@ -225,7 +225,14 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
-   
+    <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Chemfuel</milkDef>
+        <milkIntervalDays>2</milkIntervalDays>
+        <milkAmount>80</milkAmount>
+        <milkFemaleOnly>false</milkFemaleOnly>
+      </li>
+    </comps>    
     <race>
       <body>QuadrupedAnimalWithHoovesAndHorn</body>
 	  <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_GargantuanExplosion</deathActionWorkerClass>

@@ -285,6 +285,61 @@
 		<designationCategory>GR_GeneticsTab</designationCategory>
 
   </ThingDef>
+    <ThingDef ParentName="BuildingBase">
+    <defName>GR_GeneRecombinator</defName>
+    <label>gene recombinator</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>Mixes genes from different species, and produces genes from other species at random. Or not. Also, be careful, you don't want to mix frogs with other things. Life finds a way.</description>
+    <graphicData>
+      <texPath>Things/Building/GR_GeneRecombinator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+     
+    </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
+    <costList>
+      <Steel>75</Steel>
+      <Component>3</Component>
+	  <GR_OrganicPulp>5</GR_OrganicPulp>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>500</WorkToBuild>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+   
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+	<comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <researchPrerequisites><li>GR_GeneticEngineering</li></researchPrerequisites>
+		<designationCategory>GR_GeneticsTab</designationCategory>
+
+  </ThingDef>
   
   <ThingDef ParentName="BuildingBase">
     <defName>GR_TissueGrowingVat</defName>

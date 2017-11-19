@@ -11,7 +11,7 @@
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
     <defName>GR_Bearalope</defName>
     <label>bearalope</label>
-    <description>A bear / boomalope hybrid. Not as strong in melee as a pure bear, but its unstable chemical reservoirs explode with great force when it dies. Unfortunately, the extreme virulence of these chemicals is harmful to the creature, and they have very short, miserable lifespans.\n\nUseful abilities: Big explosion produced on hybrid's death.</description>
+    <description>A bear / boomalope hybrid. Not as strong in melee as a pure bear, but its unstable chemical reservoirs explode with great force when it dies. Unfortunately, the extreme virulence of these chemicals is harmful to the creature, and they have very short, miserable lifespans.\n\nUseful abilities: Big explosion produced on hybrid's death. Decent chemfuel production.</description>
     <statBases>
       <MoveSpeed>4.0</MoveSpeed>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
@@ -80,7 +80,14 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
-   
+    <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Chemfuel</milkDef>
+        <milkIntervalDays>2</milkIntervalDays>
+        <milkAmount>22</milkAmount>
+        <milkFemaleOnly>false</milkFemaleOnly>
+      </li>
+    </comps>
     <race>
 	  <herdAnimal>false</herdAnimal>
       <predator>true</predator>

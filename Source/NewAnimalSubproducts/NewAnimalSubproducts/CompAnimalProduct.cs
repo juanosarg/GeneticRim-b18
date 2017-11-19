@@ -121,6 +121,14 @@ namespace NewAnimalSubproducts
             {
                 return Translator.Translate("ChocolateEgg") + ": " + base.Fullness.ToStringPercent();
             }
+            else if (ResourceDef.ToString() == "GR_Cryofuel")
+            {
+                return Translator.Translate("Cryofuel") + ": " + base.Fullness.ToStringPercent();
+            }
+            else if (ResourceDef.ToString() == "Chemfuel")
+            {
+                return Translator.Translate("ChemfuelProd") + ": " + base.Fullness.ToStringPercent();
+            }
 
             else  return Translator.Translate("ResourceGrowth") + ": " + base.Fullness.ToStringPercent();
         }

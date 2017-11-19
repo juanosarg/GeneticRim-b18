@@ -88,6 +88,24 @@
 		<prioritizeSustains>true</prioritizeSustains>
 	</WorkGiverDef>
 	
+		
+	<WorkGiverDef>
+		<defName>GR_DoBillsGeneRecombinator</defName>
+		<label>works at gene recombinator</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GR_GeneRecombinator</li>
+		</fixedBillGiverDefs>
+		<verb>recombining genes</verb>
+		<gerund>recombining genes at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
 	<WorkGiverDef>
 		<defName>GR_DoBillsVat</defName>
 		<label>works at tissue growing vat</label>

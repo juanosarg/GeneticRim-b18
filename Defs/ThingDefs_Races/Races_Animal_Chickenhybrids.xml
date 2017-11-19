@@ -168,7 +168,7 @@
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArmsTail">
     <defName>GR_Chickenlope</defName>
     <label>chickenlope</label>
-    <description>A chicken / boomalope hybrid. This sickly looking creature is basically useless. Now, if you gather a lot of them, and kill them in a chain reaction... \n\nUseful abilities: Explodes on death.</description>
+    <description>A chicken / boomalope hybrid. This sickly looking creature is basically useless. Now, if you gather a lot of them, and kill them in a chain reaction... \n\nUseful abilities: Explodes on death. Produces minute amounts of chemfuel every day.</description>
     <statBases>
       <MoveSpeed>2.15</MoveSpeed>
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
@@ -212,6 +212,12 @@
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>2</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
+      </li>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Chemfuel</milkDef>
+        <milkIntervalDays>1</milkIntervalDays>
+        <milkAmount>5</milkAmount>
+        <milkFemaleOnly>false</milkFemaleOnly>
       </li>
     </comps>
     <race>

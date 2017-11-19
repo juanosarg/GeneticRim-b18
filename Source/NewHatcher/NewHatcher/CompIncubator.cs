@@ -57,6 +57,7 @@ namespace NewHatcher
 
         public override void CompTick()
         {
+            
             if (!this.TemperatureDamaged)
             {
                float num = 1f / (this.Props.hatcherDaystoHatch * 60000f);
@@ -71,7 +72,7 @@ namespace NewHatcher
         public void Hatch()
         {
 
-        if (this.parent.Map.IsPlayerHome && (this.parent.Faction == Faction.OfPlayer)) { 
+        if (this.parent.Map.IsPlayerHome) { 
 
         FilthMaker.MakeFilth(this.parent.Position, this.parent.Map, ThingDefOf.FilthAmnioticFluid, 1);
            

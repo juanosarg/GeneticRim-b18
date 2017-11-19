@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============== Genetic Material ====================-->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GR_StabilizingGenes</defName>
+    <label>stabilizing genes</label>
+    <description>This genetic cocktail hasn't differentiated yet.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <texPath>Things/Item/GR_geneticmaterialswhite</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+	  <Mass>0.1</Mass>
+	  <MarketValue>40</MarketValue>
+    </statBases>
+    <tickerType>Normal</tickerType>
+	<thingCategories>
+      <li>GR_GeneticMaterial</li>
+    </thingCategories>
+	<stackLimit>1</stackLimit>
+	<comps>
+			
+			<li Class="CompProperties_TemperatureRuinable">
+				<minSafeTemperature>0</minSafeTemperature>
+				<maxSafeTemperature>50</maxSafeTemperature>
+				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+			<li Class="NewHatcher.CompProperties_Recombinator">
+        
+				
+			</li>
+	</comps>
+   </ThingDef>
+  
+  
+  
+ 
+
+  
+</Defs>

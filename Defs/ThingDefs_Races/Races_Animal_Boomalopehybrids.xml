@@ -4,7 +4,7 @@
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
     <defName>GR_Boomabear</defName>
     <label>boomabear</label>
-    <description>A boomalope / bear hybrid. Stronger than a standard Boomalope, and explodes with a small, concentrated burst when downed. Very dangerous in tight, confined spaces.\n\nUseful abilities: The only boomalope hybrid exploding with Bomb damage instead of Flame. Dangerous!.</description>
+    <description>A boomalope / bear hybrid. Stronger than a standard Boomalope, and explodes with a small, concentrated burst when downed. Very dangerous in tight, confined spaces.\n\nUseful abilities: The only boomalope hybrid exploding with Bomb damage instead of Flame. Dangerous!. Decent chemfuel production.</description>
     <statBases>
       <MoveSpeed>3.8</MoveSpeed>
       <ComfyTemperatureMin>-35</ComfyTemperatureMin>
@@ -38,7 +38,14 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
-    
+    <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Chemfuel</milkDef>
+        <milkIntervalDays>2</milkIntervalDays>
+        <milkAmount>22</milkAmount>
+        <milkFemaleOnly>false</milkFemaleOnly>
+      </li>
+    </comps>   
     <race>
 	  <intelligence>Animal</intelligence>
       <body>QuadrupedAnimalWithHoovesAndHump</body>
@@ -144,7 +151,7 @@
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
     <defName>GR_Boomachicken</defName>
     <label>boomachicken</label>
-    <description>A Boomalope / chicken hybrid. These creatures produce two types of eggs: the regular kind, and a special type of egg filled to the brim with dangerous chemicals. These aberrant eggs aren't normally laid, and they are liberated when the creature dies. In contact with the atmosphere, they explode violently in a few seconds.\n\nUseful abilities: Eggxplosion!!</description>
+    <description>A Boomalope / chicken hybrid. These creatures produce two types of eggs: the regular kind, and a special type of egg filled to the brim with dangerous chemicals. These aberrant eggs aren't normally laid, and they are liberated when the creature dies. In contact with the atmosphere, they explode violently in a few seconds.\n\nUseful abilities: Eggxplosion!! Weak chemfuel production.</description>
     <statBases>
       <MoveSpeed>2.0</MoveSpeed>
       <ComfyTemperatureMin>-5</ComfyTemperatureMin>
@@ -171,7 +178,7 @@
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
       </li>
     </tools>
-   
+ 
 	<comps>
       <li Class="CompProperties_EggLayer">
         <eggUnfertilizedDef>GR_BoomachickenEggUnfertilized</eggUnfertilizedDef>
@@ -179,6 +186,12 @@
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>8</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
+      </li>
+	  <li Class="CompProperties_Milkable">
+        <milkDef>Chemfuel</milkDef>
+        <milkIntervalDays>2</milkIntervalDays>
+        <milkAmount>12</milkAmount>
+        <milkFemaleOnly>false</milkFemaleOnly>
       </li>
     </comps>
     <race>
@@ -282,7 +295,7 @@
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
     <defName>GR_Boomffalo</defName>
     <label>boomffalo</label>
-    <description>A Boomalope / Muffalo hybrid. A bit unstable to transport goods, so it isn't ever used as a pack animal, but it produces milk and wool. From a genetic engineering standpoint, these creatures are hard to stabilize, since the muffalo's biology is incompatible with the boomalope's chemical sacs. A cocktail of chemical refrigerants is used to maintain a delicate balance.\n\nUseful abilities: Produces low quality milk and average wool. Explodes with Frostbite damage on death.</description>
+    <description>A Boomalope / Muffalo hybrid. A bit unstable to transport goods, so it isn't ever used as a pack animal, but it produces milk and wool. From a genetic engineering standpoint, these creatures are hard to stabilize, since the muffalo's biology is incompatible with the boomalope's chemical sacs. A cocktail of chemical refrigerants is used to maintain a delicate balance.\n\nUseful abilities: Produces low quality milk and average wool. Explodes with Frostbite damage on death. Produces a specialized cryofuel which can be used to power a cryofuel engine.</description>
     <statBases>
       <MoveSpeed>3.15</MoveSpeed>
       <ComfyTemperatureMin>-45</ComfyTemperatureMin>
@@ -306,6 +319,12 @@
         <milkIntervalDays>2</milkIntervalDays>
         <milkAmount>12</milkAmount>
       </li>
+	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>GR_Cryofuel</resourceDef>
+			<gatheringIntervalDays>2</gatheringIntervalDays>
+			<resourceAmount>20</resourceAmount>
+      </li>
+	 
       <li Class="CompProperties_Shearable">
         <woolDef>GR_BoomffaloWool</woolDef>
         <shearIntervalDays>25</shearIntervalDays>
@@ -413,7 +432,7 @@
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
     <defName>GR_Boomwolf</defName>
     <label>boomwolf</label>
-    <description>A Boomalope / Wolf hybrid. Faster than a standard boomalope, and capable of delivering a powerful bite. \n\nUseful abilities: Explodes on death with great concussive force, stunning any creature caught in its blast radius.</description>
+    <description>A Boomalope / Wolf hybrid. Faster than a standard boomalope, and capable of delivering a powerful bite. \n\nUseful abilities: Explodes on death with great concussive force, stunning any creature caught in its blast radius. Produces low amounts of chemfuel every day.</description>
     <statBases>
       <MoveSpeed>5.1</MoveSpeed>
       <ComfyTemperatureMin>-35</ComfyTemperatureMin>
@@ -447,7 +466,15 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
-    
+    <comps>
+      
+	  <li Class="CompProperties_Milkable">
+        <milkDef>Chemfuel</milkDef>
+        <milkIntervalDays>1</milkIntervalDays>
+        <milkAmount>9</milkAmount>
+        <milkFemaleOnly>false</milkFemaleOnly>
+      </li>
+    </comps>
     <race>
       <body>QuadrupedAnimalWithHoovesAndHump</body>
 	  <predator>true</predator>

@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompProperties_Recombinator.cs" />
+    <Compile Include="CompRecombinator.cs" />
     <Compile Include="HediffComp_Ager.cs" />
     <Compile Include="HediffCompProperties_Ager.cs" />
     <Compile Include="HediffComp_Exploder.cs" />

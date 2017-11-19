@@ -175,7 +175,7 @@
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Tail">
     <defName>GR_Boomsnake</defName>
     <label>boomsnake</label>
-    <description>A reptile / boomalope hybrid. The boomsnake is not a very strong or agile combatant. However, when it dies it explodes in a noxious cloud of venomous vapors, which can be strong enough to dissolve flesh.\n\nUseful abilities: Its toxic explosion can easily decimate an enemy raid if properly timed.</description>
+    <description>A reptile / boomalope hybrid. The boomsnake is not a very strong or agile combatant. However, when it dies it explodes in a noxious cloud of venomous vapors, which can be strong enough to dissolve flesh.\n\nUseful abilities: Its toxic explosion can easily decimate an enemy raid if properly timed. Doesn't produce chemfuel.</description>
     <statBases>
       <MoveSpeed>3</MoveSpeed>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
