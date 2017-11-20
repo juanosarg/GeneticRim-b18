@@ -78,6 +78,20 @@
   </ThingDef>
   
   <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>GR_BunnyEars</defName>
+    <label>bunny ears</label>
+    <description>These huge leporid ears give amazing enhanced hearing. Also, super kawaii!</description>
+    <graphicData>
+      <texPath>Things/Item/HumanGeneticHybridOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="BodyPartArtificialBase">
     <defName>GR_InsectoidAntennae</defName>
     <label>insectoid antennae</label>
     <description>These hybrid humanoid / insectoid feeling appendages can be implanted in a subject's head, completely modifying the way the subject "sees" and feels the surrounding world. The experience may be slightly overwhelming due to sensorial overload.</description>

@@ -80,6 +80,16 @@
     
   </ThingDef>
   <ThingDef ParentName="GR_GeneticsBase">
+    <defName>GR_RodentGenetic</defName>
+    <label>rodent/leporid genetic material</label>
+    <description>A vial of genetic material extracted from a rodent or leporid corpse.</description>
+    
+    <graphicData>
+      <color>(200,130,200)</color>
+    </graphicData>
+    
+  </ThingDef>
+  <ThingDef ParentName="GR_GeneticsBase">
     <defName>GR_InsectoidGenetic</defName>
     <label>insectoid genetic material</label>
     <description>A vial of genetic material extracted from an insectoid's corpse.</description>

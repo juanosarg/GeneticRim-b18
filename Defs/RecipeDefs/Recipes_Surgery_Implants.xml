@@ -214,6 +214,49 @@
 	</RecipeDef>
 	
 	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallBunnyEars</defName>
+		<label>install bunny ears</label>
+		<description>Installs bunny ears.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing bunny ears.</jobString>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+         <li>Human</li>
+        </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_BunnyEars</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>GR_BunnyEars</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>LeftEar</li> 
+			<li>RightEar</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>GR_BunnyEars</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>GR_InstallInsectoidAntennae</defName>
 		<label>install insectoid antennae</label>
 		<description>Installs insectoid antennae.</description>

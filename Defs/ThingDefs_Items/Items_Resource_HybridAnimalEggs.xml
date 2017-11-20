@@ -379,6 +379,39 @@
       </li>
     </comps>
   </ThingDef>
+  
+      <!-- Rabbit / Chicken Egg -->
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>GR_ChickenrabbitEggUnfertilized</defName>
+    <label>chickenrabbit egg (unfert.)</label>
+    <description>Unfertilized Chickenrabbit egg. It can be eaten raw, but it's much, much better cooked. The colonists swear it was coloured like this when the animal laid it.</description>
+    <graphicData>
+	  <texPath>Things/Item/GR_EasterEgg</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+    <statBases>
+      <MarketValue>9</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>GR_ChickenrabbitEggFertilized</defName>
+    <label>chickenrabbit egg (fert.)</label>
+    <description>Fertilized Chickenrabbit egg. If all goes well, it should hatch into one of these abominations. It can be eaten raw, but it's much better cooked. The colonists swear it was coloured like this when the animal laid it.</description>
+    <graphicData>
+	  <texPath>Things/Item/GR_EasterEgg</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+    <statBases>
+      <MarketValue>9</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
+        <hatcherPawn>GR_Chickenrabbit</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
       <!-- Boomalope / Chicken Egg -->
   <ThingDef ParentName="EggUnfertBase">
     <defName>GR_BoomachickenEggUnfertilized</defName>

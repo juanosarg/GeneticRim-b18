@@ -1,12 +1,12 @@
 <ModMetaData>
-	<name>GeneticRim a18</name>
+	<name>GeneticRim b18</name>
 	<author>Sarg</author>
 	<targetVersion>0.18.1722</targetVersion>
 	<description>Extract DNA from animals and hybridize them to create new, exotic species!
 
 &lt;size=24&gt;Features&lt;/size&gt;
 
-- Hybridization: Extract genes from Bears, Chickens, Boomalopes, Muffalos, Wolves, Reptiles and Insectoids, and create hybrids of these species. Some combinations can go both ways, so for example a bearalope is different from a boombear, and you will get one at random. A total of 43 new creatures for you to play with. Some very useful, others... less so.
+- Hybridization: Extract genes from Bears, Chickens, Boomalopes, Muffalos, Wolves, Rodents, Reptiles, Insectoids and Thrumbos, and create hybrids of these species. Some combinations can go both ways, so for example a bearalope is different from a boombear, and you will get one at random. A total of 49 new creatures for you to play with. Some very useful, others... less so.
 
 - Hybrid implants: By extracting humanoid genes, you can mix them with animal genes and create several hybrid implants to improve your colonists.
 
@@ -39,6 +39,7 @@ Made compatible with A Dog Said using the auto patcher: http://steamcommunity.co
 Should be savegame compatible and not break anything. Should!
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v2.1: Added rodent hybrids. 6 new creatures that breed very fast! (20/11/17)
 v2.0: Updated for Beta 18. Added possible compatibility with other mods by adding prefixes to defnames (18/11/17)
 v1.601: Modified Age Pills to be slower to craft, made Thrumbochickens pack beasts, and fixed a typo(28/9/17)
 v1.6: Added more Alpha Animals (hare, iguana, pig, rat and tortoise) and their animal products. (26/9/17)

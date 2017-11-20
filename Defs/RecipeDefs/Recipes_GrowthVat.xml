@@ -314,6 +314,57 @@
 			<GR_WolfMuscularFibers>1</GR_WolfMuscularFibers>
 		</products>
 	</RecipeDef>
+	<RecipeDef>
+		<defName>GR_CraftBunnyEars</defName>
+		<label>craft bunny ears</label>
+		<description>Craft bunny ears. These huge leporid ears give amazing enhanced hearing. Also, super kawaii!</description>
+		<jobString>Crafting bunny ears</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+				<li>GR_TissueGrowingVat</li>	  
+		</recipeUsers>	
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_ImplantPlasteelWireMesh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_HumanoidGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_RodentGenetic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GR_ImplantPlasteelWireMesh</li>
+				<li>GR_HumanoidGenetic</li>
+				<li>GR_RodentGenetic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<GR_BunnyEars>1</GR_BunnyEars>
+		</products>
+	</RecipeDef>
 	
 	<RecipeDef>
 		<defName>GR_CraftInsectoidAntennae</defName>

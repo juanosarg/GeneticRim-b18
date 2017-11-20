@@ -255,6 +255,58 @@
 	</RecipeDef>
 	
 	<RecipeDef>
+		<defName>GR_ExtractGenesRodent</defName>
+		<label>extract genes from a rodent or leporid</label>
+		<description>Extract genetic material from a rodent or leporid corpse.</description>
+		<jobString>Extracting Genetic Material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+				<li>GR_GeneticExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>Hare_Corpse</li>
+						<li>Snowhare_Corpse</li>
+						<li>Squirrel_Corpse</li>
+						<li>Alphabeaver_Corpse</li>
+						<li>Capybara_Corpse</li>
+						<li>Chinchilla_Corpse</li>
+						<li>Raccoon_Corpse</li>
+						<li>Rat_Corpse</li>
+
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		
+			<thingDefs>
+				<li>Hare_Corpse</li>
+				<li>Snowhare_Corpse</li>
+				<li>Squirrel_Corpse</li>
+				<li>Alphabeaver_Corpse</li>
+				<li>Capybara_Corpse</li>
+				<li>Chinchilla_Corpse</li>
+				<li>Raccoon_Corpse</li>
+				<li>Rat_Corpse</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_RodentGenetic>1</GR_RodentGenetic>
+		</products>
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef>
 		<defName>GR_ExtractGenesInsectoid</defName>
 		<label>extract genes from an insectoid</label>
 		<description>Extract genetic material from an alien insectoid.</description>

@@ -115,6 +115,25 @@
     
 	
   </HediffDef>
+  
+  <HediffDef ParentName="GR_HybridPartsBase">
+    <defName>GR_BunnyEars</defName>
+    <label>bunny ears</label>
+	<stages>
+		<li>
+         <capMods>
+            <li>
+               <capacity>Hearing</capacity>
+               <offset>0.45</offset>
+            </li>
+         </capMods>
+		</li>	 
+     </stages>
+   
+    <spawnThingOnRemoved>GR_BunnyEars</spawnThingOnRemoved>
+    
+	
+  </HediffDef>
 
   <HediffDef ParentName="GR_HybridPartsBase">
     <defName>GR_InsectoidAntennae</defName>

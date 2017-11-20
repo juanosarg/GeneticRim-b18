@@ -453,6 +453,76 @@
     </comps>
 </ThingDef>
 
+<!-- Items handling Bear / Rodent hybrids -->
+ 
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BearmoleIncubator</defName>
+    <label>bear / rodent incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Bear / Rodent hybrid</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Bearmole</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<!-- Items handling Boomalope / Rodent hybrids -->
+ 
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_BoomsquirrelIncubator</defName>
+    <label>boomalope / rodent incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Boomalope / Rodent hybrid</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Boomsquirrel</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<!-- Items handling Chicken / Leporid hybrids -->
+ 
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_ChickenrabbitIncubator</defName>
+    <label>chicken / leporid incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Chicken / Leporid hybrid</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Chickenrabbit</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<!-- Items handling Muffalo / Rodent hybrids -->
+ 
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_MuffaloratIncubator</defName>
+    <label>muffalo / rodent incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Muffalo / Rodent hybrid</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Muffalorat</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<!-- Items handling Muffalo / Rodent hybrids -->
+ 
+<ThingDef ParentName="GR_IncubatorsBase">
+    <defName>GR_WolfbeaverIncubator</defName>
+    <label>wolf / rodent incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a Wolf / Rodent hybrid</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Wolfbeaver</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
 <!-- Items handling Thrumbo hybrids -->
 
  
@@ -512,6 +582,18 @@
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
         <hatcherPawn>GR_Thrumwolf</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseTier2">
+    <defName>GR_ThrumboratIncubator</defName>
+    <label>thrumbo / rodent incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch.</description>
+    <comps>
+      <li Class="NewHatcher.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_Thrumborat</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
