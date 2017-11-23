@@ -35,10 +35,12 @@ How do I progress? Here is a mini-guide:
 - Weird special abilities for the existing creatures
 
 &lt;size=24&gt;Compatibility&lt;/size&gt;
-Made compatible with A Dog Said using the auto patcher: http://steamcommunity.com/sharedfiles/filedetails/?id=944381237 (not updated to b18 yet, I think!)
-Should be savegame compatible and not break anything. Should!
+Compatible with A Dog Said
+Compatible with Animal Collab Project
+Uses Nightinggale's Modcheck mod (no need to download)
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v2.2: Added native compatibility with A Dog Said and Animal Collab Project. No need for patches now! (23/11/17)
 v2.1: Added rodent hybrids. 6 new creatures that breed very fast! (20/11/17)
 v2.0: Updated for Beta 18. Added possible compatibility with other mods by adding prefixes to defnames (18/11/17)
 v1.601: Modified Age Pills to be slower to craft, made Thrumbochickens pack beasts, and fixed a typo(28/9/17)
