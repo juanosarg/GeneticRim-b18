@@ -8,7 +8,7 @@
 	
 	
   <!-- Bear - Boomalope -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Bearalope</defName>
     <label>bearalope</label>
     <description>A bear / boomalope hybrid. Not as strong in melee as a pure bear, but its unstable chemical reservoirs explode with great force when it dies. Unfortunately, the extreme virulence of these chemicals is harmful to the creature, and they have very short, miserable lifespans.\n\nUseful abilities: Big explosion produced on hybrid's death. Decent chemfuel production.</description>
@@ -186,7 +186,7 @@
     </lifeStages>
   </PawnKindDef>
   <!-- Bear - Chicken --> 
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Bearchicken</defName>
     <label>bearchicken</label>
     <description>A bear / chicken hybrid. Nicknamed "owlbear" by the colonists. Much weaker in melee than a bear, but it lays eggs, and can obviously defend itself in combat much better than a chicken.\n\nUseful abilities: Lays eggs and regularly produces feathers, which can be converted into Featherdust joints.</description>
@@ -381,7 +381,7 @@
     </lifeStages>
   </PawnKindDef>
   <!-- Bear - Muffalo -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Bearffalo</defName>
     <label>bearffalo</label>
     <description>A bear / muffalo hybrid. This hulking, wooly bear is a very temperamental pack animal, valued for its hardiness.\n\nUseful abilities: Produces specific high-quality milk and wool. Acts as a pack beast.</description>
@@ -564,7 +564,7 @@
     </lifeStages>
   </PawnKindDef>
   <!-- Bear - Wolf -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Bearwolf</defName>
     <label>bearwolf</label>
     <description>A bear / wolf hybrid. Strong like a bear, and fast like a wolf. Excellent as a rapid strike force, but their fast metabolism means they need a lot of food.\n\nUseful abilities: Good guard animal. Butchering gives Bearwolf Fangs, which can be sold.</description>

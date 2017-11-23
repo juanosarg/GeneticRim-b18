@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>AnimalCollabProj</modName>
+				<yourMod>GeneticRim a18</yourMod>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesBear"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>ACPBlackbear_Corpse</li>
+					<li>ACPPanda_Corpse</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesBear"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>ACPBlackbear_Corpse</li>
+					<li>ACPPanda_Corpse</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesMuffalo"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>ACPBison_Corpse</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesMuffalo"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>ACPBison_Corpse</li>
+
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesChicken"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>ACPDuck_Corpse</li>
+					<li>ACPDomesticGoose_Corpse</li>
+					<li>ACPWildGoose_Corpse</li>
+					<li>ACPGreatBustard_Corpse</li>
+					<li>ACPKiwi_Corpse</li>
+					<li>ACPPenguin_Corpse</li>
+					<li>ACPPtarmigan_Corpse</li>
+					<li>ACPValleyQuail_Corpse</li>
+					<li>ACPSilkieChicken_Corpse</li>
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesChicken"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>ACPDuck_Corpse</li>
+					<li>ACPDomesticGoose_Corpse</li>
+					<li>ACPWildGoose_Corpse</li>
+					<li>ACPGreatBustard_Corpse</li>
+					<li>ACPKiwi_Corpse</li>
+					<li>ACPPenguin_Corpse</li>
+					<li>ACPPtarmigan_Corpse</li>
+					<li>ACPValleyQuail_Corpse</li>
+					<li>ACPSilkieChicken_Corpse</li>
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesInsectoid"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>ACPSilkspider_Corpse</li>
+					<li>ACPHaulerAnt_Corpse</li>
+					<li>ACPAcidAnt_Corpse</li>
+					<li>ACPMegascorpion_Corpse</li>
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesInsectoid"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>ACPSilkspider_Corpse</li>
+					<li>ACPHaulerAnt_Corpse</li>
+					<li>ACPAcidAnt_Corpse</li>
+					<li>ACPMegascorpion_Corpse</li>
+
+				</value>
+			</li>	
+
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesReptilian"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>ACPKomodo_Corpse</li>
+					<li>ACPXenguana_Corpse</li>
+					<li>ACPXGecko_Corpse</li>
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesReptilian"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>ACPKomodo_Corpse</li>
+					<li>ACPXenguana_Corpse</li>
+					<li>ACPXGecko_Corpse</li>
+				</value>
+			</li>	
+			
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesWolf"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>ACPWildDog_Corpse</li>
+					<li>ACPDirewolf_Corpse</li>
+					<li>ACPBlackwolf_Corpse</li>
+					<li>ACPSpiritwolf_Corpse</li>
+
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesWolf"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>ACPWildDog_Corpse</li>
+					<li>ACPDirewolf_Corpse</li>
+					<li>ACPBlackwolf_Corpse</li>
+					<li>ACPSpiritwolf_Corpse</li>
+
+
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesRodent"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>ACPAngoraRabbit_Corpse</li>
+					<li>ACPDomesticRabbit_Corpse</li>
+					<li>ACPJackalope_Corpse</li>
+					<li>ACPChipmunk_Corpse</li>
+					<li>ACPGuineaPig_Corpse</li>
+					<li>ACPHedgehog_Corpse</li>
+					<li>ACPPorcupine_Corpse</li>
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>//RecipeDef[defName = "GR_ExtractGenesRodent"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>ACPAngoraRabbit_Corpse</li>
+					<li>ACPDomesticRabbit_Corpse</li>
+					<li>ACPJackalope_Corpse</li>
+					<li>ACPChipmunk_Corpse</li>
+					<li>ACPGuineaPig_Corpse</li>
+					<li>ACPHedgehog_Corpse</li>
+					<li>ACPPorcupine_Corpse</li>
+
+				</value>
+			</li>		
+		</operations>
+	</Operation>
+	
+	
+</Patch>

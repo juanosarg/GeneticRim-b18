@@ -2,7 +2,7 @@
 <Defs>
     
   <!-- Aberrant Fleshbeast -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Limbless">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AberrantFleshbeast</defName>
     <label>aberrant fleshbeast</label>
     <description>Something went terribly wrong. This wretched creature is struggling to keep breathing.</description>

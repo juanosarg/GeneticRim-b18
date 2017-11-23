@@ -21,6 +21,7 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>GR_RodentGenetic</li>
 						<li>GR_BearGenetic</li>
 						<li>GR_ChickenGenetic</li>
 						<li>GR_BoomalopeGenetic</li>
@@ -38,6 +39,7 @@
 		<fixedIngredientFilter>
 		
 			<thingDefs>
+						<li>GR_RodentGenetic</li>			
 						<li>GR_BearGenetic</li>
 						<li>GR_ChickenGenetic</li>
 						<li>GR_BoomalopeGenetic</li>

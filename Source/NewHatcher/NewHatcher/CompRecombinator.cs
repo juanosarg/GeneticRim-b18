@@ -39,11 +39,11 @@ namespace NewHatcher
         public void Hatch()
         {
 
-            int randomNumber = rand.Next(1, 11);
+            int randomNumber = rand.Next(1, 12);
             //Log.Warning(randomNumber.ToString());
 
 
-            if (randomNumber == 10)
+            if (randomNumber == 11)
             {
                 if (ResearchProjectDef.Named("GR_AdvancedGeneticEngineering").IsFinished)
                 {
@@ -54,7 +54,7 @@ namespace NewHatcher
                     RecombinateAgain();
                 }
             }
-            else if (randomNumber == 9)
+            else if (randomNumber == 10)
             {
                 if (ResearchProjectDef.Named("GR_HumanoidGeneticEngineering").IsFinished)
                 {
@@ -65,7 +65,7 @@ namespace NewHatcher
                     RecombinateAgain();
                 }
             }
-            else if (randomNumber == 8)
+            else if (randomNumber == 9)
             {
                 if (ResearchProjectDef.Named("GR_ReptilianGenome").IsFinished)
                 {
@@ -76,7 +76,7 @@ namespace NewHatcher
                     RecombinateAgain();
                 }
             }
-            else if (randomNumber == 7)
+            else if (randomNumber == 8)
             {
                 if (ResearchProjectDef.Named("GR_InsectoidGenome").IsFinished)
                 {
@@ -86,6 +86,10 @@ namespace NewHatcher
                 {
                     RecombinateAgain();
                 }
+            }
+            else if (randomNumber == 7)
+            {
+                GenSpawn.Spawn(ThingDef.Named("GR_RodentGenetic"), this.parent.Position, this.parent.Map);
             }
             else if (randomNumber == 6)
             {
@@ -117,9 +121,13 @@ namespace NewHatcher
 
         private void RecombinateAgain()
         {
-            int randomNumber = rand.Next(1, 7);
+            int randomNumber = rand.Next(1, 8);
 
-            if (randomNumber == 6)
+            if (randomNumber == 7)
+            {
+                GenSpawn.Spawn(ThingDef.Named("GR_RodentGenetic"), this.parent.Position, this.parent.Map);
+            }
+            else if(randomNumber == 6)
             {
                 GenSpawn.Spawn(ThingDef.Named("GR_BearGenetic"), this.parent.Position, this.parent.Map);
             }

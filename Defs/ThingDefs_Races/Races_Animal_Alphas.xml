@@ -2,7 +2,7 @@
 <Defs>
  
 	<!-- Bear -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaBear</defName>
     <label>alpha bear</label>
     <description>This massive bear can grow to sizes dwarfing regular grizzly bears, reaching up to a metrical ton in weight. Their thick pelt is an almost perfect adaptation to cold climates, allowing them to survive for months in hibernation if necessary. While still omnivorous, their teeth are better suited to a higher degree of herbivory than grizzly bears.\n\nUseful abilities: Alpha bear pelts can be sold for profit, or converted into decorational rugs.</description>
@@ -177,7 +177,7 @@
 	
 	<!-- Wildboar -->
 
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaWildBoar</defName>
     <label>alpha wild boar</label>
     <description>This strong, muscular creature is fiercely territorial, and its powerful curved tusks can be extremely dangerous for the unwary hunter.\n\nUseful abilities: Alpha wild boar tusks are prized for their ivory, and can be carved into statuettes.</description>
@@ -320,7 +320,7 @@
   
 	<!-- Boomalope -->
 
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaBoomalope</defName>
     <label>alpha boomalope</label>
     <description>This tall, lean ungulate usually acts as the dominant individual on a herd of boomalopes. More resistant and stronger than regular boomalopes, the alpha boomalopes also carry greater quantities of unstable chemical filled sacs, so no predator wants to even get close to them.\n\nUseful abilities: Alpha boomalopes explode when killed, with greater force than regular boomalopes. They also produce large amounts of chemfuel.</description>
@@ -445,7 +445,7 @@
 	
 	<!-- Chicken -->
 	
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArmsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaChicken</defName>
     <label>alpha chicken</label>
     <description>This huge chicken towers above its regular brethren. Eggs laid by this species are the stuff of legends.\n\nUseful abilities: Fast breeding, more meat than regular chickens, and delicious eggs. A nice farm animal!</description>
@@ -595,7 +595,7 @@
   
 	<!-- Emu -->	
 	
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArmsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaEmu</defName>
     <label>alpha emu</label>
     <description>This huge flightless bird is incredibly bad tempered and ugly as sin. However, it produces some enormous eggs, and its fat can be rubbed on skin and used as a primitive bush medicine.\n\nUseful abilities: Very nutritive eggs. Once slaughtered, its fat can be used as a basic medicine.</description>
@@ -746,7 +746,7 @@
 
   	<!-- Muffalo -->	
   
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaMuffalo</defName>
     <label>alpha muffalo</label>
     <description>A huge, hairy quadruped perfectly adapted to extreme cold climates. Peaceful unless disturbed.\n\nUseful abilities: Pack animal. Produces milk and wool in slightly greater quantities than a regular muffalo. It's pelt is valuable, and can be used as a decorative rug.</description>
@@ -879,7 +879,7 @@
 
     <!-- Ostrich -->	
   
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaOstrich</defName>
     <label>alpha ostrich</label>
     <description>A truly enormous ostrich. This flightless bird lays huge eggs, very nutritive.\n\nUseful abilities: Lays the biggest eggs of any non-hybrid creature.</description>
@@ -1035,7 +1035,7 @@
 
     <!-- Rhino -->	
   
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaRhinoceros</defName>
     <label>alpha rhinoceros</label>
     <description>The very ground trembles when this massive herbivore moves. Although usually quite peaceful, it can be very aggressive when provoked. Its horn is considered to be very valuable, despite lack of scientific evidence of it being useful at all in fields like medicine.\n\nUseful abilities: It's horn is valuable, and... you don't want to be in the path of a charging alpha rhinoceros.</description>
@@ -1183,7 +1183,7 @@
  
     <!-- Wolf -->	 
   
-    <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+    <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaWolfTimber</defName>
     <label>alpha timber wolf</label>
     <description>This huge wolf can be turned into a fierce, loyal companion if properly trained. Wolf pelts have long been used as trade goods.\n\nUseful abilities: The alpha wolf's pelt can be traded for a profit, or used to craft a wolf pelt rug, which isn't tacky at all. Nope.</description>
@@ -1363,7 +1363,7 @@
 
     <!-- Hare -->	 
   
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaHare</defName>
     <label>alpha hare</label>
     <description>This small creature has a fierce gaze and quite a poor disposition. Be careful with these critters, since they breed like... well... rabbits.\n\nUseful abilities: Due to a terrible sense of humour in your scientists, this creatures lays edible chocolate eggs...</description>
@@ -1494,7 +1494,7 @@
   
     <!-- Iguana -->	 
 
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaIguana</defName>
     <label>alpha iguana</label>
     <description>This large lizard has a beautiful iridiscent sheen on its scales. Contrary to the regular iguanas, this alpha specimen has a nasty venomous bite.\n\nUseful abilities: Lays eggs and has a venomous bite.</description>
@@ -1647,7 +1647,7 @@
   
     <!-- Pig -->	 
 
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaPig</defName>
     <label>alpha pig</label>
     <description>This huge pig has a voracious appetite, but the quality of its meat is legendary.\n\nUseful abilities: The butchering process will produce bacon jerky and jamón serrano, two delicacies that can be stored for months without refrigeration.</description>
@@ -1804,7 +1804,7 @@
 
     <!-- Rat -->	 
 
-   <ThingDef ParentName="AnimalThingBase"  ADogSaidBody="LegsTail">
+   <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaRat</defName>
     <label>alpha rat</label>
     <description>This rat is obviously disease ridden.\n\nUseful abilities: Alpha rats spread the bubonic plague when they bite. Careful!</description>
@@ -1944,7 +1944,7 @@
 
     <!-- Tortoise -->	  
 	
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_AlphaTortoise</defName>
     <label>alpha tortoise</label>
     <description>This heavily armored land-dwelling reptile is known for its slow moving speed and surprisingly vicious bite.</description>

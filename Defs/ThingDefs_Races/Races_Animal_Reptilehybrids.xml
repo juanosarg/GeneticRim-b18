@@ -2,7 +2,7 @@
 <Defs>
 
   <!-- Reptile - Bear -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Bearodile</defName>
     <label>bearodile</label>
     <description>A reptile / bear hybrid. The reptilian genes used to generate this hybrid have given it some ancient reptilian characteristics, with an appearance similar to reptiles in the Permian Period on Earth. It has also developed a venomous bite.\n\nUseful abilities: Highly intelligent and venomous. Excellent base defender if properly trained.</description>
@@ -172,7 +172,7 @@
   </PawnKindDef>
   
   <!-- Reptile - Boomalope -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Tail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Boomsnake</defName>
     <label>boomsnake</label>
     <description>A reptile / boomalope hybrid. The boomsnake is not a very strong or agile combatant. However, when it dies it explodes in a noxious cloud of venomous vapors, which can be strong enough to dissolve flesh.\n\nUseful abilities: Its toxic explosion can easily decimate an enemy raid if properly timed. Doesn't produce chemfuel.</description>
@@ -309,7 +309,7 @@
   </PawnKindDef>
 
   <!-- Reptile - Chicken -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Legs">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Chickenlizard</defName>
     <label>chickenlizard</label>
     <description>A reptile / chicken hybrid. This reptilian chicken has a slightly venomous bite. Not very powerful, but considering how fast chickens breed, a horde of chickenlizards might be enough to overpower a much bigger creature with their venom.\n\nUseful abilities: Small, fast breeding, venomous chickens.</description>
@@ -454,7 +454,7 @@
   </PawnKindDef>
  
   <!-- Reptile - Muffalo -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Muffalokomodo</defName>
     <label>muffalokomodo</label>
     <description>A reptile / muffalo hybrid. This resilient beast can carry more weight than a regular muffalo, and has a powerful venomous bite.\n\nUseful abilities: Regularly produces enough venomous saliva to fill an ampoule with a powerful poison, which acts as a potent muscle paralysing agent.</description>
@@ -581,7 +581,7 @@
   </PawnKindDef>
  
   <!-- Reptile - Insectoid -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="Tail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Spidersnake</defName>
     <label>spidersnake</label>
     <description>A reptile / insectoid hybrid. This venomous, armoured snake, can be very dangerous in high enough numbers.\n\nUseful abilities: Regularly produces Spidersnake shed skin, which can be processed in a drug lab into small amounts of neutroamine, as well as Spidersnake silk.</description>
@@ -747,7 +747,7 @@
   </PawnKindDef>
 
   <!-- Reptile - Thrumbo -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Thrumbolizard</defName>
     <label>thrumbolizard</label>
     <description>A reptile / thrumbo hybrid. A massive, crocodilian creature with incredibly powerful jaws and a rabid venom. \n\nUseful abilities: Regularly produces enough venom to fill small ampoules. Thrumbolizard poison is 100% lethal, and there is no antidote that could act fast enough.</description>
@@ -916,7 +916,7 @@
   </PawnKindDef>
 
   <!-- Reptile - Wolf -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Wolfsnake</defName>
     <label>wolfsnake</label>
     <description>A reptile / wolf hybrid. These serpentine predators are fast as lightning, and armed with a powerful, venomous bite. \n\nSpeed and poison make for a very effective base defender. Sheds wolfsnake skin from time to time.</description>

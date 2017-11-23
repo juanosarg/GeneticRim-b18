@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- Rodent - Bear -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Bearmole</defName>
     <label>bearmole</label>
     <description>A Bear / Mole hybrid. This blind animal has a very acute sense of vibrations, alllowing it to detect its prey even better than a sighted animal.\n\nUseful abilities: Good guard animal. Very fast breeding.</description>
@@ -179,7 +179,7 @@
   </PawnKindDef>
 
   <!-- Rodent - Boomalope -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Boomsquirrel</defName>
     <label>boomsquirrel</label>
     <description>A Squirrel / Boomalope hybrid. This small and fast rodent has several nodules of chemical mixture in its back.\n\nUseful abilities: Explodes on death. Produces small amounts of chemfuel quite fast. Very fast breeding.</description>
@@ -332,7 +332,7 @@
   </PawnKindDef>
 
   <!-- Rabbit - Chicken -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Chickenrabbit</defName>
     <label>chickenrabbit</label>
     <description>A Rabbit / Chicken hybrid. What happens when you artificially crossbreed two fast breeding creatures? The chickenrabbit is an ecological disaster waiting to happen.\n\nUseful abilities: Egg layer. EXTREMELY fast breeding.</description>
@@ -489,7 +489,7 @@
   </PawnKindDef>
 
   <!-- Rat - Muffalo -->
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Muffalorat</defName>
     <label>muffalorat</label>
     <description>A Rat / Muffalo hybrid. A short-lived pack beast that breeds really fast.\n\nUseful abilities: Acts as a pack beast. Produces small amounts of milk and wool at a quite fast rate. Fast breeding.</description>
@@ -617,7 +617,7 @@
   
     <!-- Rat - Thrumbo -->
   
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Thrumborat</defName>
     <label>thrumborat</label>
     <description>A Rat / Thrumbo hybrid. What could be scarier than a fast-breeding thrumbo?\n\nUseful abilities: Fast breeding and fast maturing for a creature of this size. Not very long-lived, though.</description>
@@ -776,7 +776,7 @@
       <!-- Beaver - Wolf -->
 
 
-   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+   <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Wolfbeaver</defName>
     <label>wolfbeaver</label>
     <description>A Beaver / Wolf hybrid. This fast breeding predator can be a drain on your tree reserves, unless you provide it with some fresh meat.\n\nUseful abilities: Fast breeding.</description>
