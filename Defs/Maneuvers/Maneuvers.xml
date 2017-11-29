@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ManeuverDef>
+    <defName>GR_VeryToxicBite</defName>
+    <requiredCapacity>GR_VeryToxicBite</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttack</verbClass>
+      <meleeDamageDef>GR_VeryToxicBite</meleeDamageDef>
+    </verb>
+    <combatLogRules>Bite</combatLogRules>
+  </ManeuverDef>
+  
+  <ManeuverDef>
+    <defName>GR_LightToxicBite</defName>
+    <requiredCapacity>GR_LightToxicBite</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttack</verbClass>
+      <meleeDamageDef>GR_LightToxicBite</meleeDamageDef>
+    </verb>
+    <combatLogRules>Bite</combatLogRules>
+  </ManeuverDef>
+  
+  <ManeuverDef>
+    <defName>GR_ToxicExplosion</defName>
+    <requiredCapacity>GR_ToxicExplosion</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttack</verbClass>
+      <meleeDamageDef>GR_ToxicExplosion</meleeDamageDef>
+    </verb>
+    <combatLogRules>Bite</combatLogRules>
+  </ManeuverDef>
+  
+  <ManeuverDef>
+    <defName>GR_PlagueBite</defName>
+    <requiredCapacity>GR_PlagueBite</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttack</verbClass>
+      <meleeDamageDef>GR_PlagueBite</meleeDamageDef>
+    </verb>
+    <combatLogRules>Bite</combatLogRules>
+  </ManeuverDef>
+  
+</Defs>

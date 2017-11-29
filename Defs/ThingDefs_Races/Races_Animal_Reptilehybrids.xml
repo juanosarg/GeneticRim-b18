@@ -45,6 +45,8 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+		<commonality>0.2</commonality>
+
       </li>
       <li>
         <capacities>
@@ -61,6 +63,8 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+		<commonality>0.3</commonality>
+
       </li>
       <li>
         <label>head</label>

@@ -14,6 +14,8 @@
     </additionalHediffs>
   </DamageDef>
   
+ 
+  
   <DamageDef ParentName="Bite">
     <defName>GR_LightToxicBite</defName>
     <label>light toxic bite</label>
