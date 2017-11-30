@@ -40,25 +40,7 @@ namespace DraftingPatcher
         }
     }
 
-    [HarmonyPatch(typeof(Pawn))]
-    [HarmonyPatch("GetGizmos")]
-    public static class Pawn_GetGizmos_Patch
-    {
-        [HarmonyPostfix]
-        static IEnumerable<Gizmo> GiveGizmo(Pawn pawn)
-
-        {
-            //Log.Message(pawn.kindDef.ToString());
-            bool flag = pawn.Faction != null && pawn.Faction.IsPlayer;
-            if ((pawn.kindDef.ToString() == "GR_Bearodile") && flag)
-            {
-                foreach (Gizmo c2 in this.drafter.GetGizmos())
-                {
-                    yield return c2;
-                }
-            }
-        }
-    }
+   
 
 
 }
