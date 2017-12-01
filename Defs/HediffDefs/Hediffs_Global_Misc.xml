@@ -77,6 +77,28 @@
       </li>
     </stages>
   </HediffDef>
+  
+  <HediffDef>
+    <defName>GR_Kamikaze</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <label>sudden detonation</label>
+    <lethalSeverity>0.05</lethalSeverity>
+    <makesSickThought>true</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    
+    <stages>
+      <li>
+        <label>initial-hidden</label>
+      </li>
+      <li>
+        <label>critical</label>
+        <minSeverity>0.04</minSeverity>
+        
+      </li>
+     
+    </stages>
+  </HediffDef>
 
  
 

@@ -9,6 +9,7 @@ using Verse.AI;
 
 
 
+
 namespace DraftingPatcher
 {
     [StaticConstructorOnStartup]
@@ -32,10 +33,11 @@ namespace DraftingPatcher
         {
             //Log.Message(pawn.kindDef.ToString());
             bool flag = pawn.Faction != null && pawn.Faction.IsPlayer;
-            if ((pawn.kindDef.ToString() == "GR_Bearodile") && flag)
+            if ((pawn.kindDef.ToString() == "GR_Bearodile")||(pawn.kindDef.ToString() == "GR_Boomsnake") && flag)
             {
-                Log.Message("Patching Bearodile with a draft controller");
+                Log.Message("Patching "+ pawn.kindDef.ToString() + " with a draft controller and equipment tracker");
                 pawn.drafter = new Pawn_DraftController(pawn);
+                pawn.equipment = new Pawn_EquipmentTracker(pawn);
             }
         }
     }
@@ -55,7 +57,7 @@ namespace DraftingPatcher
             var gizmos = __result.ToList();
             bool flag = pawn.Faction != null && pawn.Faction.IsPlayer;
 
-            if ((pawn.drafter != null) && (pawn.kindDef.ToString() == "GR_Bearodile") && flag)
+            if ((pawn.drafter != null) && ((pawn.kindDef.ToString() == "GR_Bearodile") || (pawn.kindDef.ToString() == "GR_Boomsnake")) && flag)
             {
                 Command_Action mygizmo = new Command_Action();
                 mygizmo.action = delegate
@@ -67,7 +69,7 @@ namespace DraftingPatcher
                 gizmos.Insert(0, mygizmo);
             }
 
-            if ((pawn.drafter != null) && (pawn.kindDef.ToString() == "GR_Bearodile") && flag && pawn.drafter.Drafted)
+            if ((pawn.drafter != null) && ((pawn.kindDef.ToString() == "GR_Bearodile")) && flag && pawn.drafter.Drafted)
             {
 
                 Command_Target command_Target = new Command_Target();
@@ -96,10 +98,20 @@ namespace DraftingPatcher
                 };
                 gizmos.Insert(1, command_Target);
 
+            }
 
+            if ((pawn.drafter != null) && ((pawn.kindDef.ToString() == "GR_Boomsnake")) && flag)
+            {
+                Command_Action kamikaze = new Command_Action();
+                kamikaze.action = delegate
+                {
 
-
-
+                    pawn.health.AddHediff(HediffDef.Named("GR_Kamikaze"));
+                    HealthUtility.AdjustSeverity(pawn, HediffDef.Named("GR_Kamikaze"),1);
+                };
+                kamikaze.defaultDesc = "CommandToggleDraftDesc".Translate();
+                kamikaze.icon = TexCommand.ReleaseAnimals;
+                gizmos.Insert(1, kamikaze);
             }
 
             __result = gizmos;
@@ -115,7 +127,7 @@ namespace DraftingPatcher
 
         {
             bool flag = pawn.Faction != null && pawn.Faction.IsPlayer;
-            if ((pawn.kindDef.ToString() == "GR_Bearodile") && flag)
+            if (((pawn.kindDef.ToString() == "GR_Bearodile") || (pawn.kindDef.ToString() == "GR_Boomsnake")) && flag)
             {
                 //Log.Message("You should be controllable now");
                 __result = true;
@@ -124,22 +136,9 @@ namespace DraftingPatcher
         }
     }
 
-    [HarmonyPatch(typeof(FloatMenuMakerMap))]
-    [HarmonyPatch("TryMakeFloatMenu")]
-    public static class FloatMenuMakerMap_TryMakeFloatMenu_Patch
-    {
-        [HarmonyPrefix]
-        public static void CheckControllable(Pawn pawn)
 
-        {
-            bool flag = pawn.Faction != null && pawn.Faction.IsPlayer;
-            if ((pawn.kindDef.ToString() == "GR_Bearodile") && flag)
-            {
-                return;
-            }
 
-        }
-    }
+
 
 
 
