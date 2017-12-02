@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- Various -->
+  <!-- Item Production -->
 
   <IncubatorProgress>Incubator progress</IncubatorProgress>
   <ResourceGrowth>Resource growth</ResourceGrowth>
@@ -17,6 +17,16 @@
   <Cryofuel>Cryofuel production</Cryofuel>
   <ChemfuelProd>Chemfuel production</ChemfuelProd>
 
+  <!-- Creature Control Commands -->
+  
+  <GR_CreatureMindControl>Mind control creature</GR_CreatureMindControl>
+  <GR_CreatureMindControlDesc>Use mind control to order this creature around the map</GR_CreatureMindControlDesc>
+  <GR_CreatureRageAttack>Rage attack</GR_CreatureRageAttack>
+  <GR_CreatureRageAttackDesc>Send the creature in a bloodthristy rage against its target</GR_CreatureRageAttackDesc>
+  <GR_DetonateChemfuel>Detonate Chemfuel</GR_DetonateChemfuel>
+  <GR_DetonateChemfuelDesc>Remotely detonate the chemfuel reservoirs of this creature. This kills the poor beast, obviously</GR_DetonateChemfuelDesc>
+  
+  <!-- This isn't used for now -->
 
   <AccAgeProg>Accelerated aging progress</AccAgeProg>
   <CannotCarryToAccelerationPod>Cannot carry to age acceleration pod</CannotCarryToAccelerationPod>

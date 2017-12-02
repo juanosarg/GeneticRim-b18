@@ -11,7 +11,12 @@
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <MarketValue>400</MarketValue>
     </statBases>
-
+	<comps>		
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<rage>true</rage>
+			<explodable>false</explodable>
+        </li>
+    </comps>
 	<tools>
       <li>
         <label>left claw</label>
@@ -188,6 +193,12 @@
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <MarketValue>400</MarketValue>
     </statBases>
+	<comps>		
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<rage>false</rage>
+			<explodable>true</explodable>
+        </li>
+    </comps>
 	<tools>
       <li>
         <capacities>
