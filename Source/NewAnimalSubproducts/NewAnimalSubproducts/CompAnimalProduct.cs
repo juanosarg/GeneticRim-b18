@@ -69,46 +69,11 @@ namespace NewAnimalSubproducts
                 return null;
             }
 
-            if (ResourceDef.ToString() == "GR_Owlbearfeathers")
+            if (!this.Props.customResourceString.NullOrEmpty())
             {
-                return Translator.Translate("FeatherGrowth") + ": " + base.Fullness.ToStringPercent();
+                return Translator.Translate(this.Props.customResourceString) + ": " + base.Fullness.ToStringPercent();
             }
-            else if (ResourceDef.ToString() == "GR_WolfchickenFeathers")
-            {
-                return Translator.Translate("FeatherGrowth") + ": " + base.Fullness.ToStringPercent();
-            }
-            else if (ResourceDef.ToString() == "GR_RoyalJelly")
-            {
-                return Translator.Translate("JellyGrowth") + ": " + base.Fullness.ToStringPercent();
-            }
-            else if (ResourceDef.ToString() == "GR_Weapon_ThrownSac")
-            {
-                return Translator.Translate("SacGrowth") + ": " + base.Fullness.ToStringPercent();
-            }
-            else if (ResourceDef.ToString() == "GR_ChickenspiderSilk")
-            {
-                return Translator.Translate("SilkGrowth") + ": " + base.Fullness.ToStringPercent();
-            }
-            else if (ResourceDef.ToString() == "GR_PoisonAmpoule")
-            {
-                return Translator.Translate("PoisonGrowth") + ": " + base.Fullness.ToStringPercent();
-            }
-            else if (ResourceDef.ToString() == "GR_VirulentPoison")
-            {
-                return Translator.Translate("PoisonGrowth") + ": " + base.Fullness.ToStringPercent();
-            }
-            else if (ResourceDef.ToString() == "GR_SpidersnakeSkin")
-            {
-                return Translator.Translate("SkinShed") + ": " + base.Fullness.ToStringPercent();
-            }
-            else if (ResourceDef.ToString() == "GR_WolfsnakeSkin")
-            {
-                return Translator.Translate("SkinShed") + ": " + base.Fullness.ToStringPercent();
-            }
-            else if (ResourceDef.ToString() == "GR_SpidersnakeSilk")
-            {
-                return Translator.Translate("SilkGrowth") + ": " + base.Fullness.ToStringPercent();
-            }
+
             else if (ResourceDef.ToString() == "GR_EldritchInsectJelly")
             {
                 return Translator.Translate("JellyGrowth2") + ": " + base.Fullness.ToStringPercent();
@@ -117,18 +82,7 @@ namespace NewAnimalSubproducts
             {
                 return Translator.Translate("TentacleGrowth") + ": " + base.Fullness.ToStringPercent();
             }
-            else if (ResourceDef.ToString() == "GR_ChocolateEgg")
-            {
-                return Translator.Translate("ChocolateEgg") + ": " + base.Fullness.ToStringPercent();
-            }
-            else if (ResourceDef.ToString() == "GR_Cryofuel")
-            {
-                return Translator.Translate("Cryofuel") + ": " + base.Fullness.ToStringPercent();
-            }
-            else if (ResourceDef.ToString() == "Chemfuel")
-            {
-                return Translator.Translate("ChemfuelProd") + ": " + base.Fullness.ToStringPercent();
-            }
+          
 
             else  return Translator.Translate("ResourceGrowth") + ": " + base.Fullness.ToStringPercent();
         }

@@ -226,12 +226,14 @@
       </li>
     </tools>
     <comps>
-      <li Class="CompProperties_Milkable">
-        <milkDef>Chemfuel</milkDef>
-        <milkIntervalDays>2</milkIntervalDays>
-        <milkAmount>80</milkAmount>
-        <milkFemaleOnly>false</milkFemaleOnly>
+	   <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>Chemfuel</resourceDef>
+			<gatheringIntervalDays>2</gatheringIntervalDays>
+			<resourceAmount>80</resourceAmount>
+			<customResourceString>ChemfuelProd</customResourceString>
+
       </li>
+      
     </comps>    
     <race>
       <body>QuadrupedAnimalWithHoovesAndHorn</body>
@@ -387,8 +389,7 @@
     </comps>
     <race>
       <body>GR_HornedBird</body>
-	        <predator>true</predator>
-
+	  <predator>true</predator>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>3</baseBodySize>
 	  <foodType>CarnivoreAnimal</foodType>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+
+
+  
+    <ThingDef ParentName="FurnitureBase">
+    <defName>GR_AnimalControlHub</defName>
+    <label>animal control hub</label>
+    <graphicData>
+      <texPath>Things/Building/HugeBearRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>    
+		<drawSize>(2,2)</drawSize>	  
+    </graphicData>
+	<costList>
+      <Steel>200</Steel>
+      <Component>3</Component>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-8</Beauty>
+    </statBases>
+
+		<size>(2,2)</size>
+		  <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>100</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      
+    </comps>
+    <researchPrerequisites><li>GR_AnimalControl</li></researchPrerequisites>
+		<designationCategory>GR_GeneticsTab</designationCategory>  
+  </ThingDef>
+  
+     
+
+
+
+</Defs>

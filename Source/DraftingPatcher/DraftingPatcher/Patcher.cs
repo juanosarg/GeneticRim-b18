@@ -66,10 +66,13 @@ namespace DraftingPatcher
             //I want access to the pawn object, and want to modify the original method's result
             var pawn = __instance;
             var gizmos = __result.ToList();
-            // First two flags detect if the pawn is mine, and if it is draftable
+            // First two flags detect if the pawn is mine, and if it is 
+            //Building MindControlHub = 
+            //bool flagIsMindControlHubPresent =;
+
             bool flagIsCreatureMine = pawn.Faction != null && pawn.Faction.IsPlayer;
             bool flagIsCreatureDraftable = (pawn.TryGetComp<CompDraftable>()!=null);
-            /* I do it this way to avoid errors due to pawn.TryGetComp<CompDraftable>() being null. The code inside
+            /* I do it this way to avoid errors due to pawn.TryGetComp<CompDraftable>() being null in most pawns. The code inside
              * the conditional only executes if it isn't*/
             bool flagIsCreatureRageable = false;
             bool flagIsCreatureExplodable = false;
@@ -93,7 +96,9 @@ namespace DraftingPatcher
                 GR_Gizmo_MindControl.icon = ContentFinder<Texture2D>.Get("ui/commands/ControlAnimal", true);
                 gizmos.Insert(0, GR_Gizmo_MindControl);
             }
-
+            /*If the creature is draftable, drafted at the moment and the rage property (which is passed through XML and the custom comp class) is true,
+             * we add a second gizmo, which copies the code from melee attacks, and thus allows targeting melee attacks
+           */
             if ((pawn.drafter != null) && flagIsCreatureDraftable && flagIsCreatureRageable && flagIsCreatureMine && pawn.drafter.Drafted)
             {
                 Command_Target GR_Gizmo_AttackRage = new Command_Target();
@@ -123,7 +128,9 @@ namespace DraftingPatcher
                 gizmos.Insert(1, GR_Gizmo_AttackRage);
 
             }
-
+            /*If the creature is explodable, we add this gizmo, which causes a Heddif called "sudden explosion" (GR_Kamikaze), and increases severity to
+             * 1 to make the creature die. This only works if the creature also has DeathActionWorker.
+           */
             if ((pawn.drafter != null) && flagIsCreatureExplodable && flagIsCreatureMine)
             {
                 Command_Action GR_Gizmo_Detonate = new Command_Action();
@@ -142,6 +149,8 @@ namespace DraftingPatcher
         }
     }
 
+    /*This final Harmony Postfix makes the creature respond to clicks on the map screen, so it can be controlled
+     */
     [HarmonyPatch(typeof(FloatMenuMakerMap))]
     [HarmonyPatch("CanTakeOrder")]
     public static class FloatMenuMakerMap_CanTakeOrder_Patch

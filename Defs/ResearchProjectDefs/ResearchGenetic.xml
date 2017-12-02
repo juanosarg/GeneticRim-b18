@@ -108,5 +108,20 @@
 		<researchViewX>3</researchViewX>
 		<researchViewY>2</researchViewY>
   </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>GR_AnimalControl</defName>
+    <label>animal control</label>
+    <tab>GR_GeneticReseach</tab>
+    <techLevel>Industrial</techLevel>
+    <description>Mind control technology that allows you to directly interact with your creatures.</description>
+    <baseCost>1000</baseCost>
+    <prerequisites>
+      <li>GR_AnimalEnrichment</li>
+    </prerequisites>
+    
+		<researchViewX>3</researchViewX>
+		<researchViewY>3</researchViewY>
+  </ResearchProjectDef>
 
 </Defs>

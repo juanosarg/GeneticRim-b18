@@ -11,4 +11,3 @@ C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\GeneticRim a18\Sourc
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim-b18\Assemblies\NewAnimalSubproducts.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim-b18\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAnimalSubproducts.csprojResolveAssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim-b18\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAnimalSubproducts.dll
-C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\GeneticRim-b18\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAnimalSubproducts.csproj.CoreCompileInputs.cache

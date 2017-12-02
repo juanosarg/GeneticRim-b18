@@ -256,12 +256,14 @@
       </li>
     </tools>
     <comps>
-      <li Class="CompProperties_Milkable">
-        <milkDef>Chemfuel</milkDef>
-        <milkIntervalDays>2</milkIntervalDays>
-        <milkAmount>17</milkAmount>
-        <milkFemaleOnly>false</milkFemaleOnly>
+	   <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>Chemfuel</resourceDef>
+			<gatheringIntervalDays>2</gatheringIntervalDays>
+			<resourceAmount>17</resourceAmount>
+			<customResourceString>ChemfuelProd</customResourceString>
+
       </li>
+
     </comps>  
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
@@ -453,6 +455,8 @@
 			<resourceDef>GR_WolfchickenFeathers</resourceDef>
 			<gatheringIntervalDays>4</gatheringIntervalDays>
 			<resourceAmount>1</resourceAmount>
+			<customResourceString>FeatherGrowth</customResourceString>
+
       </li>
     </comps>
     <race>

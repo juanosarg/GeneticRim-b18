@@ -213,12 +213,13 @@
         <eggLayIntervalDays>2</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
-      <li Class="CompProperties_Milkable">
-        <milkDef>Chemfuel</milkDef>
-        <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>5</milkAmount>
-        <milkFemaleOnly>false</milkFemaleOnly>
+	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>Chemfuel</resourceDef>
+			<gatheringIntervalDays>1</gatheringIntervalDays>
+			<resourceAmount>5</resourceAmount>
+			<customResourceString>ChemfuelProd</customResourceString>
       </li>
+ 
     </comps>
     <race>
       <body>Bird</body>

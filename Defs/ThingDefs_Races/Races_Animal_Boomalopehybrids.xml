@@ -39,11 +39,12 @@
       </li>
     </tools>
     <comps>
-      <li Class="CompProperties_Milkable">
-        <milkDef>Chemfuel</milkDef>
-        <milkIntervalDays>2</milkIntervalDays>
-        <milkAmount>22</milkAmount>
-        <milkFemaleOnly>false</milkFemaleOnly>
+
+	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>Chemfuel</resourceDef>
+			<gatheringIntervalDays>2</gatheringIntervalDays>
+			<resourceAmount>22</resourceAmount>
+			<customResourceString>ChemfuelProd</customResourceString>
       </li>
     </comps>   
     <race>
@@ -187,12 +188,13 @@
         <eggLayIntervalDays>8</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
-	  <li Class="CompProperties_Milkable">
-        <milkDef>Chemfuel</milkDef>
-        <milkIntervalDays>2</milkIntervalDays>
-        <milkAmount>12</milkAmount>
-        <milkFemaleOnly>false</milkFemaleOnly>
+	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>Chemfuel</resourceDef>
+			<gatheringIntervalDays>2</gatheringIntervalDays>
+			<resourceAmount>12</resourceAmount>
+			<customResourceString>ChemfuelProd</customResourceString>
       </li>
+	 
     </comps>
     <race>
       <body>GR_QuadrupedAnimalWithBeakandHump</body>
@@ -323,8 +325,8 @@
 			<resourceDef>GR_Cryofuel</resourceDef>
 			<gatheringIntervalDays>2</gatheringIntervalDays>
 			<resourceAmount>20</resourceAmount>
+			<customResourceString>Cryofuel</customResourceString>
       </li>
-	 
       <li Class="CompProperties_Shearable">
         <woolDef>GR_BoomffaloWool</woolDef>
         <shearIntervalDays>25</shearIntervalDays>
@@ -467,13 +469,13 @@
       </li>
     </tools>
     <comps>
-      
-	  <li Class="CompProperties_Milkable">
-        <milkDef>Chemfuel</milkDef>
-        <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>9</milkAmount>
-        <milkFemaleOnly>false</milkFemaleOnly>
+      <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>Chemfuel</resourceDef>
+			<gatheringIntervalDays>1</gatheringIntervalDays>
+			<resourceAmount>9</resourceAmount>
+			<customResourceString>ChemfuelProd</customResourceString>
       </li>
+	 
     </comps>
     <race>
       <body>QuadrupedAnimalWithHoovesAndHump</body>

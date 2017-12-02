@@ -499,6 +499,8 @@
 			<resourceDef>GR_PoisonAmpoule</resourceDef>
 			<gatheringIntervalDays>5</gatheringIntervalDays>
 			<resourceAmount>1</resourceAmount>
+			<customResourceString>PoisonGrowth</customResourceString>
+
         </li>
     </comps>
 
@@ -649,11 +651,14 @@
 			<resourceDef>GR_SpidersnakeSkin</resourceDef>
 			<gatheringIntervalDays>5</gatheringIntervalDays>
 			<resourceAmount>1</resourceAmount>
+			<customResourceString>SkinShed</customResourceString>
+
       </li>
 	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
 			<resourceDef>GR_SpidersnakeSilk</resourceDef>
 			<gatheringIntervalDays>12</gatheringIntervalDays>
 			<resourceAmount>40</resourceAmount>
+			<customResourceString>SilkGrowth</customResourceString>
       </li>
     </comps>
 	
@@ -830,6 +835,8 @@
 			<resourceDef>GR_VirulentPoison</resourceDef>
 			<gatheringIntervalDays>10</gatheringIntervalDays>
 			<resourceAmount>1</resourceAmount>
+			<customResourceString>PoisonGrowth</customResourceString>
+
       </li>
     </comps>
     <race>
@@ -1013,6 +1020,8 @@
 			<resourceDef>GR_WolfsnakeSkin</resourceDef>
 			<gatheringIntervalDays>25</gatheringIntervalDays>
 			<resourceAmount>90</resourceAmount>
+			<customResourceString>SkinShed</customResourceString>
+
       </li>
     </comps>
     <race>

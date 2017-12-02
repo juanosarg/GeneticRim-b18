@@ -129,7 +129,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Muffalope</defName>
     <label>muffalope</label>
-    <description>A Muffalo / boomalope hybrid. Because it's so cool when your caravans can EXPLODE. \n\nUseful abilities: Milk produced by these animals is not edible, but highly explosive, so it can be used to build IEDs. Can be sheared for low quality wool. Females produce a decent amount of chemfuel.</description>
+    <description>A Muffalo / boomalope hybrid. Because it's so cool when your caravans can EXPLODE. \n\nUseful abilities: Milk produced by these animals is not edible, but highly explosive, so it can be used to build IEDs. Can be sheared for low quality wool. Produce a decent amount of chemfuel.</description>
     <statBases>
       <MoveSpeed>3.2</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
@@ -162,6 +162,8 @@
 			<resourceDef>Chemfuel</resourceDef>
 			<gatheringIntervalDays>3</gatheringIntervalDays>
 			<resourceAmount>55</resourceAmount>
+			<customResourceString>ChemfuelProd</customResourceString>
+
       </li>
     </comps>
     <race>

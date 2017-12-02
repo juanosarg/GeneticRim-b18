@@ -81,11 +81,12 @@
       </li>
     </tools>
     <comps>
-      <li Class="CompProperties_Milkable">
-        <milkDef>Chemfuel</milkDef>
-        <milkIntervalDays>2</milkIntervalDays>
-        <milkAmount>22</milkAmount>
-        <milkFemaleOnly>false</milkFemaleOnly>
+
+	  <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>Chemfuel</resourceDef>
+			<gatheringIntervalDays>2</gatheringIntervalDays>
+			<resourceAmount>22</resourceAmount>
+			<customResourceString>ChemfuelProd</customResourceString>
       </li>
     </comps>
     <race>
@@ -275,6 +276,8 @@
 			<resourceDef>GR_Owlbearfeathers</resourceDef>
 			<gatheringIntervalDays>1</gatheringIntervalDays>
 			<resourceAmount>17</resourceAmount>
+			<customResourceString>FeatherGrowth</customResourceString>
+
         </li>
     </comps>
 	

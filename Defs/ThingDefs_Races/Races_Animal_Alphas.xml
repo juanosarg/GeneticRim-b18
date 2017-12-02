@@ -341,13 +341,14 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
+		
     <comps>
-      <li Class="CompProperties_Milkable">
-        <milkDef>Chemfuel</milkDef>
-        <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>25</milkAmount>
-        <milkFemaleOnly>false</milkFemaleOnly>
-      </li>
+      <li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>Chemfuel</resourceDef>
+			<gatheringIntervalDays>1</gatheringIntervalDays>
+			<resourceAmount>25</resourceAmount>
+			<customResourceString>ChemfuelProd</customResourceString>
+        </li>
     </comps>
     <race>
       <body>QuadrupedAnimalWithHoovesAndHump</body>
@@ -1400,6 +1401,7 @@
 			<resourceDef>GR_ChocolateEgg</resourceDef>
 			<gatheringIntervalDays>1</gatheringIntervalDays>
 			<resourceAmount>1</resourceAmount>
+			<customResourceString>ChocolateEgg</customResourceString>
         </li>
     </comps>
     <race>
@@ -1552,9 +1554,6 @@
           <min>1</min>
           <max>2</max>
         </eggCountRange>
-	  
-	  
-       
       </li>
     </comps>
     <race>

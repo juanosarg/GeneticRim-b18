@@ -42,6 +42,8 @@
 			<resourceDef>GR_RoyalJelly</resourceDef>
 			<gatheringIntervalDays>20</gatheringIntervalDays>
 			<resourceAmount>15</resourceAmount>
+			<customResourceString>JellyGrowth</customResourceString>
+
         </li>
     </comps>
     <race>
@@ -179,6 +181,8 @@
 			<resourceDef>GR_Weapon_ThrownSac</resourceDef>
 			<gatheringIntervalDays>10</gatheringIntervalDays>
 			<resourceAmount>1</resourceAmount>
+			<customResourceString>SacGrowth</customResourceString>
+
         </li>
     </comps>
     <race>
@@ -312,6 +316,8 @@
 			<resourceDef>GR_ChickenspiderSilk</resourceDef>
 			<gatheringIntervalDays>12</gatheringIntervalDays>
 			<resourceAmount>40</resourceAmount>
+			<customResourceString>SilkGrowth</customResourceString>
+
       </li>
     </comps>
     <race>
@@ -429,11 +435,14 @@
     </tools>
    
     <comps>
-      <li Class="CompProperties_Milkable">
-        <milkDef>InsectJelly</milkDef>
-        <milkIntervalDays>2</milkIntervalDays>
-        <milkAmount>12</milkAmount>
+		<li Class="NewAnimalSubproducts.CompProperties_AnimalProduct">
+			<resourceDef>InsectJelly</resourceDef>
+			<gatheringIntervalDays>2</gatheringIntervalDays>
+			<resourceAmount>12</resourceAmount>
+			<customResourceString>VanillaJellyGrowth</customResourceString>
+
       </li>
+     
       <li Class="CompProperties_Shearable">
         <woolDef>GR_MuffalopedeChitin</woolDef>
         <shearIntervalDays>10</shearIntervalDays>

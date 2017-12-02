@@ -8,6 +8,7 @@ namespace NewAnimalSubproducts
         public int gatheringIntervalDays = 1;
         public int resourceAmount = 1;
         public ThingDef resourceDef;
+        public string customResourceString;
 
         public CompProperties_AnimalProduct()
         {

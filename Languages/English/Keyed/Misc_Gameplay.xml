@@ -7,6 +7,7 @@
   <ResourceGrowth>Resource growth</ResourceGrowth>
   <FeatherGrowth>Feather growth</FeatherGrowth>
   <JellyGrowth>Royal jelly fullness</JellyGrowth>
+  <VanillaJellyGrowth>Insect jelly fullness</VanillaJellyGrowth>
   <SacGrowth>Explosive sac growth</SacGrowth>
   <SilkGrowth>Silk growth</SilkGrowth>
   <PoisonGrowth>Poison fullness</PoisonGrowth>
@@ -16,6 +17,8 @@
   <ChocolateEgg>Chocolate egg growth</ChocolateEgg>
   <Cryofuel>Cryofuel production</Cryofuel>
   <ChemfuelProd>Chemfuel production</ChemfuelProd>
+  <NeutroglycerinProd>Neutroglycerin production</NeutroglycerinProd>
+
 
   <!-- Creature Control Commands -->
   
