@@ -88,6 +88,10 @@
 			<resourceAmount>22</resourceAmount>
 			<customResourceString>ChemfuelProd</customResourceString>
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<rage>true</rage>
+			<explodable>true</explodable>
+      </li>
     </comps>
     <race>
 	  <herdAnimal>false</herdAnimal>
@@ -260,7 +264,7 @@
       </li>
     </tools>
    
-	
+
 	<comps>
 		<li Class="CompProperties_EggLayer">
 			<eggUnfertilizedDef>GR_BearChickenEggUnfertilized</eggUnfertilizedDef>
@@ -278,6 +282,10 @@
 			<resourceAmount>17</resourceAmount>
 			<customResourceString>FeatherGrowth</customResourceString>
 
+        </li>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<rage>false</rage>
+			<explodable>false</explodable>
         </li>
     </comps>
 	

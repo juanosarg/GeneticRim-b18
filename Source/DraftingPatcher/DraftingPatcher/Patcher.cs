@@ -60,36 +60,51 @@ namespace DraftingPatcher
     static class Pawn_GetGizmos_Patch
     {
         [HarmonyPostfix]
-      
+
         public static void AddGizmo(Pawn __instance, ref IEnumerable<Gizmo> __result)
         {
             //I want access to the pawn object, and want to modify the original method's result
             var pawn = __instance;
             var gizmos = __result.ToList();
             // First two flags detect if the pawn is mine, and if it is 
-            //Building MindControlHub = 
-            //bool flagIsMindControlHubPresent =;
-
+           
             bool flagIsCreatureMine = pawn.Faction != null && pawn.Faction.IsPlayer;
-            bool flagIsCreatureDraftable = (pawn.TryGetComp<CompDraftable>()!=null);
-            /* I do it this way to avoid errors due to pawn.TryGetComp<CompDraftable>() being null in most pawns. The code inside
+            bool flagIsCreatureDraftable = (pawn.TryGetComp<CompDraftable>() != null);
+            /* I check these flags only inside here to avoid errors due to pawn.TryGetComp<CompDraftable>() being null in most pawns. The code inside
              * the conditional only executes if it isn't*/
             bool flagIsCreatureRageable = false;
             bool flagIsCreatureExplodable = false;
-            if (flagIsCreatureDraftable){ 
+            bool flagIsMindControlBuildingPresent = false;
+
+            if (flagIsCreatureDraftable)
+            {
                 flagIsCreatureRageable = pawn.TryGetComp<CompDraftable>().GetRage;
                 flagIsCreatureExplodable = pawn.TryGetComp<CompDraftable>().GetExplodable;
+                /*Inside here, I check if the Building is present in the map. I only want to do the check for 
+                 *hybrids, or it will do this iterator for every creature in the map 
+                 */
+                foreach (Thing t in pawn.Map.listerThings.ThingsOfDef(ThingDef.Named("GR_AnimalControlHub")))
+                {
+                    Thing mindcontrolhub = t as Thing;
+                    if (t != null)
+                    {
+                        flagIsMindControlBuildingPresent = true;
+                    }
+
+
+                }
+
             }
-            /*Is the creature mine, and draftable (the custom comp class)? Then display the drafting gizmo, called
+            /*Is the creature part of the colony, and draftable (the custom comp class)? Then display the drafting gizmo, called
              * Mind Control. It's action is just calling on toggle the Drafted method in the pawn's drafter, which
              * we initialized in the first Harmony Postfix
             */
-            if ((pawn.drafter != null) && flagIsCreatureMine && flagIsCreatureDraftable)
+            if ((pawn.drafter != null) && flagIsCreatureMine && flagIsCreatureDraftable && flagIsMindControlBuildingPresent)
             {
                 Command_Action GR_Gizmo_MindControl = new Command_Action();
                 GR_Gizmo_MindControl.action = delegate
                 {
-                    pawn.drafter.Drafted= !pawn.drafter.Drafted;
+                    pawn.drafter.Drafted = !pawn.drafter.Drafted;
                 };
                 GR_Gizmo_MindControl.defaultLabel = "GR_CreatureMindControl".Translate();
                 GR_Gizmo_MindControl.defaultDesc = "GR_CreatureMindControlDesc".Translate();
@@ -99,7 +114,7 @@ namespace DraftingPatcher
             /*If the creature is draftable, drafted at the moment and the rage property (which is passed through XML and the custom comp class) is true,
              * we add a second gizmo, which copies the code from melee attacks, and thus allows targeting melee attacks
            */
-            if ((pawn.drafter != null) && flagIsCreatureDraftable && flagIsCreatureRageable && flagIsCreatureMine && pawn.drafter.Drafted)
+            if ((pawn.drafter != null) && flagIsCreatureDraftable && flagIsCreatureRageable && flagIsCreatureMine && pawn.drafter.Drafted && flagIsMindControlBuildingPresent)
             {
                 Command_Target GR_Gizmo_AttackRage = new Command_Target();
                 GR_Gizmo_AttackRage.defaultLabel = "GR_CreatureRageAttack".Translate();
@@ -112,7 +127,7 @@ namespace DraftingPatcher
                     IEnumerable<Pawn> enumerable = Find.Selector.SelectedObjects.Where(delegate (object x)
                     {
                         Pawn pawn2 = x as Pawn;
-                        return pawn2 != null &&  pawn2.Drafted;
+                        return pawn2 != null && pawn2.Drafted;
                     }).Cast<Pawn>();
                     foreach (Pawn current in enumerable)
                     {
@@ -131,13 +146,13 @@ namespace DraftingPatcher
             /*If the creature is explodable, we add this gizmo, which causes a Heddif called "sudden explosion" (GR_Kamikaze), and increases severity to
              * 1 to make the creature die. This only works if the creature also has DeathActionWorker.
            */
-            if ((pawn.drafter != null) && flagIsCreatureExplodable && flagIsCreatureMine)
+            if ((pawn.drafter != null) && flagIsCreatureExplodable && flagIsCreatureMine && flagIsMindControlBuildingPresent)
             {
                 Command_Action GR_Gizmo_Detonate = new Command_Action();
                 GR_Gizmo_Detonate.action = delegate
                 {
                     pawn.health.AddHediff(HediffDef.Named("GR_Kamikaze"));
-                    HealthUtility.AdjustSeverity(pawn, HediffDef.Named("GR_Kamikaze"),1);
+                    HealthUtility.AdjustSeverity(pawn, HediffDef.Named("GR_Kamikaze"), 1);
                 };
                 GR_Gizmo_Detonate.defaultLabel = "GR_DetonateChemfuel".Translate();
                 GR_Gizmo_Detonate.defaultDesc = "GR_DetonateChemfuelDesc".Translate();
@@ -146,7 +161,8 @@ namespace DraftingPatcher
             }
 
             __result = gizmos;
-        }
+            }
+         
     }
 
     /*This final Harmony Postfix makes the creature respond to clicks on the map screen, so it can be controlled

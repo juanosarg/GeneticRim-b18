@@ -75,6 +75,8 @@
       <drawSize>(2,4)</drawSize>
      
     </graphicData>
+		<rotatable>false</rotatable>
+
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
       <Steel>200</Steel>
@@ -130,6 +132,8 @@
       <drawSize>(4,4)</drawSize>
      
     </graphicData>
+			<rotatable>false</rotatable>
+
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
       <Steel>300</Steel>
@@ -187,6 +191,8 @@
       <drawSize>(2,4)</drawSize>
      
     </graphicData>
+			<rotatable>false</rotatable>
+
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
       <Steel>50</Steel>
@@ -242,6 +248,8 @@
       <drawSize>(2,2)</drawSize>
      
     </graphicData>
+			<rotatable>false</rotatable>
+
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
       <Steel>75</Steel>
@@ -297,6 +305,8 @@
       <drawSize>(2,2)</drawSize>
      
     </graphicData>
+			<rotatable>false</rotatable>
+
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
       <Steel>75</Steel>
@@ -353,6 +363,8 @@
       <drawSize>(2,4)</drawSize>
      
     </graphicData>
+			<rotatable>false</rotatable>
+
     <castEdgeShadows>false</castEdgeShadows>
     <costList>
       <Steel>150</Steel>
@@ -479,6 +491,8 @@
 	 
 
     </costList>
+			<rotatable>false</rotatable>
+
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>

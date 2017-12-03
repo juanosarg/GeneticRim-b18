@@ -7,15 +7,21 @@
     <ThingDef ParentName="FurnitureBase">
     <defName>GR_AnimalControlHub</defName>
     <label>animal control hub</label>
+	<description>Once the animal control hub is active in your map, you can access new abilities in your hybrids, allowing you to control them directly.</description>
+
     <graphicData>
-      <texPath>Things/Building/HugeBearRug</texPath>
+      <texPath>Things/Building/GR_AnimalControlHub</texPath>
       <graphicClass>Graphic_Single</graphicClass>    
-		<drawSize>(2,2)</drawSize>	  
+		<drawSize>(2,4)</drawSize>	  
     </graphicData>
 	<costList>
       <Steel>200</Steel>
-      <Component>3</Component>
+      <Component>2</Component>
+	  <GR_OrganicPulp>2</GR_OrganicPulp>
+
     </costList>
+	<rotatable>false</rotatable>
+
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
@@ -26,7 +32,7 @@
       <Beauty>-8</Beauty>
     </statBases>
 
-		<size>(2,2)</size>
+		<size>(2,4)</size>
 		  <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
