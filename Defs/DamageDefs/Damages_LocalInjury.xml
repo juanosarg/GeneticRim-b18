@@ -35,7 +35,7 @@
     <additionalHediffs>
       <li>
         <hediff>GR_ToxicDamage</hediff>
-                <severityPerDamageDealt>0.035</severityPerDamageDealt>
+        <severityPerDamageDealt>0.035</severityPerDamageDealt>
 
       </li>
     </additionalHediffs>

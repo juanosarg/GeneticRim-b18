@@ -40,5 +40,24 @@
       <rotationSpeed>10</rotationSpeed>
     </gas>
   </ThingDef>
+  
+  <ThingDef ParentName="BaseGas">
+    <defName>GR_InsectCloudMotes</defName>
+    <label>insect clouds</label>
+	<thingClass>DraftingPatcher.Gas_InsectClouds</thingClass>
+    <graphicData>
+      <texPath>Things/Gas/GR_InsectcloudMotes</texPath>
+      <drawSize>2.2</drawSize>
+      
+    </graphicData>
+    <gas>
+      <expireSeconds>
+        <min>18</min>
+        <max>21</max>
+      </expireSeconds>
+      <blockTurretTracking>false</blockTurretTracking>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
     
 </Defs>

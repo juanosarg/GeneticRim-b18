@@ -31,7 +31,43 @@ namespace DraftingPatcher
             }
         }
 
+        public bool GetChickenRimPox
+        {
+            get
+            {
+                return this.Props.chickenRimPox;
+            }
+        }
 
+        public bool GetCanCarryMore
+        {
+            get
+            {
+                return this.Props.carrymore;
+            }
+        }
 
+        public bool GetAdrenalineBurst
+        {
+            get
+            {
+                return this.Props.adrenalineburst;
+            }
+        }
+
+        public bool GetCanDoInsectClouds
+        {
+            get
+            {
+                return this.Props.insectclouds;
+            }
+        }
+        public bool GetCanStampede
+        {
+            get
+            {
+                return this.Props.stampede;
+            }
+        }
     }
 }

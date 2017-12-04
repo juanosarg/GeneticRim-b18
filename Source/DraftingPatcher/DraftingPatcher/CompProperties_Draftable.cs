@@ -7,6 +7,12 @@ namespace DraftingPatcher
 
         public bool explodable = false;
         public bool rage = false;
+        public bool chickenRimPox = false;
+        public bool carrymore = false;
+        public bool adrenalineburst = false;
+        public bool insectclouds = false;
+        public bool stampede = false;
+
 
         public CompProperties_Draftable()
         {

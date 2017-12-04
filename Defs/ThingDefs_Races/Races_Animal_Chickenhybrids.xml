@@ -49,6 +49,11 @@
         <eggLayIntervalDays>1.9</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<chickenRimPox>true</chickenRimPox>
+			<rage>true</rage>
+
+      </li>
     </comps>
     <race>
       <body>GR_BirdWithTeeth</body>
@@ -219,7 +224,11 @@
 			<resourceAmount>5</resourceAmount>
 			<customResourceString>ChemfuelProd</customResourceString>
       </li>
- 
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<chickenRimPox>true</chickenRimPox>
+			<explodable>true</explodable>
+
+      </li>
     </comps>
     <race>
       <body>Bird</body>
@@ -384,6 +393,11 @@
         <eggLayIntervalDays>1.8</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<chickenRimPox>true</chickenRimPox>
+			<carrymore>true</carrymore>
+
+      </li>
 
     </comps>
     <race>
@@ -544,6 +558,11 @@
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>3</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
+      </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<chickenRimPox>true</chickenRimPox>
+			<adrenalineburst>true</adrenalineburst>
+
       </li>
     </comps>
     <race>

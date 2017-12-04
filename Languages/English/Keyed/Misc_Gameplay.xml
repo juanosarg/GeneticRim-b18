@@ -28,6 +28,14 @@
   <GR_CreatureRageAttackDesc>Send the creature in a bloodthristy rage against its target</GR_CreatureRageAttackDesc>
   <GR_DetonateChemfuel>Detonate Chemfuel</GR_DetonateChemfuel>
   <GR_DetonateChemfuelDesc>Remotely detonate the chemfuel reservoirs of this creature. This kills the poor beast, obviously</GR_DetonateChemfuelDesc>
+  <GR_InflictChickenRimPox>Inflict Chicken RimPox</GR_InflictChickenRimPox>
+  <GR_InflictChickenRimPoxDesc>Attacks a target and inflicts Chicken RimPox, a debilitating disease</GR_InflictChickenRimPoxDesc>
+  <GR_CarryMore>Carrying more weight</GR_CarryMore>
+  <GR_CarryMoreDesc>This hybrid is carrying more weight than usual due to the influence of the animal control hub</GR_CarryMoreDesc>
+  <GR_StartAdrenalineBurst>Adrenaline Burst</GR_StartAdrenalineBurst>
+  <GR_StartAdrenalineBurstDesc>Causes the creature to move much faster for a while, at the cost of getting tired afterwards for almost half a day</GR_StartAdrenalineBurstDesc>
+  <GR_ReleaseInsectClouds>Release Insect Clouds</GR_ReleaseInsectClouds>
+  <GR_ReleaseInsectCloudsDesc>Causes the creature to release insect clouds around it, damaging every pawn that isn't an insect hybrid</GR_ReleaseInsectCloudsDesc>
   
   <!-- This isn't used for now -->
 

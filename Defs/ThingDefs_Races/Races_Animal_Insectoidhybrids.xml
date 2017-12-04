@@ -45,6 +45,10 @@
 			<customResourceString>JellyGrowth</customResourceString>
 
         </li>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<rage>true</rage>
+			<insectclouds>true</insectclouds>
+        </li>
     </comps>
     <race>
       <body>BeetleLikeWithClaw</body>
@@ -184,6 +188,10 @@
 			<customResourceString>SacGrowth</customResourceString>
 
         </li>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<explodable>true</explodable>
+			<insectclouds>true</insectclouds>
+        </li>
     </comps>
     <race>
 	  <thinkTreeMain>GR_RangedAnimal</thinkTreeMain>
@@ -319,6 +327,10 @@
 			<customResourceString>SilkGrowth</customResourceString>
 
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<chickenRimPox>true</chickenRimPox>
+			<insectclouds>true</insectclouds>
+      </li>
     </comps>
     <race>
       <body>BeetleLikeWithClaw</body>
@@ -448,6 +460,10 @@
         <shearIntervalDays>10</shearIntervalDays>
         <woolAmount>45</woolAmount>
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<carrymore>true</carrymore>
+			<insectclouds>true</insectclouds>
+      </li>
     </comps>
     <race>
 	  <fleshType>Insectoid</fleshType>
@@ -575,7 +591,12 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
-    
+    <comps>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<stampede>true</stampede>
+			<insectclouds>true</insectclouds>
+      </li>
+	</comps>
 
     <race>
       <body>BeetleLikeWithClaw</body>
@@ -696,6 +717,12 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
+	<comps>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<adrenalineburst>true</adrenalineburst>
+			<insectclouds>true</insectclouds>
+      </li>
+	</comps>
     
 
     <race>

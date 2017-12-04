@@ -46,6 +46,10 @@
 			<resourceAmount>22</resourceAmount>
 			<customResourceString>ChemfuelProd</customResourceString>
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<rage>true</rage>
+			<explodable>true</explodable>
+      </li>	  
     </comps>   
     <race>
 	  <intelligence>Animal</intelligence>
@@ -194,7 +198,10 @@
 			<resourceAmount>12</resourceAmount>
 			<customResourceString>ChemfuelProd</customResourceString>
       </li>
-	 
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<chickenRimPox>true</chickenRimPox>
+			<explodable>true</explodable>
+      </li>
     </comps>
     <race>
       <body>GR_QuadrupedAnimalWithBeakandHump</body>
@@ -331,6 +338,9 @@
         <woolDef>GR_BoomffaloWool</woolDef>
         <shearIntervalDays>25</shearIntervalDays>
         <woolAmount>90</woolAmount>
+      </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<explodable>true</explodable>
       </li>
     </comps>
     <race>
@@ -475,7 +485,10 @@
 			<resourceAmount>9</resourceAmount>
 			<customResourceString>ChemfuelProd</customResourceString>
       </li>
-	 
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<adrenalineburst>true</adrenalineburst>
+			<explodable>true</explodable>
+      </li>
     </comps>
     <race>
       <body>QuadrupedAnimalWithHoovesAndHump</body>

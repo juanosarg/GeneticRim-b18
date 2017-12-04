@@ -70,16 +70,20 @@ namespace DraftingPatcher
            
             bool flagIsCreatureMine = pawn.Faction != null && pawn.Faction.IsPlayer;
             bool flagIsCreatureDraftable = (pawn.TryGetComp<CompDraftable>() != null);
-            /* I check these flags only inside here to avoid errors due to pawn.TryGetComp<CompDraftable>() being null in most pawns. The code inside
+            /* I check these flags only inside flagIsCreatureDraftable true to avoid errors due to pawn.TryGetComp<CompDraftable>() being null in most pawns. The code inside
              * the conditional only executes if it isn't*/
             bool flagIsCreatureRageable = false;
             bool flagIsCreatureExplodable = false;
+            bool flagIsCreatureChickenRimPox = false;
+            bool flagCanCreatureCarryMore = false;
+            bool flagCanCreatureAdrenalineBurst = false;
+            bool flagCanCanDoInsectClouds = false;
+            bool flagCanCanStampede = false;
+
             bool flagIsMindControlBuildingPresent = false;
 
             if (flagIsCreatureDraftable)
             {
-                flagIsCreatureRageable = pawn.TryGetComp<CompDraftable>().GetRage;
-                flagIsCreatureExplodable = pawn.TryGetComp<CompDraftable>().GetExplodable;
                 /*Inside here, I check if the Building is present in the map. I only want to do the check for 
                  *hybrids, or it will do this iterator for every creature in the map 
                  */
@@ -88,13 +92,21 @@ namespace DraftingPatcher
                     Thing mindcontrolhub = t as Thing;
                     if (t != null)
                     {
+                        flagIsCreatureRageable = pawn.TryGetComp<CompDraftable>().GetRage;
+                        flagIsCreatureExplodable = pawn.TryGetComp<CompDraftable>().GetExplodable;
+                        flagIsCreatureChickenRimPox = pawn.TryGetComp<CompDraftable>().GetChickenRimPox;
+                        flagCanCreatureCarryMore = pawn.TryGetComp<CompDraftable>().GetCanCarryMore;
+                        flagCanCreatureAdrenalineBurst = pawn.TryGetComp<CompDraftable>().GetAdrenalineBurst;
+                        flagCanCanDoInsectClouds = pawn.TryGetComp<CompDraftable>().GetCanDoInsectClouds;
+                        flagCanCanStampede = pawn.TryGetComp<CompDraftable>().GetCanStampede;
+
+
                         flagIsMindControlBuildingPresent = true;
                     }
-
-
                 }
-
             }
+
+            
             /*Is the creature part of the colony, and draftable (the custom comp class)? Then display the drafting gizmo, called
              * Mind Control. It's action is just calling on toggle the Drafted method in the pawn's drafter, which
              * we initialized in the first Harmony Postfix
@@ -108,13 +120,13 @@ namespace DraftingPatcher
                 };
                 GR_Gizmo_MindControl.defaultLabel = "GR_CreatureMindControl".Translate();
                 GR_Gizmo_MindControl.defaultDesc = "GR_CreatureMindControlDesc".Translate();
-                GR_Gizmo_MindControl.icon = ContentFinder<Texture2D>.Get("ui/commands/ControlAnimal", true);
+                GR_Gizmo_MindControl.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_ControlAnimal", true);
                 gizmos.Insert(0, GR_Gizmo_MindControl);
             }
             /*If the creature is draftable, drafted at the moment and the rage property (which is passed through XML and the custom comp class) is true,
              * we add a second gizmo, which copies the code from melee attacks, and thus allows targeting melee attacks
            */
-            if ((pawn.drafter != null) && flagIsCreatureDraftable && flagIsCreatureRageable && flagIsCreatureMine && pawn.drafter.Drafted && flagIsMindControlBuildingPresent)
+            if ((pawn.drafter != null) && flagIsCreatureRageable && flagIsCreatureMine && pawn.drafter.Drafted && flagIsMindControlBuildingPresent)
             {
                 Command_Target GR_Gizmo_AttackRage = new Command_Target();
                 GR_Gizmo_AttackRage.defaultLabel = "GR_CreatureRageAttack".Translate();
@@ -143,6 +155,37 @@ namespace DraftingPatcher
                 gizmos.Insert(1, GR_Gizmo_AttackRage);
 
             }
+            /*This adds a gizmo that makes the creature attack once, and then cause a Hediff disease (GR_ChickenRimPox), then cancels the draft. I used a custom Jobdriver class for that
+            */
+            if ((pawn.drafter != null) && flagIsCreatureChickenRimPox && flagIsCreatureMine && pawn.drafter.Drafted && flagIsMindControlBuildingPresent)
+            {
+                Command_Target GR_Gizmo_AttackPox = new Command_Target();
+                GR_Gizmo_AttackPox.defaultLabel = "GR_InflictChickenRimPox".Translate();
+                GR_Gizmo_AttackPox.defaultDesc = "GR_InflictChickenRimPoxDesc".Translate();
+                GR_Gizmo_AttackPox.targetingParams = TargetingParameters.ForAttackAny();
+                GR_Gizmo_AttackPox.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_ChickenRimPox", true);
+
+                GR_Gizmo_AttackPox.action = delegate (Thing target)
+                {
+                    IEnumerable<Pawn> enumerable = Find.Selector.SelectedObjects.Where(delegate (object x)
+                    {
+                        Pawn pawn2 = x as Pawn;
+                        return pawn2 != null && pawn2.Drafted;
+                    }).Cast<Pawn>();
+                    foreach (Pawn current in enumerable)
+                    {
+                        Job job = new Job(DefDatabase<JobDef>.GetNamed("GR_AttackMeleeOnceAndChickenRimPox", true), target);
+                        Pawn pawn2 = target as Pawn;
+                        if (pawn2 != null)
+                        {
+                            job.killIncappedTarget = pawn2.Downed;
+                        }
+                        pawn.jobs.TryTakeOrderedJob(job, JobTag.Misc);
+                    }
+                };
+                gizmos.Insert(1, GR_Gizmo_AttackPox);
+
+            }
             /*If the creature is explodable, we add this gizmo, which causes a Heddif called "sudden explosion" (GR_Kamikaze), and increases severity to
              * 1 to make the creature die. This only works if the creature also has DeathActionWorker.
            */
@@ -159,13 +202,87 @@ namespace DraftingPatcher
                 GR_Gizmo_Detonate.icon = ContentFinder<Texture2D>.Get("UI/Commands/Detonate", true);
                 gizmos.Insert(1, GR_Gizmo_Detonate);
             }
+            /* This is a dummy gizmo. It only displays, but does nothing on click. The processing is done below in another Harmony patch to MassUtility.Capacity
+             */
+            if ((pawn.drafter != null) && flagCanCreatureCarryMore && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            {
+                Command_Action GR_Gizmo_Carry = new Command_Action();
+                GR_Gizmo_Carry.action = delegate
+                {
+                   
+                };
+                GR_Gizmo_Carry.defaultLabel = "GR_CarryMore".Translate();
+                GR_Gizmo_Carry.defaultDesc = "GR_CarryMoreDesc".Translate();
+                GR_Gizmo_Carry.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_IncreasedCarry", true);
+                gizmos.Insert(1, GR_Gizmo_Carry);
+            }
+            /*This gizmo applies a Hediff that makes the pawn move faster for a while
+            */
+            if ((pawn.drafter != null) && flagCanCreatureAdrenalineBurst && flagIsCreatureMine  && flagIsMindControlBuildingPresent)
+            {
+                Command_Action GR_Gizmo_AdrenalineBurst = new Command_Action();
+                GR_Gizmo_AdrenalineBurst.defaultLabel = "GR_StartAdrenalineBurst".Translate();
+                GR_Gizmo_AdrenalineBurst.defaultDesc = "GR_StartAdrenalineBurstDesc".Translate();
+                GR_Gizmo_AdrenalineBurst.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_AdrenalineBurst", true);
+
+                GR_Gizmo_AdrenalineBurst.action = delegate
+                {
+                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_AdrenalineBurst"))) {
+                        pawn.health.AddHediff(HediffDef.Named("GR_AdrenalineBurst"));
+                    }
+                };
+                gizmos.Insert(1, GR_Gizmo_AdrenalineBurst);
+
+            }
+            /*This gizmo applies a Hediff that makes the pawn release insect clouds for a while
+            */
+            if ((pawn.drafter != null) && flagCanCanDoInsectClouds && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            {
+                Command_Action GR_Gizmo_InsectClouds = new Command_Action();
+                GR_Gizmo_InsectClouds.defaultLabel = "GR_ReleaseInsectClouds".Translate();
+                GR_Gizmo_InsectClouds.defaultDesc = "GR_ReleaseInsectCloudsDesc".Translate();
+                GR_Gizmo_InsectClouds.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_Insectclouds", true);
+
+                GR_Gizmo_InsectClouds.action = delegate
+                {
+                    pawn.health.AddHediff(HediffDef.Named("GR_InsectClouds"));
+
+                };
+                gizmos.Insert(1, GR_Gizmo_InsectClouds);
+
+            }
+            /*This gizmo applies a Hediff that makes the pawn generate stampede clouds for a while
+            */
+            if ((pawn.drafter != null) && flagCanCanStampede && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            {
+                Command_Action GR_Gizmo_Stampede = new Command_Action();
+                GR_Gizmo_Stampede.defaultLabel = "GR_StartAdrenalineBurst".Translate();
+                GR_Gizmo_Stampede.defaultDesc = "GR_StartAdrenalineBurstDesc".Translate();
+                GR_Gizmo_Stampede.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_AdrenalineBurst", true);
+
+                GR_Gizmo_Stampede.action = delegate
+                {
+                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_AdrenalineBurst")))
+                    {
+                        pawn.health.AddHediff(HediffDef.Named("GR_AdrenalineBurst"));
+                    }
+                };
+                gizmos.Insert(1, GR_Gizmo_Stampede);
+
+            }
+
 
             __result = gizmos;
-            }
+        }
+
+
+        
+
+
          
     }
 
-    /*This final Harmony Postfix makes the creature respond to clicks on the map screen, so it can be controlled
+    /*This Harmony Postfix makes the creature respond to clicks on the map screen, so it can be controlled
      */
     [HarmonyPatch(typeof(FloatMenuMakerMap))]
     [HarmonyPatch("CanTakeOrder")]
@@ -184,6 +301,54 @@ namespace DraftingPatcher
                 __result = true;
             }
             
+        }
+    }
+
+    /*This Harmony Prefix makes the creature carry more weight
+    */
+    [HarmonyPatch(typeof(MassUtility))]
+    [HarmonyPatch("Capacity")]
+    public static class MassUtility_Capacity_Patch
+    {
+        [HarmonyPostfix]
+        public static void MakeThemCarryMore(Pawn p, ref float __result)
+
+        {
+            bool flagIsCreatureMine = p.Faction != null && p.Faction.IsPlayer;
+            bool flagIsCreatureDraftable = (p.TryGetComp<CompDraftable>() != null);
+            bool flagCanCreatureCarryMore = false;
+
+            if (flagIsCreatureDraftable)
+            {
+
+                List<Map> maps = Find.Maps;
+                
+                for (int i = 0; i < maps.Count; i++)
+                {
+                    if (maps[i].IsPlayerHome)
+                    {
+                        foreach (Thing t in maps[i].listerThings.ThingsOfDef(ThingDef.Named("GR_AnimalControlHub")))
+                        {
+                            Thing mindcontrolhub = t as Thing;
+                            if (t != null)
+                            {
+                                flagCanCreatureCarryMore = p.TryGetComp<CompDraftable>().GetCanCarryMore;
+                                //if (flagCanCreatureCarryMore) { Log.Message("Creature " + p.kindDef.ToString() + " should carry more now"); }
+                            }
+
+
+                        }
+                    }
+                }
+               
+
+            }
+
+            if (flagIsCreatureDraftable && flagIsCreatureMine && flagCanCreatureCarryMore)
+            {
+                __result = p.BodySize * 50f;
+            }
+
         }
     }
 

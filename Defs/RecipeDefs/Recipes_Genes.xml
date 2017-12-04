@@ -12,7 +12,9 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>800</workAmount>
 		<recipeUsers>
-				<li>GR_GeneticExtractionTable</li>	  
+				<li>GR_GeneticExtractionTable</li>	 
+				<li>GR_AlphaSerumExtractionTable</li>	  
+				
 		</recipeUsers>	
 		<ingredients>
 			<li>

@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gas_InsectClouds.cs" />
+    <Compile Include="Hediff_InsectClouds.cs" />
+    <Compile Include="JobDriver_AttackMeleeOnceAndChickenRimPox.cs" />
     <Compile Include="CompProperties_Draftable.cs" />
     <Compile Include="CompDraftable.cs" />
     <Compile Include="Patcher.cs" />
