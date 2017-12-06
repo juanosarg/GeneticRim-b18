@@ -13,7 +13,7 @@ namespace DraftingPatcher
         {
             base.Tick();
             
-            if (tickerInterval >= 18)
+            if ((this.Severity<1)&&(tickerInterval >= 18))
             {
                 //GenExplosion.DoExplosion(this.pawn.Position, this.pawn.Map, 5f, DamageDefOf.Smoke, this.pawn, -1, null, null, null, ThingDefOf.Gas_Smoke, 1f, 1, false, null, 0f, 1, 0f, false);
 

@@ -69,5 +69,20 @@ namespace DraftingPatcher
                 return this.Props.stampede;
             }
         }
+
+        public bool GetCanDoPoisonousCloud
+        {
+            get
+            {
+                return this.Props.poisonouscloud;
+            }
+        }
+        public bool GetCanBurrow
+        {
+            get
+            {
+                return this.Props.burrowing;
+            }
+        }
     }
 }

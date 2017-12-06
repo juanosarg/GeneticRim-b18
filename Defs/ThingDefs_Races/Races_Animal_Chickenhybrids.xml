@@ -56,6 +56,7 @@
       </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>GR_BirdWithTeeth</body>
       <baseHungerRate>0.45</baseHungerRate>
       <baseBodySize>0.25</baseBodySize>
@@ -231,6 +232,7 @@
       </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>Bird</body>
 	  <deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
       <executionRange>4</executionRange>
@@ -401,6 +403,7 @@
 
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <herdAnimal>true</herdAnimal>
 	  <packAnimal>true</packAnimal>
       <body>GR_BirdWithTeeth</body>
@@ -566,6 +569,7 @@
       </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>GR_BirdWithTeeth</body>
       <baseHungerRate>0.8</baseHungerRate>
       <baseBodySize>0.2</baseBodySize>

@@ -12,6 +12,7 @@
     </graphicData>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
+	
     <statBases>
       <MaxHitPoints>15</MaxHitPoints>
       <MarketValue>10</MarketValue>

@@ -78,7 +78,11 @@ namespace DraftingPatcher
             bool flagCanCreatureCarryMore = false;
             bool flagCanCreatureAdrenalineBurst = false;
             bool flagCanCanDoInsectClouds = false;
-            bool flagCanCanStampede = false;
+            bool flagCanStampede = false;
+            bool flagCanDoPoisonousCloud = false;
+            bool flagCanBurrow = false;
+
+
 
             bool flagIsMindControlBuildingPresent = false;
 
@@ -98,8 +102,9 @@ namespace DraftingPatcher
                         flagCanCreatureCarryMore = pawn.TryGetComp<CompDraftable>().GetCanCarryMore;
                         flagCanCreatureAdrenalineBurst = pawn.TryGetComp<CompDraftable>().GetAdrenalineBurst;
                         flagCanCanDoInsectClouds = pawn.TryGetComp<CompDraftable>().GetCanDoInsectClouds;
-                        flagCanCanStampede = pawn.TryGetComp<CompDraftable>().GetCanStampede;
-
+                        flagCanStampede = pawn.TryGetComp<CompDraftable>().GetCanStampede;
+                        flagCanDoPoisonousCloud = pawn.TryGetComp<CompDraftable>().GetCanDoPoisonousCloud;
+                        flagCanBurrow = pawn.TryGetComp<CompDraftable>().GetCanBurrow;
 
                         flagIsMindControlBuildingPresent = true;
                     }
@@ -245,7 +250,11 @@ namespace DraftingPatcher
 
                 GR_Gizmo_InsectClouds.action = delegate
                 {
-                    pawn.health.AddHediff(HediffDef.Named("GR_InsectClouds"));
+                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_InsectClouds")))
+
+                    {
+                        pawn.health.AddHediff(HediffDef.Named("GR_InsectClouds"));
+                    }
 
                 };
                 gizmos.Insert(1, GR_Gizmo_InsectClouds);
@@ -253,22 +262,79 @@ namespace DraftingPatcher
             }
             /*This gizmo applies a Hediff that makes the pawn generate stampede clouds for a while
             */
-            if ((pawn.drafter != null) && flagCanCanStampede && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            if ((pawn.drafter != null) && flagCanStampede && flagIsCreatureMine && flagIsMindControlBuildingPresent)
             {
                 Command_Action GR_Gizmo_Stampede = new Command_Action();
-                GR_Gizmo_Stampede.defaultLabel = "GR_StartAdrenalineBurst".Translate();
-                GR_Gizmo_Stampede.defaultDesc = "GR_StartAdrenalineBurstDesc".Translate();
-                GR_Gizmo_Stampede.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_AdrenalineBurst", true);
+                GR_Gizmo_Stampede.defaultLabel = "GR_StartStampede".Translate();
+                GR_Gizmo_Stampede.defaultDesc = "GR_StartStampedeDesc".Translate();
+                GR_Gizmo_Stampede.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_StampedeClouds", true);
 
                 GR_Gizmo_Stampede.action = delegate
                 {
-                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_AdrenalineBurst")))
+                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_Stampeding")))
                     {
-                        pawn.health.AddHediff(HediffDef.Named("GR_AdrenalineBurst"));
+                        pawn.health.AddHediff(HediffDef.Named("GR_Stampeding"));
                     }
                 };
                 gizmos.Insert(1, GR_Gizmo_Stampede);
 
+            }
+
+            /*This gizmo adds an attack that spawns a poison cloud at a target's location
+           */
+            if ((pawn.drafter != null) && flagCanDoPoisonousCloud && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            {
+                Command_Target GR_Gizmo_PoisonCloud = new Command_Target();
+                GR_Gizmo_PoisonCloud.defaultLabel = "GR_CreatePoisonousCloud".Translate();
+                GR_Gizmo_PoisonCloud.defaultDesc = "GR_CreatePoisonousCloudDesc".Translate();
+                GR_Gizmo_PoisonCloud.targetingParams = TargetingParameters.ForAttackAny();
+                GR_Gizmo_PoisonCloud.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_PoisonousCloud", true);
+
+                GR_Gizmo_PoisonCloud.action = delegate (Thing target)
+                {
+
+                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_CausedPoisonCloud")))
+                    {
+                        Pawn pawn2 = target as Pawn;
+                        if (pawn2 != null)
+                        {
+                            
+
+                            List<IntVec3> list = GenAdj.AdjacentCells8WayRandomized();
+                            for (int i = 0; i < 8; i++)
+                            {
+                                IntVec3 c2 = pawn2.Position + list[i];
+                                if (c2.InBounds(pawn2.Map))
+                                {
+                                    Thing thing = ThingMaker.MakeThing(ThingDef.Named("GR_Poison_Cloud"), null);
+
+                                    GenSpawn.Spawn(thing, c2, pawn2.Map);
+                                }
+                            }
+                            pawn.health.AddHediff(HediffDef.Named("GR_CausedPoisonCloud"));
+                        }
+                    }
+                    
+                };
+                gizmos.Insert(1, GR_Gizmo_PoisonCloud);
+
+            }
+            /*This gizmo puts the creature into burrowing mode
+           */
+            if ((pawn.drafter != null) && flagCanBurrow && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            {
+                Command_Action GR_Gizmo_Burrowing = new Command_Action();
+                GR_Gizmo_Burrowing.action = delegate
+                {
+                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_Burrowing")))
+                    {
+                        pawn.health.AddHediff(HediffDef.Named("GR_Burrowing"));
+                    }
+                };
+                GR_Gizmo_Burrowing.defaultLabel = "GR_StartBurrowing".Translate();
+                GR_Gizmo_Burrowing.defaultDesc = "GR_StartBurrowingDesc".Translate();
+                GR_Gizmo_Burrowing.icon = ContentFinder<Texture2D>.Get("Things/Pawn/Animal/Special/GR_Special_Burrowing", true);
+                gizmos.Insert(1, GR_Gizmo_Burrowing);
             }
 
 

@@ -12,6 +12,8 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
+
     <statBases>
       <MarketValue>60</MarketValue>
       <Mass>0.01</Mass>

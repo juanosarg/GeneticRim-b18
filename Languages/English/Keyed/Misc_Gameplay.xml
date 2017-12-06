@@ -36,6 +36,12 @@
   <GR_StartAdrenalineBurstDesc>Causes the creature to move much faster for a while, at the cost of getting tired afterwards for almost half a day</GR_StartAdrenalineBurstDesc>
   <GR_ReleaseInsectClouds>Release Insect Clouds</GR_ReleaseInsectClouds>
   <GR_ReleaseInsectCloudsDesc>Causes the creature to release insect clouds around it, damaging every pawn that isn't an insect hybrid</GR_ReleaseInsectCloudsDesc>
+  <GR_StartStampede>Start Stampede</GR_StartStampede>
+  <GR_StartStampedeDesc>Stampedes, moving faster and creating dust clouds that block line of view for projectile weapons. Gets the creature tired after a while</GR_StartStampedeDesc>
+  <GR_CreatePoisonousCloud>Release a poisonous cloud</GR_CreatePoisonousCloud>
+  <GR_CreatePoisonousCloudDesc>Creates a cloud of poison at a target's location</GR_CreatePoisonousCloudDesc>
+  <GR_StartBurrowing>Start Burrowing</GR_StartBurrowing>
+  <GR_StartBurrowingDesc>Sends the creature underground into burrowing mode, making it very resistant to damage for a while</GR_StartBurrowingDesc>
   
   <!-- This isn't used for now -->
 

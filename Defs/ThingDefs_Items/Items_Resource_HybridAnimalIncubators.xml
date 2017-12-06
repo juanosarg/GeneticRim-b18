@@ -41,6 +41,7 @@
 	  <MarketValue>45</MarketValue>
     </statBases>
     <tickerType>Normal</tickerType>
+	<tradeability>Sellable</tradeability>
 	<thingCategories>
       <li>GR_Incubators</li>
     </thingCategories>

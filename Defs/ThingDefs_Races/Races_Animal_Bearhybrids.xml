@@ -94,6 +94,7 @@
       </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <herdAnimal>false</herdAnimal>
       <predator>true</predator>
       <body>QuadrupedAnimalWithPaws</body>
@@ -290,6 +291,7 @@
     </comps>
 	
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <herdAnimal>false</herdAnimal>
       <predator>false</predator>
 	  <body>GR_QuadrupedAnimalWithBeak</body>
@@ -483,6 +485,7 @@
 	 
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <herdAnimal>true</herdAnimal>
 	  <predator>false</predator>
 	  <foodType>VegetarianRoughAnimal</foodType>
@@ -660,6 +663,7 @@
 
 	
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <body>QuadrupedAnimalWithPawsAndTail</body>
       <baseBodySize>1</baseBodySize>
       <baseHungerRate>1.25</baseHungerRate>

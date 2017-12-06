@@ -14,7 +14,7 @@
 	<comps>		
 		<li Class="DraftingPatcher.CompProperties_Draftable">
 			<rage>true</rage>
-			<explodable>false</explodable>
+			<poisonouscloud>true</poisonouscloud>
         </li>
     </comps>
 	<tools>
@@ -195,7 +195,7 @@
     </statBases>
 	<comps>		
 		<li Class="DraftingPatcher.CompProperties_Draftable">
-			<rage>false</rage>
+			<poisonouscloud>true</poisonouscloud>
 			<explodable>true</explodable>
         </li>
     </comps>
@@ -230,6 +230,7 @@
 
 	
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <body>Snake</body>
 	  <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_ToxicExplosion</deathActionWorkerClass>
       <executionRange>6</executionRange>
@@ -374,8 +375,13 @@
         <eggLayIntervalDays>1.2</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<poisonouscloud>true</poisonouscloud>
+			<chickenRimPox>true</chickenRimPox>
+      </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <body>Bird</body>
 	 
       <baseBodySize>0.3</baseBodySize>
@@ -502,9 +508,14 @@
 			<customResourceString>PoisonGrowth</customResourceString>
 
         </li>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<poisonouscloud>true</poisonouscloud>
+			<carrymore>true</carrymore>
+      </li>
     </comps>
 
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <body>QuadrupedAnimalWithHooves</body>
 	  <herdAnimal>true</herdAnimal>
       <baseBodySize>3.5</baseBodySize>
@@ -660,10 +671,15 @@
 			<resourceAmount>40</resourceAmount>
 			<customResourceString>SilkGrowth</customResourceString>
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<poisonouscloud>true</poisonouscloud>
+			<insectclouds>true</insectclouds>
+      </li>
     </comps>
 	
 
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <body>Snake</body>
       <predator>true</predator>
       <maxPreyBodySize>0.35</maxPreyBodySize>
@@ -838,8 +854,13 @@
 			<customResourceString>PoisonGrowth</customResourceString>
 
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<poisonouscloud>true</poisonouscloud>
+			<stampede>true</stampede>
+      </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <body>QuadrupedAnimalWithHoovesAndHorn</body>
 	  
 	  <herdAnimal>true</herdAnimal>
@@ -1023,8 +1044,13 @@
 			<customResourceString>SkinShed</customResourceString>
 
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<poisonouscloud>true</poisonouscloud>
+			<adrenalineburst>true</adrenalineburst>
+      </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <body>QuadrupedAnimalWithPawsAndTail</body>
 	  
 	  <predator>true</predator>

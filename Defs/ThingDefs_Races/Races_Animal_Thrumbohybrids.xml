@@ -67,8 +67,13 @@
         <shearIntervalDays>25</shearIntervalDays>
         <woolAmount>150</woolAmount>
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<rage>true</rage>
+			<stampede>true</stampede>
+      </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithHoovesAndHorn</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>4</baseBodySize>
@@ -233,9 +238,13 @@
 			<customResourceString>ChemfuelProd</customResourceString>
 
       </li>
-      
+      <li Class="DraftingPatcher.CompProperties_Draftable">
+			<explodable>true</explodable>
+			<stampede>true</stampede>
+      </li>
     </comps>    
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithHoovesAndHorn</body>
 	  <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_GargantuanExplosion</deathActionWorkerClass>
       <executionRange>16</executionRange>
@@ -386,8 +395,13 @@
         <eggLayIntervalDays>5</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<chickenRimPox>true</chickenRimPox>
+			<stampede>true</stampede>
+      </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>GR_HornedBird</body>
 	  <predator>true</predator>
       <herdAnimal>true</herdAnimal>
@@ -557,8 +571,13 @@
         <shearIntervalDays>25</shearIntervalDays>
         <woolAmount>150</woolAmount>
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<carrymore>true</carrymore>
+			<stampede>true</stampede>
+      </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithHoovesAndHorn</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>8.4</baseBodySize>
@@ -716,9 +735,15 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
-    
+    <comps>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<adrenalineburst>true</adrenalineburst>
+			<stampede>true</stampede>
+		</li>
+	</comps>
 
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithHoovesAndHorn</body>
 	        <predator>true</predator>
 

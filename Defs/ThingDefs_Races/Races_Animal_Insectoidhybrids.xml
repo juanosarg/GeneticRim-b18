@@ -51,6 +51,7 @@
         </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>BeetleLikeWithClaw</body>
 	  <trainableIntelligence>Advanced</trainableIntelligence>
       <nameOnTameChance>1</nameOnTameChance>
@@ -333,6 +334,7 @@
       </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
       <baseBodySize>1.1</baseBodySize>
@@ -466,6 +468,7 @@
       </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <fleshType>Insectoid</fleshType>
 	  <bloodDef>FilthBloodInsect</bloodDef>
 	  <manhunterOnDamageChance>1</manhunterOnDamageChance>
@@ -599,6 +602,7 @@
 	</comps>
 
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>5.5</baseHungerRate>
 	  <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
@@ -726,6 +730,7 @@
     
 
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.25</baseHungerRate>
       <baseBodySize>0.85</baseBodySize>

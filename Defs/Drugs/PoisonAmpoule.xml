@@ -14,6 +14,8 @@
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+
     <thingCategories>
       <li>Drugs</li>
     </thingCategories>

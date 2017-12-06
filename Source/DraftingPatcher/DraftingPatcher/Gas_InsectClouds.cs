@@ -7,8 +7,7 @@ namespace DraftingPatcher
 {
     public class Gas_InsectClouds : Gas
     {
-        private int tickerInterval = 18;
-        bool flagCanCanDoInsectClouds = false;
+        private int tickerInterval = 30;
 
 
 
@@ -18,7 +17,7 @@ namespace DraftingPatcher
             base.Tick();
             try
             {
-                    if (tickerInterval >= 18)
+                    if (tickerInterval >= 30)
                     {
                 
                         HashSet<Thing> hashSet = new HashSet<Thing>(this.Position.GetThingList(this.Map));

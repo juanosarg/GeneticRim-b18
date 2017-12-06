@@ -17,6 +17,8 @@
 	  <DeteriorationRate>6</DeteriorationRate>
     </statBases>
     <techLevel>Neolithic</techLevel>
+		<tradeability>Sellable</tradeability>
+
     <ingestible>
       <foodType>Plant, Processed</foodType>
       <joy>0.60</joy>

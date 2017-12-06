@@ -73,8 +73,15 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
+	<comps>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<adrenalineburst>true</adrenalineburst>
+			<rage>true</rage>
+		</li>
+	</comps>
  
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <predator>true</predator>
       
@@ -263,9 +270,14 @@
 			<customResourceString>ChemfuelProd</customResourceString>
 
       </li>
-
+	
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<adrenalineburst>true</adrenalineburst>
+			<explodable>true</explodable>
+		</li>
     </comps>  
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithPawsAndTail</body>
 	  <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_EMPExplosion</deathActionWorkerClass>
       <executionRange>6</executionRange>
@@ -458,8 +470,13 @@
 			<customResourceString>FeatherGrowth</customResourceString>
 
       </li>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<adrenalineburst>true</adrenalineburst>
+			<chickenRimPox>true</chickenRimPox>
+		</li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>GR_QuadrupedAnimalWithBeak</body>
 	  
       <predator>false</predator>
@@ -631,9 +648,13 @@
         <shearIntervalDays>3</shearIntervalDays>
         <woolAmount>20</woolAmount>
       </li>
-
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<adrenalineburst>true</adrenalineburst>
+			<carrymore>true</carrymore>
+		</li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithPawsAndTail</body>
 	  
       <predator>false</predator>

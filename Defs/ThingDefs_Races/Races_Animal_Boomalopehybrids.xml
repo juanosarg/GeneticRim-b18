@@ -52,6 +52,7 @@
       </li>	  
     </comps>   
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <intelligence>Animal</intelligence>
       <body>QuadrupedAnimalWithHoovesAndHump</body>
       <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_SmallBomb</deathActionWorkerClass>
@@ -204,6 +205,7 @@
       </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>GR_QuadrupedAnimalWithBeakandHump</body>
       <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_Eggxplosion</deathActionWorkerClass>
       <executionRange>6</executionRange>
@@ -344,6 +346,7 @@
       </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithHoovesAndHump</body>
       <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_FrostExplosion</deathActionWorkerClass>
       <executionRange>6</executionRange>
@@ -491,6 +494,7 @@
       </li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithHoovesAndHump</body>
 	  <predator>true</predator>
       <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_StunningExplosion</deathActionWorkerClass>

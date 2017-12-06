@@ -13,6 +13,7 @@
 			<Mass>0.002</Mass>
 			<MaxHitPoints>10</MaxHitPoints>
 		</statBases>
+		<tradeability>Sellable</tradeability>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
@@ -26,6 +27,7 @@
 			<texPath>Things/Item/BearwolfFangs</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
 		<stackLimit>1</stackLimit>
 		<useHitPoints>true</useHitPoints>
@@ -52,6 +54,7 @@
 			<texPath>Things/Item/WolfchickenFeathers</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
 		<stackLimit>75</stackLimit>
 		<useHitPoints>true</useHitPoints>
@@ -86,6 +89,7 @@
 			<Mass>1</Mass>
 
 		</statBases>
+		<tradeability>Sellable</tradeability>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
@@ -103,6 +107,7 @@
 			<texPath>Things/Item/VerySmallTeeth</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
 		<stackLimit>50</stackLimit>
 		<useHitPoints>true</useHitPoints>
@@ -137,6 +142,7 @@
 			<Mass>0.2</Mass>
 
 		</statBases>
+		<tradeability>Sellable</tradeability>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
@@ -161,6 +167,7 @@
 			<Mass>0.5</Mass>
 
 		</statBases>
+		<tradeability>Sellable</tradeability>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
@@ -178,6 +185,7 @@
 		  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stackLimit>75</stackLimit>
+		<tradeability>Sellable</tradeability>
 		<statBases>
 		  <MaxHitPoints>30</MaxHitPoints>
 		  <MarketValue>41</MarketValue>
@@ -198,6 +206,7 @@
 		  <texPath>Things/Item/HugeBearPelt</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<stackLimit>1</stackLimit>
 		<statBases>
 		  <MaxHitPoints>30</MaxHitPoints>
@@ -219,6 +228,7 @@
 		  <texPath>Things/Item/WolfPelt</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<stackLimit>1</stackLimit>
 		<statBases>
 		  <MaxHitPoints>30</MaxHitPoints>
@@ -240,6 +250,7 @@
 		  <texPath>Things/Item/MuffaloPelt</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<stackLimit>1</stackLimit>
 		<statBases>
 		  <MaxHitPoints>30</MaxHitPoints>
@@ -262,6 +273,7 @@
       <texPath>Things/Item/EmuFat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <statBases>
@@ -294,6 +306,7 @@
 	  <color>(116,62,4)</color>
 
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -325,6 +338,7 @@
     <thingCategories>
       <li>Foods</li>
     </thingCategories>
+	<tradeability>Sellable</tradeability>
     <description>Preserved, salted strips of dried bacon. Can be stored for months without refrigeration.</description>
     <graphicData>
       <texPath>Things/Item/BaconStrips</texPath>
@@ -360,6 +374,7 @@
     <thingCategories>
       <li>Foods</li>
     </thingCategories>
+	<tradeability>Sellable</tradeability>
     <description>This dry-cured ham is considered a delicacy. It is generally served in thin slices, occasionally diced. It can be stored for a long time without refrigeration.</description>
     <graphicData>
       <texPath>Things/Item/JamonSerrano</texPath>
@@ -397,6 +412,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
 		<useHitPoints>false</useHitPoints>
+		<tradeability>Sellable</tradeability>
     <soundInteract>ChunkRock_Drop</soundInteract>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <statBases>

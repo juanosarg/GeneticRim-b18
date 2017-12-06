@@ -28,9 +28,13 @@
         <milkIntervalDays>2</milkIntervalDays>
         <milkAmount>12</milkAmount>
       </li>
-      
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<rage>true</rage>
+			<carrymore>true</carrymore>
+      </li>      
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <herdAnimal>true</herdAnimal>
       <body>QuadrupedAnimalWithHooves</body>
       <baseBodySize>2.5</baseBodySize>
@@ -129,7 +133,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Muffalope</defName>
     <label>muffalope</label>
-    <description>A Muffalo / boomalope hybrid. Because it's so cool when your caravans can EXPLODE. \n\nUseful abilities: Milk produced by these animals is not edible, but highly explosive, so it can be used to build IEDs. Can be sheared for low quality wool. Produce a decent amount of chemfuel.</description>
+    <description>A Muffalo / boomalope hybrid. Because it's so cool when your caravans can EXPLODE. \n\nUseful abilities: Milk produced by these animals is not edible, but highly explosive, so it can be used to build IEDs. Can be sheared for low quality wool. Produces a decent amount of chemfuel.</description>
     <statBases>
       <MoveSpeed>3.2</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
@@ -165,8 +169,13 @@
 			<customResourceString>ChemfuelProd</customResourceString>
 
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<explodable>true</explodable>
+			<carrymore>true</carrymore>
+      </li> 
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <herdAnimal>true</herdAnimal>
 	  <deathActionWorkerClass>DeathActionWorker_BigExplosion</deathActionWorkerClass>
       <executionRange>6</executionRange>
@@ -311,8 +320,13 @@
         <eggLayIntervalDays>8</eggLayIntervalDays>
         <eggCountRange>1</eggCountRange>
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<chickenRimPox>true</chickenRimPox>
+			<carrymore>true</carrymore>
+      </li> 
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <herdAnimal>true</herdAnimal>
       <body>GR_QuadrupedAnimalWithBeak</body>
       <baseBodySize>1.8</baseBodySize>
@@ -435,8 +449,13 @@
         <shearIntervalDays>25</shearIntervalDays>
         <woolAmount>90</woolAmount>
       </li>
+	  <li Class="DraftingPatcher.CompProperties_Draftable">
+			<adrenalineburst>true</adrenalineburst>
+			<carrymore>true</carrymore>
+      </li> 
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <herdAnimal>true</herdAnimal>
       <body>QuadrupedAnimalWithHooves</body>
       <baseBodySize>2.0</baseBodySize>

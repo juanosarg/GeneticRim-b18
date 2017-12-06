@@ -10,6 +10,7 @@
 		<graphicData>
 			<color>(138,191,196)</color>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<stuffProps>
 			<color>(138,191,196)</color>
 			<statOffsets>
@@ -32,6 +33,7 @@
 		<graphicData>
 			<color>(138,191,196)</color>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<stuffProps>
 			<color>(138,191,196)</color>
 			<statOffsets>
@@ -54,6 +56,7 @@
 		<graphicData>
 			<color>(235,227,93)</color>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<stuffProps>
 			<color>(235,227,93)</color>
 			<statOffsets>
@@ -76,6 +79,7 @@
 		<graphicData>
 			<color>(173,235,93)</color>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<stuffProps>
 			<color>(173,235,93)</color>
 			<statOffsets>
@@ -98,6 +102,7 @@
 		<graphicData>
 			<color>(240,240,240)</color>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<stuffProps>
 			<color>(240,240,240)</color>
 			<statOffsets>
@@ -121,6 +126,7 @@
 			<texPath>Things/Item/FeatherWool</texPath>
 			<graphicClass>Graphic_Single</graphicClass>		
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<stuffProps>
 			<color>(250,250,250)</color>
 			<statOffsets>
@@ -143,6 +149,7 @@
 		<graphicData>
 		  <color>(52,52,52)</color>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<stuffProps>
 		  <color>(52,52,52)</color>
 		  <statOffsets>
@@ -165,6 +172,7 @@
 		<graphicData>
 		  <color>(40,40,40)</color>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<stuffProps>
 		  <color>(40,40,40)</color>
 		  <statOffsets>
@@ -190,6 +198,7 @@
 	        <color>(218,201,168)</color>
 
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
       <MarketValue>10</MarketValue>
@@ -229,6 +238,7 @@
       <texPath>Things/Item/SpunSilk</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
       <MarketValue>8</MarketValue>
@@ -267,6 +277,7 @@
     <graphicData>
 		<texPath>Things/Item/MuffalopedeChitin</texPath>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <stuffProps>
       <color>(88,88,88)</color>
       <statOffsets>
@@ -290,6 +301,7 @@
       <texPath>Things/Item/ScalySkin</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <MarketValue>5</MarketValue>
@@ -328,8 +340,10 @@
     <label>thrumbear wool</label>
     <description>Thrumbear wool is thick, strong and warm. Probably the best wool in the animal kingdom.</description>
     <graphicData>
+	
       <color>(233,233,233)</color>      
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <stuffProps>
       <color>(233,233,233)</color>
       <statOffsets>
@@ -354,6 +368,7 @@
     <graphicData>
       <color>(233,233,233)</color>      
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <stuffProps>
       <color>(233,233,233)</color>
       <statOffsets>

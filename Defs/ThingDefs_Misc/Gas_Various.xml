@@ -41,6 +41,27 @@
     </gas>
   </ThingDef>
   
+    <ThingDef ParentName="BaseGas">
+    <defName>GR_Poison_Cloud</defName>
+    <label>poison cloud</label>
+	<thingClass>DraftingPatcher.Gas_PoisonCloud</thingClass>
+
+    <graphicData>
+      <texPath>Things/Gas/Puff</texPath>
+      <drawSize>2.2</drawSize>
+      <color>(51, 198, 0)</color>
+    </graphicData>
+    <gas>
+      <expireSeconds>
+        <min>40</min>
+        <max>45</max>
+      </expireSeconds>
+      <blockTurretTracking>true</blockTurretTracking>
+      <accuracyPenalty>0.15</accuracyPenalty>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
+  
   <ThingDef ParentName="BaseGas">
     <defName>GR_InsectCloudMotes</defName>
     <label>insect clouds</label>
@@ -56,6 +77,25 @@
         <max>21</max>
       </expireSeconds>
       <blockTurretTracking>false</blockTurretTracking>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseGas">
+    <defName>GR_Gas_Dust</defName>
+    <label>dust</label>
+    <graphicData>
+      <texPath>Things/Gas/Puff</texPath>
+      <drawSize>2.2</drawSize>
+      <color>(1,1,1,0.5)</color>
+    </graphicData>
+    <gas>
+      <expireSeconds>
+        <min>60</min>
+        <max>70</max>
+      </expireSeconds>
+      <blockTurretTracking>true</blockTurretTracking>
+      <accuracyPenalty>0.7</accuracyPenalty>
       <rotationSpeed>10</rotationSpeed>
     </gas>
   </ThingDef>

@@ -73,8 +73,15 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
+    <comps>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<rage>true</rage>
+			<burrowing>true</burrowing>
+		</li>
+	</comps>
  
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <predator>true</predator>
       
@@ -234,9 +241,13 @@
 			<customResourceString>ChemfuelProd</customResourceString>
 
       </li>
-
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<explodable>true</explodable>
+			<burrowing>true</burrowing>
+		</li>
     </comps>  
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithPawsAndTail</body>
 	  <deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
       <executionRange>4</executionRange>    
@@ -384,9 +395,13 @@
           <max>2</max>
         </eggCountRange>
       </li>
-	 
+	 <li Class="DraftingPatcher.CompProperties_Draftable">
+			<chickenRimPox>true</chickenRimPox>
+			<burrowing>true</burrowing>
+		</li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>GR_BirdWithTeeth</body>
 	  
       <predator>false</predator>
@@ -523,9 +538,13 @@
         <shearIntervalDays>1</shearIntervalDays>
         <woolAmount>5</woolAmount>
       </li>
-
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<carrymore>true</carrymore>
+			<burrowing>true</burrowing>
+		</li>
     </comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithPawsAndTail</body>
 	  
       <predator>false</predator>
@@ -678,7 +697,14 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
+	<comps>
+	<li Class="DraftingPatcher.CompProperties_Draftable">
+			<stampede>true</stampede>
+			<burrowing>true</burrowing>
+		</li>
+	</comps>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithHoovesAndHorn</body>
       <herdAnimal>true</herdAnimal>
       <herdMigrationAllowed>false</herdMigrationAllowed>
@@ -787,6 +813,12 @@
       <ComfyTemperatureMin>-45</ComfyTemperatureMin>
       <MarketValue>275</MarketValue>
     </statBases>
+	<comps>
+		<li Class="DraftingPatcher.CompProperties_Draftable">
+			<adrenalineburst>true</adrenalineburst>
+			<burrowing>true</burrowing>
+		</li>
+	</comps>
     <tools>
       <li>
         <label>left claw</label>
@@ -850,6 +882,7 @@
       </li>
     </tools>
     <race>
+	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <predator>true</predator>
       <baseBodySize>0.85</baseBodySize>

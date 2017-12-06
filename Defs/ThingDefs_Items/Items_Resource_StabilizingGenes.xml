@@ -11,6 +11,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <texPath>Things/Item/GR_geneticmaterialswhite</texPath>
     </graphicData>
+	<tradeability>Never</tradeability>
     <statBases>
       <MaxHitPoints>15</MaxHitPoints>
       <Flammability>1.0</Flammability>

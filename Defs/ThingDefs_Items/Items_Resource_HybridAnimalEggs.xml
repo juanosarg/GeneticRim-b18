@@ -7,7 +7,7 @@
     <defName>GR_AlphaChickenEggUnfertilized</defName>
     <label>alpha chicken egg (unfert.)</label>
     <description>Unfertilized alpha chicken egg. It can be eaten raw, but it's much, much better cooked. These eggs are pure, pristine, perfect examples of chicken eggs. Inmaculate eggness.</description>
-   
+   <tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>9.0</MarketValue>
     </statBases>
@@ -20,7 +20,7 @@
     <defName>GR_AlphaChickenEggFertilized</defName>
     <label>alpha chicken egg (fert.)</label>
     <description>Fertilized alpha chicken egg. It can be eaten raw, but it's much, much better cooked. These eggs are pure, pristine, perfect examples of chicken eggs. Inmaculate eggness. If all goes well, it should hatch into an alpha chicken.</description>
-
+<tradeability>Never</tradeability>
     <statBases>
       <MarketValue>9.0</MarketValue>
     </statBases>
@@ -40,6 +40,7 @@
     <defName>GR_AlphaEmuEggUnfertilized</defName>
     <label>alpha emu egg (unfert.)</label>
     <description>Unfertilized alpha emu egg. It can be eaten raw, but it's much, much better cooked. This thing is huge.</description>
+	<tradeability>Sellable</tradeability>
     <graphicData>
 	  <texPath>Things/Item/EggLarge</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
@@ -56,6 +57,7 @@
     <defName>GR_AlphaEmuEggFertilized</defName>
     <label>alpha emu egg (fert.)</label>
     <description>Fertilized alpha emu egg. It can be eaten raw, but it's much, much better cooked. This thing is huge. If all goes well, it should hatch into an alpha emu.</description>
+	<tradeability>Never</tradeability>
     <graphicData>
 	  <texPath>Things/Item/EggLarge</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
@@ -79,6 +81,7 @@
     <defName>GR_AlphaOstrichEggUnfertilized</defName>
     <label>alpha ostrich egg (unfert.)</label>
     <description>Unfertilized alpha ostrich egg. It can be eaten raw, but it's much, much better cooked. This thing is huge.</description>
+	<tradeability>Sellable</tradeability>
     <graphicData>
 	  <texPath>Things/Item/EggHuge</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
@@ -96,6 +99,7 @@
     <defName>GR_AlphaOstrichEggFertilized</defName>
     <label>alpha ostrich egg (fert.)</label>
     <description>Fertilized alpha ostrich egg. It can be eaten raw, but it's much, much better cooked. This thing is huge. If all goes well, it should hatch into an alpha ostrich.</description>
+	<tradeability>Never</tradeability>
     <graphicData>
 	  <texPath>Things/Item/EggHuge</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
@@ -126,6 +130,7 @@
 	  <graphicClass>Graphic_StackCount</graphicClass>
 	 
 	</graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>36</MarketValue>
     </statBases>
@@ -143,6 +148,7 @@
       <color>(245,245,245)</color>
 	  <graphicClass>Graphic_StackCount</graphicClass>
 	</graphicData>
+	<tradeability>Never</tradeability>
     <statBases>
       <MarketValue>36</MarketValue>
     </statBases>
@@ -167,6 +173,7 @@
       <drawSize>1.3</drawSize>
 	  <graphicClass>Graphic_StackCount</graphicClass> 
 	</graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>36</MarketValue>
     </statBases>
@@ -184,6 +191,7 @@
       <drawSize>1.3</drawSize>
 	  <graphicClass>Graphic_StackCount</graphicClass> 
 	</graphicData>
+	<tradeability>Never</tradeability>
     <statBases>
       <MarketValue>36</MarketValue>
     </statBases>
@@ -206,6 +214,7 @@
     <graphicData>
       <color>(128,125,35)</color>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
@@ -221,6 +230,7 @@
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
+	<tradeability>Never</tradeability>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>7</hatcherDaystoHatch>
@@ -237,6 +247,7 @@
     <graphicData>
       <color>(0,125,35)</color>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
@@ -252,6 +263,7 @@
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
+	<tradeability>Never</tradeability>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>8</hatcherDaystoHatch>
@@ -267,6 +279,7 @@
     <graphicData>
       <color>(0,50,235)</color>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
@@ -282,6 +295,7 @@
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
+	<tradeability>Never</tradeability>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>9</hatcherDaystoHatch>
@@ -297,6 +311,7 @@
     <graphicData>
       <color>(0,10,10)</color>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
@@ -312,6 +327,7 @@
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
+	<tradeability>Never</tradeability>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>20</hatcherDaystoHatch>
@@ -327,6 +343,7 @@
     <graphicData>
       <color>(0,70,70)</color>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
@@ -342,6 +359,7 @@
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
+	<tradeability>Never</tradeability>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>15</hatcherDaystoHatch>
@@ -357,6 +375,7 @@
     <graphicData>
       <color>(255,70,70)</color>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
@@ -372,6 +391,7 @@
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
+	<tradeability>Never</tradeability>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>17</hatcherDaystoHatch>
@@ -389,6 +409,7 @@
 	  <texPath>Things/Item/GR_EasterEgg</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>9</MarketValue>
     </statBases>
@@ -405,6 +426,7 @@
     <statBases>
       <MarketValue>9</MarketValue>
     </statBases>
+	<tradeability>Never</tradeability>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>5</hatcherDaystoHatch>
@@ -420,6 +442,7 @@
     <graphicData>
       <color>(255,175,70)</color>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
@@ -435,6 +458,7 @@
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
+	<tradeability>Never</tradeability>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>15</hatcherDaystoHatch>
@@ -450,6 +474,7 @@
     <graphicData>
       <color>(0,0,10)</color>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
@@ -465,6 +490,7 @@
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
+	<tradeability>Never</tradeability>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>15</hatcherDaystoHatch>
@@ -481,6 +507,7 @@
 	  <texPath>Things/Item/EggHuge</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>25.0</MarketValue>
     </statBases>
@@ -497,6 +524,7 @@
 	  <texPath>Things/Item/EggHuge</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+	<tradeability>Never</tradeability>
     <statBases>
       <MarketValue>25.0</MarketValue>
     </statBases>
@@ -518,6 +546,7 @@
     <graphicData>
 	  <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
@@ -536,6 +565,7 @@
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
+	<tradeability>Never</tradeability>
 	<ingestible>
        <nutrition>.2</nutrition>
     </ingestible>
@@ -554,6 +584,7 @@
 	    <graphicData>
       <color>(67,214,10)</color>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
@@ -567,6 +598,7 @@
 	    <graphicData>
       <color>(67,214,10)</color>
     </graphicData>
+	<tradeability>Never</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
@@ -588,6 +620,7 @@
 	  <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 	  <color>(17,114,134)</color>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>
@@ -602,6 +635,7 @@
 	  <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 	  <color>(17,114,134)</color>
     </graphicData>
+	<tradeability>Never</tradeability>
     <statBases>
       <MarketValue>7.0</MarketValue>
     </statBases>

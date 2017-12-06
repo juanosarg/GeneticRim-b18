@@ -5,6 +5,7 @@
     <defName>GR_EggBomb</defName>
     <label>detonating unstable egg</label>
     <description>This huge egg is filled with unstable chemicals. It is going to explode!</description>
+	<tradeability>Never</tradeability>
     <graphicData>
       <texPath>Things/Item/EggBomb</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -12,9 +12,12 @@
 
 - Alpha Creatures: With the Animal Enrichment research, you can turn regular animals into Alphas, more evolved versions of the base creature. A total of 9 new creatures for you to play with.
 
+- Animal Control: With the Animal Control research, you can directly control your animals. Draft them and move them at will! It also gives special abilities depending on the creature, so wolf hybrids can use Adrenaline Rush, thrumbo hybrids can stampede, and so on. 9 new abilities, and any combinations of them, open up fascinating new tactical possibilities.
+
 &lt;size=24&gt;Issues&lt;/size&gt;
 Some of the biggest animals might flicker. This is to be expected, since a few of them are bigger than Thrumbos!
 The Boombeetle is a ranged creature, and the code for it is beta, so expect erratic behaviour (specially after b18 update...)
+The animal control research uses Harmony, so expect all kinds of bugs because I touched things that I maybe shouldn't have. Please report any bugs!
 
 &lt;size=24&gt;Notes&lt;/size&gt;
 How do I progress? Here is a mini-guide:
@@ -27,19 +30,21 @@ How do I progress? Here is a mini-guide:
 - Finally, research the Insectoid Genome, Reptilian Genome and the Advanced genetic engineering techs, build the Advanced Gene Pod and experiment with Insectoids, Reptiles and Thrumbos to get the strongest creatures in the game.
 - On a different path, you can research humanoid genetic engineering, and develop hybrid implants to modify your colonists. Yeah, you can create a colonist that lays chicken eggs twice a day. It's hilarious and disgusting.
 - On yet another different path, you can research animal enrichment, which allow you to create Alpha animals with the alpha serum extraction table and the animal enrichment center.
+- Researching animal control gives you access to fascinating new abilities in all your hybrids and alphas. Just build the Animal Control Hub.
 - Finally, the age drugs tech allows you to mature your animals much faster!
 
 &lt;size=24&gt;Plans for the future&lt;/size&gt;
 - Armoured and Plant-like creatures
 - Hybrids with creatures from other animal mods
-- Weird special abilities for the existing creatures
 
 &lt;size=24&gt;Compatibility&lt;/size&gt;
 Compatible with A Dog Said
 Compatible with Animal Collab Project
 Uses Nightinggale's Modcheck mod (no need to download)
+Uses Harmony (no need to download)
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v2.4: Animal Control research: 9 new abilities for your animals. Also, you can now build empty incubators in the alpha serum extraction table. Also fixed the graphic in the Snakewolf. Finally, removed many mod things from traders (06/12/17)
 v2.301: Bugfix to make venomous animals work again. Also, incubators can now be recycled in the Pulp Recycler (29/11/17)
 v2.2: Added native compatibility with A Dog Said and Animal Collab Project. No need for patches now! (23/11/17)
 v2.1: Added rodent hybrids. 6 new creatures that breed very fast! (20/11/17)

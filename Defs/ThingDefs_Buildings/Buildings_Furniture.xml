@@ -12,6 +12,7 @@
       <graphicClass>Graphic_Single</graphicClass>    
 		<drawSize>(2,2)</drawSize>	  
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
     <passability>Standable</passability>
 	<pathCost>0</pathCost>
@@ -47,6 +48,7 @@
       <graphicClass>Graphic_Single</graphicClass>    
 		<drawSize>(2,2)</drawSize>	  
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
     <passability>Standable</passability>
 	<pathCost>0</pathCost>
@@ -82,6 +84,7 @@
       <graphicClass>Graphic_Single</graphicClass>    
 		<drawSize>(2,2)</drawSize>	  
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
     <passability>Standable</passability>
 	<pathCost>0</pathCost>
@@ -117,6 +120,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Building/BoarTuskStatue</texPath>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <minifiedDef>MinifiedSculpture</minifiedDef>
     <fillPercent>0.35</fillPercent>
     <rotatable>false</rotatable>

@@ -12,6 +12,9 @@ namespace DraftingPatcher
         public bool adrenalineburst = false;
         public bool insectclouds = false;
         public bool stampede = false;
+        public bool poisonouscloud = false;
+        public bool burrowing = false;
+
 
 
         public CompProperties_Draftable()

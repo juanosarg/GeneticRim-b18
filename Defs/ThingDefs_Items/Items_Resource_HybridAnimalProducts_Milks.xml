@@ -17,6 +17,7 @@
 			<Mass>0.045</Mass>
 			<MaxHitPoints>60</MaxHitPoints>
 		</statBases>
+		<tradeability>Sellable</tradeability>
 		<comps>
 			<li Class="CompProperties_FoodPoisoningChance">
 				<humanlikeOnly>true</humanlikeOnly>
@@ -44,7 +45,7 @@
 			<texPath>Things/Item/Resource/Milk</texPath>
 			<color>(255,222,88)</color>
 		</graphicData>
-		
+		<tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>3.4</MarketValue>
 			<Mass>0.045</Mass>
@@ -77,6 +78,7 @@
 			<Mass>0.045</Mass>
 			<MaxHitPoints>60</MaxHitPoints>
 		</statBases>
+		<tradeability>Sellable</tradeability>
 		<comps>
 			<li Class="CompProperties_FoodPoisoningChance">
 				<humanlikeOnly>true</humanlikeOnly>
@@ -103,6 +105,7 @@
 		<graphicData>
 			<texPath>Things/Item/Resource/Milk</texPath>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
 			<MarketValue>6</MarketValue>
@@ -135,6 +138,7 @@
 		<graphicData>
 			<texPath>Things/Item/LumpyMilk</texPath>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
 			<MarketValue>3.8</MarketValue>
@@ -169,6 +173,7 @@
 		<graphicData>
 			<texPath>Things/Item/Resource/Milk</texPath>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
 			<MarketValue>1.</MarketValue>
@@ -202,6 +207,7 @@
       <texPath>Things/Item/BrownMilk</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -234,6 +240,7 @@
       <texPath>Things/Item/WoolMilk</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+	<tradeability>Sellable</tradeability>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
 		<socialPropernessMatters>true</socialPropernessMatters>

@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hediff_Burrowing.cs" />
+    <Compile Include="Gas_PoisonCloud.cs" />
+    <Compile Include="Hediff_StampedeClouds.cs" />
     <Compile Include="Gas_InsectClouds.cs" />
     <Compile Include="Hediff_InsectClouds.cs" />
     <Compile Include="JobDriver_AttackMeleeOnceAndChickenRimPox.cs" />
