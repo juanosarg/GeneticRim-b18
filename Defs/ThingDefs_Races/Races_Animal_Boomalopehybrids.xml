@@ -58,6 +58,8 @@
       <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_SmallBomb</deathActionWorkerClass>
       <executionRange>6</executionRange>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <baseBodySize>1.5</baseBodySize>
       <baseHungerRate>1.2</baseHungerRate>
       <baseHealthScale>0.85</baseHealthScale>
@@ -210,6 +212,8 @@
       <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_Eggxplosion</deathActionWorkerClass>
       <executionRange>6</executionRange>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <baseBodySize>1.5</baseBodySize>
       <baseHungerRate>1</baseHungerRate>
       <baseHealthScale>0.65</baseHealthScale>
@@ -351,6 +355,8 @@
       <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_FrostExplosion</deathActionWorkerClass>
       <executionRange>6</executionRange>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <baseBodySize>1.5</baseBodySize>
       <baseHungerRate>1</baseHungerRate>
       <baseHealthScale>0.65</baseHealthScale>
@@ -500,6 +506,8 @@
       <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_StunningExplosion</deathActionWorkerClass>
       <executionRange>6</executionRange>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <baseBodySize>1.5</baseBodySize>
       <baseHungerRate>1</baseHungerRate>
       <baseHealthScale>0.65</baseHealthScale>

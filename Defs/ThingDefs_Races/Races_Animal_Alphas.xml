@@ -370,6 +370,8 @@
       <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_BiggerExplosion</deathActionWorkerClass>
       <executionRange>6</executionRange>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <baseBodySize>1.9</baseBodySize>
       <baseHungerRate>1.1</baseHungerRate>
       <baseHealthScale>1.2</baseHealthScale>
@@ -810,6 +812,8 @@
     <race>
 	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <body>QuadrupedAnimalWithHooves</body>
       <baseBodySize>2.5</baseBodySize>
       <baseHealthScale>1.95</baseHealthScale>

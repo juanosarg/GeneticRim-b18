@@ -487,6 +487,8 @@
     <race>
 	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
 	  <predator>false</predator>
 	  <foodType>VegetarianRoughAnimal</foodType>
       <wildness>0.80</wildness>

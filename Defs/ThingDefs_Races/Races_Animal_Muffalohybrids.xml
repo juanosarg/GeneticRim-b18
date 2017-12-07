@@ -36,6 +36,8 @@
     <race>
 	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <body>QuadrupedAnimalWithHooves</body>
       <baseBodySize>2.5</baseBodySize>
       <baseHealthScale>1.95</baseHealthScale>
@@ -177,6 +179,8 @@
     <race>
 	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
 	  <deathActionWorkerClass>DeathActionWorker_BigExplosion</deathActionWorkerClass>
       <executionRange>6</executionRange>
       <body>QuadrupedAnimalWithHooves</body>
@@ -328,6 +332,8 @@
     <race>
 	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <body>GR_QuadrupedAnimalWithBeak</body>
       <baseBodySize>1.8</baseBodySize>
       <baseHealthScale>1.45</baseHealthScale>
@@ -457,6 +463,8 @@
     <race>
 	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <body>QuadrupedAnimalWithHooves</body>
       <baseBodySize>2.0</baseBodySize>
       <baseHealthScale>1.95</baseHealthScale>

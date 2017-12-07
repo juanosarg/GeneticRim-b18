@@ -474,6 +474,8 @@
 	  <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 	  <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <foodType>VegetarianRoughAnimal</foodType>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>

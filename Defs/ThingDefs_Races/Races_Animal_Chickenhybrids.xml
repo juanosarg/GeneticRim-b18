@@ -405,6 +405,8 @@
     <race>
 	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
 	  <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
 	  <packAnimal>true</packAnimal>
       <body>GR_BirdWithTeeth</body>
       <baseHungerRate>0.55</baseHungerRate>

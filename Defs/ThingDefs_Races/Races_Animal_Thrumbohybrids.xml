@@ -76,6 +76,8 @@
 	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithHoovesAndHorn</body>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <baseBodySize>4</baseBodySize>
       <baseHungerRate>4.5</baseHungerRate>
       <baseHealthScale>15.0</baseHealthScale>
@@ -249,6 +251,8 @@
 	  <deathActionWorkerClass>ExplosionTypes.DeathActionWorker_GargantuanExplosion</deathActionWorkerClass>
       <executionRange>16</executionRange>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <baseBodySize>4</baseBodySize>
       <baseHungerRate>2</baseHungerRate>
       <baseHealthScale>10.0</baseHealthScale>
@@ -405,6 +409,8 @@
       <body>GR_HornedBird</body>
 	  <predator>true</predator>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <baseBodySize>3</baseBodySize>
 	  <foodType>CarnivoreAnimal</foodType>
       <baseHungerRate>1.5</baseHungerRate>
@@ -580,6 +586,8 @@
 	  <thinkTreeMain>GR_DraftableAnimal</thinkTreeMain>
       <body>QuadrupedAnimalWithHoovesAndHorn</body>
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <baseBodySize>8.4</baseBodySize>
       <baseHungerRate>3.5</baseHungerRate>
       <baseHealthScale>10.0</baseHealthScale>
@@ -748,6 +756,8 @@
 	        <predator>true</predator>
 
       <herdAnimal>true</herdAnimal>
+	        <herdMigrationAllowed>false</herdMigrationAllowed>
+
       <baseBodySize>2.2</baseBodySize>
       <baseHungerRate>4.5</baseHungerRate>
       <baseHealthScale>15.0</baseHealthScale>
