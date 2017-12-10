@@ -40,6 +40,42 @@
 	</RecipeDef>
 	
 	<RecipeDef>
+		<defName>GR_PulpWoodExpensive</defName>
+		<label>extract organic pulp from wood</label>
+		<description>Extract organic pulp from wood. This recipe is more expensive than the one in the pulper, which can be built with the Genetic Engineering research.</description>
+		<jobString>Extracting Pulp</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>750</workAmount>
+		<recipeUsers>
+				<li>GR_AlphaSerumExtractionTable</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<GR_OrganicPulp>1</GR_OrganicPulp>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
 		<defName>GR_PulpCorpse</defName>
 		<label>extract organic pulp from corpse</label>
 		<description>Extract organic pulp from corpse.</description>

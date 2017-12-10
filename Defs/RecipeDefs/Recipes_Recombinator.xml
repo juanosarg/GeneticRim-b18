@@ -59,7 +59,55 @@
 		</skillRequirements>
 	</RecipeDef>
 	
-	
+	<RecipeDef>
+		<defName>GR_RecombineSerums</defName>
+		<label>recombine serums</label>
+		<description>Recombine genetic material from 10 animal corpses to synthesize a random alpha serum.</description>
+		<jobString>Recombining Serums</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<allowMixingIngredients>true</allowMixingIngredients>
+
+		<recipeUsers>
+				<li>GR_GeneRecombinator</li>	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Corpses</li>
+			</categories>
+			<exceptedCategories>
+				<li>CorpsesMechanoid</li>
+			</exceptedCategories>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>CorpsesAnimal</li>
+			</categories>
+		</defaultIngredientFilter>
+		<products>
+			<GR_StabilizingSerum>1</GR_StabilizingSerum>
+		</products>
+				<researchPrerequisite>GR_AnimalEnrichment</researchPrerequisite>
+
+		<skillRequirements>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
  
 
 
