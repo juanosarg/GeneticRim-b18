@@ -72,7 +72,30 @@
 			</li>
 	</comps>
    </ThingDef>
-  
+   
+   
+  <ThingDef ParentName="ResourceBase">
+    <defName>GR_RuinedGenetic</defName>
+    <label>ruined genetic material</label>
+    <description>This genetic material is ruined. Useless, though some merchant may pay a pittance for the glass shards.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <texPath>Things/Item/GR_RuinedGenetic</texPath>
+    </graphicData>
+		<tradeability>Sellable</tradeability>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+	  <Mass>0.1</Mass>
+	  <MarketValue>1</MarketValue>
+    </statBases>
+	<thingCategories>
+      <li>GR_GeneticMaterial</li>
+    </thingCategories>
+	<stackLimit>1</stackLimit>
+	
+   </ThingDef>
   
   
  

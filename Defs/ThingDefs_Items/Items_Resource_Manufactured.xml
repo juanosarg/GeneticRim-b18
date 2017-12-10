@@ -310,6 +310,8 @@
       <texPath>Things/Item/OrganicPulp</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+			<tradeability>Sellable</tradeability>
+
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <stackLimit>75</stackLimit>
@@ -336,6 +338,8 @@
       <texPath>Things/Item/ImplantPlasteelWireMesh</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+			<tradeability>Sellable</tradeability>
+
     <statBases>
       <MarketValue>50</MarketValue>
       <Mass>1</Mass>
@@ -354,6 +358,8 @@
     <description>Volatile liquid chemical compound stored in cryogenic containers. Can be used to power a cryo-stabilized generator.</description>
 		<tickerType>Normal</tickerType>
     <graphicData>
+			<tradeability>Sellable</tradeability>
+
       <texPath>Things/Item/Cryofuel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
