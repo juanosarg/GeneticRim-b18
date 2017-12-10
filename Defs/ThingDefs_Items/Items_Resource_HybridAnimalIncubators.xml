@@ -11,6 +11,8 @@
       <texPath>Things/Item/IncubatorCanister</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+		<tradeability>Sellable</tradeability>
+
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <stackLimit>1</stackLimit>

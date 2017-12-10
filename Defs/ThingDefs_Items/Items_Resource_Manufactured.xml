@@ -358,11 +358,12 @@
     <description>Volatile liquid chemical compound stored in cryogenic containers. Can be used to power a cryo-stabilized generator.</description>
 		<tickerType>Normal</tickerType>
     <graphicData>
-			<tradeability>Sellable</tradeability>
 
       <texPath>Things/Item/Cryofuel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+				<tradeability>Sellable</tradeability>
+
     <stackLimit>400</stackLimit>
 		<deepCommonality>2</deepCommonality>
 		<deepCountPerCell>300</deepCountPerCell>
