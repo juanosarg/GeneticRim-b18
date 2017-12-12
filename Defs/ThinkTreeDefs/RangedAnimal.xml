@@ -305,28 +305,6 @@
 		</thinkRoot>
 	</ThinkTreeDef>
 
-	<ThinkTreeDef>
-		<defName>AnimalConstant</defName>
-		<thinkRoot Class="ThinkNode_Priority">
-			<subNodes>
-        <li Class="ThinkNode_ConditionalCanDoConstantThinkTreeJobNow">
-          <subNodes>
-            <!-- Wild animals flee tornados, meteorites, etc. -->
-            <li Class="ThinkNode_ConditionalHasFaction">
-              <invert>true</invert>
-              <subNodes>
-                <li Class="JobGiver_FleeImmediateDanger" />
-              </subNodes>
-            </li>
-
-            <!-- Lord directives -->
-            <li Class="ThinkNode_Subtree">
-              <treeDef>LordDutyConstant</treeDef>
-            </li>
-          </subNodes>
-        </li>
-      </subNodes>
-		</thinkRoot>
-	</ThinkTreeDef>
+	
 
 </Defs>
