@@ -84,5 +84,12 @@ namespace DraftingPatcher
                 return this.Props.burrowing;
             }
         }
+        public bool HasDinoStamina
+        {
+            get
+            {
+                return this.Props.dinostamina;
+            }
+        }
     }
 }

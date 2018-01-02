@@ -14,6 +14,7 @@ namespace DraftingPatcher
         public bool stampede = false;
         public bool poisonouscloud = false;
         public bool burrowing = false;
+        public bool dinostamina = false;
 
 
 

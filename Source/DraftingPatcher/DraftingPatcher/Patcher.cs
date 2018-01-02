@@ -81,7 +81,7 @@ namespace DraftingPatcher
             bool flagCanStampede = false;
             bool flagCanDoPoisonousCloud = false;
             bool flagCanBurrow = false;
-
+            bool flagCanStamina = false;
 
 
             bool flagIsMindControlBuildingPresent = false;
@@ -105,7 +105,7 @@ namespace DraftingPatcher
                         flagCanStampede = pawn.TryGetComp<CompDraftable>().GetCanStampede;
                         flagCanDoPoisonousCloud = pawn.TryGetComp<CompDraftable>().GetCanDoPoisonousCloud;
                         flagCanBurrow = pawn.TryGetComp<CompDraftable>().GetCanBurrow;
-
+                        flagCanStamina = pawn.TryGetComp<CompDraftable>().HasDinoStamina;
                         flagIsMindControlBuildingPresent = true;
                     }
                 }
@@ -335,6 +335,24 @@ namespace DraftingPatcher
                 GR_Gizmo_Burrowing.defaultDesc = "GR_StartBurrowingDesc".Translate();
                 GR_Gizmo_Burrowing.icon = ContentFinder<Texture2D>.Get("Things/Pawn/Animal/Special/GR_Special_Burrowing", true);
                 gizmos.Insert(1, GR_Gizmo_Burrowing);
+            }
+
+            /*This gizmo makes the animal more resistant for a while
+           */
+            if ((pawn.drafter != null) && flagCanStamina && flagIsCreatureMine && flagIsMindControlBuildingPresent)
+            {
+                Command_Action GR_Gizmo_Stamina = new Command_Action();
+                GR_Gizmo_Stamina.action = delegate
+                {
+                    if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_Stamina")))
+                    {
+                        pawn.health.AddHediff(HediffDef.Named("GR_Stamina"));
+                    }
+                };
+                GR_Gizmo_Stamina.defaultLabel = "GR_StartStamina".Translate();
+                GR_Gizmo_Stamina.defaultDesc = "GR_StartStaminaDesc".Translate();
+                GR_Gizmo_Stamina.icon = ContentFinder<Texture2D>.Get("ui/commands/GR_Stamina", true);
+                gizmos.Insert(1, GR_Gizmo_Stamina);
             }
 
 
