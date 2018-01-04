@@ -234,6 +234,10 @@ namespace DraftingPatcher
                 {
                     if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_AdrenalineBurst"))) {
                         pawn.health.AddHediff(HediffDef.Named("GR_AdrenalineBurst"));
+                    } else
+                    {
+                        Messages.Message("GR_AbilityRecharging".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
+
                     }
                 };
                 gizmos.Insert(1, GR_Gizmo_AdrenalineBurst);
@@ -254,6 +258,10 @@ namespace DraftingPatcher
 
                     {
                         pawn.health.AddHediff(HediffDef.Named("GR_InsectClouds"));
+
+                    } else
+                    {
+                        Messages.Message("GR_AbilityRecharging".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
                     }
 
                 };
@@ -274,6 +282,10 @@ namespace DraftingPatcher
                     if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_Stampeding")))
                     {
                         pawn.health.AddHediff(HediffDef.Named("GR_Stampeding"));
+
+                    } else
+                    {
+                        Messages.Message("GR_AbilityRecharging".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
                     }
                 };
                 gizmos.Insert(1, GR_Gizmo_Stampede);
@@ -313,8 +325,11 @@ namespace DraftingPatcher
                             }
                             pawn.health.AddHediff(HediffDef.Named("GR_CausedPoisonCloud"));
                         }
+                    } else
+                    {
+                        Messages.Message("GR_AbilityRecharging".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
                     }
-                    
+
                 };
                 gizmos.Insert(1, GR_Gizmo_PoisonCloud);
 
@@ -329,6 +344,9 @@ namespace DraftingPatcher
                     if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_Burrowing")))
                     {
                         pawn.health.AddHediff(HediffDef.Named("GR_Burrowing"));
+                    } else
+                    {
+                        Messages.Message("GR_AbilityRecharging".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
                     }
                 };
                 GR_Gizmo_Burrowing.defaultLabel = "GR_StartBurrowing".Translate();
@@ -347,6 +365,9 @@ namespace DraftingPatcher
                     if (!pawn.health.hediffSet.HasHediff(HediffDef.Named("GR_Stamina")))
                     {
                         pawn.health.AddHediff(HediffDef.Named("GR_Stamina"));
+                    } else
+                    {
+                        Messages.Message("GR_AbilityRecharging".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
                     }
                 };
                 GR_Gizmo_Stamina.defaultLabel = "GR_StartStamina".Translate();

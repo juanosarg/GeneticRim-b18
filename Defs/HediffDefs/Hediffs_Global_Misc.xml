@@ -111,7 +111,13 @@
     <initialSeverity>0.001</initialSeverity>
     <comps>
 
-
+      <li Class="HediffCompProperties_Effecter">
+        <stateEffecter>GR_Exhausted</stateEffecter>
+        <severityIndices>
+          <min>1</min>
+          <max>2</max>
+        </severityIndices>
+      </li>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>60</severityPerDay>
       </li>
@@ -162,10 +168,10 @@
     <comps>
 
 		<li Class="HediffCompProperties_Effecter">
-        <stateEffecter>Drunk</stateEffecter>
+        <stateEffecter>GR_Exhausted</stateEffecter>
         <severityIndices>
-          <min>0</min>
-          <max>1</max>
+          <min>1</min>
+          <max>2</max>
         </severityIndices>
       </li>
       <li Class="HediffCompProperties_SeverityPerDay">
@@ -212,7 +218,13 @@
     <initialSeverity>0.001</initialSeverity>
     <comps>
 
-
+      <li Class="HediffCompProperties_Effecter">
+        <stateEffecter>GR_Exhausted</stateEffecter>
+        <severityIndices>
+          <min>1</min>
+          <max>2</max>
+        </severityIndices>
+      </li>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>60</severityPerDay>
       </li>
@@ -251,7 +263,13 @@
     <initialSeverity>0.001</initialSeverity>
     <comps>
 
-
+      <li Class="HediffCompProperties_Effecter">
+        <stateEffecter>GR_Exhausted</stateEffecter>
+        <severityIndices>
+          <min>1</min>
+          <max>2</max>
+        </severityIndices>
+      </li>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>50</severityPerDay>
       </li>
@@ -295,7 +313,13 @@
     <initialSeverity>0.001</initialSeverity>
     <comps>
 
-
+      <li Class="HediffCompProperties_Effecter">
+        <stateEffecter>GR_Exhausted</stateEffecter>
+        <severityIndices>
+          <min>1</min>
+          <max>2</max>
+        </severityIndices>
+      </li>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>30</severityPerDay>
       </li>
@@ -339,7 +363,13 @@
     <comps>
 
 
-      
+      <li Class="HediffCompProperties_Effecter">
+        <stateEffecter>GR_Exhausted</stateEffecter>
+        <severityIndices>
+          <min>1</min>
+          <max>2</max>
+        </severityIndices>
+      </li>  
 	  <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>
           <min>9000</min>

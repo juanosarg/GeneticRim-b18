@@ -42,6 +42,19 @@
   <GR_CreatePoisonousCloudDesc>Creates a cloud of poison at a target's location</GR_CreatePoisonousCloudDesc>
   <GR_StartBurrowing>Start Burrowing</GR_StartBurrowing>
   <GR_StartBurrowingDesc>Sends the creature underground into burrowing mode, making it very resistant to damage for a while</GR_StartBurrowingDesc>
+  <GR_StartStamina>Increase Stamina</GR_StartStamina>
+  <GR_StartStaminaDesc>Makes the creature more resistant to damage for a while</GR_StartStaminaDesc>
+  
+  
+  <GR_AbilityRecharging>Ability is rechaging. Check animal's health tab</GR_AbilityRecharging>
+
+  
+  
+  <!-- Misc -->
+  
+  <GR_ANewCreatureWasBorn>An incubator has hatched!</GR_ANewCreatureWasBorn> 
+  <GR_ANewCreatureWasBornMutant>An incubator has hatc... Wait, what is THAT thing???</GR_ANewCreatureWasBornMutant> 
+
   
   <!-- This isn't used for now -->
 

@@ -62,7 +62,7 @@
 	<RecipeDef>
 		<defName>GR_RecombineSerums</defName>
 		<label>recombine serums</label>
-		<description>Recombine genetic material from 10 animal corpses to synthesize a random alpha serum.</description>
+		<description>Recombine genetic material from 5 animal serums to synthesize a random alpha serum.</description>
 		<jobString>Recombining Serums</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -76,29 +76,45 @@
 		<ingredients>
 			<li>
 				<filter>
-					<categories>
-						<li>Corpses</li>
-					</categories>
+					<thingDefs>
+						<li>GR_BearSerum</li>
+						<li>GR_BoarSerum</li>
+						<li>GR_BoomalopeSerum</li>
+						<li>GR_ChickenSerum</li>
+						<li>GR_EmuSerum</li>
+						<li>GR_MuffaloSerum</li>
+						<li>GR_OstrichSerum</li>
+						<li>GR_RhinoSerum</li>
+						<li>GR_WolfSerum</li>
+						<li>GR_HareSerum</li>
+						<li>GR_IguanaSerum</li>
+						<li>GR_PigSerum</li>
+						<li>GR_RatSerum</li>
+						<li>GR_TortoiseSerum</li>
+					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<categories>
-				<li>Corpses</li>
-			</categories>
-			<exceptedCategories>
-				<li>CorpsesMechanoid</li>
-			</exceptedCategories>
-      <specialFiltersToDisallow>
-        <li>AllowRotten</li>
-      </specialFiltersToDisallow>
+		
+			<thingDefs>
+						<li>GR_BearSerum</li>
+						<li>GR_BoarSerum</li>
+						<li>GR_BoomalopeSerum</li>
+						<li>GR_ChickenSerum</li>
+						<li>GR_EmuSerum</li>
+						<li>GR_MuffaloSerum</li>
+						<li>GR_OstrichSerum</li>
+						<li>GR_RhinoSerum</li>
+						<li>GR_WolfSerum</li>
+						<li>GR_HareSerum</li>
+						<li>GR_IguanaSerum</li>
+						<li>GR_PigSerum</li>
+						<li>GR_RatSerum</li>
+						<li>GR_TortoiseSerum</li>
+					</thingDefs>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<categories>
-				<li>CorpsesAnimal</li>
-			</categories>
-		</defaultIngredientFilter>
 		<products>
 			<GR_StabilizingSerum>1</GR_StabilizingSerum>
 		</products>

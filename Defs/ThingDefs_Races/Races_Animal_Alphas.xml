@@ -1738,7 +1738,7 @@
       <body>QuadrupedAnimalWithHooves</body>
       <baseBodySize>1.2</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
-	<baseHungerRate>2</baseHungerRate>
+	<baseHungerRate>1.2</baseHungerRate>
 	<foodType>OmnivoreRoughAnimal</foodType>
 	  <useLeatherFrom>Pig</useLeatherFrom>
       <useMeatFrom>Pig</useMeatFrom>

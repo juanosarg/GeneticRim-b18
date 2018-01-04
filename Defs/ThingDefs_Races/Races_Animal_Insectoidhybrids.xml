@@ -417,7 +417,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>GR_Muffalopede</defName>
     <label>muffalopede</label>
-    <description>A muffalo / spelopede hybrid. This inmense, grub-like creature is one of the few insectoids that produce Insect Jelly. It also sheds chitin every few days, which can be used to craft apparel. Unfortunately, they can't reproduce on their own.\n\nUseful abilities: Packs animal. Periodically produces Muffalopede chitin and Insect Jelly.</description>
+    <description>A muffalo / spelopede hybrid. This inmense, grub-like creature is one of the few insectoids that produce Insect Jelly. It also sheds chitin every few days, which can be used to craft apparel. Contrary to other eusocial insects, they can reproduce on their own.\n\nUseful abilities: Packs animal. Periodically produces Muffalopede chitin and Insect Jelly.</description>
     <statBases>
       <ToxicSensitivity>0</ToxicSensitivity>
       <MoveSpeed>4.3</MoveSpeed>

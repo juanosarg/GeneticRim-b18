@@ -21,6 +21,8 @@ namespace NewHatcher
         private PawnGenerationRequest request;
         private System.Random rand = new System.Random();
 
+        public bool WasMutant = false;
+
         public CompProperties_Incubator Props
         {
             get
@@ -86,6 +88,7 @@ namespace NewHatcher
                 else
                 {
                     request = new PawnGenerationRequest(PawnKindDef.Named("GR_AberrantFleshbeast"), null, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false);
+                    WasMutant = true;
                 }
                 Pawn pawn = PawnGenerator.GeneratePawn(request);
                 if (PawnUtility.TrySpawnHatchedOrBornPawn(pawn, this.parent))
@@ -107,8 +110,16 @@ namespace NewHatcher
                         {
                             pawn.relations.AddDirectRelation(PawnRelationDefOf.Parent, this.otherParent);
                         }
-                    }
-                    if (this.parent.Spawned)
+                            if (WasMutant)
+                            {
+                                Messages.Message("GR_ANewCreatureWasBornMutant".Translate(), pawn, MessageTypeDefOf.NegativeEvent);
+                            } else
+                            {
+                                Messages.Message("GR_ANewCreatureWasBorn".Translate(), pawn, MessageTypeDefOf.PositiveEvent);
+
+                            }
+                        }
+                        if (this.parent.Spawned)
                     {
                         FilthMaker.MakeFilth(this.parent.Position, this.parent.Map, ThingDefOf.FilthAmnioticFluid, 1);
                     }
