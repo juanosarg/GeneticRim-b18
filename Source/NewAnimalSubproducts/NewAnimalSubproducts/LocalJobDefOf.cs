@@ -9,7 +9,7 @@ namespace NewAnimalSubproducts
     public static class LocalJobDefOf
     {
         public static JobDef GR_AnimalResource;
-     
+
     }
 
 }

@@ -7,6 +7,8 @@
     <reportString>gathering animal resource from TargetA.</reportString>
   </JobDef>
   
+
+  
   <JobDef>
     <defName>GR_AttackMeleeOnceAndChickenRimPox</defName>
     <driverClass>DraftingPatcher.JobDriver_AttackMeleeOnceAndChickenRimPox</driverClass>

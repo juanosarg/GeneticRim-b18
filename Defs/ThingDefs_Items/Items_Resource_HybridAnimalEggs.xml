@@ -524,6 +524,8 @@
 	  <texPath>Things/Item/EggHuge</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+	    <stackLimit>1</stackLimit>
+
 	<tradeability>Never</tradeability>
     <statBases>
       <MarketValue>25.0</MarketValue>

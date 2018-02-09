@@ -276,7 +276,10 @@
 	<tradeability>Sellable</tradeability>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
+				<techLevel>Neolithic</techLevel>
+
     <statBases>
+
       <MaxHitPoints>60</MaxHitPoints>
       <MarketValue>41</MarketValue>
       <Mass>0.35</Mass>

@@ -219,7 +219,7 @@
       <DeteriorationRate>8</DeteriorationRate>
     </statBases>
     <thingCategories>
-      <li>Foods</li>
+      <li>AnimalProductRaw</li>
     </thingCategories>
     <ingestible>
       <preferability>DesperateOnly</preferability>
@@ -252,7 +252,7 @@
       <DeteriorationRate>8</DeteriorationRate>
     </statBases>
     <thingCategories>
-      <li>Foods</li>
+      <li>AnimalProductRaw</li>
     </thingCategories>
     <ingestible>
       <preferability>DesperateOnly</preferability>

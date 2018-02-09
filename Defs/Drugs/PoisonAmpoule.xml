@@ -13,7 +13,7 @@
 			<Beauty>-15</Beauty>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
-    <stackLimit>1</stackLimit>
+    <stackLimit>75</stackLimit>
 		<tradeability>Sellable</tradeability>
 
     <thingCategories>

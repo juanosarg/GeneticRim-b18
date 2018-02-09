@@ -82,7 +82,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <texPath>Things/Item/GR_RuinedGenetic</texPath>
     </graphicData>
-		<tradeability>Sellable</tradeability>
+	<tradeability>Sellable</tradeability>
     <statBases>
       <MaxHitPoints>15</MaxHitPoints>
       <Flammability>1.0</Flammability>

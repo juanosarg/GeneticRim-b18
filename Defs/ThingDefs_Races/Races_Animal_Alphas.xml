@@ -658,6 +658,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
+	<butcherProducts>
+			<GR_EmuFatOintment>5</GR_EmuFatOintment>
+	</butcherProducts>
     <comps>
       <li Class="CompProperties_EggLayer">
         <eggUnfertilizedDef>GR_AlphaEmuEggUnfertilized</eggUnfertilizedDef>
@@ -762,10 +765,7 @@
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
-		<butcherBodyPart>
-          <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-          <thing>GR_EmuFatOintment</thing>
-        </butcherBodyPart>
+
       </li>
     </lifeStages>
   </PawnKindDef>
@@ -2098,7 +2098,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
 		<butcherProducts>
-			<GR_TortoiseShell>5</GR_TortoiseShell>
+			<GR_TortoiseShell>10</GR_TortoiseShell>
 		</butcherProducts>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">

@@ -182,7 +182,7 @@
             <capacities>
               <li>Scratch</li>
             </capacities>
-            <power>30</power>
+            <power>25</power>
             <cooldownTime>.9</cooldownTime>
           </li>
         </tools>
