@@ -310,20 +310,28 @@ namespace DraftingPatcher
                         Pawn pawn2 = target as Pawn;
                         if (pawn2 != null)
                         {
-                            
 
-                            List<IntVec3> list = GenAdj.AdjacentCells8WayRandomized();
-                            for (int i = 0; i < 8; i++)
+                            if (pawn.Position.InHorDistOf(pawn2.Position, 10))
                             {
-                                IntVec3 c2 = pawn2.Position + list[i];
-                                if (c2.InBounds(pawn2.Map))
+                                List<IntVec3> list = GenAdj.AdjacentCells8WayRandomized();
+                                for (int i = 0; i < 8; i++)
                                 {
-                                    Thing thing = ThingMaker.MakeThing(ThingDef.Named("GR_Poison_Cloud"), null);
+                                    IntVec3 c2 = pawn2.Position + list[i];
+                                    if (c2.InBounds(pawn2.Map))
+                                    {
+                                        Thing thing = ThingMaker.MakeThing(ThingDef.Named("GR_Poison_Cloud"), null);
 
-                                    GenSpawn.Spawn(thing, c2, pawn2.Map);
+                                        GenSpawn.Spawn(thing, c2, pawn2.Map);
+                                    }
                                 }
+                                pawn.health.AddHediff(HediffDef.Named("GR_CausedPoisonCloud"));
                             }
-                            pawn.health.AddHediff(HediffDef.Named("GR_CausedPoisonCloud"));
+                            else
+                            {
+                                Messages.Message("GR_PoisonCloudRange".Translate(), pawn, MessageTypeDefOf.NeutralEvent);
+
+                            }
+
                         }
                     } else
                     {
