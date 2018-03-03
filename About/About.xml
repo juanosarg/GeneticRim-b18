@@ -38,12 +38,14 @@ How do I progress? Here is a mini-guide:
 - Hybrids with creatures from other animal mods
 
 &lt;size=24&gt;Compatibility&lt;/size&gt;
+Incompatible with Pawns Are Capable
 Compatible with A Dog Said
 Compatible with Animal Collab Project
 Uses Nightinggale's Modcheck mod (no need to download)
 Uses Harmony (no need to download)
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v2.405: Bugfixes. Changelog can be seen on GitHub (03/03/18)
 v2.404: Adds compatibility with Dinosauria Patch. Incubators now send a message when they hatch. Animal control now has a mote effect and messages to adequately convey when the abilities are recharging. Recombinating serums now take 5 random serums instead of 10 random corpses (04/01/18)
 v2.4: Animal Control research: 9 new abilities for your animals. Also, you can now build empty incubators in the alpha serum extraction table. Also fixed the graphic in the Snakewolf. Finally, removed many mod things from traders (06/12/17)
 v2.301: Bugfix to make venomous animals work again. Also, incubators can now be recycled in the Pulp Recycler (29/11/17)
