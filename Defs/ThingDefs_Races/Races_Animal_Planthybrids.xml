@@ -4,7 +4,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>GR_BearTree</defName>
     <label>beartree</label>
-    <description>This is a Beartree.\n\nUseful abilities:.</description>
+    <description>This is a Beartree. It's a beta creature, so it shouldn't ever appear in your map. If it does, tell me on either the Steam page or on the Ludeon forums ;)\n\nUseful abilities:.</description>
 	<tickerType>Rare</tickerType>
 
     <statBases>
@@ -47,7 +47,7 @@
       <baseHealthScale>1.5</baseHealthScale>
       <gestationPeriodDays>22.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
-      <trainableIntelligence>None</trainableIntelligence>
+	  <intelligence>ToolUser</intelligence>
       <wildness>0.75</wildness>
       <nuzzleMtbHours>120</nuzzleMtbHours>
       <useLeatherFrom>WolfTimber</useLeatherFrom>
