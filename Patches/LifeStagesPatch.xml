@@ -3,7 +3,7 @@
 
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>//LifeStageDef[defName = "EusocialInsectAdult"]</xpath>
+		<xpath>/Defs/LifeStageDef[defName = "EusocialInsectAdult"]</xpath>
 		<value>
 			<shearable>true</shearable>
 		</value>
